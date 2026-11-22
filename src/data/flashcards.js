@@ -36,10 +36,37 @@ export const FLASHCARDS = [
     back: 'İlan tarihinden başlayarak 15 GÜN sonra tebliğ yapılmış sayılır.\nİlan yazısı vergi dairesinde 1 ay süreyle asılı kalır.',
     tip: 'Yurt dışındakilere tebligat ilanında süre 1 aydır.'
   },
+  {
+    id: 'fc-5',
+    category: 'vuk',
+    title: 'İşe Başlama Bildirim Süresi',
+    badge: 'VUK Md. 168',
+    front: 'Mükelleflerin işe başlama bildirimini vergi dairesine yapma süresi kaç gündür?',
+    back: 'İşe başlama tarihinden itibaren 10 GÜN içinde vergi dairesine bildirimde bulunulması zorunludur.',
+    tip: 'Şirket kuruluşlarında ticaret sicili tescil bildirimi bu sürenin yerine geçer.'
+  },
+  {
+    id: 'fc-6',
+    category: 'vuk',
+    title: 'Fatura Düzenleme Süresi',
+    badge: 'VUK Md. 231',
+    front: 'Fatura, mal teslimi veya hizmet ifasından itibaren en geç kaç gün içinde düzenlenmelidir?',
+    back: 'Azami 7 GÜN içinde düzenlenmelidir.\nBu süre geçtikten sonra düzenlenen faturalar kanunen hiç düzenlenmemiş sayılır ve özel usulsüzlük cezası kesilir.',
+    tip: 'İrsaliyeli faturada veya teslim anında fatura kesilmesi esastır; 7 gün azami süredir.'
+  },
+  {
+    id: 'fc-7',
+    category: 'vuk',
+    title: 'Cezada İndirim (VUK 376)',
+    badge: 'VUK Md. 376',
+    front: 'İhbarnamenin tebliğinden itibaren 30 gün içinde talep edilirse vergi cezalarında indirim oranı nedir?',
+    back: 'Vergi ziyaı cezasında ve usulsüzlük cezalarında %50 (YARISI) oranında indirim yapılır.',
+    tip: 'Mükellef uzlaşma talep etmişse uzlaşma tutanağı imzalanana kadar 376\'ya dönebilir.'
+  },
 
   // --- GELİR & KURUMLAR VERGİSİ (193 & 5520) ---
   {
-    id: 'fc-5',
+    id: 'fc-8',
     category: 'gelir-kurumlar',
     title: 'GMSİ Götürü Gider Usulü',
     badge: 'GVK Md. 74',
@@ -48,7 +75,7 @@ export const FLASHCARDS = [
     tip: 'Hakları kiraya verenler götürü gider usulünden yararlanamaz.'
   },
   {
-    id: 'fc-6',
+    id: 'fc-9',
     category: 'gelir-kurumlar',
     title: 'Yıllık Gelir Vergisi Beyanı & Taksitleri',
     badge: 'GVK Md. 92 & 117',
@@ -57,7 +84,7 @@ export const FLASHCARDS = [
     tip: 'Basit usul mükellefleri de artık diğer mükelleflerle aynı tarihlerde beyan ve ödeme yapmaktadır.'
   },
   {
-    id: 'fc-7',
+    id: 'fc-10',
     category: 'gelir-kurumlar',
     title: 'Kurumlar Vergisi Beyanı & Ödemesi',
     badge: 'KVK Md. 14 & 32',
@@ -66,7 +93,7 @@ export const FLASHCARDS = [
     tip: 'Özel hesap dönemi tayin edilenlerde dördüncü ayın son gününe kadar verilir.'
   },
   {
-    id: 'fc-8',
+    id: 'fc-11',
     category: 'gelir-kurumlar',
     title: 'KVK Örtülü Sermaye Oranı',
     badge: 'KVK Md. 12',
@@ -74,10 +101,19 @@ export const FLASHCARDS = [
     back: 'Kurumun hesap dönemi başındaki ÖZ SERMAYESİNİN 3 KATINI aşan borçlanmalar örtülü sermaye sayılır.',
     tip: 'Örtülü sermaye üzerinden ödenen faiz ve kur farkları KKEG (Kanunen Kabul Edilmeyen Gider) sayılır.'
   },
+  {
+    id: 'fc-12',
+    category: 'gelir-kurumlar',
+    title: 'Vergiye Uyumlu Mükellef İndirimi',
+    badge: 'GVK Mük. 121',
+    front: 'Vergiye uyumlu mükelleflere tanınan vergi indirimi oranı ve şartları nelerdir?',
+    back: 'Hesaplanan gelir veya kurumlar vergisinin %5\'i indirilir.\nŞartı: Son 3 yıla ait beyannamelerin süresinde verilmiş ve tahakkuk eden vergilerin süresinde ödenmiş olmasıdır.',
+    tip: 'İndirim tutarı kanunda belirlenen tavan tutarı aşamaz.'
+  },
 
   // --- KDV & GİDER VERGİLERİ (3065 & 6802) ---
   {
-    id: 'fc-9',
+    id: 'fc-13',
     category: 'kdv-gider-vergileri',
     title: 'KDV Beyan ve Ödeme Günü',
     badge: 'KDV Kanunu',
@@ -86,7 +122,7 @@ export const FLASHCARDS = [
     tip: 'Daha önce 26. gündü; güncel sirküler ile 28. gün sonuna uzatılmıştır!'
   },
   {
-    id: 'fc-10',
+    id: 'fc-14',
     category: 'kdv-gider-vergileri',
     title: 'BSMV Matrahı',
     badge: '6802 Sayılı Kanun',
@@ -94,10 +130,28 @@ export const FLASHCARDS = [
     back: 'Banka ve sigorta şirketlerinin lehe aldıkları paraların (faiz, komisyon, ücret vb.) tutarıdır.',
     tip: 'Giderler ve maliyetler BSMV matrahından indirilemez.'
   },
+  {
+    id: 'fc-15',
+    category: 'kdv-gider-vergileri',
+    title: 'Konaklama Vergisi',
+    badge: '6802 Md. 34',
+    front: 'Konaklama Vergisi mükellefi kimdir ve oranı yüzde kaçtır?',
+    back: 'Mükellef: Geceleme hizmetini sunan tesis işletmecileridir.\nOran: %2\'dir.',
+    tip: 'Öğrenci yurtları, pansiyonları ve kamplarında öğrencilere verilen hizmetler vergiden istisnadır.'
+  },
+  {
+    id: 'fc-16',
+    category: 'kdv-gider-vergileri',
+    title: 'İhraç Kaydıyla Teslim Kuralı',
+    badge: 'KDV Md. 11/1-c',
+    front: 'İhraç kaydıyla teslim edilen malın kaç ay içinde ihraç edilmesi gerekir?',
+    back: 'Teslim tarihini takip eden ay başından itibaren 3 AY içinde ihraç edilmesi şarttır.\nSüresinde ihraç edilmezse tecil edilen vergi gecikme zammıyla tahsil edilir.',
+    tip: 'Mücbir sebep halinde vergi dairesince 3 aya kadar ek süre verilebilir.'
+  },
 
   // --- DAMGA, HARÇLAR, MTV, VİV, EMLAK & MALİ TATİL ---
   {
-    id: 'fc-11',
+    id: 'fc-17',
     category: 'diger-vergiler',
     title: 'Mali Tatil Süresi & İşlemeyen Süreler',
     badge: '5604 Sayılı Kanun',
@@ -106,7 +160,7 @@ export const FLASHCARDS = [
     tip: 'Özel Tüketim Vergisi, Gümrük Vergileri ve Banka Muameleleri mali tatil kapsamı dışındadır!'
   },
   {
-    id: 'fc-12',
+    id: 'fc-18',
     category: 'diger-vergiler',
     title: 'Motorlu Taşıtlar Vergisi (MTV) Taksitleri',
     badge: '197 Sayılı Kanun',
@@ -115,7 +169,7 @@ export const FLASHCARDS = [
     tip: 'Yılın ilk 6 ayında kayıt silinirse ikinci 6 ayın taksiti terkin edilir.'
   },
   {
-    id: 'fc-13',
+    id: 'fc-19',
     category: 'diger-vergiler',
     title: 'Veraset ve İntikal Vergisi Süreleri',
     badge: '7338 Sayılı Kanun',
@@ -124,7 +178,7 @@ export const FLASHCARDS = [
     tip: 'Mirasçılar yurt dışında ise süre 6 aya; ölüm yurt dışında gerçekleşmişse duruma göre 6 veya 8 aya uzar.'
   },
   {
-    id: 'fc-14',
+    id: 'fc-20',
     category: 'diger-vergiler',
     title: 'Emlak Vergisi Taksit Dönemleri',
     badge: '1319 Sayılı Kanun',
@@ -133,18 +187,27 @@ export const FLASHCARDS = [
     tip: 'Yeni iktisap edilen bina/arsa için iktisap edilen bütçe yılı sonuna kadar bildirim verilmesi zorunludur.'
   },
   {
-    id: 'fc-15',
+    id: 'fc-21',
     category: 'diger-vergiler',
-    title: 'Damga Vergisi Nüsha ve Suret Ayrımı',
-    badge: '488 Sayılı Kanun',
-    front: 'Damga Vergisinde birden fazla düzenlenen nüsha ve suretlerin vergilendirilmesi nasıldır?',
-    back: '• Her NÜSHA ayrı ayrı aynı miktarda nispi veya maktu damga vergisine tabidir.\n• Suretler ve fotokopiler ise kural olarak sadece maktu damga vergisine tabidir.',
-    tip: 'Kağıdın resmi daireye ibraz edilmesi durumunda maktu damga vergisi doğar.'
+    title: 'Damga Vergisi Tavan Sınırı',
+    badge: '488 Md. 14',
+    front: 'Damga Vergisinde tek bir kağıttan alınabilecek azami vergi tutarı kuralı nedir?',
+    back: 'Bir kağıttan alınacak damga vergisi tutarı kanunda belirlenen ve her yıl yeniden değerleme oranında artırılan AZAMİ TUTARI (tavan haddi) aşamaz.',
+    tip: 'Resmi dairelerle kişiler arasındaki sözleşmelerde damga vergisini kişi öder.'
+  },
+  {
+    id: 'fc-22',
+    category: 'diger-vergiler',
+    title: 'Tapu Harcı Oranları',
+    badge: '492 Sayılı Harçlar',
+    front: 'Gayrimenkul alım satımlarında tapu harcı oranı nedir?',
+    back: 'Devreden ve devralan tarafından ayrı ayrı binde 20 (%2) olmak üzere toplam binde 40 (%4) tahsil edilir.',
+    tip: 'Harç, beyan edilen satış bedelinden az olmamak üzere emlak vergisi değeri üzerinden hesaplanır.'
   },
 
   // --- AMME ALACAKLARININ TAHSİL USULÜ (6183) ---
   {
-    id: 'fc-16',
+    id: 'fc-23',
     category: 'aatuhk',
     title: 'Tahsil Zamanaşımı',
     badge: '6183 Md. 102',
@@ -153,16 +216,16 @@ export const FLASHCARDS = [
     tip: 'Karıştırma: VUK 114 Tarh zamanaşımı "alacağın doğduğu", 6183 Md. 102 Tahsil zamanaşımı "vadenin rastladığı" yılı izleyen yılbaşından başlar.'
   },
   {
-    id: 'fc-17',
+    id: 'fc-24',
     category: 'aatuhk',
     title: 'Ödeme Emrine İtiraz',
     badge: '6183 Md. 58',
     front: 'Kendisine ödeme emri tebliğ edilen borçlu kaç gün içinde, hangi gerekçelerle dava açabilir?',
-    back: '15 GÜN içinde Vergi Mahkemesinde dava açabilir.\nİtiraz sebepleri kanunda sınırlıdır (3 sebep):\n1. Böyle bir borcu olmadığı\n2. Borcu kısmen ödediği\n3. Borcun zamanaşımına uğradığı.',
+    back: '15 GÜN içinde Vergi Mahkemesinde dava açabilir.\nİtiraz sebepleri sınırlıdır (3 sebep):\n1. Böyle bir borcu olmadığı\n2. Borcu kısmen ödediği\n3. Borcun zamanaşımına uğradığı.',
     tip: 'Önceden 7 gündü, 15 güne çıkarıldı. Sınavlarda en kritik çeldiricidir!'
   },
   {
-    id: 'fc-18',
+    id: 'fc-25',
     category: 'aatuhk',
     title: 'Amme Alacağında Tecil (Madde 48)',
     badge: '6183 Md. 48',
@@ -170,10 +233,28 @@ export const FLASHCARDS = [
     back: 'Borçlunun çok zor duruma düşmesi şartıyla amme alacağı en fazla 36 AY (3 YIL) süreyle tecil edilebilir.',
     tip: 'Tecil süresince borca tecil faizi uygulanır.'
   },
+  {
+    id: 'fc-26',
+    category: 'aatuhk',
+    title: 'İhtiyati Tahakkuk Kararı',
+    badge: '6183 Md. 17',
+    front: 'İhtiyati tahakkuk kararını kim talep eder ve kararı kim verir?',
+    back: 'Talep: Vergi Dairesi Müdürü\nKarar: Vergi Dairesi Başkanı veya Defterdar tarafından verilir.',
+    tip: 'Hakkında ihtiyati tahakkuk kararı verilen mükellefe derhal ihtiyati haciz uygulanır.'
+  },
+  {
+    id: 'fc-27',
+    category: 'aatuhk',
+    title: 'Haciz Bildirisine 3. Şahısların İtirazı',
+    badge: '6183 Md. 79',
+    front: 'Kendisine haciz bildirisi tebliğ edilen 3. şahıslar borcu olmadığına dair itirazı kaç günde yapmalıdır?',
+    back: '7 GÜN içinde amme idaresine yazılı itirazda bulunmak zorundadır.\nSüresinde itiraz etmeyen 3. şahıs borcu kabul etmiş sayılır ve hakkında takip yapılır.',
+    tip: 'Banka hesap hacizlerinde de 7 günlük itiraz kuralı geçerlidir.'
+  },
 
   // --- 657 DMK & HARCIRAH KANUNU (6245) ---
   {
-    id: 'fc-19',
+    id: 'fc-28',
     category: 'personel-mevzuat',
     title: '657 Disiplin Cezası Zamanaşımları',
     badge: '657 DMK Md. 127',
@@ -182,7 +263,7 @@ export const FLASHCARDS = [
     tip: '2 yıllık süre kesin süre olup uzatılamaz.'
   },
   {
-    id: 'fc-20',
+    id: 'fc-29',
     category: 'personel-mevzuat',
     title: 'Harcırahın 4 Temel Unsuru',
     badge: '6245 Sayılı Kanun',
@@ -191,7 +272,7 @@ export const FLASHCARDS = [
     tip: 'Geçici görevlerde aile ve yer değiştirme masrafı verilmez; sadece yol ve yevmiye verilir.'
   },
   {
-    id: 'fc-21',
+    id: 'fc-30',
     category: 'personel-mevzuat',
     title: 'Geçici Görev Yolluğu Gün Sınırları',
     badge: '6245 Md. 42',
@@ -199,10 +280,28 @@ export const FLASHCARDS = [
     back: 'Aynı yerde bir yıllık dönemde en çok 180 gün yevmiye ödenir.\n• İlk 90 gün için: TAM gündelik\n• Takip eden 90 gün için: 2/3 oranında gündelik.',
     tip: '180 günden sonra hiçbir şekilde yevmiye ödenmez.'
   },
+  {
+    id: 'fc-31',
+    category: 'personel-mevzuat',
+    title: 'Aday Memurluk Süresi',
+    badge: '657 Md. 54',
+    front: '657 sayılı Kanun\'a göre aday memurluk süresi en az ve en çok ne kadardır?',
+    back: 'Adaylık süresi EN AZ 1 YIL, EN ÇOK 2 YILDIR.\nAdaylık devresi içinde göreve devamsızlık veya disiplinsizlik halinde ilişik kesilir.',
+    tip: 'Asalet tasdiki en erken 1 yılın, en geç 2 yılın bitiminde yapılır.'
+  },
+  {
+    id: 'fc-32',
+    category: 'personel-mevzuat',
+    title: 'Doğum Sonrası Aylıksız İzin',
+    badge: '657 Md. 108',
+    front: 'Memura doğum sonrasında isteği üzerine ne kadar süreyle aylıksız izin verilir?',
+    back: 'Doğum yapan memura analık izninin bitiminden; eşi doğum yapan memura ise doğum tarihinden itibaren EN ÇOK 24 AYA KADAR aylıksız izin verilir.',
+    tip: 'Aylıksız izin süresince kademe ilerlemesi ve derece yükselmesi hakları korunur.'
+  },
 
   // --- 5018 KMYKK & KAMU İHALE (4734 / 4735) & DEĞERLİ KAĞITLAR ---
   {
-    id: 'fc-22',
+    id: 'fc-33',
     category: 'kamu-ihale-ihdas',
     title: '5018 Bütçe Cetvelleri',
     badge: '5018 Sayılı Kanun',
@@ -211,7 +310,7 @@ export const FLASHCARDS = [
     tip: 'IV Sayılı Cetveldeki SGK ve İŞKUR Merkezi Yönetim Bütçesi dışındadır!'
   },
   {
-    id: 'fc-23',
+    id: 'fc-34',
     category: 'kamu-ihale-ihdas',
     title: 'Kamu İhale Kanunu Usulleri',
     badge: '4734 Sayılı Kanun',
@@ -220,7 +319,7 @@ export const FLASHCARDS = [
     tip: 'Sınavlarda "Hangisi ihale usulü değildir?" sorusunun değişmez cevabı Doğrudan Temin\'dir!'
   },
   {
-    id: 'fc-24',
+    id: 'fc-35',
     category: 'kamu-ihale-ihdas',
     title: 'Kamu İhalesinde Şikayet Süresi',
     badge: '4734 Md. 55',
@@ -228,10 +327,19 @@ export const FLASHCARDS = [
     back: '• İdareye şikayet başvurusu süresi: 10 GÜN\n• KİK\'e (Kamu İhale Kurumu) itirazen şikayet süresi: 10 GÜN.',
     tip: 'İdare şikayete 10 gün içinde cevap vermek zorundadır.'
   },
+  {
+    id: 'fc-36',
+    category: 'kamu-ihale-ihdas',
+    title: 'İhalede Geçici ve Kesin Teminat',
+    badge: '4734 Md. 33 & 43',
+    front: 'Kamu ihalelerinde asgari geçici teminat ve kesin teminat oranları nedir?',
+    back: '• Geçici teminat: Teklif edilen bedelin %3\'ünden az olamaz.\n• Kesin teminat: İhale sözleşme bedelinin %6\'sı oranında alınır.',
+    tip: 'Danışmanlık hizmeti ihalelerinde kesin teminat oranı %10\'dur.'
+  },
 
   // --- İŞLEM YÖNERGESİ, MUHASEBE, CBK (1 & 4) & BİLGİ EDİNME ---
   {
-    id: 'fc-25',
+    id: 'fc-37',
     category: 'islem-yonergesi-teskilat',
     title: 'Bilgi Edinme Kanunu Cevap Süresi',
     badge: '4982 Sayılı Kanun',
@@ -240,7 +348,7 @@ export const FLASHCARDS = [
     tip: 'Takvim günü değil "iş günü" esası geçerlidir. Bilgi Edinme Değerlendirme Kuruluna itiraz süresi 15 gündür.'
   },
   {
-    id: 'fc-26',
+    id: 'fc-38',
     category: 'islem-yonergesi-teskilat',
     title: 'GİB Teşkilat Yapısı (4 Nolu CBK)',
     badge: '4 Nolu CBK',
@@ -249,12 +357,21 @@ export const FLASHCARDS = [
     tip: 'Vergi Dairesi Başkanlığı kurulmayan yerlerde defterdarlığa bağlı vergi dairesi müdürlükleri görev yapar.'
   },
   {
-    id: 'fc-27',
+    id: 'fc-39',
     category: 'islem-yonergesi-teskilat',
     title: 'Vergi Dairesi Servis Görevleri',
     badge: 'İşlem Yönergesi',
     front: 'Vergi dairesinde Vergilendirme, Kovuşturma ve Muhasebe servislerinin temel farkları nelerdir?',
     back: '• Sicil-Yoklama: Mükellefiyet tesisi, terk ve yoklama\n• Vergilendirme (Tarh): Beyanname kabul, tarh ve tahakkuk\n• Kovuşturma (İcra): Vadesinde ödenmeyen amme alacağının cebren tahsili (ödeme emri, haciz, satış)\n• Vezne/Muhasebe: Tahsilat, teminat saklama ve muhasebeleştirme.',
     tip: 'Haciz varakası düzenleme ve takip yetkisi Kovuşturma servisine aittir.'
+  },
+  {
+    id: 'fc-40',
+    category: 'islem-yonergesi-teskilat',
+    title: 'Vergi Dairesi Alındısı (Makbuzu)',
+    badge: 'İşlem Yönergesi',
+    front: 'Vezneye yapılan tahsilatlar karşılığında mükellefe hangi resmi belge verilir?',
+    back: 'Veznece tahsil edilen tüm kamu alacakları karşılığında mükellefe veya ödeyene seri ve sıra numaralı "Vergi Dairesi Alındısı" düzenlenerek verilir.',
+    tip: 'Vergi dairesi alındısı olmadan veznece hiçbir tahsilat işlemi kapatılamaz.'
   }
 ];
