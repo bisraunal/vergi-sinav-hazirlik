@@ -80,7 +80,7 @@ export default function QuizView({
     setShowExplanation(false);
   };
 
-  const optionLetters = ['A', 'B', 'C', 'D', 'E'];
+  const optionLetters = ['A', 'B', 'C', 'D'];
 
   if (!currentQ) {
     return (

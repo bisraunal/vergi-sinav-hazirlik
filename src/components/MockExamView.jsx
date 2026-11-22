@@ -211,7 +211,7 @@ export default function MockExamView({ questions, onRecordMistake }) {
 
   // Active Exam View
   const currentQ = examQuestions[currentIdx];
-  const optionLetters = ['A', 'B', 'C', 'D', 'E'];
+  const optionLetters = ['A', 'B', 'C', 'D'];
 
   return (
     <div className="max-w-3xl mx-auto space-y-6">
