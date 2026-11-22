@@ -11,7 +11,8 @@ import {
   HelpCircle,
   Filter,
   Check,
-  AlertCircle
+  AlertCircle,
+  Search
 } from 'lucide-react';
 import { CATEGORIES } from '../data/categories';
 
@@ -26,12 +27,25 @@ export default function QuizView({
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showExplanation, setShowExplanation] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
-  // Filter questions by category
+  // Filter questions by category and search query
   const filteredQuestions = useMemo(() => {
-    if (selectedCategory === 'all') return questions;
-    return questions.filter(q => q.category === selectedCategory);
-  }, [questions, selectedCategory]);
+    let list = questions;
+    if (selectedCategory !== 'all') {
+      list = list.filter(q => q.category === selectedCategory);
+    }
+    if (searchQuery.trim()) {
+      const qLower = searchQuery.toLowerCase();
+      list = list.filter(q => 
+        q.question.toLowerCase().includes(qLower) ||
+        (q.articleRef && q.articleRef.toLowerCase().includes(qLower)) ||
+        (q.title && q.title.toLowerCase().includes(qLower)) ||
+        (q.explanation && q.explanation.toLowerCase().includes(qLower))
+      );
+    }
+    return list;
+  }, [questions, selectedCategory, searchQuery]);
 
   const currentQ = filteredQuestions[currentIndex] || filteredQuestions[0];
   const totalInFilter = filteredQuestions.length;
@@ -97,7 +111,30 @@ export default function QuizView({
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4">
+      {/* Search & Topic Quick Filter */}
+      <div className="relative">
+        <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+        <input 
+          type="text"
+          value={searchQuery}
+          onChange={(e) => {
+            setSearchQuery(e.target.value);
+            setCurrentIndex(0);
+          }}
+          placeholder="Mevzuat, kanun maddesi veya konu ara (örn: harcırah, mali tatil, tebligat, VUK 114)..."
+          className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs sm:text-sm text-slate-800 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 shadow-xs"
+        />
+        {searchQuery && (
+          <button 
+            onClick={() => { setSearchQuery(''); setCurrentIndex(0); }}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
+          >
+            Temizle
+          </button>
+        )}
+      </div>
+
       {/* Category Pills Slider */}
       <div className="flex items-center space-x-2 overflow-x-auto pb-2 pt-1 scrollbar-none">
         {CATEGORIES.map((cat) => {

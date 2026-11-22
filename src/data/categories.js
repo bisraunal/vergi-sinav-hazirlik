@@ -1,11 +1,11 @@
 export const CATEGORIES = [
   {
     id: 'all',
-    name: 'Tüm Konular',
+    name: 'Tüm Konular (Genel Karma)',
     shortName: 'Tümü',
     icon: 'Layers',
     color: 'from-slate-600 to-slate-800',
-    description: 'Tüm sınav müfredatını içeren genel soru ve özet havuzu'
+    description: 'AKFON Cilt 1, Cilt 2 ve Cilt 3 tüm sınav konularını içeren soru ve özet havuzu'
   },
   {
     id: 'vuk',
@@ -13,62 +13,62 @@ export const CATEGORIES = [
     shortName: 'VUK',
     icon: 'Scale',
     color: 'from-blue-600 to-indigo-700',
-    description: 'Vergilendirme süreci, tebligat, yoklama, değerleme, cezalar, zamanaşımı ve uzlaşma'
+    description: 'Tebligat, yoklama, değerleme, vergi cezaları, zamanaşımı, tarhiyat, uzlaşma'
   },
   {
-    id: 'gvk',
-    name: 'Gelir Vergisi Kanunu (193)',
-    shortName: 'GVK',
+    id: 'gelir-kurumlar',
+    name: 'Gelir & Kurumlar Vergisi (193 & 5520)',
+    shortName: 'GVK & KVK',
     icon: 'Coins',
     color: 'from-emerald-600 to-teal-700',
-    description: '7 Gelir unsuru, ticari/zirai kazanç, ücretler, GMSİ, istisnalar ve beyan esasları'
+    description: '7 Gelir unsuru, ticari/zirai kazanç, GMSİ, kurumlar vergisi mükellefleri, örtülü sermaye'
   },
   {
-    id: 'kvk',
-    name: 'Kurumlar Vergisi Kanunu (5520)',
-    shortName: 'KVK',
-    icon: 'Building2',
-    color: 'from-violet-600 to-purple-800',
-    description: 'Kurumlar vergisi mükellefleri, tam/dar mükellefiyet, istisnalar, örtülü sermaye'
-  },
-  {
-    id: 'kdv',
-    name: 'Katma Değer Vergisi (3065)',
-    shortName: 'KDV',
+    id: 'kdv-gider-vergileri',
+    name: 'KDV & Gider Vergileri (3065 & 6802)',
+    shortName: 'KDV & BSMV',
     icon: 'Receipt',
     color: 'from-amber-600 to-orange-700',
-    description: 'Teslim ve hizmet, vergiyi doğuran olay, matrah, oranlar, istisnalar ve tevkifat'
+    description: 'Teslim ve hizmet, vergiyi doğuran olay, matrah, istisnalar, BSMV, Özel İletişim, Konaklama'
+  },
+  {
+    id: 'diger-vergiler',
+    name: 'Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil',
+    shortName: 'Özel Vergiler & Mali Tatil',
+    icon: 'FileText',
+    color: 'from-violet-600 to-purple-800',
+    description: 'Damga (488), Harçlar (492), MTV (197), VİV (7338), Emlak (1319) ve Mali Tatil (5604)'
   },
   {
     id: 'aatuhk',
     name: 'Amme Alacaklarının Tahsili (6183)',
-    shortName: 'AATUHK',
+    shortName: '6183 AATUHK',
     icon: 'ShieldAlert',
     color: 'from-rose-600 to-red-700',
     description: 'Amme alacağının korunması, teminat, ihtiyati haciz, ödeme emri, cebren tahsil, tecil'
   },
   {
-    id: 'dmk',
-    name: 'Devlet Memurları Kanunu (657)',
-    shortName: '657 DMK',
+    id: 'personel-mevzuat',
+    name: '657 DMK & Harcırah Kanunu (6245)',
+    shortName: '657 & Harcırah',
     icon: 'UserCheck',
     color: 'from-cyan-600 to-blue-700',
-    description: 'Memurların ödev ve hakları, disiplin cezaları, zamanaşımları, kademe/derece, izinler'
+    description: 'Memur hak ve ödevleri, disiplin cezaları, kademe/derece, harcırah unsurları, yevmiye'
   },
   {
-    id: 'kamu-maliyesi',
-    name: '5018 Sayılı KMYKK & Bütçe',
-    shortName: '5018',
+    id: 'kamu-ihale-ihdas',
+    name: '5018 KMYKK & Kamu İhale (4734 / 4735)',
+    shortName: '5018 & İhale',
     icon: 'PieChart',
     color: 'from-teal-600 to-emerald-800',
-    description: 'Kamu mali yönetimi, bütçe türleri, harcama yetkilisi, muhasebe yetkilisi, Sayıştay'
+    description: 'Bütçe türleri, harcama yetkilisi, açık ihale, pazarlık, doğrudan temin, şikayet süreleri'
   },
   {
-    id: 'gib-teskilat',
-    name: 'GİB Teşkilat & VD Yönetmeliği',
-    shortName: 'GİB & VD',
+    id: 'islem-yonergesi-teskilat',
+    name: 'İşlem Yönergesi, Muhasebe, CBK (1 & 4) & Bilgi Edinme',
+    shortName: 'Yönerge, CBK & Muhasebe',
     icon: 'Briefcase',
     color: 'from-slate-700 to-brand-900',
-    description: '1 Sayılı CBK, GİB merkez ve taşra yapısı, vergi dairesi servislerinin görev ve işleyişi'
+    description: 'VD İşlem Yönergesi, servisler, vezne, 1 Nolu CBK (HMB), 4 Nolu CBK (GİB), 4982 Bilgi Edinme'
   }
 ];

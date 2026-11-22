@@ -23,13 +23,23 @@ export default function MockExamView({ questions, onRecordMistake }) {
     return () => clearInterval(timer);
   }, [examActive, isFinished, timeLeft]);
 
+  // Fisher-Yates robust shuffle algorithm to prevent question repetition
+  const shuffleArray = (array) => {
+    const copy = [...array];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  };
+
   const startExam = (questionCount = 15) => {
-    // Shuffle and pick questions
-    const shuffled = [...questions].sort(() => 0.5 - Math.random()).slice(0, questionCount);
+    const count = Math.min(questionCount, questions.length);
+    const shuffled = shuffleArray(questions).slice(0, count);
     setExamQuestions(shuffled);
     setCurrentIdx(0);
     setAnswers({});
-    setTimeLeft(questionCount * 80); // ~80 seconds per question
+    setTimeLeft(count * 80); // ~80 seconds per question
     setIsFinished(false);
     setExamActive(true);
   };

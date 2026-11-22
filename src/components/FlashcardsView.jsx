@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RotateCw, CheckCircle, Clock, Lightbulb, ChevronLeft, ChevronRight, Layers } from 'lucide-react';
+import { RotateCw, CheckCircle, Clock, Lightbulb, ChevronLeft, ChevronRight, Layers, Search } from 'lucide-react';
 import { CATEGORIES } from '../data/categories';
 
 export default function FlashcardsView({ flashcards }) {
@@ -7,10 +7,22 @@ export default function FlashcardsView({ flashcards }) {
   const [isFlipped, setIsFlipped] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [learnedIds, setLearnedIds] = useState([]);
+  const [searchQuery, setSearchQuery] = useState('');
 
-  const filteredCards = flashcards.filter(c => 
-    selectedCategory === 'all' ? true : c.category === selectedCategory
-  );
+  const filteredCards = flashcards.filter(c => {
+    const matchesCat = selectedCategory === 'all' ? true : c.category === selectedCategory;
+    if (!matchesCat) return false;
+    if (searchQuery.trim()) {
+      const q = searchQuery.toLowerCase();
+      return (
+        c.title.toLowerCase().includes(q) ||
+        c.front.toLowerCase().includes(q) ||
+        c.back.toLowerCase().includes(q) ||
+        (c.tip && c.tip.toLowerCase().includes(q))
+      );
+    }
+    return true;
+  });
 
   const currentCard = filteredCards[currentIndex] || filteredCards[0];
   const total = filteredCards.length;
@@ -40,7 +52,31 @@ export default function FlashcardsView({ flashcards }) {
   const isCurrentLearned = currentCard ? learnedIds.includes(currentCard.id) : false;
 
   return (
-    <div className="space-y-6 max-w-3xl mx-auto">
+    <div className="space-y-4 max-w-3xl mx-auto">
+      {/* Search Input for Flashcards */}
+      <div className="relative">
+        <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+        <input 
+          type="text"
+          value={searchQuery}
+          onChange={(e) => {
+            setSearchQuery(e.target.value);
+            setCurrentIndex(0);
+            setIsFlipped(false);
+          }}
+          placeholder="Hap bilgi veya süre ara (örn: harcırah, mali tatil, tecil, 5 yıl, VİV)..."
+          className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs sm:text-sm text-slate-800 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500 shadow-xs"
+        />
+        {searchQuery && (
+          <button 
+            onClick={() => { setSearchQuery(''); setCurrentIndex(0); setIsFlipped(false); }}
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
+          >
+            Temizle
+          </button>
+        )}
+      </div>
+
       {/* Category Pills */}
       <div className="flex items-center space-x-2 overflow-x-auto pb-2 scrollbar-none">
         {CATEGORIES.map((cat) => (
