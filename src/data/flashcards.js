@@ -373,5 +373,230 @@ export const FLASHCARDS = [
     front: 'Vezneye yapılan tahsilatlar karşılığında mükellefe hangi resmi belge verilir?',
     back: 'Veznece tahsil edilen tüm kamu alacakları karşılığında mükellefe veya ödeyene seri ve sıra numaralı "Vergi Dairesi Alındısı" düzenlenerek verilir.',
     tip: 'Vergi dairesi alındısı olmadan veznece hiçbir tahsilat işlemi kapatılamaz.'
-  }
+  },
+  {
+    id: 'fc-41',
+    category: 'vuk',
+    title: 'VUK Değerleme Ölçüleri',
+    badge: 'VUK Md. 261',
+    front: "213 sayılı Vergi Usul Kanunu'nun 261. maddesinde sayılan 8 temel değerleme ölçüsü nelerdir?",
+    back: "1. Maliyet bedeli\n2. Borsa rayici\n3. Tasarruf değeri\n4. Mukayyet değer\n5. İtibari değer\n6. Rayiç bedel\n7. Emsal bedeli ve emsal ücreti\n8. Vergi değeri.",
+    tip: "Gelecekteki nakit akışları veya piyasa kapitalizasyonu VUK'ta değerleme ölçüsü sayılmaz!"
+  },
+  {
+    id: 'fc-42',
+    category: 'vuk',
+    title: 'Mukayyet Değer Tanımı',
+    badge: 'VUK Md. 265',
+    front: "VUK'a göre 'Mukayyet Değer' neyi ifade eder?",
+    back: "Bir iktisadi kıymetin muhasebe kayıtlarında gösterilen hesap değeridir.\nKasa, alacak ve borç senetleri nominal bedeliyle mukayyet değer üzerinden değerlenir.",
+    tip: "İtibari değer (nominal değer) ise her türlü senet ve hisselerin üzerinde yazılı olan değerdir."
+  },
+  {
+    id: 'fc-43',
+    category: 'vuk',
+    title: 'Vergi Cezasında Tekerrür',
+    badge: 'VUK Md. 339',
+    front: "VUK'a göre vergi ziyaı cezasında tekerrür süresi ve artırım oranı nedir?",
+    back: "Cezanın kesinleştiği tarihi takip eden yılın başından başlayarak 5 YIL içinde tekrar vergi ziyaına sebebiyet verilirse ceza %50 ARTIRILIR.\n(Usulsüzlükte ise 2 yıl içinde %25 artırılır).",
+    tip: "Artırım tutarı, kesinleşen ilk cezanın tutarından fazla olamaz."
+  },
+  {
+    id: 'fc-44',
+    category: 'vuk',
+    title: 'Vergi Yargısında Dava Açma Süresi',
+    badge: 'İYUK Md. 7',
+    front: "Vergi mahkemelerinde dava açma süresi genel kural olarak kaç gündür?",
+    back: "30 GÜNDÜR.\n(İhbarnamenin mükellefe tebliğ edildiği tarihi takip eden günden itibaren başlar).",
+    tip: "Danıştay ve İdare mahkemelerinde bu süre 60 gündür; vergi mahkemesinde 30 gündür!"
+  },
+  {
+    id: 'fc-45',
+    category: 'vuk',
+    title: 'Uzlaşma Başvuru Süresi',
+    badge: 'VUK Ek Md. 1',
+    front: "Tarhiyat sonrası uzlaşma başvurusu vergi ihbarnamesinin tebliğinden itibaren kaç gün içinde yapılmalıdır?",
+    back: "30 GÜN içinde vergi dairesi uzlaşma komisyonuna yazılı olarak başvurulmalıdır.",
+    tip: "Uzlaşma vaki olursa üzerinde uzlaşılan vergi ve ceza kesinleşir; dava açılamaz."
+  },
+  {
+    id: 'fc-46',
+    category: 'gelir-kurumlar',
+    title: 'Genç Girişimci Kazanç İstisnası',
+    badge: 'GVK Mük. Md. 20',
+    front: "GVK'ya göre ilk defa gelir vergisi mükellefi olan 29 yaşını doldurmamış genç girişimcilerin kazanç istisnası ne kadardır?",
+    back: "Faaliyete başladıkları takvim yılından itibaren 3 VERGİLENDİRME DÖNEMİ boyunca elde ettikleri kazançların gelir vergisi tarifesinin ikinci dilimindeki tutara kadar olan kısmı vergiden istisnadır.",
+    tip: "Kendi işinde bilfiil çalışması veya işi sevk ve idare etmesi şarttır."
+  },
+  {
+    id: 'fc-47',
+    category: 'gelir-kurumlar',
+    title: 'Engellilik İndirimi Dereceleri',
+    badge: 'GVK Md. 31',
+    front: "GVK 31. maddesinde düzenlenen çalışma gücü kayıp oranlarına göre engellilik dereceleri nelerdir?",
+    back: "• 1. Derece: Çalışma gücünün en az %80'ini kaybetmiş olanlar\n• 2. Derece: Çalışma gücünün en az %60'ını kaybetmiş olanlar\n• 3. Derece: Çalışma gücünün en az %40'ını kaybetmiş olanlar.",
+    tip: "Hem hizmet erbabı hem de serbest meslek erbabı ile bakmakla yükümlü olduğu engellisi olanlar yararlanır."
+  },
+  {
+    id: 'fc-48',
+    category: 'gelir-kurumlar',
+    title: 'Mesken Kira İstisnası Şartı',
+    badge: 'GVK Md. 21',
+    front: "Konut kira gelirlerinde mesken istisnasından hangi hallerde yararlanılamaz?",
+    back: "1. Beyannamenin süresinde verilmemesi veya eksik beyan edilmesi\n2. Ticari, zirai veya mesleki kazancını beyan etmek zorunda olanlar\n3. Gelir toplamı tarifenin üçüncü dilimini aşanlar istisnadan YARARLANAMAZ.",
+    tip: "İdareden önce kendiliğinden pişmanlıkla beyan verilirse istisnadan yararlanılabilir."
+  },
+  {
+    id: 'fc-49',
+    category: 'gelir-kurumlar',
+    title: 'KVK İştirak Kazançları İstisnası',
+    badge: 'KVK Md. 5/1-a',
+    front: "Kurumlar vergisinde iştirak kazançları istisnasının oranı ve mahiyeti nedir?",
+    back: "%100 İSTİSNADIR.\nTam mükellef bir kurumun sermayesine iştirak edilmesinden elde edilen kâr payları kurumlar vergisinden tamamen muaftır.",
+    tip: "Mükerrer vergilemeyi önlemek amacıyla tam mükellef kurumlardan elde edilen temettüler istisnadır."
+  },
+  {
+    id: 'fc-50',
+    category: 'gelir-kurumlar',
+    title: 'Finansman Gider Kısıtlaması',
+    badge: 'KVK Md. 11/1-i',
+    front: "Kullanılan yabancı kaynakları öz kaynaklarını aşan kurumlarda finansman gider kısıtlaması oranı nedir?",
+    back: "Aşan kısma münhasır olmak üzere, yabancı kaynaklara ilişkin faiz, komisyon ve kur farkı gibi giderlerin %10'u Kanunen Kabul Edilmeyen Gider (KKEG) sayılır.",
+    tip: "Kredi kuruluşları, finansal kiralama ve faktoring şirketleri bu kısıtlamadan muaftır."
+  },
+  {
+    id: 'fc-51',
+    category: 'kdv-gider-vergileri',
+    title: 'KDV Takvim Yılı Aşılmama Kuralı',
+    badge: 'KDVK Md. 29/3',
+    front: "Fatura ve belgelerdeki KDV en geç ne zamana kadar deftere kaydedilip indirilebilir?",
+    back: "Vergiyi doğuran olayın meydana geldiği takvim yılını takip eden TAKVİM YILI AŞILMAMAK ŞARTIYLA, belgelerin yasal defterlere kaydedildiği dönemde indirilebilir.",
+    tip: "Örnek: 2025 yılına ait bir faturanın KDV'si en geç 31 Aralık 2026 tarihine kadar kayıtlara intikal ettirilip indirilebilir."
+  },
+  {
+    id: 'fc-52',
+    category: 'kdv-gider-vergileri',
+    title: 'Konaklama Vergisi',
+    badge: '6802 Md. 34',
+    front: "Konaklama Vergisinin oranı, mükellefi ve vergilendirme dönemi nedir?",
+    back: "• Oran: %2\n• Mükellef: Konaklama tesislerini işletenler\n• Dönem: Birer aylık takvim aylarıdır (izleyen ayın 26'sına kadar beyan edilir ve ödenir).",
+    tip: "KDV matrahına dahil edilmez; konaklama bedeli üzerinden ayrıca hesaplanır."
+  },
+  {
+    id: 'fc-53',
+    category: 'kdv-gider-vergileri',
+    title: 'Özel İletişim Vergisi (ÖİV)',
+    badge: '6802 Md. 39',
+    front: "Özel İletişim Vergisi'nin yasal oranı ve beyanname verilme süresi nedir?",
+    back: "• Oran: %10\n• Beyan süresi: İşlemin yapıldığı ayı izleyen ayın son gününe kadar beyan edilir ve ödenir.",
+    tip: "Gelir ve kurumlar vergisi matrahının tespitinde gider olarak KABUL EDİLMEZ."
+  },
+  {
+    id: 'fc-54',
+    category: 'aatuhk',
+    title: 'Aciz Fişi Hükümleri',
+    badge: '6183 Md. 75',
+    front: "6183 sayılı AATUHK'ya göre 'Aciz Fişi' hangi hallerde düzenlenir?",
+    back: "Yapılan icra takibi sonucunda borçlunun amme alacağını karşılayacak malı bulunmadığı veya haczedilen malların borcu karşılamadığı tutanakla tespit edildiğinde düzenlenir.",
+    tip: "Aciz fişi tanzimi borcu terkin etmez; zamanaşımı süresi içinde borçlunun yeni mal edinip edinmediği araştırılır."
+  },
+  {
+    id: 'fc-55',
+    category: 'aatuhk',
+    title: 'İstihkak İddiasında Dava Süresi',
+    badge: '6183 Md. 67',
+    front: "Haczedilen mal üzerinde üçüncü şahsın istihkak iddiasını alacaklı tahsil dairesi reddederse üçüncü şahıs kaç gün içinde dava açmalıdır?",
+    back: "Reddin tebliğinden itibaren 7 GÜN içinde yetkili mahkemede istihkak davası açması şarttır.",
+    tip: "7 gün içinde dava açılmazsa istihkak iddiasından vazgeçilmiş sayılır."
+  },
+  {
+    id: 'fc-56',
+    category: 'aatuhk',
+    title: 'Gayrimenkul Satışında %75 Kuralı',
+    badge: '6183 Md. 94',
+    front: "6183'e göre haczedilen gayrimenkulün birinci açık artırmada satılabilmesi için teklifin asgari tutarı ne olmalıdır?",
+    back: "Gayrimenkule biçilen rayiç değerin en az %75'ini bulması ve rüçhanlı alacaklar ile takip masraflarını aşması şarttır.",
+    tip: "İkinci artırmada ise rayiç değerin en az %50'sini bulması yeterlidir."
+  },
+  {
+    id: 'fc-57',
+    category: 'diger-vergiler',
+    title: 'Damga Vergisinde Azami Had',
+    badge: '488 Md. 14',
+    front: "488 sayılı Damga Vergisi Kanunu'na göre tek bir kağıttan alınabilecek azami damga vergisi sınırı nedir?",
+    back: "Her yıl yeniden değerleme oranında güncellenen yasal bir üst sınır (azami had) vardır. Sözleşme bedeli ne kadar yüksek olursa olsun ödenecek damga vergisi bu tavan tutarı aşamaz.",
+    tip: "Maktu vergilerde tavan uygulanmaz; nispi damga vergilerine mahsustur."
+  },
+  {
+    id: 'fc-58',
+    category: 'diger-vergiler',
+    title: 'VİV İvazsız İntikal Beyanı',
+    badge: '7338 Md. 9',
+    front: "Bağış, yarışma ikramiyesi gibi ivazsız (karşılıksız) intikallerde veraset ve intikal vergisi beyannamesi ne zaman verilir?",
+    back: "Malların hukuken iktisap edildiği tarihi izleyen 1 AY içinde beyanname verilir.",
+    tip: "Ölüm hallerindeki 4 ay / 6 ay süreleriyle karıştırılmamalıdır; ivazsız intikallerde süre 1 aydır."
+  },
+  {
+    id: 'fc-59',
+    category: 'diger-vergiler',
+    title: 'Emlak Vergisi Yeni Bildirim Süresi',
+    badge: '1319 Md. 23',
+    front: "Yeni gayrimenkul iktisap eden mükelleflerin emlak vergisi bildirim süresi nedir?",
+    back: "Değişikliğin vuku bulduğu bütçe yılı içinde verilir.\nOlay bütçe yılının son 3 ayı içinde vuku bulmuşsa olayın vuku bulduğu tarihten itibaren 3 AY içinde bildirilir.",
+    tip: "Vergilendirme iktisap yılını izleyen yıldan itibaren başlar."
+  },
+  {
+    id: 'fc-60',
+    category: 'personel-mevzuat',
+    title: 'Kademe İlerlemesinin Durdurulması',
+    badge: '657 Md. 125',
+    front: "657 sayılı DMK'ya göre kademe ilerlemesinin durdurulması cezası ne kadar süre için verilir ve kim kararlaştırır?",
+    back: "Memurun bulunduğu kademede ilerlemesinin 1 YILDAN 3 YILA KADAR durdurulmasıdır.\nİl disiplin kurulu veya yetkili disiplin kurulunun kararı üzerine atamaya yetkili amirlerce verilir.",
+    tip: "Öğrenim durumları gereği yükselebilecekleri son kademede olanlara brüt aylıklarının 1/4 - 1/2'si kesilir."
+  },
+  {
+    id: 'fc-61',
+    category: 'personel-mevzuat',
+    title: 'Memurluktan Çekilme (İstifa) Bekleme Süreleri',
+    badge: '657 Md. 97',
+    front: "Memurluktan çekilenlerin yeniden memuriyete atanabilmeleri için geçmesi gereken bekleme süreleri nelerdir?",
+    back: "• Usulüne uygun çekilenler: 6 AY\n• Yerine gelecek kişiyi beklemeden çekilenler: 1 YIL\n• Devir-teslim yükümlülüğünü yerine getirmeden çekilenler: 3 YIL\n• OHAL ve savaş döneminde çekilenler: HİÇBİR SURETLE yeniden memur olamaz.",
+    tip: "Adaylık devresi içinde ilişiği kesilenler de 3 yıl süreyle memurluğa alınmazlar."
+  },
+  {
+    id: 'fc-62',
+    category: 'personel-mevzuat',
+    title: 'Geçici Görev Yolluğu Azami Süresi',
+    badge: '6245 Md. 42',
+    front: "6245 sayılı Harcırah Kanunu'na göre aynı yerde yurt içi geçici görevle görevlendirilen memura en fazla kaç gün yevmiye ödenir?",
+    back: "Bir takvim yılı içinde aynı yerde en çok 180 GÜN verilebilir.\n• İlk 90 gün için tam yevmiye,\n• Takip eden 90 gün için 2/3 yevmiye ödenir.",
+    tip: "180 günü aşan günler için harcırah ödenmez."
+  },
+  {
+    id: 'fc-63',
+    category: 'kamu-ihale-ihdas',
+    title: 'KİK İtirazen Şikayet Süresi',
+    badge: '4734 Md. 56',
+    front: "4734 sayılı Kamu İhale Kanunu'na göre idareye yapılan şikayetten sonuç alamayan istekli KİK'e kaç gün içinde itirazen şikayette bulunabilir?",
+    back: "İdarenin kararının bildirimini izleyen veya cevap verme süresinin bittiği tarihten itibaren 10 GÜN içinde Kamu İhale Kurumu'na (KİK) itirazen şikayet başvurusu yapılır.",
+    tip: "İdareye şikayet süresi de kural olarak 10 gündür (ilan veya ihale kararına karşı)."
+  },
+  {
+    id: 'fc-64',
+    category: 'kamu-ihale-ihdas',
+    title: '5018 Dış Denetim Kapsamı',
+    badge: '5018 Md. 68',
+    front: "5018 sayılı KMYKK'ya göre genel yönetim kapsamındaki kamu idarelerinin dış denetimi kim tarafından yapılır?",
+    back: "SAYIŞTAY tarafından TBMM adına yapılır.\nDüzenlilik denetimi (mali denetim ve uygunluk denetimi) ile performans denetimini kapsar.",
+    tip: "İç denetim idarenin iç denetçileri tarafından; dış denetim ise münhasıran Sayıştay tarafından icra edilir."
+  },
+  {
+    id: 'fc-65',
+    category: 'islem-yonergesi-teskilat',
+    title: 'Temel Bilanço Eşitliği',
+    badge: 'Genel Muhasebe',
+    front: "Genel muhasebede temel bilanço eşitliği formülü nedir?",
+    back: "AKTİF (Varlıklar) = PASİF (Kaynaklar)\nVARLIKLAR = KISA VADELİ YABANCI KAYNAKLAR + UZUN VADELİ YABANCI KAYNAKLAR + ÖZ KAYNAKLAR",
+    tip: "Gelir ve giderler doğrudan bilançoda yer almaz; Gelir Tablosu sonucu (Net Kâr/Zarar) üzerinden Öz Kaynaklara aktarılır."
+  },
 ];
