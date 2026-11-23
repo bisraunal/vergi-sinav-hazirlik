@@ -1,9 +1,16 @@
 // Vergi Dairesi Müdür ve Müdür Yardımcılığı Sınavı Kapsamlı Soru Bankası
 // Toplam Soru Sayısı: 528
+// JSON Şeması: id, source, source_name, source_url, year, topic, subtopic, question, options, correctAnswer, correct_answer, explanation, articleRef, difficulty, tags
 export const QUESTIONS = [
   {
     "id": "q-1",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "VUK Tarh Zamanaşımı Süresi",
     "title": "VUK Tarh Zamanaşımı Süresi",
     "question": "213 sayılı Vergi Usul Kanunu'na göre, vergi alacağının doğduğu takvim yılını takip eden yılın başından başlayarak kaç yıl içinde tarh ve mükellefe tebliğ edilmeyen vergiler zamanaşımına uğrar?",
     "options": [
@@ -13,13 +20,25 @@ export const QUESTIONS = [
       "10 yıl"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "213 sayılı VUK'un 114. maddesine göre vergi alacağının doğduğu takvim yılını takip eden takvim yılı başından başlayarak 5 yıl içinde tarh ve mükellefe tebliğ edilmeyen vergiler zamanaşımına uğrar.",
     "articleRef": "VUK Madde 114",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "VUK Madde 114",
+      "Zamanaşımı"
+    ]
   },
   {
     "id": "q-2",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Takdir Komisyonuna Sevk ve Zamanaşımı",
     "title": "Takdir Komisyonuna Sevk ve Zamanaşımı",
     "question": "213 sayılı VUK'un 114. maddesi gereğince, matrah takdiri için takdir komisyonuna başvurulması zamanaşımını durdurur. Duran zamanaşımı süresi en fazla ne kadar olabilir?",
     "options": [
@@ -29,13 +48,25 @@ export const QUESTIONS = [
       "2 yıl"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Madde 114 uyarınca takdir komisyonuna başvurulması zamanaşımını durdurur. Ancak duran süre takdir komisyonu kararının tevdiine kadar geçen süre olup hiçbir suretle 1 yılı geçemez.",
     "articleRef": "VUK Madde 114",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "VUK Madde 114",
+      "Zamanaşımı"
+    ]
   },
   {
     "id": "q-3",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "VUK Ceza Zamanaşımı Süreleri",
     "title": "VUK Ceza Zamanaşımı Süreleri",
     "question": "213 sayılı VUK'a göre vergi ziyaı cezası ile usulsüzlük cezalarında ceza kesme zamanaşımı süreleri sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
     "options": [
@@ -45,13 +76,26 @@ export const QUESTIONS = [
       "Vergi ziyaı: 10 yıl / Usulsüzlük: 3 yıl"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "VUK Madde 374'e göre; vergi ziyaı cezasında cezanın bağlı olduğu vergi alacağının doğduğu yılı izleyen takvim yılı başından itibaren 5 yıl, usulsüzlükte usulsüzlüğün yapıldığı yılı izleyen yılbaşından itibaren 2 yıldır.",
     "articleRef": "VUK Madde 374",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "VUK Madde 374",
+      "Zamanaşımı",
+      "Cezalar"
+    ]
   },
   {
     "id": "q-4",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Pişmanlık ve Islah Şartları",
     "title": "Pişmanlık ve Islah Şartları",
     "question": "213 sayılı VUK'un 371. maddesinde düzenlenen \"Pişmanlık ve Islah\" müessesesi ile ilgili aşağıdaki ifadelerden hangisi YANLIŞTIR?",
     "options": [
@@ -61,13 +105,24 @@ export const QUESTIONS = [
       "Haber verme tarihinden önce resmi bir ihbar veya vergi incelemesine başlanmamış olmalıdır."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "VUK Madde 371 uyarınca pişmanlık ve ıslah yalnızca beyana dayanan vergilerde uygulanır. Emlak vergisi ve MTV tahakkuku idarece/otomatik yapıldığından pişmanlık hükümleri uygulanmaz.",
     "articleRef": "VUK Madde 371",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "VUK",
+      "VUK Madde 371"
+    ]
   },
   {
     "id": "q-5",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "İzaha Davet Müessesesi Başvuru Süresi",
     "title": "İzaha Davet Müessesesi Başvuru Süresi",
     "question": "213 sayılı VUK'un 370. maddesi kapsamında kendisine izaha davet yazısı tebliğ edilen mükellef, tebliğ tarihinden itibaren kaç gün içinde yetkili komisyona izahta bulunmalıdır?",
     "options": [
@@ -77,13 +132,24 @@ export const QUESTIONS = [
       "60 gün"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Madde 370 gereğince izaha davet yazısı tebliğ edilen mükellefler, tebliğ tarihinden başlayarak 30 gün içinde izahta bulunurlar.",
     "articleRef": "VUK Madde 370",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "VUK Madde 370"
+    ]
   },
   {
     "id": "q-6",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Vergi Cezalarında İndirim Oranı",
     "title": "Vergi Cezalarında İndirim Oranı",
     "question": "213 sayılı VUK'un 376. maddesine göre ihbarnamenin tebliğinden itibaren 30 gün içinde dava açılmayıp vadesinde ödeneceği bildirilirse vergi ziyaı cezasında indirim oranı yüzde kaçtır?",
     "options": [
@@ -93,13 +159,25 @@ export const QUESTIONS = [
       "%75"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "VUK Madde 376 uyarınca mükellef veya vergi sorumlusu ihbarnamenin tebliğinden itibaren 30 gün içinde dava açmayacağını beyan ederse vergi ziyaı cezasının %50'si (yarısı) indirilir.",
     "articleRef": "VUK Madde 376",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "VUK Madde 376",
+      "Cezalar"
+    ]
   },
   {
     "id": "q-7",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Fatura Düzenleme Azami Süresi",
     "title": "Fatura Düzenleme Azami Süresi",
     "question": "213 sayılı VUK'un 231. maddesine göre fatura, malın teslimi veya hizmetin yapıldığı tarihten itibaren azami kaç gün içinde düzenlenmelidir?",
     "options": [
@@ -109,13 +187,24 @@ export const QUESTIONS = [
       "10 gün"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "VUK Madde 231/5 uyarınca fatura, malın teslimi veya hizmetin yapıldığı tarihten itibaren azami 7 gün içinde düzenlenir. Bu süre içinde düzenlenmeyen faturalar hiç düzenlenmemiş sayılır.",
     "articleRef": "VUK Madde 231",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "VUK Madde 231"
+    ]
   },
   {
     "id": "q-8",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Binek Otomobillerde Kıst Amortisman",
     "title": "Binek Otomobillerde Kıst Amortisman",
     "question": "213 sayılı VUK'un 320. maddesine göre faaliyetleri binek otomobillerin kiralanması veya işletilmesi olmayan mükelleflerin iktisap ettikleri binek otomobiller için amortisman nasıl ayrılır?",
     "options": [
@@ -125,13 +214,24 @@ export const QUESTIONS = [
       "Amortisman süresi iki katına çıkarılır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Madde 320 uyarınca binek otomobiller için aktife girdiği hesap döneminde ay kesirleri tam ay sayılarak kalan ay süresi kadar kıst amortisman ayrılır; amortisman ayrılmayan süre son yıla eklenir.",
     "articleRef": "VUK Madde 320",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "VUK",
+      "VUK Madde 320"
+    ]
   },
   {
     "id": "q-9",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "VUK İlanen Tebligat Hükümleri",
     "title": "VUK İlanen Tebligat Hükümleri",
     "question": "213 sayılı VUK'a göre ilan yoluyla yapılan tebligatlarda tebliğ, ilan tarihinden başlayarak kaç gün sonra yapılmış sayılır?",
     "options": [
@@ -141,13 +241,24 @@ export const QUESTIONS = [
       "1 ay"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Madde 106'ya göre tebliğ, ilan tarihinden başlayarak 15 gün sonra yapılmış sayılır.",
     "articleRef": "VUK Madde 106",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "VUK Madde 106"
+    ]
   },
   {
     "id": "q-10",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Mücbir Sebeplerin Zamanaşımına Etkisi",
     "title": "Mücbir Sebeplerin Zamanaşımına Etkisi",
     "question": "213 sayılı VUK'un 15. ve 111. maddelerine göre mücbir sebeplerin varlığı halinde zamanaşımı nasıl etkilenir?",
     "options": [
@@ -157,13 +268,25 @@ export const QUESTIONS = [
       "Zamanaşımına hiçbir etkisi olmaz."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Madde 111 gereğince mücbir sebeplerin bulunması halinde işlemeyen süreler zamanaşımı süresine eklenir; yani mücbir sebep süresi boyunca zamanaşımı durur.",
     "articleRef": "VUK Madde 111",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "VUK Madde 111",
+      "Zamanaşımı"
+    ]
   },
   {
     "id": "q-11",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Kaçakçılık Suçlarında Hapis Cezası",
     "title": "Kaçakçılık Suçlarında Hapis Cezası",
     "question": "213 sayılı VUK'un 359. maddesine göre sahte belge düzenleyen veya kullananlar hakkında uygulanacak hapis cezası alt ve üst sınırı nedir?",
     "options": [
@@ -173,13 +296,25 @@ export const QUESTIONS = [
       "5 yıldan 10 yıla kadar"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Madde 359/b bendi uyarınca sahte belge düzenleyenler veya bu belgeleri kullananlar hakkında üç yıldan sekiz yıla kadar hapis cezasına hükmolunur.",
     "articleRef": "VUK Madde 359",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "VUK",
+      "VUK Madde 359",
+      "Cezalar"
+    ]
   },
   {
     "id": "q-12",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "İşe Başlamayı Bildirme Süresi",
     "title": "İşe Başlamayı Bildirme Süresi",
     "question": "213 sayılı VUK'un 168. maddesine göre gerçek kişi mükellefler işe başlama bildirimlerini kaç gün içinde vergi dairesine yapmak zorundadır?",
     "options": [
@@ -189,13 +324,24 @@ export const QUESTIONS = [
       "1 ay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "VUK Madde 168/1 uyarınca gerçek kişilerde işe başlama bildirimleri işe başlama tarihinden itibaren 10 gün içinde kendilerince vergi dairesine yapılır.",
     "articleRef": "VUK Madde 168",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "VUK Madde 168"
+    ]
   },
   {
     "id": "q-13",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "GVK Gelir Unsurları",
     "title": "GVK Gelir Unsurları",
     "question": "193 sayılı Gelir Vergisi Kanunu'nun 2. maddesine göre aşağıdakilerden hangisi gelirin yedi unsurundan biri DEĞİLDİR?",
     "options": [
@@ -205,13 +351,24 @@ export const QUESTIONS = [
       "Kurum Kazancı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "GVK Madde 2'ye göre gelir unsurları: Ticari kazanç, Zirai kazanç, Ücretler, Serbest meslek kazancı, Gayrimenkul sermaye iradı, Menkul sermaye iradı, Diğer kazanç ve iratlardır. Kurum kazancı 5520 sayılı KVK'nın konusudur.",
     "articleRef": "GVK Madde 2",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Madde 2"
+    ]
   },
   {
     "id": "q-14",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Tam Mükellefiyet İkamet Şartı",
     "title": "Tam Mükellefiyet İkamet Şartı",
     "question": "193 sayılı GVK'ya göre Türkiye'de yerleşmiş sayılmak için bir takvim yılı içinde Türkiye'de devamlı olarak ne kadar süre ikamet etmek gerekir?",
     "options": [
@@ -221,13 +378,24 @@ export const QUESTIONS = [
       "Kesintisiz 180 gün"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "GVK Madde 4 uyarınca bir takvim yılı içinde Türkiye'de devamlı olarak 6 aydan fazla oturanlar (belli zorunlu ayrılmalar hariç) Türkiye'de yerleşmiş sayılır ve tam mükellefiyete tabi olurlar.",
     "articleRef": "GVK Madde 4",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Madde 4"
+    ]
   },
   {
     "id": "q-15",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "GMSİ Götürü Gider Usulü Oranı",
     "title": "GMSİ Götürü Gider Usulü Oranı",
     "question": "193 sayılı GVK'nın 74. maddesine göre gayrimenkul sermaye iratlarında götürü gider usulünü seçen mükellefler istisna sonrası hasılatlarından yüzde kaç götürü gider indirebilirler?",
     "options": [
@@ -237,13 +405,25 @@ export const QUESTIONS = [
       "%25"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "GVK Madde 74 gereğince götürü gider usulünü kabul eden mükellefler istisna düşüldükten sonra kalan kira hasılatının %15'ini gerçek giderlere karşılık olmak üzere indirebilirler.",
     "articleRef": "GVK Madde 74",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Madde 74",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-16",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gayrimenkullerde Değer Artışı Kazancı Elde Tutma Süresi",
     "title": "Gayrimenkullerde Değer Artışı Kazancı Elde Tutma Süresi",
     "question": "193 sayılı GVK'nın Mükerrer 80. maddesine göre gerçek kişilerin iktisap ettikleri gayrimenkulleri iktisap tarihinden itibaren kaç yıl geçtikten sonra elden çıkarmaları halinde elde edilen kazanç değer artışı kazancı sayılmaz?",
     "options": [
@@ -253,13 +433,24 @@ export const QUESTIONS = [
       "10 yıl"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "GVK Mükerrer Madde 80/6 uyarınca gayrimenkullerin iktisap tarihinden başlayarak 5 yıl içinde elden çıkarılmasından doğan kazançlar değer artış kazancıdır; 5 yıl geçtikten sonra satılırsa vergilendirilmez.",
     "articleRef": "GVK Mükerrer Madde 80",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Mükerrer Madde 80"
+    ]
   },
   {
     "id": "q-17",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi Yıllık Beyanname Verme ve Ödeme Zamanı",
     "title": "Gelir Vergisi Yıllık Beyanname Verme ve Ödeme Zamanı",
     "question": "193 sayılı GVK'ya göre takvim yılına ait yıllık gelir vergisi beyannamesi ne zaman verilir ve vergisi kaç taksitte ödenir?",
     "options": [
@@ -269,13 +460,24 @@ export const QUESTIONS = [
       "Şubat ayı sonuna kadar verilir; Şubat ve Haziran aylarında 2 taksitte ödenir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "GVK Madde 92 ve 117 gereğince yıllık gelir vergisi beyannamesi takip eden yılın Mart ayı sonuna kadar verilir; hesaplanan vergi Mart ve Temmuz aylarında 2 eşit taksitte ödenir.",
     "articleRef": "GVK Madde 92, 117",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Madde 92, 117"
+    ]
   },
   {
     "id": "q-18",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Basit Usulde Ticari Kazanç İstisnası",
     "title": "Basit Usulde Ticari Kazanç İstisnası",
     "question": "193 sayılı GVK'nın Mükerrer 20/A maddesi uyarınca basit usule tabi mükelleflerin ticari kazançları ile ilgili vergilendirme rejimi nasıldır?",
     "options": [
@@ -285,13 +487,24 @@ export const QUESTIONS = [
       "Sadece KDV yönünden vergilendirilir."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "GVK Mükerrer Madde 20/A uyarınca basit usulde tespit edilen ticari kazançlar gelir vergisinden istisna edilmiş olup bu kazançlar için yıllık beyanname verilmez.",
     "articleRef": "GVK Mükerrer Madde 20/A",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Mükerrer Madde 20/A"
+    ]
   },
   {
     "id": "q-19",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Zirai Kazançta Tevkifat ve Beyan",
     "title": "Zirai Kazançta Tevkifat ve Beyan",
     "question": "193 sayılı GVK'nın 53. maddesine göre işletme büyüklüğü ölçülerini aşmayan çiftçilerin zirai kazançlarında vergilendirme nasıl gerçekleşir?",
     "options": [
@@ -301,13 +514,24 @@ export const QUESTIONS = [
       "Bilanço esasına göre defter tutarak"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "GVK Madde 53 gereğince işletme büyüklüğü ölçülerini aşmayan çiftçilerin kazançları ürün satış bedelleri üzerinden yapılan vergi tevkifatı (stopaj) yoluyla nihai olarak vergilendirilir, beyanname verilmez.",
     "articleRef": "GVK Madde 53",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Madde 53"
+    ]
   },
   {
     "id": "q-20",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Geçici Vergi Dönemleri ve Beyanı",
     "title": "Geçici Vergi Dönemleri ve Beyanı",
     "question": "193 sayılı GVK'nın Mükerrer 120. maddesi uyarınca ticari ve mesleki kazanç sahipleri cari vergilendirme döneminin kaç aylık dönemleri itibariyle geçici vergi öderler?",
     "options": [
@@ -317,13 +541,24 @@ export const QUESTIONS = [
       "6 aylık"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "GVK Mükerrer 120. madde uyarınca geçici vergi 3'er aylık dönemler (üçer aylık kazançlar) itibariyle hesaplanır ve beyan edilir.",
     "articleRef": "GVK Mükerrer Madde 120",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Mükerrer Madde 120"
+    ]
   },
   {
     "id": "q-21",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Kurumlar Vergisi Mükellefleri",
     "title": "Kurumlar Vergisi Mükellefleri",
     "question": "5520 sayılı Kurumlar Vergisi Kanunu'nun 1. maddesine göre aşağıdakilerden hangisi kurumlar vergisi mükellefi DEĞİLDİR?",
     "options": [
@@ -333,13 +568,24 @@ export const QUESTIONS = [
       "İktisadi Kamu Kuruluşları"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "5520 sayılı KVK Madde 1'e göre kurumlar vergisi mükellefleri: Sermaye şirketleri, Kooperatifler, İktisadi kamu kuruluşları, Dernek veya vakıflara ait iktisadi işletmeler ve İş ortaklıklarıdır. Adi ortaklıklar kurumlar vergisi mükellefi değildir; ortakları şahsi gelir vergisi mükellefidir.",
     "articleRef": "KVK Madde 1",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "KVK Madde 1"
+    ]
   },
   {
     "id": "q-22",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Örtülü Sermaye Tanımı ve Oranı",
     "title": "Örtülü Sermaye Tanımı ve Oranı",
     "question": "5520 sayılı KVK'nın 12. maddesine göre kurumların ortaklarından veya ortakla ilişkili kişilerden doğrudan ya da dolaylı temin ederek işletmede kullandıkları borçların, hesap dönemi başındaki kurum öz sermayesinin kaç katını aşan kısmı örtülü sermaye sayılır?",
     "options": [
@@ -349,13 +595,24 @@ export const QUESTIONS = [
       "5 katını"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "KVK Madde 12/1 gereğince ilişkili kişilerden yapılan borçlanmaların hesap dönemi başındaki kurum öz sermayesinin 3 katını aşan kısmı ilgili hesap dönemi için örtülü sermaye sayılır.",
     "articleRef": "KVK Madde 12",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "KVK Madde 12"
+    ]
   },
   {
     "id": "q-23",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Kurumlar Vergisi Beyanname Verme ve Ödeme Süresi",
     "title": "Kurumlar Vergisi Beyanname Verme ve Ödeme Süresi",
     "question": "5520 sayılı KVK'nın 14. maddesine göre kurumlar vergisi beyannamesi hesap döneminin kapandığı ayı izleyen hangi ayda verilir ve ödenir?",
     "options": [
@@ -365,13 +622,24 @@ export const QUESTIONS = [
       "6. ayın sonuna kadar (Haziran)"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "KVK Madde 14 uyarınca kurumlar vergisi beyannamesi, hesap döneminin kapandığı ayı izleyen dördüncü ayın sonuna kadar (Nisan sonu) verilir ve aynı sürede ödenir.",
     "articleRef": "KVK Madde 14",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "KVK Madde 14"
+    ]
   },
   {
     "id": "q-24",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Geçmiş Yıl Zararlarının Mahsup Süresi",
     "title": "Geçmiş Yıl Zararlarının Mahsup Süresi",
     "question": "5520 sayılı KVK'nın 9. maddesine göre kurumlar vergisi beyannamesinde her yıla ilişkin tutarlar ayrı ayrı gösterilmek şartıyla geçmiş yıl zararları en fazla kaç yıl geriye dönük mahsup edilebilir?",
     "options": [
@@ -381,13 +649,24 @@ export const QUESTIONS = [
       "10 yıl"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "KVK Madde 9/1-a uyarınca beş yıldan fazla nakledilmemek şartıyla geçmiş yılların beyannamelerinde yer alan zararlar kurum kazancından indirilebilir.",
     "articleRef": "KVK Madde 9",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "KVK Madde 9"
+    ]
   },
   {
     "id": "q-25",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Tam ve Dar Mükellefiyet Ayrımı",
     "title": "Tam ve Dar Mükellefiyet Ayrımı",
     "question": "5520 sayılı KVK'nın 3. maddesine göre bir kurumun tam mükellef sayılması için kanuni merkezi veya iş merkezinden en az birinin nerede bulunması şarttır?",
     "options": [
@@ -397,13 +676,24 @@ export const QUESTIONS = [
       "Yalnızca yönetim kurulunun Türkiye'de toplanması"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "KVK Madde 3 uyarınca kanuni veya iş merkezlerinden en az biri Türkiye'de bulunanlar tam mükellef sayılır ve gerek Türkiye'de gerekse yabancı ülkelerde elde ettikleri kazançların tamamı üzerinden vergilendirilirler.",
     "articleRef": "KVK Madde 3",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "KVK Madde 3"
+    ]
   },
   {
     "id": "q-26",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV'de Vergiyi Doğuran Olay",
     "title": "KDV'de Vergiyi Doğuran Olay",
     "question": "3065 sayılı Katma Değer Vergisi Kanunu'nun 10. maddesine göre mal teslimi veya hizmet ifasından önce fatura veya benzeri belgeler verilmesi halinde vergiyi doğuran olay ne zaman gerçekleşir?",
     "options": [
@@ -413,13 +703,24 @@ export const QUESTIONS = [
       "Hesap dönemi kapandığında"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "3065 sayılı KDVK Madde 10/b bendine göre malın tesliminden veya hizmetin yapılmasından önce fatura veya benzeri belgeler verilmesi hallerinde, bu belgelerde gösterilen miktarla sınırlı olmak üzere fatura veya benzeri belgelerin düzenlenmesi anında vergiyi doğuran olay meydana gelir.",
     "articleRef": "KDVK Madde 10",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 10"
+    ]
   },
   {
     "id": "q-27",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV Beyanname Verme ve Ödeme Süresi",
     "title": "KDV Beyanname Verme ve Ödeme Süresi",
     "question": "3065 sayılı Katma Değer Vergisi Kanunu'na göre vergilendirme dönemini takip eden ayın kaçıncı günü akşamına kadar KDV beyannamesi verilir ve ödenir?",
     "options": [
@@ -429,13 +730,24 @@ export const QUESTIONS = [
       "Ayın son günü"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "KDVK Madde 41 ve 46 ile VUK genel tebliğleri gereğince KDV beyannameleri vergilendirme dönemini takip eden ayın 28. günü akşamına kadar verilir ve aynı süre içinde ödenir.",
     "articleRef": "KDVK Madde 41, 46",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 41, 46"
+    ]
   },
   {
     "id": "q-28",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV İndirim Hakkının Kullanım Süresi",
     "title": "KDV İndirim Hakkının Kullanım Süresi",
     "question": "3065 sayılı KDVK'nın 29. maddesine göre yüklenilen KDV, vergiyi doğuran olayın vuku bulduğu takvim yılını takip eden takvim yılı sonuna kadar hangi şartla indirilebilir?",
     "options": [
@@ -445,13 +757,24 @@ export const QUESTIONS = [
       "İki kat ceza ödenmek şartıyla"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "KDVK Madde 29/3 uyarınca indirim hakkı, vergiyi doğuran olayın vuku bulduğu takvim yılını takip eden takvim yılı aşılmamak şartıyla, ilgili vesikaların kanuni defterlere kaydedildiği vergilendirme döneminde kullanılabilir.",
     "articleRef": "KDVK Madde 29",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 29"
+    ]
   },
   {
     "id": "q-29",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV İhracat İstisnası ve Beyanı",
     "title": "KDV İhracat İstisnası ve Beyanı",
     "question": "3065 sayılı KDVK'nın 11. ve 12. maddelerine göre ihracat teslimlerinin KDV'den istisna tutulabilmesi için teslimin nereye yapılmış olması ve fiilen gümrük hattından çıkmış olması şarttır?",
     "options": [
@@ -461,13 +784,25 @@ export const QUESTIONS = [
       "Konsinye olarak teslim edilmesi"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "KDVK Madde 12 uyarınca bir teslimin ihracat teslimi sayılması için teslimin yurt dışındaki bir müşteriye yapılması ve teslim konusu malın Türkiye Cumhuriyeti gümrük bölgesinden çıkarak bir dış ülkeye veya serbest bölgeye vasıl olması şarttır.",
     "articleRef": "KDVK Madde 11, 12",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 11, 12",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-30",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "BSMV Mükellefi ve Matrahı",
     "title": "BSMV Mükellefi ve Matrahı",
     "question": "6802 sayılı Gider Vergileri Kanunu'na göre Banka ve Sigorta Muameleleri Vergisinin (BSMV) matrahı aşağıdakilerden hangisidir?",
     "options": [
@@ -477,13 +812,24 @@ export const QUESTIONS = [
       "Net dönem kârı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6802 sayılı Kanun Madde 31 uyarınca BSMV matrahı, banka ve sigorta şirketlerinin her ne nam ile olursa olsun lehe aldıkları paraların tutarıdır.",
     "articleRef": "6802 Sayılı Kanun Madde 31",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "6802 Sayılı Kanun Madde 31"
+    ]
   },
   {
     "id": "q-31",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "BSMV Beyan ve Ödeme Zamanı",
     "title": "BSMV Beyan ve Ödeme Zamanı",
     "question": "6802 sayılı Gider Vergileri Kanunu'nun 44. maddesine göre BSMV mükellefleri bir aya ait vergileri izleyen ayın kaçıncı günü akşamına kadar beyan edip öderler?",
     "options": [
@@ -493,13 +839,24 @@ export const QUESTIONS = [
       "28. günü"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6802 sayılı Kanun Madde 44 uyarınca BSMV mükellefleri, bir aya ait muamelelerini izleyen ayın 15. günü akşamına kadar vergi dairesine beyan etmeye ve aynı sürede ödemeye mecburdurlar.",
     "articleRef": "6802 Sayılı Kanun Madde 44",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "6802 Sayılı Kanun Madde 44"
+    ]
   },
   {
     "id": "q-32",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "6183 Sayılı Kanun Tahsil Zamanaşımı",
     "title": "6183 Sayılı Kanun Tahsil Zamanaşımı",
     "question": "6183 sayılı AATUHK'nın 102. maddesine göre amme alacağı, vadesinin rastladığı takvim yılını takip eden takvim yılı başından itibaren kaç yıl içinde tahsil edilmezse zamanaşımına uğrar?",
     "options": [
@@ -509,13 +866,25 @@ export const QUESTIONS = [
       "10 yıl"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6183 sayılı Kanun Madde 102 uyarınca amme alacağı, vadesinin rastladığı takvim yılını takip eden takvim yılı başından itibaren 5 yıl içinde tahsil edilmezse zamanaşımına uğrar.",
     "articleRef": "6183 Sayılı Kanun Madde 102",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 102",
+      "Zamanaşımı"
+    ]
   },
   {
     "id": "q-33",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Ödeme Emrine İtiraz Süresi",
     "title": "Ödeme Emrine İtiraz Süresi",
     "question": "6183 sayılı AATUHK'nın 58. maddesine göre kendisine ödeme emri tebliğ olunan borçlu, tebliğ tarihinden itibaren kaç gün içinde vergi mahkemesinde dava açabilir?",
     "options": [
@@ -525,13 +894,24 @@ export const QUESTIONS = [
       "60 gün"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6183 sayılı Kanun Madde 58 uyarınca borçlu, ödeme emrinin tebliğinden itibaren 15 gün içinde böyle bir borcu olmadığı, kısmen ödediği veya zamanaşımına uğradığı iddiasıyla vergi mahkemesinde dava açabilir.",
     "articleRef": "6183 Sayılı Kanun Madde 58",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 58"
+    ]
   },
   {
     "id": "q-34",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "İhtiyati Hacze İtiraz Süresi",
     "title": "İhtiyati Hacze İtiraz Süresi",
     "question": "6183 sayılı AATUHK'nın 15. maddesine göre hakkında ihtiyati haciz tatbik olunanlar, haczin tatbiki veya tebliği tarihinden itibaren kaç gün içinde dava açabilirler?",
     "options": [
@@ -541,13 +921,25 @@ export const QUESTIONS = [
       "60 gün"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "6183 sayılı Kanun Madde 15 uyarınca hakkında ihtiyati haciz tatbik olunanlar, haczin tatbiki veya gıyapta yapılan hacizlerde haczin tebliği tarihinden itibaren 7 gün içinde vergi mahkemesinde dava açabilirler.",
     "articleRef": "6183 Sayılı Kanun Madde 15",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 15",
+      "Haciz"
+    ]
   },
   {
     "id": "q-35",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Amme Alacaklarında Tecil Azami Süresi",
     "title": "Amme Alacaklarında Tecil Azami Süresi",
     "question": "6183 sayılı AATUHK'nın 48. maddesine göre çok zor duruma düştüğü anlaşılan amme borçlularının borçları en fazla kaç aya kadar tecil olunabilir?",
     "options": [
@@ -557,13 +949,24 @@ export const QUESTIONS = [
       "48 ay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "6183 sayılı Kanun Madde 48 gereğince amme borcunun vadesinde ödenmesi borçluyu çok zor duruma düşürecekse borç 36 ayı geçmemek üzere tecil olunabilir.",
     "articleRef": "6183 Sayılı Kanun Madde 48",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 48"
+    ]
   },
   {
     "id": "q-36",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Haczedilemeyecek Mallar",
     "title": "Haczedilemeyecek Mallar",
     "question": "6183 sayılı AATUHK'nın 70. maddesine göre aşağıdakilerden hangisi amme alacağı için KISMEN VEYA TAMAMEN haczedilemez mallar arasında yer alır?",
     "options": [
@@ -573,13 +976,24 @@ export const QUESTIONS = [
       "Borçlunun hisse senetleri"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6183 sayılı Kanun Madde 70/2 bendine göre borçlunun şahsı ve mesleği için lüzumlu elbise ve eşyası ile borçlu ve ailesine lüzumu olan yatak takımları ve ibadete mahsus kitap ve eşyası haczedilemez.",
     "articleRef": "6183 Sayılı Kanun Madde 70",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 70"
+    ]
   },
   {
     "id": "q-37",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Gecikme Zammı Hesaplanma Usulü",
     "title": "Gecikme Zammı Hesaplanma Usulü",
     "question": "6183 sayılı AATUHK'nın 51. maddesine göre gecikme zammı amme alacağının ödenmeyen kısmına hangi periyotlarla uygulanır?",
     "options": [
@@ -589,13 +1003,24 @@ export const QUESTIONS = [
       "Üçer aylık dönemler halinde"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6183 sayılı Kanun Madde 51 uyarınca gecikme zammı her ay için ayrı ayrı uygulanır, ay kesirleri için ise günlük gecikme zammı hesaplanır.",
     "articleRef": "6183 Sayılı Kanun Madde 51",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 51"
+    ]
   },
   {
     "id": "q-38",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Tahsil Zamanaşımını Kesen Haller",
     "title": "Tahsil Zamanaşımını Kesen Haller",
     "question": "6183 sayılı AATUHK'nın 103. maddesine göre aşağıdakilerden hangisi tahsil zamanaşımını KESEN hallerden biri DEĞİLDİR?",
     "options": [
@@ -605,13 +1030,25 @@ export const QUESTIONS = [
       "Mükellefin yurt dışına çıkması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "6183 sayılı Kanun Madde 103'te tahsil zamanaşımını kesen haller sayılmıştır: Ödeme, haciz tatbiki, cebren tahsil işlemleri, ödeme emri tebliği, teminat gösterilmesi vb. Mükellefin yurt dışına çıkması zamanaşımını kesmez, zamanaşımını durduran haller arasındadır (Madde 104).",
     "articleRef": "6183 Sayılı Kanun Madde 103, 104",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 103, 104",
+      "Zamanaşımı"
+    ]
   },
   {
     "id": "q-39",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "5604 Sayılı Mali Tatil Süresi",
     "title": "5604 Sayılı Mali Tatil Süresi",
     "question": "5604 sayılı Mali Tatil İhdas Edilmesi Hakkında Kanun'a göre mali tatil her yıl hangi tarihler arasında uygulanır?",
     "options": [
@@ -621,13 +1058,24 @@ export const QUESTIONS = [
       "1 Temmuz - 15 Temmuz"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "5604 sayılı Kanun Madde 1 uyarınca her yıl Temmuz ayının birinci gününden yirminci gününe kadar (yirminci gün dahil) mali tatil uygulanır.",
     "articleRef": "5604 Sayılı Kanun Madde 1",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "5604 Sayılı Kanun Madde 1"
+    ]
   },
   {
     "id": "q-40",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Mali Tatile Rastlayan Sürelerin Uzaması",
     "title": "Mali Tatile Rastlayan Sürelerin Uzaması",
     "question": "5604 sayılı Mali Tatil Kanunu'na göre, son günü mali tatile rastlayan kanuni beyanname verme ve vergi ödeme süreleri mali tatilin bittiği tarihten itibaren kaç gün uzamış sayılır?",
     "options": [
@@ -637,13 +1085,24 @@ export const QUESTIONS = [
       "15 gün"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "5604 sayılı Kanun Madde 1 uyarınca son günü mali tatile rastlayan süreler, mali tatilin son gününü izleyen tarihten itibaren 7 gün uzamış sayılır (yani 27 Temmuz akşamına kadar).",
     "articleRef": "5604 Sayılı Kanun Madde 1",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "5604 Sayılı Kanun Madde 1"
+    ]
   },
   {
     "id": "q-41",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "197 Sayılı MTV Ödeme Zamanları",
     "title": "197 Sayılı MTV Ödeme Zamanları",
     "question": "197 sayılı Motorlu Taşıtlar Vergisi Kanunu'na göre MTV her yıl hangi aylarda ve kaç eşit taksitte ödenir?",
     "options": [
@@ -653,13 +1112,24 @@ export const QUESTIONS = [
       "Nisan ve Ekim aylarında iki eşit taksitte"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "197 sayılı MTVK Madde 9 gereğince Motorlu Taşıtlar Vergisi her yıl Ocak ve Temmuz aylarında olmak üzere iki eşit taksitte ödenir.",
     "articleRef": "MTVK Madde 9",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "MTVK Madde 9"
+    ]
   },
   {
     "id": "q-42",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "7338 Sayılı VİV Beyanname Süresi (Yurt İçi)",
     "title": "7338 Sayılı VİV Beyanname Süresi (Yurt İçi)",
     "question": "7338 sayılı Veraset ve İntikal Vergisi Kanunu'na göre ölüm Türkiye'de vuku bulmuş ve mükellefler de Türkiye'de bulunuyorsa veraset beyannamesi ölüm tarihinden itibaren kaç ay içinde verilir?",
     "options": [
@@ -669,13 +1139,24 @@ export const QUESTIONS = [
       "6 ay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "7338 sayılı VİVK Madde 9/1-a bendine göre ölüm Türkiye'de meydana gelmiş ve mükellefler de Türkiye'de bulunuyorsa ölüm tarihinden itibaren 4 ay içinde beyanname verilir.",
     "articleRef": "VİVK Madde 9",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "VİVK Madde 9"
+    ]
   },
   {
     "id": "q-43",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "7338 Sayılı VİV Taksit ve Ödeme Süresi",
     "title": "7338 Sayılı VİV Taksit ve Ödeme Süresi",
     "question": "7338 sayılı Veraset ve İntikal Vergisi Kanunu'na göre tahakkuk eden vergi kaç yılda ve hangi aylarda ödenir?",
     "options": [
@@ -685,13 +1166,24 @@ export const QUESTIONS = [
       "5 yılda, her yıl Nisan ve Ekim aylarında 10 eşit taksitte"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VİVK Madde 19 uyarınca Veraset ve İntikal Vergisi tahakkukundan itibaren 3 yılda ve her yıl Mayıs ve Kasım aylarında olmak üzere toplam 6 eşit taksitte ödenir.",
     "articleRef": "VİVK Madde 19",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "VİVK Madde 19"
+    ]
   },
   {
     "id": "q-44",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "1319 Sayılı Emlak Vergisi Ödeme Dönemleri",
     "title": "1319 Sayılı Emlak Vergisi Ödeme Dönemleri",
     "question": "1319 sayılı Emlak Vergisi Kanunu'na göre bina ve arazi vergisi hangi aylarda ve kaç eşit taksitte ödenir?",
     "options": [
@@ -701,13 +1193,24 @@ export const QUESTIONS = [
       "Nisan ve Ekim aylarında 2 taksitte"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "1319 sayılı Kanun Madde 30 gereğince Emlak Vergisi birinci taksiti Mayıs ayı sonuna kadar, ikinci taksiti Kasım ayı sonuna kadar olmak üzere iki eşit taksitte ödenir.",
     "articleRef": "1319 Sayılı Kanun Madde 30",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "1319 Sayılı Kanun Madde 30"
+    ]
   },
   {
     "id": "q-45",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "488 Sayılı Damga Vergisi Nüsha Kuralı",
     "title": "488 Sayılı Damga Vergisi Nüsha Kuralı",
     "question": "488 sayılı Damga Vergisi Kanunu'nun 5. maddesine göre bir nüshadan fazla olarak düzenlenen nispi vergiye tabi kağıtların damga vergisi nasıl hesaplanır?",
     "options": [
@@ -717,13 +1220,24 @@ export const QUESTIONS = [
       "En fazla iki nüsha için vergi ödenir."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "488 sayılı DVK Madde 5 uyarınca bir nüshadan fazla olarak düzenlenen kağıtların her nüshası ayrı ayrı aynı miktar veya nispetle Damga Vergisine tabidir.",
     "articleRef": "488 Sayılı Kanun Madde 5",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "488 Sayılı Kanun Madde 5"
+    ]
   },
   {
     "id": "q-46",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "492 Sayılı Harçlar Kanunu Mükellefiyeti",
     "title": "492 Sayılı Harçlar Kanunu Mükellefiyeti",
     "question": "492 sayılı Harçlar Kanunu'na göre genel kural olarak harçların ödenme zamanı ve şekli nasıldır?",
     "options": [
@@ -733,13 +1247,24 @@ export const QUESTIONS = [
       "Her yıl iki eşit taksitte ödenir."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "492 sayılı Harçlar Kanunu gereğince kanunda aksine hüküm bulunmadıkça harçlar ilgili harca mevzu olan işlem yapılmadan önce peşin olarak ödenir.",
     "articleRef": "492 Sayılı Harçlar Kanunu",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "492 Sayılı Harçlar Kanunu"
+    ]
   },
   {
     "id": "q-47",
     "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Muhasebenin Temel Kavramları - Dönemsellik",
     "title": "Muhasebenin Temel Kavramları - Dönemsellik",
     "question": "İşletmenin sürekliliği varsayımı altında işletme faaliyetlerinin belirli dönemlere bölünmesi ve her dönemin faaliyet sonuçlarının diğer dönemlerden bağımsız saptanması muhasebenin hangi temel kavramının gereğidir?",
     "options": [
@@ -749,13 +1274,24 @@ export const QUESTIONS = [
       "Tutarlılık Kavramı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Dönemsellik kavramı; işletmenin sürekliliği ilkesi uyarınca sınırsız kabul edilen ömrünün belli dönemlere bölünmesi ve her dönemin faaliyet sonuçlarının diğer dönemlerden bağımsız olarak saptanmasını ifade eder.",
     "articleRef": "Genel Muhasebe İlkeleri",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Genel Muhasebe İlkeleri"
+    ]
   },
   {
     "id": "q-48",
     "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Kasa Fazlası Muhasebe Kaydı",
     "title": "Kasa Fazlası Muhasebe Kaydı",
     "question": "Gün sonunda yapılan fiili kasa sayımında fiili mevcudun kasa defteri bakiyesinden fazla çıkması halinde, farkın nedeni araştırılmak üzere geçici olarak hangi hesabın alacağına kaydedilir?",
     "options": [
@@ -765,13 +1301,24 @@ export const QUESTIONS = [
       "679 Diğer Olağandışı Gelir ve Kârlar Hesabı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Kasa fazlalığı tespit edildiğinde 100 Kasa hesabı borçlandırılırken geçici olarak '397 Sayım ve Tesellüm Fazlaları' hesabı alacaklandırılır.",
     "articleRef": "Tekdüzen Hesap Planı",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Tekdüzen Hesap Planı"
+    ]
   },
   {
     "id": "q-49",
     "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "VD İşlem Yönergesi - Sicil Servisi Görevleri",
     "title": "VD İşlem Yönergesi - Sicil Servisi Görevleri",
     "question": "Vergi Daireleri İşlem Yönergesi'ne göre mükelleflerin işe başlama, adres değişikliği, şube açılışı ve işi bırakma işlemlerini yürüten ve vergi kimlik numarası tahsis eden servis aşağıdakilerden hangisidir?",
     "options": [
@@ -781,13 +1328,24 @@ export const QUESTIONS = [
       "İcra Servisi"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Vergi Dairesi İşlem Yönergesi'ne göre mükellefiyet tesisi, vergi kimlik numarası verilmesi, adres ve iş kolu değişiklikleri ile terk işlemlerini Sicil-Yoklama servisi yürütür.",
     "articleRef": "Vergi Daireleri İşlem Yönergesi",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Daireleri İşlem Yönergesi"
+    ]
   },
   {
     "id": "q-50",
     "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "VD İşlem Yönergesi - Vezne Servisi Kasa Fazlası",
     "title": "VD İşlem Yönergesi - Vezne Servisi Kasa Fazlası",
     "question": "Vergi Daireleri İşlem Yönergesi uyarınca veznedar tarafından gün sonunda yapılan sayımda kasa fazlası çıktığında veznedar bu durumu kime bildirir ve fazlalık nereye aktarılır?",
     "options": [
@@ -797,13 +1355,24 @@ export const QUESTIONS = [
       "Sicil servisine tutanakla devredilir."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "İşlem Yönergesi uyarınca kasa fazlalığı veya açığı derhal vergi dairesi müdürüne veya yetkili müdür yardımcısına bildirilir ve fazlalık araştırılmak üzere emanet hesabına kaydedilir.",
     "articleRef": "Vergi Daireleri İşlem Yönergesi",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Daireleri İşlem Yönergesi"
+    ]
   },
   {
     "id": "q-51",
     "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4 Nolu CBK Gelir İdaresi Başkanı Atanması",
     "title": "4 Nolu CBK Gelir İdaresi Başkanı Atanması",
     "question": "4 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Gelir İdaresi Başkanlığı kimin onay veya kararıyla yönetilir ve Başkana görevinde yardımcı olmak üzere kaç Başkan Yardımcısı atanabilir?",
     "options": [
@@ -813,13 +1382,24 @@ export const QUESTIONS = [
       "TBMM kararıyla atanır / 4 Başkan Yardımcısı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "4 sayılı CBK uyarınca Gelir İdaresi Başkanı Cumhurbaşkanı kararıyla atanır ve Başkana yardımcı olmak üzere azami beş Başkan Yardımcısı görevlendirilebilir.",
     "articleRef": "4 Sayılı CBK (GİB)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "4 Sayılı CBK (GİB)"
+    ]
   },
   {
     "id": "q-52",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV Teslim Sayılan Haller",
     "title": "KDV Teslim Sayılan Haller",
     "question": "3065 sayılı Katma Değer Vergisi Kanunu'nun 3. maddesine göre vergiye tabi malların her ne suretle olursa olsun mükelleflerce işletmeden çekilmesi veya personele ücret olarak verilmesi ne olarak nitelendirilir?",
     "options": [
@@ -829,13 +1409,24 @@ export const QUESTIONS = [
       "İstisna işlem"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "KDVK Madde 3/a uyarınca vergiye tabi malların her ne suretle olursa olsun işletmeden çekilmesi veya işletme personeline ücret, prim, ikramiye, hediye gibi adlarla verilmesi teslim sayılır.",
     "articleRef": "KDVK Madde 3",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 3"
+    ]
   },
   {
     "id": "q-53",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV İthalatta Matrah Unsurları",
     "title": "KDV İthalatta Matrah Unsurları",
     "question": "3065 sayılı Katma Değer Vergisi Kanunu'nun 21. maddesine göre ithalatta KDV matrahına aşağıdakilerden hangisi DAHİL EDİLİR?",
     "options": [
@@ -845,13 +1436,24 @@ export const QUESTIONS = [
       "Yukarıdakilerin hepsi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "KDVK Madde 21 gereğince ithalatta KDV matrahı; malın gümrük kıymeti, ithalat sırasında ödenen her türlü vergi, harç ve fonlar ile gümrük tescil tarihine kadar yapılan her türlü navlun, sigorta giderlerini kapsar.",
     "articleRef": "KDVK Madde 21",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 21"
+    ]
   },
   {
     "id": "q-54",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV İstisnasından Vazgeçme",
     "title": "KDV İstisnasından Vazgeçme",
     "question": "3065 sayılı KDVK'nın 18. maddesine göre istisnadan vazgeçen mükellefler vazgeçme tarihinden itibaren kaç yıl geçmedikçe tekrar istisnadan yararlanamazlar?",
     "options": [
@@ -861,13 +1463,25 @@ export const QUESTIONS = [
       "5 yıl"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "KDVK Madde 18/2 uyarınca istisnadan vazgeçenler bu mükellefiyetin tesis edildiği tarihten itibaren üç yıl geçmedikçe mükellefiyetten çıkamazlar.",
     "articleRef": "KDVK Madde 18",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 18",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-55",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "Konaklama Vergisi Oranı ve Dönemi",
     "title": "Konaklama Vergisi Oranı ve Dönemi",
     "question": "6802 sayılı Gider Vergileri Kanunu'nun 34. maddesi uyarınca Konaklama Vergisi oranı yüzde kaçtır ve vergilendirme dönemi nasıldır?",
     "options": [
@@ -877,13 +1491,24 @@ export const QUESTIONS = [
       "Oran %10 - Vergilendirme dönemi 15 günlük dönemlerdir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "6802 sayılı Kanun Madde 34 uyarınca konaklama vergisi oranı %2 olup vergilendirme dönemi takvim yılının birer aylık dönemleridir.",
     "articleRef": "6802 Sayılı Kanun Madde 34",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "6802 Sayılı Kanun Madde 34"
+    ]
   },
   {
     "id": "q-56",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV Amortismana Tabi İktisadi Kıymetlerde Düzeltme",
     "title": "KDV Amortismana Tabi İktisadi Kıymetlerde Düzeltme",
     "question": "3065 sayılı KDVK'nın 36. maddesine göre amortismana tabi iktisadi kıymetlerin sonradan vergiden istisna edilen işlemlerde kullanılması halinde indirim hesaplarının düzeltilmesinde kaç yıllık süre esas alınır?",
     "options": [
@@ -893,13 +1518,25 @@ export const QUESTIONS = [
       "Amortisman süresinin tamamı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "KDVK Madde 36 gereğince amortismana tabi iktisadi kıymetlerin iktisap olunduğu takvim yılı dahil 5 yıl içinde istisna işlemlerinde kullanılması halinde indirilen KDV'nin 1/5'i oranında düzeltme yapılır.",
     "articleRef": "KDVK Madde 36",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 36",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-57",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "6183 Amme Alacaklarında İflas Masasına Kayıt",
     "title": "6183 Amme Alacaklarında İflas Masasına Kayıt",
     "question": "6183 sayılı AATUHK'nın 100. maddesine göre borçlunun iflası halinde amme alacakları iflas masasında kaçıncı sırada yer alır?",
     "options": [
@@ -909,13 +1546,24 @@ export const QUESTIONS = [
       "Yalnızca işçi ücretlerinden sonra ikinci sırada"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "6183 sayılı Kanun Madde 100 ve İcra İflas Kanunu hükümleri uyarınca rehinli alacakların satış tutarından rüçhan hakkı ödendikten sonra amme alacağı imtiyazlı alacak olarak birinci sırada yer alır.",
     "articleRef": "6183 Sayılı Kanun Madde 100",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 100"
+    ]
   },
   {
     "id": "q-58",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Aciz Hali ve Aciz Fişi Hükümleri",
     "title": "Aciz Hali ve Aciz Fişi Hükümleri",
     "question": "6183 sayılı AATUHK'nın 75. maddesine göre yapılan takip sonunda borçlunun haczedilen mallarının amme alacağını karşılamadığı veya hiç malı bulunmadığı tespit edilirse tahsil dairesince hangi belge düzenlenir?",
     "options": [
@@ -925,13 +1573,24 @@ export const QUESTIONS = [
       "İflas Bildirimi"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6183 sayılı Kanun Madde 75 uyarınca borçlunun amme alacağını karşılayacak malı bulunmadığı veya mallarının borcu karşılamadığı anlaşıldığında 'Aciz Fişi' tanzim olunur.",
     "articleRef": "6183 Sayılı Kanun Madde 75",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 75"
+    ]
   },
   {
     "id": "q-59",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Hacizde İstihkak İddiası ve Dava Açma Süresi",
     "title": "Hacizde İstihkak İddiası ve Dava Açma Süresi",
     "question": "6183 sayılı AATUHK'nın 66. ve 67. maddelerine göre haczedilen menkul mal üzerinde üçüncü bir şahıs tarafından istihkak iddiasında bulunulması halinde tahsil dairesi itiraz ederse üçüncü şahıs kaç gün içinde dava açmalıdır?",
     "options": [
@@ -941,13 +1600,24 @@ export const QUESTIONS = [
       "60 gün"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "6183 sayılı Kanun Madde 67 gereğince istihkak iddiası tahsil dairesince kabul edilmediğinde, keyfiyetin kendisine tebliğinden itibaren 7 gün içinde üçüncü şahıs yetkili mahkemede dava açmalıdır.",
     "articleRef": "6183 Sayılı Kanun Madde 67",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 67"
+    ]
   },
   {
     "id": "q-60",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Amme Alacaklarında Takas ve Mahsup Şartları",
     "title": "Amme Alacaklarında Takas ve Mahsup Şartları",
     "question": "6183 sayılı AATUHK'nın 23. maddesine göre borçlunun kamu idarelerindeki alacakları ile amme borçlarının takas edilebilmesi için borcun hangi aşamada bulunması şarttır?",
     "options": [
@@ -957,13 +1627,24 @@ export const QUESTIONS = [
       "Mali tatil içinde olması"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6183 sayılı Kanun Madde 23 uyarınca kamu idarelerinden alacağı olan amme borçlularının borçları ile alacakları muacceliyet (vadesi gelmiş olma) şartıyla takas ve mahsup edilebilir.",
     "articleRef": "6183 Sayılı Kanun Madde 23",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 23"
+    ]
   },
   {
     "id": "q-61",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "VUK Değerleme Ölçüleri",
     "title": "VUK Değerleme Ölçüleri",
     "question": "213 sayılı VUK'un 261. maddesinde sayılan değerleme ölçüleri arasında aşağıdakilerden hangisi YER ALMAZ?",
     "options": [
@@ -973,13 +1654,24 @@ export const QUESTIONS = [
       "Gelecekteki nakit akışları değeri"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "VUK Madde 261'de değerleme ölçüleri sayılmıştır: Maliyet bedeli, Borsa rayici, Tasarruf değeri, Mukayyet değer, İtibari değer, Rayiç bedel, Emsal bedeli ve emsal ücreti, Vergi değeri. Gelecekteki nakit akışları değeri VUK'ta yer almaz.",
     "articleRef": "VUK Madde 261",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "VUK Madde 261"
+    ]
   },
   {
     "id": "q-62",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "VUK Mukayyet Değer Tanımı",
     "title": "VUK Mukayyet Değer Tanımı",
     "question": "213 sayılı VUK'un 265. maddesine göre bir iktisadi kıymetin muhasebe kayıtlarında gösterilen hesap değerine ne ad verilir?",
     "options": [
@@ -989,13 +1681,24 @@ export const QUESTIONS = [
       "Maliyet Bedeli"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Madde 265 uyarınca mukayyet değer, bir iktisadi kıymetin muhasebe kayıtlarında gösterilen hesap değeridir.",
     "articleRef": "VUK Madde 265",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "VUK Madde 265"
+    ]
   },
   {
     "id": "q-63",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "VUK Vergi Ziyaı Cezasının Tekerrürü",
     "title": "VUK Vergi Ziyaı Cezasının Tekerrürü",
     "question": "213 sayılı VUK'un 339. maddesine göre vergi ziyaı cezası kesilen bir mükellefe cezanın kesinleştiği tarihi takip eden yılın başından başlayarak kaç yıl içinde tekrar vergi ziyaı cezası kesilirse ceza yüzde kaç artırılır?",
     "options": [
@@ -1005,13 +1708,25 @@ export const QUESTIONS = [
       "5 yıl içinde - %100 artırılır"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Madde 339 uyarınca vergi ziyaı cezasında cezanın kesinleştiği tarihi takip eden yılın başından başlayarak 5 yıl içinde tekrar vergi ziyaına sebebiyet verilirse ceza %50 artırımlı uygulanır.",
     "articleRef": "VUK Madde 339",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "VUK Madde 339",
+      "Cezalar"
+    ]
   },
   {
     "id": "q-64",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Vergi Mahkemesinde Dava Açma Süresi",
     "title": "Vergi Mahkemesinde Dava Açma Süresi",
     "question": "2577 sayılı İYUK ve 213 sayılı VUK hükümlerine göre vergi mahkemelerinde dava açma süresi genel olarak tebliğ tarihinden itibaren kaç gündür?",
     "options": [
@@ -1021,13 +1736,24 @@ export const QUESTIONS = [
       "60 gün"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "2577 sayılı İdari Yargılama Usulü Kanunu Madde 7 uyarınca vergi mahkemelerinde genel dava açma süresi 30 gündür (Danıştay ve İdare mahkemelerinde 60 gündür).",
     "articleRef": "2577 Sayılı Kanun Madde 7",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "2577 Sayılı Kanun Madde 7"
+    ]
   },
   {
     "id": "q-65",
     "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "VUK Tarhiyat Öncesi Uzlaşma Kapsamı",
     "title": "VUK Tarhiyat Öncesi Uzlaşma Kapsamı",
     "question": "213 sayılı VUK Ek 11. maddesi uyarınca tarhiyat öncesi uzlaşma vergi incelemeleri sırasında hangi aşamada talep edilebilir?",
     "options": [
@@ -1037,13 +1763,24 @@ export const QUESTIONS = [
       "Vergi dairesi müdürünün onayından sonra"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "VUK Ek Madde 11 ve Tarhiyat Öncesi Uzlaşma Yönetmeliği uyarınca mükellefler vergi incelemesinin başlamasından inceleme tutanağının düzenlenmesine kadar olan süre içinde tarhiyat öncesi uzlaşma talep edebilirler.",
     "articleRef": "VUK Ek Madde 11",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "VUK Ek Madde 11"
+    ]
   },
   {
     "id": "q-66",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "GVK Ücret İstisnası (Asgari Ücret)",
     "title": "GVK Ücret İstisnası (Asgari Ücret)",
     "question": "193 sayılı GVK'nın 23/18. maddesine göre hizmet erbabının ödemelerinde asgari ücrete isabet eden kısım için uygulanan gelir vergisi istisnası nasıldır?",
     "options": [
@@ -1053,13 +1790,25 @@ export const QUESTIONS = [
       "Yalnızca prime esas kazanç tutarına kadar olan kısım istisnadır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "GVK Madde 23/18 uyarınca asgari ücretin vergi matrahına kadar olan ücret gelirleri tüm çalışanlar için gelir vergisinden istisna edilmiştir.",
     "articleRef": "GVK Madde 23",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Madde 23",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-67",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Serbest Meslek Kazancı Hasılat İlkesi",
     "title": "Serbest Meslek Kazancı Hasılat İlkesi",
     "question": "193 sayılı GVK'nın 67. maddesine göre serbest meslek kazancının tespitinde gelir hangi ilkeye göre vergilendirilir?",
     "options": [
@@ -1069,13 +1818,24 @@ export const QUESTIONS = [
       "Emsal bedel esası"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "GVK Madde 67 gereğince serbest meslek kazancı bir hesap dönemi içinde serbest meslek faaliyeti karşılığı olarak tahsil edilen para ve ayınlar ile sağlanan menfaatlerden mesleki giderler indirildikten sonra kalan farktır; tahsil esası geçerlidir.",
     "articleRef": "GVK Madde 67",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Madde 67"
+    ]
   },
   {
     "id": "q-68",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Menkul Sermaye İradında Kâr Payı İstisnası",
     "title": "Menkul Sermaye İradında Kâr Payı İstisnası",
     "question": "193 sayılı GVK'nın 22. maddesi uyarınca tam mükellef kurumlardan elde edilen kâr paylarının (temettü) yüzde kaçı gelir vergisinden istisnadır?",
     "options": [
@@ -1085,13 +1845,25 @@ export const QUESTIONS = [
       "%100"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "GVK Madde 22/2 uyarınca tam mükellef kurumlardan elde edilen kâr paylarının yarısı (%50'si) gelir vergisinden istisnadır.",
     "articleRef": "GVK Madde 22",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "GVK Madde 22",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-69",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "KVK Genel Kurumlar Vergisi Oranı",
     "title": "KVK Genel Kurumlar Vergisi Oranı",
     "question": "5520 sayılı KVK'nın 32. maddesine göre genel kurumlar vergisi oranı (finans sektörü ve ihracatçılar hariç standart oran) yüzde kaçtır?",
     "options": [
@@ -1101,13 +1873,24 @@ export const QUESTIONS = [
       "%30"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "5520 sayılı KVK Madde 32 uyarınca genel kurumlar vergisi oranı kanuni olarak %25 olarak uygulanmaktadır.",
     "articleRef": "KVK Madde 32",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "KVK Madde 32"
+    ]
   },
   {
     "id": "q-70",
     "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "KVK Transfer Fiyatlandırması Yöntemleri",
     "title": "KVK Transfer Fiyatlandırması Yöntemleri",
     "question": "5520 sayılı KVK'nın 13. maddesine göre emsallere uygunluk ilkesi doğrultusunda kurumların ilişkili kişilerle işlemlerinde öncelikle uygulanan geleneksel yöntem aşağıdakilerden hangisidir?",
     "options": [
@@ -1117,13 +1900,24 @@ export const QUESTIONS = [
       "Maliyet artı iskonto yöntemi"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "KVK Madde 13'te emsallere uygun fiyat veya bedelin tespitinde geleneksel işlem yöntemlerinin ilki 'Karşılaştırılabilir fiyat yöntemi'dir.",
     "articleRef": "KVK Madde 13",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "KVK Madde 13"
+    ]
   },
   {
     "id": "q-71",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV Kısmi Tevkifat Uygulaması",
     "title": "KDV Kısmi Tevkifat Uygulaması",
     "question": "3065 sayılı KDVK'nın 9. maddesi gereğince Hazine ve Maliye Bakanlığı'nın vergi alacağını güvenceye almak amacıyla alıcıları vergi tevkifatı yapmakla sorumlu tuttuğu işlem türü nedir?",
     "options": [
@@ -1133,13 +1927,24 @@ export const QUESTIONS = [
       "Maktu Tarhiyat"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "KDVK Madde 9 uyarınca Hazine ve Maliye Bakanlığı gerekli görülen hallerde alıcıları vergi tevkifatı yapmakla sorumlu tutabilir.",
     "articleRef": "KDVK Madde 9",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 9"
+    ]
   },
   {
     "id": "q-72",
     "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065) & Gider Vergileri (6802)",
+    "subtopic": "KDV İndirilemeyecek Vergiler",
     "title": "KDV İndirilemeyecek Vergiler",
     "question": "3065 sayılı KDVK'nın 30. maddesine göre aşağıdakilerden hangisinde yüklenilen KDV'nin indirimi MÜMKÜN DEĞİLDİR?",
     "options": [
@@ -1149,13 +1954,24 @@ export const QUESTIONS = [
       "Fabrika binasının elektrik faturalarına ait KDV"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "KDVK Madde 30/a bendi uyarınca vergiye tabi olmayan veya vergiden istisna edilmiş bulunan malların teslimi ile ilgili alış vesikalarında gösterilen KDV indirilemez.",
     "articleRef": "KDVK Madde 30",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "KDVK Madde 30"
+    ]
   },
   {
     "id": "q-73",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Amme Alacaklarında İhtiyati Tahakkuk Sebepleri",
     "title": "Amme Alacaklarında İhtiyati Tahakkuk Sebepleri",
     "question": "6183 sayılı AATUHK'nın 17. maddesine göre amme alacağının vadesinden önce tahakkuk ettirilerek teminat veya ihtiyati haciz istenmesine ne ad verilir?",
     "options": [
@@ -1165,13 +1981,25 @@ export const QUESTIONS = [
       "Haczin Tebliği"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6183 sayılı Kanun Madde 17'de amme alacağının tahsil güvenliği tehlikeye girdiğinde vadesinden önce tahakkuk ettirilmesine 'İhtiyati Tahakkuk' denir.",
     "articleRef": "6183 Sayılı Kanun Madde 17",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 17",
+      "Haciz"
+    ]
   },
   {
     "id": "q-74",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Menkul Mal Satış İlan Süresi",
     "title": "Menkul Mal Satış İlan Süresi",
     "question": "6183 sayılı AATUHK'nın 84. maddesine göre haczedilen menkul malların ilk açık artırma satış günü ile ilan tarihi arasında en az kaç gün bulunmalıdır?",
     "options": [
@@ -1181,13 +2009,24 @@ export const QUESTIONS = [
       "30 gün"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "6183 sayılı Kanun Madde 84 uyarınca menkul malların satış ilanının yapıldığı gün ile ihale günü arasında en az 7 gün bulunması şarttır.",
     "articleRef": "6183 Sayılı Kanun Madde 84",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 84"
+    ]
   },
   {
     "id": "q-75",
     "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Gayrimenkul Mal Satışında Açık Artırma Hükmü",
     "title": "Gayrimenkul Mal Satışında Açık Artırma Hükmü",
     "question": "6183 sayılı AATUHK'nın 94. maddesine göre haczedilen gayrimenkul malların birinci açık artırmada satılabilmesi için teklif edilen bedelin biçilen rayiç değerin en az yüzde kaçını bulması gerekir?",
     "options": [
@@ -1197,13 +2036,24 @@ export const QUESTIONS = [
       "%75"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "6183 sayılı Kanun Madde 94 gereğince birinci artırmada gayrimenkulün biçilen rayiç değerinin en az %75'ini bulması şarttır.",
     "articleRef": "6183 Sayılı Kanun Madde 94",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı Kanun Madde 94"
+    ]
   },
   {
     "id": "q-76",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "MTV Mükellefiyetinin Başlangıcı",
     "title": "MTV Mükellefiyetinin Başlangıcı",
     "question": "197 sayılı MTV Kanunu'nun 7. maddesine göre motorlu taşıtlar vergisi mükellefiyeti ne zaman başlar?",
     "options": [
@@ -1213,13 +2063,24 @@ export const QUESTIONS = [
       "Sigorta poliçesinin düzenlendiği tarihte"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "197 sayılı MTVK Madde 7 uyarınca MTV mükellefiyeti motorlu taşıtların ilgili sicile kayıt ve tescili ile başlar.",
     "articleRef": "MTVK Madde 7",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "MTVK Madde 7"
+    ]
   },
   {
     "id": "q-77",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "VİV İvazsız İntikal Beyan Süresi",
     "title": "VİV İvazsız İntikal Beyan Süresi",
     "question": "7338 sayılı VİV Kanunu'na göre ivazsız suretle vaki intikallerde beyanname ne zaman verilir?",
     "options": [
@@ -1229,13 +2090,24 @@ export const QUESTIONS = [
       "Takvim yılı sonuna kadar"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "7338 sayılı Kanun Madde 9/b bendi gereğince ivazsız suretle intikallerde malların hukuken iktisap edildiği tarihi takip eden 1 ay içinde beyanname verilir.",
     "articleRef": "VİVK Madde 9",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "VİVK Madde 9"
+    ]
   },
   {
     "id": "q-78",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Emlak Vergisi Bildirim Süresi (Yeni İktisap)",
     "title": "Emlak Vergisi Bildirim Süresi (Yeni İktisap)",
     "question": "1319 sayılı Emlak Vergisi Kanunu'nun 23. maddesine göre yeni bina inşa eden veya satın alan mükellefler emlak vergisi bildirimini ne zaman vermek zorundadır?",
     "options": [
@@ -1245,13 +2117,24 @@ export const QUESTIONS = [
       "Takip eden yılın Mayıs ayında"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "1319 sayılı Kanun Madde 23 uyarınca mükellefler emlak vergisi bildirimini değişikliğin vuku bulduğu bütçe yılı içinde; olay bütçe yılının son üç ayı içinde vuku bulmuşsa olayın vuku bulduğu tarihten itibaren üç ay içinde verirler.",
     "articleRef": "1319 Sayılı Kanun Madde 23",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "DIGER-VERGILER",
+      "1319 Sayılı Kanun Madde 23"
+    ]
   },
   {
     "id": "q-79",
     "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Damga Vergisinde Azami Had (Üst Sınır)",
     "title": "Damga Vergisinde Azami Had (Üst Sınır)",
     "question": "488 sayılı Damga Vergisi Kanunu'nun 14. maddesine göre nispi damga vergisine tabi kağıtlarda her bir kağıt için alınabilecek azami vergi tutarı ile ilgili kural nedir?",
     "options": [
@@ -1261,13 +2144,24 @@ export const QUESTIONS = [
       "Yalnızca kamu ihalelerinde üst sınır uygulanır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "488 sayılı Kanun Madde 14 uyarınca bir kağıttan alınacak damga vergisi miktarı kanunda belirtilen ve her yıl yeniden değerleme oranında artırılan azami haddi aşamaz.",
     "articleRef": "488 Sayılı Kanun Madde 14",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "488 Sayılı Kanun Madde 14"
+    ]
   },
   {
     "id": "q-80",
     "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Bakanlığın ve talep halinde genel bütçe",
     "title": "Bakanlığın ve talep halinde genel bütçe...",
     "question": "Bakanlığın ve talep halinde genel bütçe kapsamındaki kamu idareleri ve özel bütçeli idarelerin hukuk danışmanlığını ve muhakemat hizmetlerini yapmak görevi aşağıdaki hizmet birimlerden hangisine aittir?",
     "options": [
@@ -1277,13 +2171,24 @@ export const QUESTIONS = [
       "Kamu Finansmanı Genel Müdürlüğü"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Başhukuk Müşavirliği ve Muhakemat Genel Müdürlüğü. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-81",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Kamu harcamalarının kalkınma planı, orta vadeli",
     "title": "Kamu harcamalarının kalkınma planı, orta vadeli...",
     "question": "Kamu harcamalarının kalkınma planı, orta vadeli program, orta vadeli mali plan ve Cumhurbaşkanlığı yıllık programında belirlenen hedefler doğrultusunda maliye politikalarıyla uyumlu bir şekilde uygulanmasını teminen gerekli her türlü tedbiri almak",
     "options": [
@@ -1293,13 +2198,24 @@ export const QUESTIONS = [
       "Kamu Mali Yönetim ve Dönüşüm Genel Müdürlüğü"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kamu Mali Yönetim ve Dönüşüm Genel Müdürlüğü. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-82",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıda verilenlerden hangisi Muhasebat Genel Müdürlüğü'nün",
     "title": "Aşağıda verilenlerden hangisi Muhasebat Genel Müdürlüğü'nün...",
     "question": "Aşağıda verilenlerden hangisi Muhasebat Genel Müdürlüğü'nün görevleri arasında yer almaz?",
     "options": [
@@ -1309,13 +2225,24 @@ export const QUESTIONS = [
       "Devlet muhasebesinin geliştirilmesi, etkin ve verimli bir şekilde uygulanması yönünde araştırmalar yapmak veya yaptırmak ve gerekli tedbirleri almak"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Devlet hesaplarının kayıtlarını tutmak, uygulamaları izlemek, dönem sonuçlarını çıkarmak, değerlendirmek ve yayımlamak. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-83",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Kamu Sermayeli Kuruluş ve",
     "title": "Aşağıdakilerden hangisi Kamu Sermayeli Kuruluş ve...",
     "question": "Aşağıdakilerden hangisi Kamu Sermayeli Kuruluş ve İşletmeler Genel Müdürlüğü'nün görev ve yetkileriden değildir?",
     "options": [
@@ -1325,13 +2252,24 @@ export const QUESTIONS = [
       "Bakanlığın yurtdışında bulunan görevli birimlerinin faaliyetlerini düzenlemek ve yönetmek"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Bakanlığın yurtdışında bulunan görevli birimlerinin faaliyetlerini düzenlemek ve yönetmek. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-84",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Finansal Piyasalar ve Kambiyo",
     "title": "Aşağıdakilerden hangisi Finansal Piyasalar ve Kambiyo...",
     "question": "Aşağıdakilerden hangisi Finansal Piyasalar ve Kambiyo Genel Müdürlüğü'nün görev ve yetkileri arasında yer almaz?",
     "options": [
@@ -1341,13 +2279,24 @@ export const QUESTIONS = [
       "Kambiyo politikalarının uygulanması ve finansal piyasalarla ilgili konularda Bakanlık ile Türkiye Cumhuriyet Merkez Bankası ilişkilerini kurmak"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Personel hareketleri ve eğitim faaliyetleri ile ilgili yayım hizmetlerini yürütmek. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-85",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4 sayılı Cumhurbaşkanlığı Kararnamesine göre Gelir",
     "title": "4 sayılı Cumhurbaşkanlığı Kararnamesine göre Gelir...",
     "question": "4 sayılı Cumhurbaşkanlığı Kararnamesine göre Gelir İdaresi Başkanlığının kurulmasına ilişkin temel amaç aşağıdakilerden hangisidir?",
     "options": [
@@ -1357,13 +2306,24 @@ export const QUESTIONS = [
       "Kamu harcamalarını kontrol altına almak"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Devlet gelirleri politikasını belirlemek ve gelirleri en az maliyetle toplamak. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-86",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığının temel",
     "title": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığının temel...",
     "question": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığının temel ilkeleri arasında yer almaz?",
     "options": [
@@ -1373,13 +2333,24 @@ export const QUESTIONS = [
       "Merkeziyetçilik"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Merkeziyetçilik. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-87",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gelir İdaresi Başkanlığı teşkilatı aşağıdakilerden hangisinden",
     "title": "Gelir İdaresi Başkanlığı teşkilatı aşağıdakilerden hangisinden...",
     "question": "Gelir İdaresi Başkanlığı teşkilatı aşağıdakilerden hangisinden oluşur?",
     "options": [
@@ -1389,13 +2360,24 @@ export const QUESTIONS = [
       "Bölge müdürlükleri ve merkez teşkilatı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Merkez ve taşra teşkilatı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-88",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığının görevlerinden",
     "title": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığının görevlerinden...",
     "question": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığının görevlerinden biri değildir?",
     "options": [
@@ -1405,13 +2387,24 @@ export const QUESTIONS = [
       "Para politikasını belirlemek"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Para politikasını belirlemek. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-89",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gelir İdaresi Başkanı ile ilgili aşağıdakilerden",
     "title": "Gelir İdaresi Başkanı ile ilgili aşağıdakilerden...",
     "question": "Gelir İdaresi Başkanı ile ilgili aşağıdakilerden hangisi doğrudur?",
     "options": [
@@ -1421,13 +2414,24 @@ export const QUESTIONS = [
       "Sayıştaya karşı sorumludur."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Hazine ve Maliye Bakanına karşı sorumludur.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-90",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Dairesi Başkanlığı bulunmayan illerde gelir",
     "title": "Vergi Dairesi Başkanlığı bulunmayan illerde gelir...",
     "question": "Vergi Dairesi Başkanlığı bulunmayan illerde gelir idaresi faaliyetlerini hangi birim yürütür?",
     "options": [
@@ -1437,13 +2441,24 @@ export const QUESTIONS = [
       "Vergi Dairesi Müdürlüğü"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İl Defterdarlığı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-91",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gelir İdaresi Başkanlığı tarafından hazırlanan stratejik",
     "title": "Gelir İdaresi Başkanlığı tarafından hazırlanan stratejik...",
     "question": "Gelir İdaresi Başkanlığı tarafından hazırlanan stratejik plan kime sunulur?",
     "options": [
@@ -1453,13 +2468,24 @@ export const QUESTIONS = [
       "TBMM Plan Bütçe Komisyonu"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-92",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Gelir Yönetimi Daire Başkanlığı’nın",
     "title": "Aşağıdakilerden hangisi Gelir Yönetimi Daire Başkanlığı’nın...",
     "question": "Aşağıdakilerden hangisi Gelir Yönetimi Daire Başkanlığı’nın görevlerinden biridir?",
     "options": [
@@ -1469,13 +2495,24 @@ export const QUESTIONS = [
       "Vergi denetimini yürütmek"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Tahsilât ve borç takip sistemlerini geliştirmek. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-93",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Başkanlıkta “performans esaslı bütçeleme sistemi”nin izlenmesinden",
     "title": "Başkanlıkta “performans esaslı bütçeleme sistemi”nin izlenmesinden...",
     "question": "Başkanlıkta “performans esaslı bütçeleme sistemi”nin izlenmesinden sorumlu birim aşağıdakilerden hangisidir?",
     "options": [
@@ -1485,13 +2522,24 @@ export const QUESTIONS = [
       "Hukuk Başkanlığı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Strateji Geliştirme Daire Başkanlığı. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-94",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi merkez teşkilatına bağlı başkanlıklardan",
     "title": "Aşağıdakilerden hangisi merkez teşkilatına bağlı başkanlıklardan...",
     "question": "Aşağıdakilerden hangisi merkez teşkilatına bağlı başkanlıklardan biri değildir?",
     "options": [
@@ -1501,13 +2549,24 @@ export const QUESTIONS = [
       "Teftiş Kurulu Başkanlığı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Teftiş Kurulu Başkanlığı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-95",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gelir İdaresi Başkanlığı'nın kuruluş amacı aşağıdakilerden",
     "title": "Gelir İdaresi Başkanlığı'nın kuruluş amacı aşağıdakilerden...",
     "question": "Gelir İdaresi Başkanlığı'nın kuruluş amacı aşağıdakilerden hangisidir?",
     "options": [
@@ -1517,13 +2576,24 @@ export const QUESTIONS = [
       "Sadece tahsilât işlemlerini yürütmek"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Devlet gelirlerini en az maliyetle toplamak ve mükelleflerin yükümlülüklerini kolaylaştırmak. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-96",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığı'nın görevlerinden",
     "title": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığı'nın görevlerinden...",
     "question": "Aşağıdakilerden hangisi Gelir İdaresi Başkanlığı'nın görevlerinden biri değildir?",
     "options": [
@@ -1533,13 +2603,24 @@ export const QUESTIONS = [
       "Mükellefleri bilgilendirmek"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Vergi affı yasalarını çıkarmak. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-97",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gelir İdaresi Başkanlığı’nda \"Başkan\", görevlerini yürütürken",
     "title": "Gelir İdaresi Başkanlığı’nda \"Başkan\", görevlerini yürütürken...",
     "question": "Gelir İdaresi Başkanlığı’nda \"Başkan\", görevlerini yürütürken doğrudan kime karşı sorumludur?",
     "options": [
@@ -1549,13 +2630,24 @@ export const QUESTIONS = [
       "Hazine ve Maliye Bakanı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Hazine ve Maliye Bakanı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-98",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gelir İdaresi Başkanlığı’nın merkez ve taşra",
     "title": "Gelir İdaresi Başkanlığı’nın merkez ve taşra...",
     "question": "Gelir İdaresi Başkanlığı’nın merkez ve taşra teşkilatları hangi yapıya sahiptir?",
     "options": [
@@ -1565,13 +2657,24 @@ export const QUESTIONS = [
       "Kaymakamlıklarla koordinelidir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Merkez ve defterdarlıklardan oluşur.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-99",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Mükellef Hizmetleri Daire Başkanlığı’nın temel amacı",
     "title": "Mükellef Hizmetleri Daire Başkanlığı’nın temel amacı...",
     "question": "Mükellef Hizmetleri Daire Başkanlığı’nın temel amacı aşağıdakilerden hangisidir?",
     "options": [
@@ -1581,13 +2684,24 @@ export const QUESTIONS = [
       "Denetim raporlarını yazmak"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Mükelleflerin hak ve ödevleri konusunda bilgilendirilmesini sağlamak. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-100",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4734 sayılı Kamu İhale Kanununa göre",
     "title": "4734 sayılı Kamu İhale Kanununa göre...",
     "question": "4734 sayılı Kamu İhale Kanununa göre mal alımı ihalesine teklif veren gerçek veya tüzel kişileri veya bunların oluşturdukları ortak girişimleri aşağıdakilerden hangisi tanımlar?",
     "options": [
@@ -1597,13 +2711,25 @@ export const QUESTIONS = [
       "Hizmet sunucusu"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Tedarikçi. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-101",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Aşağıdakilerden hangisi 4734 sayılı Kamu İhale",
     "title": "Aşağıdakilerden hangisi 4734 sayılı Kamu İhale...",
     "question": "Aşağıdakilerden hangisi 4734 sayılı Kamu İhale Kanun’un temel ilkelerinden biri değildir?",
     "options": [
@@ -1613,13 +2739,24 @@ export const QUESTIONS = [
       "Bu Kanuna göre yapılacak ihalelerde açık ihale usulü ve pazarlık ihale usulü temel usullerdir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Bu Kanuna göre yapılacak ihalelerde açık ihale usulü ve pazarlık ihale usulü temel usullerdir.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-102",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4734 sayılı Kamu İhale Kanunu kapsamında",
     "title": "4734 sayılı Kamu İhale Kanunu kapsamında...",
     "question": "4734 sayılı Kamu İhale Kanunu kapsamında oluşturulan ihale komisyonu ile ilgili aşağı verilen bilgilerden hangisi yanlıştır?",
     "options": [
@@ -1629,13 +2766,25 @@ export const QUESTIONS = [
       "İhale yetkilisi, biri başkan olmak üzere, ikisinin ihale konusu işin uzmanı olması şartıyla, en az dört kişiden oluşan ihale komisyonunu, yedek üyeler de dahil olmak üzere görevlendirir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İhale yetkilisi, biri başkan olmak üzere, ikisinin ihale konusu işin uzmanı olması şartıyla, en az dört kişiden oluşan ihale komisyonunu, yedek üyeler de dahil olmak üzere görevlendirir.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-103",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "I. Doğal afetler, salgın hastalıklar, can",
     "title": "I. Doğal afetler, salgın hastalıklar, can...",
     "question": "I. Doğal afetler, salgın hastalıklar, can veya mal kaybı tehlikesi gibi ani ve beklenmeyen veya idare tarafından önceden öngörülemeyen olayların ortaya çıkması üzerine ihalenin ivedi olarak yapılmasının zorunlu olması.II. Savunma ve güvenlikle",
     "options": [
@@ -1645,13 +2794,25 @@ export const QUESTIONS = [
       "Pazarlık Usulü."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Pazarlık Usulü.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-104",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4734 sayılı Kamu İhale Kanunu kapsamında",
     "title": "4734 sayılı Kamu İhale Kanunu kapsamında...",
     "question": "4734 sayılı Kamu İhale Kanunu kapsamında İhalelerde, teklif edilen bedelin yüzde kaçından az olmamak üzere, istekli tarafından verilecek tutarda geçici teminat alınır?",
     "options": [
@@ -1661,13 +2822,24 @@ export const QUESTIONS = [
       "4"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 3. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-105",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Bir kamu idaresi, ihtiyaç duyduğu bilgisayar",
     "title": "Bir kamu idaresi, ihtiyaç duyduğu bilgisayar...",
     "question": "Bir kamu idaresi, ihtiyaç duyduğu bilgisayar sistemlerinin temini için ihale hazırlıklarına başlamıştır. İdare, ihaleye katılım için gerekli yeterlik şartlarını ihale dokümanında belirlemiş ve bu şartları sağlayan isteklilerin herhangi bir ön",
     "options": [
@@ -1677,13 +2849,25 @@ export const QUESTIONS = [
       "Doğrudan temin"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Açık ihale usulü. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-106",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Bir kamu idaresi, teknik uzmanlık gerektiren",
     "title": "Bir kamu idaresi, teknik uzmanlık gerektiren...",
     "question": "Bir kamu idaresi, teknik uzmanlık gerektiren kapsamlı bir yapım işi için ihale gerçekleştirecektir. İdare, ihaleye katılmak isteyen adayların öncelikle mesleki ve teknik yeterliklerini değerlendirmeyi, bu değerlendirme sonucunda belirlenen şartları",
     "options": [
@@ -1693,13 +2877,25 @@ export const QUESTIONS = [
       "Belli istekliler arasında ihale usulü"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Belli istekliler arasında ihale usulü. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-107",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Bir kamu kurumunda savunma ve güvenlikle",
     "title": "Bir kamu kurumunda savunma ve güvenlikle...",
     "question": "Bir kamu kurumunda savunma ve güvenlikle ilgili beklenmeyen özel bir durum ortaya çıkmıştır. Bu gelişme nedeniyle belirli malzemelerin temini zorunlu hâle gelmiş ve ihtiyacın olağan ihale süreci tamamlanıncaya kadar ertelenmesinin kamu güvenliği",
     "options": [
@@ -1709,13 +2905,25 @@ export const QUESTIONS = [
       "Doğrudan temin"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Pazarlık usulü. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-108",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Bir kamu idaresi, gerçekleştireceği ihalenin ilanını",
     "title": "Bir kamu idaresi, gerçekleştireceği ihalenin ilanını...",
     "question": "Bir kamu idaresi, gerçekleştireceği ihalenin ilanını hazırlarken mevzuatta belirtilen zorunlu bilgilere yer vermektedir. İlanın içeriğini inceleyen görevliler, ihale ilanları ile ön yeterlik ilanlarında bulunması gereken bilgilerin bütünüyle aynı",
     "options": [
@@ -1725,13 +2933,25 @@ export const QUESTIONS = [
       "İhale konusu işin başlama ve bitirme tarihi"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Tekliflerin geçerlilik süresi. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-109",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Bir kamu idaresi, belli istekliler arasında",
     "title": "Bir kamu idaresi, belli istekliler arasında...",
     "question": "Bir kamu idaresi, belli istekliler arasında ihale usulüyle gerçekleştireceği iş için ön yeterlik ilanı hazırlamıştır. İlanda işin niteliği, yapılacağı yer, başvuru şartları ve başvuruların sunulacağı tarih belirtilmiştir.Ancak adayların ön yeterlik",
     "options": [
@@ -1741,13 +2961,25 @@ export const QUESTIONS = [
       "Ön yeterlik değerlendirmesinde uygulanacak kriterler"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Ön yeterlik değerlendirmesinde uygulanacak kriterler. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-110",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4734 sayılı Kamu İhale Kanunu'na göre,",
     "title": "4734 sayılı Kamu İhale Kanunu'na göre,...",
     "question": "4734 sayılı Kamu İhale Kanunu'na göre, Kamu İhale Kurumunun karar organı başkan ve ikinci başkan dahli kaç üyeden oluşur?",
     "options": [
@@ -1757,13 +2989,24 @@ export const QUESTIONS = [
       "10"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 9. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-111",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4734 sayılı Kamu İhale Kanunu'nda;I. Bütün",
     "title": "4734 sayılı Kamu İhale Kanunu'nda;I. Bütün...",
     "question": "4734 sayılı Kamu İhale Kanunu'nda;I. Bütün isteklilerin teklif verebildiği usuldür.II. Savunma ve güvenlikle ilgili özel durumların ortaya çıkması üzerine ihalenin ivedı olarak yapılmasının zorunlu olduğu hallerde de uygulanabilecek usuldür.III.",
     "options": [
@@ -1773,13 +3016,25 @@ export const QUESTIONS = [
       "Açık ihale - Pazarlık - Belli istekliler arasında ihale"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Açık ihale - Pazarlık - Belli istekliler arasında ihale. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-112",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4734 sayılı Kamu İhale Kanunu'ndaki \"mal",
     "title": "4734 sayılı Kamu İhale Kanunu'ndaki \"mal...",
     "question": "4734 sayılı Kamu İhale Kanunu'ndaki \"mal alımı ihalesine teklif veren gerçek veya tüzel kişileri veya bunların oluşturdukları ortak girişimler\" şeklindeki tanımlama aşağıdakilerden hangisini ifade eder?",
     "options": [
@@ -1789,13 +3044,25 @@ export const QUESTIONS = [
       "Hizmet sunucusu"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Tedarikçi. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-113",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "I. Tedavüldeki Türk Parası.II. Bankalar ve",
     "title": "I. Tedavüldeki Türk Parası.II. Bankalar ve...",
     "question": "I. Tedavüldeki Türk Parası.II. Bankalar ve özel finans kurumları tarafından verilen teminat mektupları.III. Hazine Müsteşarlığınca ihraç edilen Devlet İç Borçlanma Senetleri ve bu senetler yerine düzenlenen belgeler4734 sayılı Kamu İhale Kanunu'na",
     "options": [
@@ -1805,13 +3072,24 @@ export const QUESTIONS = [
       "I ve II"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: I ve II. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-114",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4734 sayılı Kamu İhale Kanunu'na göre,",
     "title": "4734 sayılı Kamu İhale Kanunu'na göre,...",
     "question": "4734 sayılı Kamu İhale Kanunu'na göre, taahhüdün sözleşme ve ihale dokümanı hükümlerine uygun olarak yerine getirilmesini sağlamak amacıyla, sözleşmenin yapılmasından önce ihale üzerinde kalan istekliden ihale bedeli üzerinden hesaplanmak suretiyle",
     "options": [
@@ -1821,13 +3099,25 @@ export const QUESTIONS = [
       "6"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 6. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "İhale"
+    ]
   },
   {
     "id": "q-115",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa",
     "title": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa...",
     "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre, aşağıdakilerden hangisi bu kanunun temel ilkeleri arasında yer almaz?",
     "options": [
@@ -1837,13 +3127,24 @@ export const QUESTIONS = [
       "Bu Kanun kapsamında yapılan kamu sözleşmelerinin tarafları, sözleşme hükümlerinin uygulanmasında eşit hak ve yükümlülüklere sahiptir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Hiçbir şekilde ek sözleşme düzenlenemez.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-116",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa",
     "title": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa...",
     "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre çerçeve anlaşmaya dayalı olarak idare ile yüklenici arasında imzalanan sözleşme türü aşağıdakilerden hangisidir?",
     "options": [
@@ -1853,13 +3154,24 @@ export const QUESTIONS = [
       "Münferit sözleşme"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Münferit sözleşme. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-117",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "I. İşin adı, niteliği, türü ve",
     "title": "I. İşin adı, niteliği, türü ve...",
     "question": "I. İşin adı, niteliği, türü ve miktarı, hizmetlerde iş tanımı. II. İdarenin adı ve adresi. III. Yüklenicinin adı veya ticaret unvanı, tebligata esas adresi. IV. Varsa alt yüklenicilere ilişkin bilgiler ve sorumlulukları.4735 Sayılı Kamu İhale",
     "options": [
@@ -1869,13 +3181,24 @@ export const QUESTIONS = [
       "I,II,III"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: I,II,III. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-118",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 Sayılı Kamu İhale Sözleşmeleri Kanununa",
     "title": "4735 Sayılı Kamu İhale Sözleşmeleri Kanununa...",
     "question": "4735 Sayılı Kamu İhale Sözleşmeleri Kanununa göre mücbir sebebin meydana geldiği tarihi izleyen kaç gün içinde yüklenicinin idareye yazılı olarak bildirimde bulunması ve yetkili merciler tarafından belgelendirilmesi zorunludur?",
     "options": [
@@ -1885,13 +3208,24 @@ export const QUESTIONS = [
       "20"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 20. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-119",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 Sayılı Kamu İhale Sözleşmeleri Kanununa",
     "title": "4735 Sayılı Kamu İhale Sözleşmeleri Kanununa...",
     "question": "4735 Sayılı Kamu İhale Sözleşmeleri Kanununa göre Teslim edilen mal, hizmet, yapım veya yapılan işin muayene ve kabul işlemleri, idarelerce kurulacak en az kaç kişilik muayene ve kabul komisyonları tarafından yapılır?",
     "options": [
@@ -1901,13 +3235,24 @@ export const QUESTIONS = [
       "5"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 3. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-120",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na",
     "title": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na...",
     "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na göre, “sözleşme türlerine göre fiyat farkı verilebilmesine ilişkin esas ve usulleri tespite” aşağıdakilerden hangisi yetkilidir?",
     "options": [
@@ -1917,13 +3262,24 @@ export const QUESTIONS = [
       "İçişleri Bakanlığı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Cumhurbaşkanı. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-121",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na",
     "title": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na...",
     "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na göre, isim ve statü değişikliği gereği yapılan devirler hariç olmak üzere, bir sözleşmenin devredildiği tarihi takibeden .......... içinde aynı yüklenici tarafından başka bir sözleşme devredilemez veya",
     "options": [
@@ -1933,13 +3289,24 @@ export const QUESTIONS = [
       "10 yıl"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 3 yıl. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-122",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na",
     "title": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na...",
     "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na göre, müteahhit veya müşteriye; I. Doğal afetler. II. Kanuni grev. III. Genel salgın hastalık. IV. Kısmi veya genel seferberlik ilânı gibi mücbir sebeplerle süre uzatımı hakkı verilmesi için yüklenicinin",
     "options": [
@@ -1949,13 +3316,24 @@ export const QUESTIONS = [
       "20"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 20. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-123",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "I. Sözleşmenin bedeli, türü ve süresi,",
     "title": "I. Sözleşmenin bedeli, türü ve süresi,...",
     "question": "I. Sözleşmenin bedeli, türü ve süresi, II. İşin yapılma yeri, teslim etme ve teslim alma şekil ve şartları, III. Gecikme halinde alınacak cezalar, IV. İşin adı, niteliği, türü ve miktarı, hizmetlerde iş tanımı 4735 sayılı Kamu İhale Sözleşmeleri",
     "options": [
@@ -1965,13 +3343,25 @@ export const QUESTIONS = [
       "I, II, III ve IV"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: I, II, III ve IV. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "Cezalar"
+    ]
   },
   {
     "id": "q-124",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na",
     "title": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na...",
     "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu’na göre, birim fiyat sözleşme ile yürütülen yapım işlerinde, ........ bu oranı sözleşme bazında % 40'a kadar artırmaya yetkilidir. Yukarıda boş bırakılan alana aşağıdakilerden hangisi gelirse ifade doğru",
     "options": [
@@ -1981,13 +3371,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Cumhurbaşkanı. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-125",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre; kurum ve kuruluşlar, bir önceki yıla ait olmak üzere hangi bilgileri hazırlayacakları raporda göstermezler?",
     "options": [
@@ -1997,13 +3398,24 @@ export const QUESTIONS = [
       "Başvurunun reddedilmesi üzerine itiraz edilen başvuru sayısını"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Başvuru sahibinin başvuru ile ilgili değerlendirmelerini. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-126",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre; Bilgi Edinme Değerlendirme Kurulu üyeleri kim tarafından seçilir?",
     "options": [
@@ -2013,13 +3425,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanı Yardımcıları"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Cumhurbaşkanı. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-127",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre; Bilgi Edinme Değerlendirme Kurulun sekretarya hizmetleri kim tarafından yerine getirilir?",
     "options": [
@@ -2029,13 +3452,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanlığı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Adalet Bakanlığı. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-128",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre; Bilgi Edinme Değerlendirme Kurulu ile ilgili yanlış bir ifadedir?",
     "options": [
@@ -2045,13 +3479,24 @@ export const QUESTIONS = [
       "Yeni seçilen Kurul göreve başlayıncaya kadar önceki Kurul görevine devam eder."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İhtiyaç duyulduğu her zaman adalet bakanının çağrısı üzerine toplanır.. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-129",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre; Bilgi Edinme Değerlendirme Kurulunun başkanı kim tarafından seçilir?",
     "options": [
@@ -2061,13 +3506,24 @@ export const QUESTIONS = [
       "TBMM"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Kurul Üyeleri. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-130",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu'na göre; Kamuidarelerinin görevleri, ilgili kanunlarında veya ............ açık olarak belirlenir ve kaynakların dağıtımında esas alınır. Yukarıda boş bırakılan alana aşağıdakilerden hangisi gelirse",
     "options": [
@@ -2077,13 +3533,24 @@ export const QUESTIONS = [
       "Mevzuatlarda"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Cumhurbaşkanlığı kararnamelerinde. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-131",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu'na göre; aşağıda verilen idare ve üst yönetici eşleştirmelerinden hangisi yanlıştır?",
     "options": [
@@ -2093,13 +3560,24 @@ export const QUESTIONS = [
       "30 Büyükşehir Belediyesi - Büyükşehir Belediye Meclisi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 30 Büyükşehir Belediyesi - Büyükşehir Belediye Meclisi. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-132",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu'na göre; - Merkezi yönetim bütçelerinden genel bütçenin yüzde ve/veya binde kaçına kadar \"Örtülü Ödenek\" konulabilir?",
     "options": [
@@ -2109,13 +3587,24 @@ export const QUESTIONS = [
       "% 4"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: % 0.5. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-133",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu'na göre; - \"Kamu Zararının Tazmini\" kaç yıl sonra \"Zaman Aşımına\" uğrar?",
     "options": [
@@ -2125,13 +3614,24 @@ export const QUESTIONS = [
       "20 yıl"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 10 yıl. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-134",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu'na göre; Merkezi yönetim kapsamındaki kamu idarelerinin \"Kendi\" bütçeleri arasındaki ödenek aktarımı \"aktarma yapılacak tertipteki ödeneğin\" yüzde kaçını aşamaz?",
     "options": [
@@ -2141,13 +3641,24 @@ export const QUESTIONS = [
       "% 5"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: % 5. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-135",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu’na göre “bütçe ilkeleri” ile ilgili aşağıdakilerden hangisi yanlıştır?",
     "options": [
@@ -2157,13 +3668,24 @@ export const QUESTIONS = [
       "Bütçelerde, ödenekler belirli amaçları gerçekleştirmek üzere tahsis edilir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Belirli gelirlerin belirli giderlere tahsis edilmesi esastır.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-136",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "I. KasıtII. KusurIII. İhmal5018 sayılı Kamu",
     "title": "I. KasıtII. KusurIII. İhmal5018 sayılı Kamu...",
     "question": "I. KasıtII. KusurIII. İhmal5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu’na göre kamu zararı; kamu görevlilerinin yukarıdakilerin hangilerinden kaynaklanan mevzuata aykırı karar, işlem veya eylemleri sonucunda kamu kaynağında artışa engel veya",
     "options": [
@@ -2173,13 +3695,24 @@ export const QUESTIONS = [
       "II ve III"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: I ve II. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-137",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu’na göre kamu maliyesinin temel ilkeleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
     "options": [
@@ -2189,13 +3722,24 @@ export const QUESTIONS = [
       "Maliye politikası, mikroekonomik hedefler ile uyumlu bir şekilde oluşturulur ve yürütülür."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Maliye politikası, mikroekonomik hedefler ile uyumlu bir şekilde oluşturulur ve yürütülür.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-138",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu’na göre belediyelerde üst yönetici aşağıdakilerden hangisidir?",
     "options": [
@@ -2205,13 +3749,24 @@ export const QUESTIONS = [
       "İçişleri Bakanı Yardımcısı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Belediye Başkanı. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-139",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu’na göre ilgili yılda örtülü ödenek amacıyla tahsis edilen ödenekler toplamı, genel bütçe başlangıç ödenekleri toplamının binde kaçını geçemez?",
     "options": [
@@ -2221,13 +3776,24 @@ export const QUESTIONS = [
       "Beşini"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Beşini. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-140",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanununa göre, Kamu yatırım programı, merkezi yönetim bütçe kanununa uygun olarak anılan Kanunun yürürlüğe girdiği tarihten itibaren kaç gün içinde Cumhurbaşkanı kararıyla Resmî Gazetede yayımlanır? (2020",
     "options": [
@@ -2237,13 +3803,24 @@ export const QUESTIONS = [
       "On beş gün"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Beş gün. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-141",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Kamu İdareleri için Stratejik Planlama Kılavuzunda",
     "title": "Kamu İdareleri için Stratejik Planlama Kılavuzunda...",
     "question": "Kamu İdareleri için Stratejik Planlama Kılavuzunda planlarda yer alması gereken hususlara yer verilmiştir.Aşağıdakilerden hangisi bunlardan biri değildir?",
     "options": [
@@ -2253,13 +3830,24 @@ export const QUESTIONS = [
       "Temel Değerler"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Tema. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-142",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanununa göre, aşağıda yer alan idarelerden hangisinin \"Performans Programı\" hazırlama zorunluluğu yoktur?",
     "options": [
@@ -2269,13 +3857,24 @@ export const QUESTIONS = [
       "Sosyal Güvenlik Kurumları"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Düzenleyici ve denetleyici kurumlar. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-143",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanununa göre, Kamu idarelerinin Performans Programı hazırlıklarında aşağıda sayılanlardan hangisi esas alınmaz?",
     "options": [
@@ -2285,13 +3884,24 @@ export const QUESTIONS = [
       "Bütçe Hazırlama Rehberi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Bütçe Hazırlama Rehberi. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-144",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Aşağıdakilerden hangisi kamu idarelerinin bütçelerinin stratejik",
     "title": "Aşağıdakilerden hangisi kamu idarelerinin bütçelerinin stratejik...",
     "question": "Aşağıdakilerden hangisi kamu idarelerinin bütçelerinin stratejik planlarda belirlenen performans göstergelerine uygunluğu ve idarelerin bu çerçevede yürütecekleri faaliyetler ile performans esaslı bütçelemeye ilişkin diğer hususları belirlemeye",
     "options": [
@@ -2301,13 +3911,24 @@ export const QUESTIONS = [
       "Sayıştay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Cumhurbaşkanı. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-145",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 Sayılı Kamu Mali Yönetim ve",
     "title": "5018 Sayılı Kamu Mali Yönetim ve...",
     "question": "5018 Sayılı Kamu Mali Yönetim ve Kontrol Kanunu’na göre, Bakanlıklardaüst yönetici aşağıdakilerdenhangisidir? (2020 Yılı değişikliği)",
     "options": [
@@ -2317,13 +3938,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanı tarafından belirlenir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Cumhurbaşkanı tarafından belirlenir.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-146",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Merkezî yönetim bütçesinin hazırlanma süreci, Cumhurbaşkanı",
     "title": "Merkezî yönetim bütçesinin hazırlanma süreci, Cumhurbaşkanı...",
     "question": "Merkezî yönetim bütçesinin hazırlanma süreci, Cumhurbaşkanı tarafından en geç .............. ayının ilk haftası sonuna kadar kalkınma planları, stratejik planlar ve genel ekonomik koşulların gerekleri doğrultusunda makro politikaları, ilkeleri,",
     "options": [
@@ -2333,13 +3965,24 @@ export const QUESTIONS = [
       "Aralık"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Eylül. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-147",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 Sayılı Kamu Mali Yönetim ve",
     "title": "5018 Sayılı Kamu Mali Yönetim ve...",
     "question": "5018 Sayılı Kamu Mali Yönetim ve Kontrol Kanunu’na göre, aşağıdakilerdenhangisi bütçelerin hazırlanması, uygulanması ve kontrolündeuyulması gereken ilkelerden değildir?",
     "options": [
@@ -2349,13 +3992,24 @@ export const QUESTIONS = [
       "Bütçe, kamu malî işlemlerinin kapsamlı ve saydam bir şekilde görünmesini sağlar."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Belirli gelirlerin belirli giderlere tahsis edilmesi esastır.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-148",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 Sayılı Kamu Mali Yönetim ve",
     "title": "5018 Sayılı Kamu Mali Yönetim ve...",
     "question": "5018 Sayılı Kamu Mali Yönetim ve Kontrol Kanunu’na göre, Sosyalgüvenliğe yönelik kanun tasarılarında en az kaç yıllık aktüeryal hesaplarayer verilir?",
     "options": [
@@ -2365,13 +4019,24 @@ export const QUESTIONS = [
       "5"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 20. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-149",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "I. Malî Saydamlık,II. Hesap Verme Sorumluluğu,III.",
     "title": "I. Malî Saydamlık,II. Hesap Verme Sorumluluğu,III....",
     "question": "I. Malî Saydamlık,II. Hesap Verme Sorumluluğu,III. Stratejik Planlama ve Performans Esaslı Bütçeleme5018 sayılı Kanuna göre, Kamu Kaynağının Kullanılmasının Genel Esasları arasındadır?",
     "options": [
@@ -2381,13 +4046,24 @@ export const QUESTIONS = [
       "I ve II"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: I ve II. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-150",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanununa göre, aşağıdakilerden hangisi \"Genel bütçe kapsamındaki kamu idareleri\" arasında yer almaz?",
     "options": [
@@ -2397,13 +4073,24 @@ export const QUESTIONS = [
       "Sayıştay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Atatürk Kültür, Dil ve Tarih Yüksek Kurumu. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-151",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanununa göre, Hazine adına tescil edilmesi gereken taşınmazlardan, ilgili kamu idarelerinin mülkiyetinde bulunanlar, bu idarelerin tüzel kişiliğinin sona erdiği tarihi izleyen .............. içinde herhangi",
     "options": [
@@ -2413,13 +4100,24 @@ export const QUESTIONS = [
       "6 ay"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 6 ay. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-152",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Eğitimde Fırsatları Artırma ve Teknolojiyi İyileştirme",
     "title": "Eğitimde Fırsatları Artırma ve Teknolojiyi İyileştirme...",
     "question": "Eğitimde Fırsatları Artırma ve Teknolojiyi İyileştirme Hareketi (FATİH) Projesi kapsamında Milli Eğitim Bakanlığınca yapılacak yazılım, donanım, dijital içerik alımı, internet erişim hizmetleri sağlanması, ağ altyapısı, AR-GE merkezi, veri merkezi",
     "options": [
@@ -2429,13 +4127,24 @@ export const QUESTIONS = [
       "10 yıla"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 5 yıla. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-153",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanununa göre, kamu zararının meydana geldiği ve bu Kanunda belirtilen para cezalarının verilmesini gerektiren fiilin işlendiği yılı izleyen mali yılın başından başlamak üzere zamanaşımını kesen ve durduran",
     "options": [
@@ -2445,13 +4154,26 @@ export const QUESTIONS = [
       "onuncu"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: onuncu. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)",
+      "Zamanaşımı",
+      "Cezalar"
+    ]
   },
   {
     "id": "q-154",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı Kamu Mali Yönetimi ve",
     "title": "5018 sayılı Kamu Mali Yönetimi ve...",
     "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanununa göre, kamu zararı oluşturmamakla birlikte bütçelere, ayrıntılı harcama programlarına, serbest bırakma oranlarına aykırı olarak veya ödenek gönderme belgelerindeki ödenek miktarını aşan harcama",
     "options": [
@@ -2461,13 +4183,24 @@ export const QUESTIONS = [
       "beş katı kadar"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: iki katı kadar. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-155",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı kanuna göre mahalli idarelerce",
     "title": "5018 sayılı kanuna göre mahalli idarelerce...",
     "question": "5018 sayılı kanuna göre mahalli idarelerce hazırlanan idare faaliyet raporlarının birer örneği hangi kurumlara gönderirler? (2020 yılı)",
     "options": [
@@ -2477,13 +4210,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanlığına ve Sayıştay Başkanlığına"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Cumhurbaşkanlığına ve Sayıştay Başkanlığına. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-156",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "I- Yetkililerin imzasıII- Ödemeye ilişkin ilgili",
     "title": "I- Yetkililerin imzasıII- Ödemeye ilişkin ilgili...",
     "question": "I- Yetkililerin imzasıII- Ödemeye ilişkin ilgili mevzuatında sayılan belgelerin tamam olmasıIII- Maddi hata bulunup bulunmağıIV- Hak sahibinin kimliğine ilişkin bilgilerYukarıda belirtilen 5018 sayılı kanuna göre muhasebe yetkilileri ödeme",
     "options": [
@@ -2493,13 +4237,24 @@ export const QUESTIONS = [
       "I, II, III ve IV"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: I, II, III ve IV. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-157",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı kamu mali yönetimi ve",
     "title": "5018 sayılı kamu mali yönetimi ve...",
     "question": "5018 sayılı kamu mali yönetimi ve kontrol kanununa göre, merkezi yönetim kapsamındaki kamu idarelerinin bütçeleri arasındaki ödenek aktarmaları hangi yasal düzenlemeyle yapılır?",
     "options": [
@@ -2509,13 +4264,24 @@ export const QUESTIONS = [
       "Anayasayla"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Kanunla veya Cumhurbaşkanlığı kararnamesiyle. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-158",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı kanuna göre merkezi yönetim",
     "title": "5018 sayılı kanuna göre merkezi yönetim...",
     "question": "5018 sayılı kanuna göre merkezi yönetim kapsamındaki kamu idareleri aktarma yapılacak tertipteki ödeneğin yüzde kaçına kadar kendi bütçeleri içinde ödenek aktarması yapabilirler?",
     "options": [
@@ -2525,13 +4291,24 @@ export const QUESTIONS = [
       "% 30"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: % 20. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-159",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 sayılı kanuna göre merkezi yönetim",
     "title": "5018 sayılı kanuna göre merkezi yönetim...",
     "question": "5018 sayılı kanuna göre merkezi yönetim kapsamındaki kamu idareleri ve sosyal güvenlik kurumları idare faaliyet raporlarının birer örneğini hangi kurumlara gönderirler?",
     "options": [
@@ -2541,13 +4318,24 @@ export const QUESTIONS = [
       "Hazine ve Maliye Bakanlığı ve Sayıştay Başkanlığına"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sayıştay ve Cumhurbaşkanlığına. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-160",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "5510 sayılı Sosyal Sigortalar ve Genel",
     "title": "5510 sayılı Sosyal Sigortalar ve Genel...",
     "question": "5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu'na göre aşağıdakilerden hangisi kısa vadeli sigorta kolları arasında yer almaz?",
     "options": [
@@ -2557,13 +4345,24 @@ export const QUESTIONS = [
       "Malûllük sigortası"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Malûllük sigortası. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-161",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir anonim şirketin ortağı olan kişi,",
     "title": "Bir anonim şirketin ortağı olan kişi,...",
     "question": "Bir anonim şirketin ortağı olan kişi, aynı zamanda şirketin yönetim kurulunda görev yapmaktadır. Bu kişinin şirketle arasında hizmet akdi bulunmamaktadır.5510 sayılı Kanun'a göre söz konusu kişinin sigortalılık statüsü aşağıdakilerden hangisidir?",
     "options": [
@@ -2573,13 +4372,24 @@ export const QUESTIONS = [
       "Yalnızca genel sağlık sigortalısı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Kendi adına ve hesabına bağımsız çalışan sigortalı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-162",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir yükseköğretim öğrencisi, öğrenim gördüğü program",
     "title": "Bir yükseköğretim öğrencisi, öğrenim gördüğü program...",
     "question": "Bir yükseköğretim öğrencisi, öğrenim gördüğü program kapsamında zorunlu staj yapmaktadır. Öğrencinin stajı, 5510 sayılı Kanun'da düzenlenen öğrenci sigortalılığı hükümleri kapsamındadır.Buna göre bu öğrenci hakkında uygulanacak kısa vadeli sigorta",
     "options": [
@@ -2589,13 +4399,24 @@ export const QUESTIONS = [
       "Hastalık, analık ve ölüm sigortası"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İş kazası ve meslek hastalığı sigortası. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-163",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Bir işverenin eşi, işverene ait işyerinde",
     "title": "Bir işverenin eşi, işverene ait işyerinde...",
     "question": "Bir işverenin eşi, işverene ait işyerinde herhangi bir ücret almaksızın çalışmaktadır. Bu kişinin başka bir faaliyetinden kaynaklanan sigortalılığı bulunmamaktadır.5510 sayılı Kanun'a göre bu kişinin sigortalılığına ilişkin aşağıdakilerden hangisi",
     "options": [
@@ -2605,13 +4426,24 @@ export const QUESTIONS = [
       "İşverenin işyerinde ücretsiz çalışan eşi olması nedeniyle kısa ve uzun vadeli sigorta kolları bakımından sigortalı sayılmaz."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İşverenin işyerinde ücretsiz çalışan eşi olması nedeniyle kısa ve uzun vadeli sigorta kolları bakımından sigortalı sayılmaz.. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-164",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir balıkçılık işletmesinde hizmet akdiyle çalıştırılmak",
     "title": "Bir balıkçılık işletmesinde hizmet akdiyle çalıştırılmak...",
     "question": "Bir balıkçılık işletmesinde hizmet akdiyle çalıştırılmak üzere yeni bir işçi işe alınacaktır. İşveren, işçinin sigortalı işe giriş bildirgesini Sosyal Güvenlik Kurumuna vermek istemektedir.5510 sayılı Kanun'a göre bu işçi için sigortalı işe giriş",
     "options": [
@@ -2621,13 +4453,24 @@ export const QUESTIONS = [
       "İşçinin çalışmaya başlamasından itibaren on gün içinde"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: İşçinin çalışmaya başlatıldığı gün. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-165",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Hizmet akdiyle çalışan bir sigortalı, geçirdiği",
     "title": "Hizmet akdiyle çalışan bir sigortalı, geçirdiği...",
     "question": "Hizmet akdiyle çalışan bir sigortalı, geçirdiği hastalık nedeniyle yetkili hekim tarafından düzenlenen istirahat raporuyla geçici olarak iş göremez duruma gelmiştir.5510 sayılı Kanun'a göre bu sigortalının hastalık sigortasından geçici iş göremezlik",
     "options": [
@@ -2637,13 +4480,24 @@ export const QUESTIONS = [
       "Sigortalının son üç yılda en az 360 gün prim ödemiş olması şartıyla ilk günden itibaren ödenek verilir."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: İş göremezliğin başladığı tarihten önceki bir yılda en az 90 gün kısa vadeli sigorta primi bildirilmiş olması şartıyla üçüncü günden itibaren ödenek verilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-166",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir sigortalıya iş kazası nedeniyle geçici",
     "title": "Bir sigortalıya iş kazası nedeniyle geçici...",
     "question": "Bir sigortalıya iş kazası nedeniyle geçici iş göremezlik ödeneği ödenecektir. Sigortalının tedavisinin bir bölümü yatarak, diğer bölümü ise ayaktan gerçekleştirilmiştir.5510 sayılı Kanun'a göre geçici iş göremezlik ödeneğinin hesabında günlük",
     "options": [
@@ -2653,13 +4507,24 @@ export const QUESTIONS = [
       "1/2 – 2/3"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 1/2 – 2/3. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-167",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir sigortalının geçirdiği iş kazası sonrasında",
     "title": "Bir sigortalının geçirdiği iş kazası sonrasında...",
     "question": "Bir sigortalının geçirdiği iş kazası sonrasında meslekte kazanma gücünde kalıcı azalma meydana gelmiştir. Kurum Sağlık Kurulu, sağlık raporlarını inceleyerek kayıp oranını belirlemiştir.5510 sayılı Kanun'a göre sigortalının sürekli iş göremezlik",
     "options": [
@@ -2669,13 +4534,24 @@ export const QUESTIONS = [
       "40"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 10. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-168",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İlk defa 5510 sayılı Kanun hükümlerine",
     "title": "İlk defa 5510 sayılı Kanun hükümlerine...",
     "question": "İlk defa 5510 sayılı Kanun hükümlerine göre sigortalı olan iki kişiden biri hizmet akdiyle, diğeri ise kendi adına ve hesabına bağımsız çalışmaktadır.Bu kişilerin normal koşullarda yaşlılık aylığına hak kazanabilmeleri için gerekli diğer şartları",
     "options": [
@@ -2685,13 +4561,24 @@ export const QUESTIONS = [
       "9000 – 7200"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 7200 – 9000. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-169",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Hizmet akdiyle çalışan bir sigortalının, Kurum",
     "title": "Hizmet akdiyle çalışan bir sigortalının, Kurum...",
     "question": "Hizmet akdiyle çalışan bir sigortalının, Kurum Sağlık Kurulunca başka birinin sürekli bakımına muhtaç derecede malûl olduğu belirlenmiştir. Sigortalı, malûliyeti nedeniyle işinden ayrılmış ve Kuruma yazılı başvuruda bulunmuştur.5510 sayılı Kanun'a",
     "options": [
@@ -2701,13 +4588,24 @@ export const QUESTIONS = [
       "Sigortalılık süresi aranmaksızın 1800 gün prim"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Sigortalılık süresi aranmaksızın 1800 gün prim. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-170",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Yeni bir işyeri açan işveren, bu",
     "title": "Yeni bir işyeri açan işveren, bu...",
     "question": "Yeni bir işyeri açan işveren, bu işyerinde ilk defa sigortalı personel çalıştıracaktır. Şirket kuruluşunun ticaret siciline bildirilmesi yoluyla işyeri bildirimi yapılmış olması gibi özel bir durum bulunmamaktadır.5510 sayılı Kanun'a göre işverenin",
     "options": [
@@ -2717,13 +4615,24 @@ export const QUESTIONS = [
       "Sigortalı çalıştırmaya başladıktan sonraki on gün içinde"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: En geç sigortalı çalıştırmaya başladığı tarihte. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-171",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işveren, işyerinde yürüttüğü üretim faaliyetinin",
     "title": "Bir işveren, işyerinde yürüttüğü üretim faaliyetinin...",
     "question": "Bir işveren, işyerinde yürüttüğü üretim faaliyetinin bir bölümünü başka bir işverene vermiştir. Alt işveren, bu iş kapsamında görevlendirdiği sigortalıları asıl işverenin işyerinde çalıştırmaktadır.5510 sayılı Kanun'a göre asıl işverenin alt işveren",
     "options": [
@@ -2733,13 +4642,24 @@ export const QUESTIONS = [
       "Asıl işveren, Kanun'un işverene yüklediği yükümlülüklerden dolayı alt işverenle birlikte sorumludur."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Asıl işveren, Kanun'un işverene yüklediği yükümlülüklerden dolayı alt işverenle birlikte sorumludur.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-172",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Sigortalı bir kadın, doğumlarından sonra çalışmadığı",
     "title": "Sigortalı bir kadın, doğumlarından sonra çalışmadığı...",
     "question": "Sigortalı bir kadın, doğumlarından sonra çalışmadığı ve uzun vadeli sigorta kollarına tabi olmadığı süreler için hizmet borçlanması yapmak istemektedir. Çocuklarının yaşadığı ve diğer kanuni şartların bulunduğu kabul edilmektedir.5510 sayılı Kanun'a",
     "options": [
@@ -2749,13 +4669,24 @@ export const QUESTIONS = [
       "Doğum borçlanmasında çocukların yaşaması şartı aranmaz."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: En fazla üç doğum için, her doğumdan sonraki iki yıllık süreyi geçmemek üzere borçlanma yapılabilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-173",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Türkiye'de ikamet eden, 24 yaşındaki bir",
     "title": "Türkiye'de ikamet eden, 24 yaşındaki bir...",
     "question": "Türkiye'de ikamet eden, 24 yaşındaki bir kişi ay içerisinde 20 gün sigortalı olarak çalışmaktadır. Kendi sigortalılığı nedeniyle gelir veya aylık almayan bu kişi, ay içerisinde eksik kalan süreleri için isteğe bağlı sigortalılıktan yararlanmak",
     "options": [
@@ -2765,13 +4696,24 @@ export const QUESTIONS = [
       "Ay içerisinde otuz günden az sigortalı çalışan kişi, diğer koşulları taşıması ve Kuruma başvurması hâlinde isteğe bağlı sigortalılıktan yararlanabilir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Ay içerisinde otuz günden az sigortalı çalışan kişi, diğer koşulları taşıması ve Kuruma başvurması hâlinde isteğe bağlı sigortalılıktan yararlanabilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-174",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir kişi, isteğe bağlı sigortalılık kapsamında",
     "title": "Bir kişi, isteğe bağlı sigortalılık kapsamında...",
     "question": "Bir kişi, isteğe bağlı sigortalılık kapsamında prim ödemeye başlamıştır. Prim hesabında, Kanun'da belirtilen alt ve üst sınırlar arasında kendisi tarafından belirlenen prime esas kazanç kullanılacaktır.5510 sayılı Kanun'a göre isteğe bağlı sigorta",
     "options": [
@@ -2781,13 +4723,24 @@ export const QUESTIONS = [
       "Toplam %34 – Uzun vadeli sigorta %22, genel sağlık sigortası %12"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Toplam %33 – Uzun vadeli sigorta %21, genel sağlık sigortası %12. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-175",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Hizmet akdiyle çalışan sigortalı bir kadın,",
     "title": "Hizmet akdiyle çalışan sigortalı bir kadın,...",
     "question": "Hizmet akdiyle çalışan sigortalı bir kadın, çoğul gebelik nedeniyle doğum öncesi ve sonrası istirahat sürelerinde geçici iş göremezlik ödeneğinden yararlanacaktır. Sigortalının gerekli prim koşullarını taşıdığı ve istirahat sürelerinin tamamını",
     "options": [
@@ -2797,13 +4750,24 @@ export const QUESTIONS = [
       "28"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 26. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-176",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Hizmet akdiyle çalışan sigortalı bir erkek,",
     "title": "Hizmet akdiyle çalışan sigortalı bir erkek,...",
     "question": "Hizmet akdiyle çalışan sigortalı bir erkek, sigortalı olmayan eşinin doğum yapması üzerine emzirme ödeneğinden yararlanmak istemektedir. Çocuğun yaşadığı ve diğer yasal koşulların bulunduğu kabul edilmektedir.5510 sayılı Kanun'a göre bu kişinin",
     "options": [
@@ -2813,13 +4777,24 @@ export const QUESTIONS = [
       "120"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 120. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-177",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Kendi adına ve hesabına bağımsız çalışan",
     "title": "Kendi adına ve hesabına bağımsız çalışan...",
     "question": "Kendi adına ve hesabına bağımsız çalışan bir sigortalı, iş kazası geçirmiştir. Kaza nedeniyle ortaya çıkan sağlık sorunu bir süre bildirim yapmasına engel olmuş, daha sonra bu engel ortadan kalkmıştır.5510 sayılı Kanun'a göre sigortalının iş",
     "options": [
@@ -2829,13 +4804,24 @@ export const QUESTIONS = [
       "İş kazasının yalnızca sigortalının yeniden çalışmaya başlamasından itibaren otuz iş günü içinde bildirilmesi gerekir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İş kazası, bir ayı geçmemek şartıyla bildirim yapmaya engel durumun ortadan kalktığı günden sonra üç iş günü içinde bildirilmelidir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-178",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Geçirdiği iş kazası nedeniyle sürekli tam",
     "title": "Geçirdiği iş kazası nedeniyle sürekli tam...",
     "question": "Geçirdiği iş kazası nedeniyle sürekli tam iş göremezlik durumuna giren bir sigortalının, aynı zamanda başka birinin sürekli bakımına muhtaç olduğu belirlenmiştir.5510 sayılı Kanun'a göre bu sigortalıya sürekli iş göremezlik geliri bağlanırken aylık",
     "options": [
@@ -2845,13 +4831,24 @@ export const QUESTIONS = [
       "100"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 100. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-179",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir kişi, on yedi yaşında uzun",
     "title": "Bir kişi, on yedi yaşında uzun...",
     "question": "Bir kişi, on yedi yaşında uzun vadeli sigorta kollarına tabi olarak çalışmaya başlamış ve adına sigorta primi ödenmiştir. Kişinin emeklilik işlemlerinde sigortalılık süresinin başlangıcı ile prim ödeme günlerinin nasıl değerlendirileceği konusunda",
     "options": [
@@ -2861,13 +4858,24 @@ export const QUESTIONS = [
       "On sekiz yaşından önce sigortalı olarak çalışanların bütün primleri Kuruma iade edilir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sigortalılık süresi on sekiz yaşın doldurulduğu tarihte başlamış kabul edilir; bu yaştan önce ödenen uzun vadeli sigorta primleri ise prim ödeme gün sayısına dâhil edilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-180",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Hizmet akdiyle çalışan bir sigortalının meslek",
     "title": "Hizmet akdiyle çalışan bir sigortalının meslek...",
     "question": "Hizmet akdiyle çalışan bir sigortalının meslek hastalığına yakalandığı işveren tarafından öğrenilmiştir. İşveren, bu durumu Sosyal Güvenlik Kurumuna bildirmekle yükümlüdür.5510 sayılı Kanun'a göre meslek hastalığının Kuruma bildirilmesi gereken süre",
     "options": [
@@ -2877,13 +4885,24 @@ export const QUESTIONS = [
       "Öğrenildiği günden itibaren on gün"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Öğrenildiği günden başlayarak üç iş günü. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-181",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir sigortalının meslek hastalığı, çalıştığı işten",
     "title": "Bir sigortalının meslek hastalığı, çalıştığı işten...",
     "question": "Bir sigortalının meslek hastalığı, çalıştığı işten ayrılmasından sonra ortaya çıkmıştır. Hastalığın klinik ve laboratuvar bulgularıyla belirlendiği, meslek hastalığına yol açan etkenin de işyerinde yapılan incelemeyle tespit edildiği anlaşılmıştır.",
     "options": [
@@ -2893,13 +4912,24 @@ export const QUESTIONS = [
       "Kurumun veya ilgilinin başvurusu üzerine Sosyal Sigorta Yüksek Sağlık Kurulunun onayıyla hastalık meslek hastalığı sayılabilir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kurumun veya ilgilinin başvurusu üzerine Sosyal Sigorta Yüksek Sağlık Kurulunun onayıyla hastalık meslek hastalığı sayılabilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-182",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İnsan sağlığı için koruyucu, teşhis, tedavi",
     "title": "İnsan sağlığı için koruyucu, teşhis, tedavi...",
     "question": "İnsan sağlığı için koruyucu, teşhis, tedavi ve rehabilite edici hizmetlerde fiilen çalışan ve ilgili kanuni koşulları taşıyan bir sağlık meslek mensubunun fiilî hizmet süresi zammı hesaplanacaktır.5510 sayılı Kanun'a göre bu kişinin kapsamdaki her",
     "options": [
@@ -2909,13 +4939,24 @@ export const QUESTIONS = [
       "120"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 60. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-183",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Sosyal Güvenlik Kurumu tarafından yapılacak denetim",
     "title": "Sosyal Güvenlik Kurumu tarafından yapılacak denetim...",
     "question": "Sosyal Güvenlik Kurumu tarafından yapılacak denetim kapsamında işyerlerine ait defter, kayıt ve belgelerin saklanma süreleri değerlendirilmektedir.5510 sayılı Kanun'a göre işveren ve işyeri sahipleri ile kamu idarelerinin ilgili defter, kayıt ve",
     "options": [
@@ -2925,13 +4966,24 @@ export const QUESTIONS = [
       "10 yıl – 30 yıl"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 10 yıl – 30 yıl. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-184",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir sigortalı, ilk sigortalılık başlangıç tarihinden",
     "title": "Bir sigortalı, ilk sigortalılık başlangıç tarihinden...",
     "question": "Bir sigortalı, ilk sigortalılık başlangıç tarihinden önceki bir döneme ait ve Kanun kapsamında borçlanılmasına izin verilen süreler için hizmet borçlanması yapmış, hesaplanan borçlanma tutarını da süresinde ödemiştir.5510 sayılı Kanun'a göre bu",
     "options": [
@@ -2941,13 +4993,24 @@ export const QUESTIONS = [
       "Sigortalılık başlangıç tarihi, borçlandırılan sürenin iki katı kadar geriye götürülür."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sigortalılık başlangıç tarihi, borçlandırılan gün sayısı kadar geriye götürülür.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-185",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Avukatlık stajı yapmakta olan bir kişi,",
     "title": "Avukatlık stajı yapmakta olan bir kişi,...",
     "question": "Avukatlık stajı yapmakta olan bir kişi, herhangi bir sigortalılık statüsüne tabi olmadığı gibi genel sağlık sigortalısının bakmakla yükümlü olduğu kişi kapsamında da bulunmamaktadır.Bu kişinin staj süresince genel sağlık sigortalısı sayılması",
     "options": [
@@ -2957,13 +5020,24 @@ export const QUESTIONS = [
       "Sosyal Güvenlik Kurumuna"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Türkiye Barolar Birliğine. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-186",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir genel sağlık sigortalısı, ödediği prim",
     "title": "Bir genel sağlık sigortalısı, ödediği prim...",
     "question": "Bir genel sağlık sigortalısı, ödediği prim tutarının diğer sigortalılardan yüksek olması nedeniyle kendisine daha kapsamlı sağlık hizmeti sunulması gerektiğini ileri sürmektedir.5510 sayılı Kanun kapsamında bu talebin değerlendirilmesinde aşağıdaki",
     "options": [
@@ -2973,13 +5047,24 @@ export const QUESTIONS = [
       "Sağlanan sağlık hizmetleri ve diğer haklarla kişilerden alınan prim tutarları arasında ilişki kurulamaz."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Sağlanan sağlık hizmetleri ve diğer haklarla kişilerden alınan prim tutarları arasında ilişki kurulamaz.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-187",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Genel sağlık sigortalısı olan bir kişi,",
     "title": "Genel sağlık sigortalısı olan bir kişi,...",
     "question": "Genel sağlık sigortalısı olan bir kişi, devam etmekte olan tedavisi sırasında genel sağlık sigortalısı sayılmasını sağlayan koşulları kaybetmiştir. Tedavinin henüz tamamlanmadığı ve kişinin iyileşmediği belirlenmiştir.5510 sayılı Kanun kapsamında bu",
     "options": [
@@ -2989,13 +5074,24 @@ export const QUESTIONS = [
       "Sigortalılık koşulları sona erdiğinde tedavi yalnızca on gün daha sürdürülebilir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Devam etmekte olan tedavi nedeniyle sağlanan sağlık hizmetleri, kişinin iyileşmesine kadar sürdürülür.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-188",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Genel sağlık sigortalısı olan bir kişi,",
     "title": "Genel sağlık sigortalısı olan bir kişi,...",
     "question": "Genel sağlık sigortalısı olan bir kişi, herhangi bir hastalık, kaza, doğuştan gelen durum veya tıbbi zorunluluk bulunmaksızın yalnızca dış görünüşünü değiştirmek amacıyla estetik ortodontik diş tedavisi yaptırmak istemektedir.5510 sayılı Kanun",
     "options": [
@@ -3005,13 +5101,24 @@ export const QUESTIONS = [
       "Estetik amaçlı ortodontik tedaviler yalnızca sigortalının yaşlılık aylığı alması durumunda finanse edilir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Yalnızca estetik amaç taşıyan ortodontik diş tedavileri, Kurumca finansmanı sağlanmayacak sağlık hizmetleri arasındadır.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-189",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Evli ve çocuk sahibi olmayan bir",
     "title": "Evli ve çocuk sahibi olmayan bir...",
     "question": "Evli ve çocuk sahibi olmayan bir çiftin, normal tıbbi yöntemlerle çocuk sahibi olamadığı ve yardımcı üreme yöntemiyle tedavi edilmelerinin tıbben uygun olduğu belirlenmiştir. Çiftin, Kurumca finansmanı sağlanacak yardımcı üreme yöntemi tedavisi için",
     "options": [
@@ -3021,13 +5128,24 @@ export const QUESTIONS = [
       "Üç"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Üç. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-190",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir sigortalı, çalışma hayatı sonunda hem",
     "title": "Bir sigortalı, çalışma hayatı sonunda hem...",
     "question": "Bir sigortalı, çalışma hayatı sonunda hem malûllük hem de yaşlılık aylığına hak kazanmıştır. Sosyal Güvenlik Kurumu tarafından yapılan hesaplamada iki aylığın tutarlarının eşit olduğu belirlenmiştir.5510 sayılı Kanun'a göre bu sigortalıya yapılacak",
     "options": [
@@ -3037,13 +5155,24 @@ export const QUESTIONS = [
       "Yalnızca yaşlılık aylığı bağlanır."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Yalnızca yaşlılık aylığı bağlanır.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-191",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Anne ve babasının vefatı nedeniyle her",
     "title": "Anne ve babasının vefatı nedeniyle her...",
     "question": "Anne ve babasının vefatı nedeniyle her ikisinden de ölüm aylığına hak kazanan bir çocuğa, annesinden 12.000 TL, babasından ise 8.000 TL aylık bağlanabileceği hesaplanmıştır. Çocuğun iki aylığa ilişkin diğer hak sahipliği koşullarını taşıdığı kabul",
     "options": [
@@ -3053,13 +5182,24 @@ export const QUESTIONS = [
       "18.000"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 12.000. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-192",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Sosyal Güvenlik Kurumu tarafından bağlanan gelir",
     "title": "Sosyal Güvenlik Kurumu tarafından bağlanan gelir...",
     "question": "Sosyal Güvenlik Kurumu tarafından bağlanan gelir ve aylıkların dönemsel olarak artırılması sırasında hangi ekonomik göstergenin esas alınacağı değerlendirilmektedir.5510 sayılı Kanun'a göre gelir ve aylıkların Ocak ve Temmuz ödeme tarihlerinden",
     "options": [
@@ -3069,13 +5209,24 @@ export const QUESTIONS = [
       "Kamu görevlilerine uygulanan toplu sözleşme zammının tamamı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Türkiye İstatistik Kurumu tarafından açıklanan, önceki altı aylık döneme ait tüketici fiyatları genel indeksindeki değişim oranı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-193",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Eşinin vefatı nedeniyle ölüm aylığı almakta",
     "title": "Eşinin vefatı nedeniyle ölüm aylığı almakta...",
     "question": "Eşinin vefatı nedeniyle ölüm aylığı almakta olan bir kadın, daha sonra yeniden evlenmiş ve boşanmıştır. Boşanmasının ardından eski eşinden dolayı yeniden aylığa hak kazanmış, ancak yapılan incelemede boşandığı eşiyle fiilen birlikte yaşamaya devam",
     "options": [
@@ -3085,13 +5236,24 @@ export const QUESTIONS = [
       "Bağlanan ölüm aylığı kesilir ve ödenmiş tutarlar Kanundaki yersiz ödemelerin geri alınmasına ilişkin hükümlere göre tahsil edilir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Bağlanan ölüm aylığı kesilir ve ödenmiş tutarlar Kanundaki yersiz ödemelerin geri alınmasına ilişkin hükümlere göre tahsil edilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-194",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Genel sağlık sigortalısı olan bir kişi,",
     "title": "Genel sağlık sigortalısı olan bir kişi,...",
     "question": "Genel sağlık sigortalısı olan bir kişi, tedavi görmek amacıyla Sosyal Güvenlik Kurumu ile sözleşmesi bulunan sağlık hizmeti sunucularından birine başvurmak istemektedir.5510 sayılı Kanun'a göre bu kişinin sağlık hizmeti sunucusunu seçme hakkına",
     "options": [
@@ -3101,13 +5263,24 @@ export const QUESTIONS = [
       "Sağlık hizmeti sunucusunu seçme hakkı yalnızca yaşlılık aylığı alan kişilere tanınmıştır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Genel sağlık sigortasıyla ilgili diğer kanuni hükümlere uymak şartıyla sağlık hizmeti sunucuları arasından istediğini seçebilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-195",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Sosyal Güvenlik Kurumunca yapılan incelemede bir",
     "title": "Sosyal Güvenlik Kurumunca yapılan incelemede bir...",
     "question": "Sosyal Güvenlik Kurumunca yapılan incelemede bir işverenin, yürüttüğü işin niteliği ve kapasitesine göre çalıştırılması gereken sigortalı sayısının altında bildirimde bulunduğuna ilişkin bulgular elde edilmiştir.5510 sayılı Kanun'a göre bu işyerinde",
     "options": [
@@ -3117,13 +5290,24 @@ export const QUESTIONS = [
       "Asgari işçilik tutarı yalnızca işyerinin yıllık net kârına göre hesaplanır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Yapılan işin niteliği, kullanılan teknoloji, işyerinin büyüklüğü ve benzer işletmelerde çalıştırılan sigortalı sayısı gibi unsurlar dikkate alınır.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-196",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Sosyal Güvenlik Kurumu tarafından yapılan asgari",
     "title": "Sosyal Güvenlik Kurumu tarafından yapılan asgari...",
     "question": "Sosyal Güvenlik Kurumu tarafından yapılan asgari işçilik incelemesi sonucunda bir işveren adına resen sigorta primi tahakkuk ettirilmiştir. İşveren, tebliğ edilen prim borcuna itiraz etmek istemektedir.5510 sayılı Kanun'a göre bu işverenin itiraz",
     "options": [
@@ -3133,13 +5317,24 @@ export const QUESTIONS = [
       "İşveren, tebliğ tarihinden itibaren bir ay içinde Kuruma itiraz edebilir; itiraz takibi durdurur, ancak itirazın reddi üzerine mahkemeye başvurulması prim borcunun takip ve tahsilini durdurmaz."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İşveren, tebliğ tarihinden itibaren bir ay içinde Kuruma itiraz edebilir; itiraz takibi durdurur, ancak itirazın reddi üzerine mahkemeye başvurulması prim borcunun takip ve tahsilini durdurmaz.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-197",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işletme, mevcut işyerinin aktif ve",
     "title": "Bir işletme, mevcut işyerinin aktif ve...",
     "question": "Bir işletme, mevcut işyerinin aktif ve pasifleriyle birlikte başka bir işveren tarafından devralınması yoluyla el değiştirmiştir. Devir tarihinde eski işverenin Sosyal Güvenlik Kurumuna prim ve gecikme zammı borçları bulunmaktadır.5510 sayılı",
     "options": [
@@ -3149,13 +5344,24 @@ export const QUESTIONS = [
       "Yeni işverenin sorumluluğu yalnızca devir tarihinden sonra tahakkuk eden prim borçlarıyla sınırlıdır."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Eski işveren ile yeni işveren, Kuruma olan prim ve bunlara bağlı borçlardan müştereken ve müteselsilen sorumludur.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-198",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işletme, belirli bir yatırım projesi",
     "title": "Bir işletme, belirli bir yatırım projesi...",
     "question": "Bir işletme, belirli bir yatırım projesi nedeniyle kamudan kaynak tahsisi şeklinde sağlanan ve Sosyal Güvenlik Kurumu borç durumunun kontrolünü gerektiren bir teşvikten yararlanmak istemektedir. İşletmenin vadesi gelmiş prim borcu bulunmakla",
     "options": [
@@ -3165,13 +5371,24 @@ export const QUESTIONS = [
       "Kanunda belirtilen kapsamda, muaccel prim ve idari para cezası borçlarının bulunmaması yanında, borçların usulüne uygun biçimde tecil ve taksitlendirilmiş veya yapılandırılmış olması da teşvik açısından kabul edilebilir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kanunda belirtilen kapsamda, muaccel prim ve idari para cezası borçlarının bulunmaması yanında, borçların usulüne uygun biçimde tecil ve taksitlendirilmiş veya yapılandırılmış olması da teşvik açısından kabul edilebilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-199",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işletme, meydana gelen sel felaketi",
     "title": "Bir işletme, meydana gelen sel felaketi...",
     "question": "Bir işletme, meydana gelen sel felaketi nedeniyle ciddi ekonomik kayıplara uğramış ve Sosyal Güvenlik Kurumuna olan prim borçlarını ödeyemeyecek duruma gelmiştir. İşveren, felaketten itibaren üç ay içinde gerekli belgelerle başvurmuş ve yapılan",
     "options": [
@@ -3181,13 +5398,24 @@ export const QUESTIONS = [
       "Prim borçlarının ertelenebilmesi için afet tarihinden sonra en az iki yıl geçmesi gerekir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Kanunda belirtilen koşulların sağlanması hâlinde ilgili borçlar, afetin meydana geldiği tarihten itibaren bir yıla kadar Kurumca ertelenebilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-200",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işçi, özel sektöre ait işyerinde",
     "title": "Bir işçi, özel sektöre ait işyerinde...",
     "question": "Bir işçi, özel sektöre ait işyerinde sigortasız olarak çalıştırılmıştır. İşveren tarafından çalışmasına ilişkin prim belgeleri Kuruma verilmemiş ve çalıştığı süreler Kurumca da tespit edilememiştir.5510 sayılı Kanun'a göre bu işçinin çalıştığı",
     "options": [
@@ -3197,13 +5425,24 @@ export const QUESTIONS = [
       "İşten ayrıldığı tarihten itibaren on yıl"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Hizmetlerinin geçtiği yılın sonundan başlayarak beş yıl. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-201",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Sosyal Güvenlik Kurumunun denetim görevlileri, bir",
     "title": "Sosyal Güvenlik Kurumunun denetim görevlileri, bir...",
     "question": "Sosyal Güvenlik Kurumunun denetim görevlileri, bir işyerinde daha önce sigortasız çalıştırılmış kişilerin bulunduğunu, kayıt ve belgelere dayanmaksızın yapılan fiilî tespitlerle belirlemiştir.5510 sayılı Kanun'a göre bu şekilde yapılan tespitlerde,",
     "options": [
@@ -3213,13 +5452,24 @@ export const QUESTIONS = [
       "Geriye yönelik hizmetlerin en fazla tespitin yapıldığı tarihten önceki bir yıllık bölümü dikkate alınır."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Geriye yönelik hizmetlerin en fazla tespitin yapıldığı tarihten önceki bir yıllık bölümü dikkate alınır.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-202",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işveren, Sosyal Güvenlik Kurumuna yanlış",
     "title": "Bir işveren, Sosyal Güvenlik Kurumuna yanlış...",
     "question": "Bir işveren, Sosyal Güvenlik Kurumuna yanlış hesaplama nedeniyle fazla prim ödemiştir. Yapılan incelemede primin yersiz tahsil edildiği belirlenmiş ve primin tahsil edildiği tarihten itibaren henüz on yıl geçmemiştir.5510 sayılı Kanun'a göre bu",
     "options": [
@@ -3229,13 +5479,24 @@ export const QUESTIONS = [
       "Yersiz alınan primler, sigortalının çalışmaya devam etmesi şartıyla iade edilir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Yersiz alınan primler, ilgili kişilere hisseleri oranında kanuni faiziyle birlikte geri verilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-203",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işverenin Sosyal Güvenlik Kurumuna olan",
     "title": "Bir işverenin Sosyal Güvenlik Kurumuna olan...",
     "question": "Bir işverenin Sosyal Güvenlik Kurumuna olan prim borcu, kanuni ödeme süresinde ödenmemiştir. Borcun doğmasına ilişkin herhangi bir özel mahkeme kararı veya denetim tespiti bulunmamaktadır.5510 sayılı Kanun'a göre Kurumun prim ve diğer alacaklarında",
     "options": [
@@ -3245,13 +5506,24 @@ export const QUESTIONS = [
       "On yıl – Ödeme süresinin dolduğu tarihi takip eden takvim yılının başı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: On yıl – Ödeme süresinin dolduğu tarihi takip eden takvim yılının başı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-204",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işveren, faaliyetlerini sonlandırarak işyerinde sigortalı",
     "title": "Bir işveren, faaliyetlerini sonlandırarak işyerinde sigortalı...",
     "question": "Bir işveren, faaliyetlerini sonlandırarak işyerinde sigortalı çalıştırmaya tamamen son vermiştir. İşverenin bu durumu Sosyal Güvenlik Kurumuna bildirmesi gerekmektedir.5510 sayılı Kanun'a göre işverenin bildirim yükümlülüğüne ilişkin aşağıdakilerden",
     "options": [
@@ -3261,13 +5533,24 @@ export const QUESTIONS = [
       "Bildirim süresi, sigortalı çalıştırmaya son verilmesinden itibaren üç aydır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: İşveren, sigortalı çalıştırmaya son verdiği tarihten itibaren on beş gün içinde bu durumu Kuruma bildirmelidir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-205",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Hizmet akdiyle çalışan bir sigortalı, yaşlılık",
     "title": "Hizmet akdiyle çalışan bir sigortalı, yaşlılık...",
     "question": "Hizmet akdiyle çalışan bir sigortalı, yaşlılık aylığı bağlanması için gerekli yaş şartını doldurmuştur. Ancak prim ödeme gün sayısı yeterli olmadığından malûllük veya yaşlılık aylığına hak kazanamamıştır. Sigortalı çalıştığı işten ayrılarak Sosyal",
     "options": [
@@ -3277,13 +5560,24 @@ export const QUESTIONS = [
       "Sigortalının eksik prim ödeme günlerinin Kurum tarafından karşılanması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Kendi adına bildirilen malûllük, yaşlılık ve ölüm sigortaları primlerinin güncellenerek toptan ödeme şeklinde verilmesi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-206",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Daha önce yaşlılık toptan ödemesi alarak",
     "title": "Daha önce yaşlılık toptan ödemesi alarak...",
     "question": "Daha önce yaşlılık toptan ödemesi alarak hizmetleri tasfiye edilen bir kişi, yeniden sigortalı olarak çalışmaya başlamış ve adına uzun vadeli sigorta kolları primi bildirilmiştir. Kişi, tasfiye edilen hizmetlerinin yeniden değerlendirilmesini",
     "options": [
@@ -3293,13 +5587,24 @@ export const QUESTIONS = [
       "Güncellenerek hesaplanan tutarın, ilgiliye tebliğ tarihini takip eden ayın sonuna kadar ödenmesi gerekir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Güncellenerek hesaplanan tutarın, ilgiliye tebliğ tarihini takip eden ayın sonuna kadar ödenmesi gerekir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-207",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vefat eden bir sigortalının anne ve",
     "title": "Vefat eden bir sigortalının anne ve...",
     "question": "Vefat eden bir sigortalının anne ve babası 65 yaşın üzerindedir. Her ikisinin de gelirleri Kanunda belirlenen sınırın altında olup diğer çocuklarından hak kazandıkları gelir ve aylıklar dışında kendilerine gelir veya aylık bağlanmamıştır. Ölen",
     "options": [
@@ -3309,13 +5614,24 @@ export const QUESTIONS = [
       "Anne ve babanın 65 yaşın üzerinde olması hâlinde, diğer koşulları taşımaları şartıyla artan hisse aranmaksızın aylık bağlanması mümkündür."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Anne ve babanın 65 yaşın üzerinde olması hâlinde, diğer koşulları taşımaları şartıyla artan hisse aranmaksızın aylık bağlanması mümkündür.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-208",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Hizmet akdiyle çalışan bir sigortalı vefat",
     "title": "Hizmet akdiyle çalışan bir sigortalı vefat...",
     "question": "Hizmet akdiyle çalışan bir sigortalı vefat etmiştir. Sigortalının uzun vadeli sigorta kollarına ait prim ödeme gün sayısı, hak sahiplerine ölüm aylığı bağlanması için yeterli değildir. Kanunda belirtilen diğer koşulların bulunduğu kabul",
     "options": [
@@ -3325,13 +5641,24 @@ export const QUESTIONS = [
       "Sigortalının eksik primlerinin Kurum tarafından tamamlanması"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Kanunda belirtilen esaslara göre ölüm toptan ödemesi yapılması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-209",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir sigortalı vefat etmiş ve geride",
     "title": "Bir sigortalı vefat etmiş ve geride...",
     "question": "Bir sigortalı vefat etmiş ve geride kalan hak sahiplerinin ölüm tarihi itibarıyla ölüm aylığına hak kazanma koşullarını taşıdığı belirlenmiştir.5510 sayılı Kanun'a göre bu hak sahiplerine bağlanacak ölüm aylıklarının başlangıç tarihi aşağıdakilerden",
     "options": [
@@ -3341,13 +5668,24 @@ export const QUESTIONS = [
       "Sigortalının ölümünün gerçekleştiği gün"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sigortalının ölüm tarihini takip eden ay başı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-210",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "I. Kadrosuzluk dolayısıyla açıkta kalan memurlara",
     "title": "I. Kadrosuzluk dolayısıyla açıkta kalan memurlara...",
     "question": "I. Kadrosuzluk dolayısıyla açıkta kalan memurlara ve bunların aile fertlerineII. Hükümlü, tutuklu veya gözetim altında bulundurulanların sevkinde ya da refakatle görevlendirilen erbaş ve erlereIII. Aile ile birlikte oturulması yasak edilen",
     "options": [
@@ -3357,13 +5695,24 @@ export const QUESTIONS = [
       "II ve III."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: II ve III.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-211",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "6245 sayılı Harcırah Kanunu'na göre, hizmetlilerin",
     "title": "6245 sayılı Harcırah Kanunu'na göre, hizmetlilerin...",
     "question": "6245 sayılı Harcırah Kanunu'na göre, hizmetlilerin harcırahı, aldıkları aylık ücret veya ödeneklerine; gündelik ile çalışanların harcırahı da gündeliklerinin kaç katına en yakın memur aylık tutarı üzerinden hesaplanır?",
     "options": [
@@ -3373,13 +5722,24 @@ export const QUESTIONS = [
       "15"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 30. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-212",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "6245 sayılı Harcırah Kanunu'na göre, geçici",
     "title": "6245 sayılı Harcırah Kanunu'na göre, geçici...",
     "question": "6245 sayılı Harcırah Kanunu'na göre, geçici görev ile yurtdışına gönderilenlere görev mahalline varış tarihinden itibaren yurtdışında bir yıllık dönem zarfında aynı yere,aynı iş için ve aynı şahsa verilecek gündelik miktarı nedir?",
     "options": [
@@ -3389,13 +5749,24 @@ export const QUESTIONS = [
       "İlk 180 gün için tam, takip eden 180 gün için 1/3 oranında ödenir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: İlk 180 gün tam takip eden günler için 2/3 oranında ödenir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-213",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden",
     "title": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden...",
     "question": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden hangisi geçici görev yolluğu alamaz?",
     "options": [
@@ -3405,13 +5776,24 @@ export const QUESTIONS = [
       "Fiilen oturduğu mahalden gayrı bir yere açıktan vekaleten gönderilenler."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Memuriyet merkezlerinin bulunduğu bir mahaldeki vazifeye gönderilenler.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-214",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden",
     "title": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden...",
     "question": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden hangisi memuriyet mahalli değildir?",
     "options": [
@@ -3421,13 +5803,24 @@ export const QUESTIONS = [
       "Büyükşehirlerde; ilçe belediye sınırları dışında kalmakla birlikte yerleşim özellikleri bakımından bu yerlerin devamı niteliğindeki mahaller"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Büyükşehir olmayan yerlerde; Belediye sınırları dışında kalmakla birlikte, yerleşim özellikleri bakımından bu şehir ve kasabaların devamı niteliğinde olup, belediye hizmetlerinden (otobüs, su, doğalgaz, kanalizasyon vb.) yararlanan ve bu hizmetlerin. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-215",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden",
     "title": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden...",
     "question": "6245 sayılı Harcırah Kanunu'na göre, aşağıdakilerden hangisi harcırahın ödenmesinde dayanak teşkil eden temel belgedir?",
     "options": [
@@ -3437,13 +5830,24 @@ export const QUESTIONS = [
       "İkametgah belgesi"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Görevlendirme yazısı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-216",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "6245 sayılı Harcırah Kanunu'na göre, memurun",
     "title": "6245 sayılı Harcırah Kanunu'na göre, memurun...",
     "question": "6245 sayılı Harcırah Kanunu'na göre, memurun sürekli görevle başka bir ile atanması durumunda, kendisine verilecek harcırah aşağıdakilerden hangisini kapsamaz?",
     "options": [
@@ -3453,13 +5857,24 @@ export const QUESTIONS = [
       "Yeni görev yerindeki kira bedeli"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Yeni görev yerindeki kira bedeli. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-217",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "6245 sayılı Harcırah Kanunu'na göre, eş",
     "title": "6245 sayılı Harcırah Kanunu'na göre, eş...",
     "question": "6245 sayılı Harcırah Kanunu'na göre, eş ve çocuklardan hangisi harcırah kapsamında aile ferdi olarak değerlendirilir ve yol gideri ödenir?",
     "options": [
@@ -3469,13 +5884,24 @@ export const QUESTIONS = [
       "Nişanlısı olan çocuk"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 10 yaşındaki çocuk ve resmi nikahlı eş. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-218",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "6245 sayılı Harcırah Kanunu'na göre, geçici",
     "title": "6245 sayılı Harcırah Kanunu'na göre, geçici...",
     "question": "6245 sayılı Harcırah Kanunu'na göre, geçici görevle başka bir yere gönderilen memurun yolculuğu süresince geçen zamanın yevmiyesi ne şekilde hesaplanır?",
     "options": [
@@ -3485,13 +5911,24 @@ export const QUESTIONS = [
       "Yol süresi yevmiye kapsamında değerlendirilmez."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Gidiş ve dönüşte geçen süreler için de ayrıca tam yevmiye ödenir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-219",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Memurun aile fertlerinin taşınma zorunluluğu bulunmayan",
     "title": "Memurun aile fertlerinin taşınma zorunluluğu bulunmayan...",
     "question": "Memurun aile fertlerinin taşınma zorunluluğu bulunmayan bir görev yerine atanması durumunda, aşağıdaki harcırah türlerinden hangisi ödenmez?",
     "options": [
@@ -3501,13 +5938,24 @@ export const QUESTIONS = [
       "Eşya nakil bedeli"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Aile fertleri için yol masrafı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-220",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, aile yardımı ödeneğine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3517,13 +5965,24 @@ export const QUESTIONS = [
       "Memur, çocuk için aile yardımı ödeneğine çocuğun doğduğu tarihi takip eden ay başından itibaren hak kazanır."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Burs alan veya devlet tarafından okutulan çocuklar için çocuk yardımı ödeneği verilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-221",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, devlet memurlarının hak ve sorumluluklarına ilişkin aşağıdakilerden hangisi yanlıştır?",
     "options": [
@@ -3533,13 +5992,24 @@ export const QUESTIONS = [
       "Uzun süreli tedavi gerektiren kanser veya verem gibi hastalıklar nedeniyle devlet memuruna en çok on iki aya kadar hastalık izni verilir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Uzun süreli tedavi gerektiren kanser veya verem gibi hastalıklar nedeniyle devlet memuruna en çok on iki aya kadar hastalık izni verilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-222",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, disiplin cezalarına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3549,13 +6019,26 @@ export const QUESTIONS = [
       "Memura savunmasını yapması için yedi günden az olmamak üzere süre verilir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Uyarma ve kınama cezaları, uygulanmalarından on yıl sonra kendiliğinden özlük dosyasından silinir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-223",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, disiplin işlemlerinin sürelerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3565,13 +6048,25 @@ export const QUESTIONS = [
       "Kademe ilerlemesinin durdurulmasını gerektiren hâllerde soruşturma dosyası, kararını bildirmesi için yetkili disiplin kuruluna on gün içinde gönderilir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kademe ilerlemesinin durdurulmasını gerektiren hâllerde soruşturma dosyası, kararını bildirmesi için yetkili disiplin kuruluna on gün içinde gönderilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-224",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, aday memurlukla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3581,13 +6076,24 @@ export const QUESTIONS = [
       "Adaylık süresinde temel eğitim, hazırlayıcı eğitim veya stajın herhangi birinde başarısız olanların disiplin amirinin teklifi ve atamaya yetkili amirin onayıyla ilişikleri kesilir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Adaylık süresinde yalnızca bir kez kınama cezası alan memurun kurumuyla ilişiği bu nedenle zorunlu olarak kesilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-225",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre memura, görevinde ve davranışlarında daha dikkatli olması gerektiğinin yazıyla bildirilmesine ne ad verilir?",
     "options": [
@@ -3597,13 +6103,24 @@ export const QUESTIONS = [
       "Kademe ilerlemesinin durdurulması"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Uyarma. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-226",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "I. Yasaklanmış yayınları veya siyasi ya",
     "title": "I. Yasaklanmış yayınları veya siyasi ya...",
     "question": "I. Yasaklanmış yayınları veya siyasi ya da ideolojik amaçlı bildiri, afiş, pankart ve benzerlerini basmak, çoğaltmak, dağıtmak veya kurumlarda teşhir etmek.II. Siyasi partiye üye olmak.III. Herhangi bir siyasi parti yararına veya zararına fiilen",
     "options": [
@@ -3613,13 +6130,24 @@ export const QUESTIONS = [
       "II ve III"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: I ve II. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-227",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre disiplin amirleri, uyarma, kınama ve aylıktan kesme cezalarını soruşturmanın tamamlandığı günden itibaren en geç kaç gün içinde vermek zorundadır?",
     "options": [
@@ -3629,13 +6157,26 @@ export const QUESTIONS = [
       "20 gün"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 15 gün. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-228",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "I. Devlet memuru hakkında savunması alınmadan",
     "title": "I. Devlet memuru hakkında savunması alınmadan...",
     "question": "I. Devlet memuru hakkında savunması alınmadan disiplin cezası verilemez.II. Soruşturmayı yapanın veya yetkili disiplin kurulunun yedi günden az olmamak üzere verdiği sürede ya da belirttiği tarihte savunmasını yapmayan memur, savunma hakkından",
     "options": [
@@ -3645,13 +6186,26 @@ export const QUESTIONS = [
       "II ve III"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: I ve II. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-229",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre devlet memurluğundan çıkarma dışındaki disiplin cezalarının özlük dosyasından silinmesini istemek için uyarma ve kınama cezalarının uygulanmasından kaç yıl, diğer disiplin cezalarının uygulanmasından kaç",
     "options": [
@@ -3661,13 +6215,26 @@ export const QUESTIONS = [
       "1 yıl – 5 yıl"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 5 yıl – 10 yıl. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-230",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, aynı yerdeki bir göreve atanan devlet memuru, atama emrinin kendisine tebliğ edilmesinden sonra ne zaman işe başlamak zorundadır?",
     "options": [
@@ -3677,13 +6244,24 @@ export const QUESTIONS = [
       "Tebliğ tarihinden itibaren 15 gün içinde"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Tebliğ edildiği günü izleyen iş günü içinde. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-231",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, savaş ve olağanüstü hâllerde atanan memurların görev yerine hareket ve işe başlama sürelerini kısaltma yetkisi aşağıdakilerden hangisine aittir?",
     "options": [
@@ -3693,13 +6271,24 @@ export const QUESTIONS = [
       "Genelkurmay Başkanı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Cumhurbaşkanı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-232",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, aşağıdakilerden hangisi kademe ilerlemesi yapılabilmesi için aranan şartlardan biridir?",
     "options": [
@@ -3709,13 +6298,24 @@ export const QUESTIONS = [
       "Bulunduğu kadronun yeniden ihdas edilmiş olması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Bulunduğu derecede ilerleyebileceği bir kademenin bulunması. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-233",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, olağanüstü mazeret nedeniyle amirine haber vererek usulüne uygun biçimde memurluktan çekilen kişi, çekilme tarihinden itibaren kaç ay geçmeden yeniden devlet memurluğuna alınamaz?",
     "options": [
@@ -3725,13 +6325,24 @@ export const QUESTIONS = [
       "3 ay"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 6 ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-234",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, öğretmenlere asıl görevlerinin yanında ikinci görev olarak aşağıdakilerden hangisi yaptırılabilir?",
     "options": [
@@ -3741,13 +6352,24 @@ export const QUESTIONS = [
       "İl millî eğitim müdürlüğü şube müdürlüğü"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Okul müdür yardımcılığı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-235",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Devlet memuru olarak 17 yıldır görev",
     "title": "Devlet memuru olarak 17 yıldır görev...",
     "question": "Devlet memuru olarak 17 yıldır görev yapan Kemal, 2024, 2025 ve 2026 yıllarına ait yıllık izinlerini hiç kullanmamıştır.Kemal, 2026 yılı içerisinde birikmiş yıllık izinlerinden en fazla kaç gün kullanabilir?",
     "options": [
@@ -3757,13 +6379,24 @@ export const QUESTIONS = [
       "60 gün"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 60 gün. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-236",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Aday memurluk ve idari görevlere atanmayla",
     "title": "Aday memurluk ve idari görevlere atanmayla...",
     "question": "Aday memurluk ve idari görevlere atanmayla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3773,13 +6406,24 @@ export const QUESTIONS = [
       "Aday memurluk süresi bir yıldan az, iki yıldan fazla olamaz."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Eğitim ve Öğretim, Sağlık ve Yardımcı Sağlık ile Teknik Hizmetler sınıflarında görev yapan memurlar, kariyerlerinden yararlanılmak amacıyla 6–8. dereceler arasındaki idari görevlere atanabilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-237",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Aşağıdakilerden hangisi 657 sayılı Devlet Memurları",
     "title": "Aşağıdakilerden hangisi 657 sayılı Devlet Memurları...",
     "question": "Aşağıdakilerden hangisi 657 sayılı Devlet Memurları Kanunu'nda sayılan hizmet sınıflarından biri değildir?",
     "options": [
@@ -3789,13 +6433,24 @@ export const QUESTIONS = [
       "Millî İstihbarat Hizmetleri Sınıfı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Hâkimlik ve Savcılık Hizmetleri Sınıfı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-238",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Bir devlet memuru, amirinden aldığı emri",
     "title": "Bir devlet memuru, amirinden aldığı emri...",
     "question": "Bir devlet memuru, amirinden aldığı emri Anayasa'ya, kanuna, Cumhurbaşkanlığı kararnamesine veya diğer mevzuata aykırı görürse öncelikle nasıl hareket etmelidir?",
     "options": [
@@ -3805,13 +6460,24 @@ export const QUESTIONS = [
       "Emri yerine getirip ardından yargı yoluna başvurmalıdır."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Emri yerine getirmeyerek aykırılığı emri verene bildirmelidir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-239",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Devlet memurluğunun temel ilkeleri aşağıdakilerin hangisinde",
     "title": "Devlet memurluğunun temel ilkeleri aşağıdakilerin hangisinde...",
     "question": "Devlet memurluğunun temel ilkeleri aşağıdakilerin hangisinde doğru olarak verilmiştir?",
     "options": [
@@ -3821,13 +6487,24 @@ export const QUESTIONS = [
       "Sınıflandırma – Kariyer – Liyakat"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Sınıflandırma – Kariyer – Liyakat. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-240",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurluğu Kanunu’na göre",
     "title": "657 sayılı Devlet Memurluğu Kanunu’na göre...",
     "question": "657 sayılı Devlet Memurluğu Kanunu’na göre aşağıdaki bilgilerden hangisi yanlıştır?",
     "options": [
@@ -3837,13 +6514,24 @@ export const QUESTIONS = [
       "Kınama cezası alan kişi bu cezasını 5 yıl sonra sicilden sildirir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Türkiye Büyük Millet Meclisi memurluğu istisnai memurluk değildir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-241",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Funda Hanım adaylık süresi içinde hastalanmış",
     "title": "Funda Hanım adaylık süresi içinde hastalanmış...",
     "question": "Funda Hanım adaylık süresi içinde hastalanmış olup tedavi görmektedir.Buna göre Funda Hanım ile ilgili hangi işlem yapılır?",
     "options": [
@@ -3853,13 +6541,24 @@ export const QUESTIONS = [
       "Sağlık nedenlerinden ötürü adaylığı kaldırılır."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sağlık nedenlerinden ötürü adaylık süresi donar.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-242",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre “Yemin Belgesi” Asli Devlet Memurluğuna atanlara kaç ay sonra düzenlenir?",
     "options": [
@@ -3869,13 +6568,24 @@ export const QUESTIONS = [
       "6 ay"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 1 ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-243",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "I. SınıflandırmaII. LiyakatIII. DisiplinIV. KariyerYukarıdakilerden hangisi/hangileri",
     "title": "I. SınıflandırmaII. LiyakatIII. DisiplinIV. KariyerYukarıdakilerden hangisi/hangileri...",
     "question": "I. SınıflandırmaII. LiyakatIII. DisiplinIV. KariyerYukarıdakilerden hangisi/hangileri 657 sayılı Devlet Memurları Kanununun temel ilkeleri arasında yer almaz?",
     "options": [
@@ -3885,13 +6595,25 @@ export const QUESTIONS = [
       "I, II ve III"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Yalnız I. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-244",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre mecburi hizmet yükümlülüğüyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3901,13 +6623,24 @@ export const QUESTIONS = [
       "Başvuru tarihinden itibaren en geç altı ay içinde bir göreve atanmayanların mecburi hizmet yükümlülükleri kalkar."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Başvuru tarihinden itibaren en geç altı ay içinde bir göreve atanmayanların mecburi hizmet yükümlülükleri kalkar.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-245",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre ölüm yardımı ödeneğiyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3917,13 +6650,24 @@ export const QUESTIONS = [
       "Memur olmayan eşi veya aile yardımı ödeneğine müstahak çocuğu ölen memura, en yüksek Devlet memuru aylığı (ek gösterge dâhil) tutarında ölüm yardımı ödeneği verilir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Ölüm yardımı ödeneği, memurun borçları nedeniyle haczedilebilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-246",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre çocuk için aile yardımı ödeneğine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3933,13 +6677,24 @@ export const QUESTIONS = [
       "Memur, çocuğu için ödenen aile yardımı ödeneğine çocuğunun doğduğu tarihi takip eden ay başından itibaren hak kazanır."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Burs alan çocuklar için aile yardımı ödeneği verilmeye devam edilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-247",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -3949,13 +6704,24 @@ export const QUESTIONS = [
       "Eleman temininde güçlük zammı, temininde veya görevde tutulmasında güçlük bulunan personel için öngörülen bir zamdır."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Devir ve teslim yükümlülüğü olan memur, işlemleri tamamlanmasa da görevinden ayrılabilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-248",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre “Devlet memurlarına, yaptıkları hizmetler için lüzumlu bilgilere ve yetişme şartlarına uygun şekilde, sınıfları içinde en yüksek derecelere kadar ilerleme imkânını sağlamaktır.” şeklinde aşağıdakilerden",
     "options": [
@@ -3965,13 +6731,24 @@ export const QUESTIONS = [
       "Kademe"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Kariyer. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-249",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre amir durumda olan devlet memurlarının görev ve sorumlulukları ile ilgili aşağıdakilerden hangisi yanlıştır?",
     "options": [
@@ -3981,13 +6758,24 @@ export const QUESTIONS = [
       "Devlet memurları amiri oldukları kuruluş ve hizmet birimlerinde maiyetindeki memurların hâl ve hareketlerini takip ve kontrol etmekle görevli sorumlu değildirler."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Devlet memurları amiri oldukları kuruluş ve hizmet birimlerinde maiyetindeki memurların hâl ve hareketlerini takip ve kontrol etmekle görevli sorumlu değildirler.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-250",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre ödevler ve sorumluluklar ile ilgili aşağıdakilerden hangisi yanlıştır?",
     "options": [
@@ -3997,13 +6785,24 @@ export const QUESTIONS = [
       "Kişiler kamu hukukuna tabi görevlerle ilgili olarak uğradıkları zararlardan dolayı bu görevleri yerine getiren kurum aleyhine değil, ilgili personel aleyhine dava açarlar."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kişiler kamu hukukuna tabi görevlerle ilgili olarak uğradıkları zararlardan dolayı bu görevleri yerine getiren kurum aleyhine değil, ilgili personel aleyhine dava açarlar.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-251",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre kurumlar yıllık eğitim programlarına göre yapmakta oldukları eğitim çalışmalarının sonuçlarını her altı aylık dönemin bitiminden en geç kaç ay sonra bir raporla bildirmek zorundadırlar?",
     "options": [
@@ -4013,13 +6812,24 @@ export const QUESTIONS = [
       "4"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 1. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-252",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre aşağıdakilerden hangisi genel haklardan değildir?",
     "options": [
@@ -4029,13 +6839,24 @@ export const QUESTIONS = [
       "Kovuşturma ve yargılama"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Grev. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-253",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre kurumca belirlenen tasarruf tedbirlerine uymayan devlet memurlarına aşağıdaki disiplin cezalarından hangisi verilir?",
     "options": [
@@ -4045,13 +6866,26 @@ export const QUESTIONS = [
       "Kademe ilerlemesinin durdurulması"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Uyarma. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-254",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre disiplin amirleri, uyarma, kınama ve aylıktan kesme cezalarını soruşturmanın tamamlandığı tarihten itibaren en geç kaç gün içinde vermek zorundadır?",
     "options": [
@@ -4061,13 +6895,26 @@ export const QUESTIONS = [
       "30"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 15. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-255",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre sağlık kurulu raporuyla verilen hastalık izinleri ve mevzuatta belirtilen diğer istisnalar dışında, bir takvim yılında kullanılan hastalık izinlerinin toplamının 7 günü aşması hâlinde, aşan sürelere",
     "options": [
@@ -4077,13 +6924,25 @@ export const QUESTIONS = [
       "%25"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: %25. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-256",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre mahrumiyet yerlerinde çalışan devlet memurlarının, görev yerlerinde çocuklarının devam edebileceği orta dereceli okul bulunmaması nedeniyle çocuklarını yatılı okullarda okutmak istemeleri hâlinde, ilgili",
     "options": [
@@ -4093,13 +6952,24 @@ export const QUESTIONS = [
       "%50"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: %50. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-257",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'nun sosyal",
     "title": "657 sayılı Devlet Memurları Kanunu'nun sosyal...",
     "question": "657 sayılı Devlet Memurları Kanunu'nun sosyal haklar ve yardımlara ilişkin hükümleri incelendiğinde aşağıdakilerden hangisini düzenleyen madde yürürlükten kaldırılmıştır?",
     "options": [
@@ -4109,13 +6979,24 @@ export const QUESTIONS = [
       "Yiyecek yardımı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Tedavi yardımı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-258",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Devlet memurluğundan çıkarma cezasını gerektiren bir",
     "title": "Devlet memurluğundan çıkarma cezasını gerektiren bir...",
     "question": "Devlet memurluğundan çıkarma cezasını gerektiren bir fiilin öğrenildiği tarihten itibaren kaç ay içinde disiplin kovuşturmasına başlanmazsa disiplin cezası verme yetkisi zamanaşımına uğrar?",
     "options": [
@@ -4125,13 +7006,27 @@ export const QUESTIONS = [
       "Altı ay"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Altı ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Zamanaşımı",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-259",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Aşağıdakilerden hangisi devlet memurlarına uygulanabilecek disiplin",
     "title": "Aşağıdakilerden hangisi devlet memurlarına uygulanabilecek disiplin...",
     "question": "Aşağıdakilerden hangisi devlet memurlarına uygulanabilecek disiplin cezaları arasında yer almaz?",
     "options": [
@@ -4141,13 +7036,26 @@ export const QUESTIONS = [
       "Kademe indirilmesi"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Uyarma. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-260",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Belirlenen durum ve sürelerde mal bildiriminde",
     "title": "Belirlenen durum ve sürelerde mal bildiriminde...",
     "question": "Belirlenen durum ve sürelerde mal bildiriminde bulunmayan devlet memuruna aşağıdaki disiplin cezalarından hangisi uygulanır?",
     "options": [
@@ -4157,13 +7065,26 @@ export const QUESTIONS = [
       "Kademe ilerlemesinin durdurulması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kademe ilerlemesinin durdurulması. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-261",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Aylıktan kesme disiplin cezası kapsamında devlet",
     "title": "Aylıktan kesme disiplin cezası kapsamında devlet...",
     "question": "Aylıktan kesme disiplin cezası kapsamında devlet memurunun brüt aylığından hangi oranlar arasında kesinti yapılır?",
     "options": [
@@ -4173,13 +7094,26 @@ export const QUESTIONS = [
       "1/25 ile 1/15 arasında"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 1/30 ile 1/8 arasında. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-262",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Usulsüz müracaat veya şikâyette bulunmak, aşağıdaki",
     "title": "Usulsüz müracaat veya şikâyette bulunmak, aşağıdaki...",
     "question": "Usulsüz müracaat veya şikâyette bulunmak, aşağıdaki disiplin cezalarından hangisini gerektirir?",
     "options": [
@@ -4189,13 +7123,26 @@ export const QUESTIONS = [
       "Kademe ilerlemesinin durdurulması"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Uyarma. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-263",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Günün 24 saatinde devamlılık gösteren kamu",
     "title": "Günün 24 saatinde devamlılık gösteren kamu...",
     "question": "Günün 24 saatinde devamlılık gösteren kamu hizmetlerinde çalışan devlet memurlarının çalışma saatleri ve çalışma biçimleri aşağıdakilerden hangisi tarafından düzenlenir?",
     "options": [
@@ -4205,13 +7152,24 @@ export const QUESTIONS = [
       "Kamu Personel Bilgi Sisteminin bulunduğu kurum tarafından"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İlgili kurumlarınca. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-264",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Merkez teşkilatında günlük çalışmanın başlama ve",
     "title": "Merkez teşkilatında günlük çalışmanın başlama ve...",
     "question": "Merkez teşkilatında günlük çalışmanın başlama ve bitme saatleri ile öğle dinlenme süresi, genel düzenleme kapsamında aşağıdakilerden hangisi tarafından belirlenir?",
     "options": [
@@ -4221,13 +7179,24 @@ export const QUESTIONS = [
       "İçişleri Bakanlığı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Cumhurbaşkanı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-265",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Aşağıdaki boş kadrolardan hangisi, açıktan vekil",
     "title": "Aşağıdaki boş kadrolardan hangisi, açıktan vekil...",
     "question": "Aşağıdaki boş kadrolardan hangisi, açıktan vekil atanmasına izin verilen kadrolar arasında yer almaz?",
     "options": [
@@ -4237,13 +7206,24 @@ export const QUESTIONS = [
       "Mühendislik ve mimarlık"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Avukatlık. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-266",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Kendi isteğiyle memurluktan çekilen veya çekilmiş",
     "title": "Kendi isteğiyle memurluktan çekilen veya çekilmiş...",
     "question": "Kendi isteğiyle memurluktan çekilen veya çekilmiş sayılan bir kişinin, diğer atanma şartlarını da taşıması kaydıyla, yeniden memurluğa alınabilmesi için en fazla kaç defa memurluktan ayrılmış olması gerekir?",
     "options": [
@@ -4253,13 +7233,24 @@ export const QUESTIONS = [
       "1"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 2. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-267",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Kadrosu kaldırılan bir devlet memuru, en",
     "title": "Kadrosu kaldırılan bir devlet memuru, en...",
     "question": "Kadrosu kaldırılan bir devlet memuru, en geç kaç ay içinde kendi kurumunda niteliklerine uygun bir kadroya atanır?",
     "options": [
@@ -4269,13 +7260,24 @@ export const QUESTIONS = [
       "3 ay"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 6 ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-268",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Sert anayasa sisteminin azınlık hakları bakımından",
     "title": "Sert anayasa sisteminin azınlık hakları bakımından...",
     "question": "Sert anayasa sisteminin azınlık hakları bakımından sağladığı güvence aşağıdakilerden hangisidir?",
     "options": [
@@ -4285,13 +7287,24 @@ export const QUESTIONS = [
       "Azınlıkların haklarının korunmasını nitelikli çoğunluk şartına bağlaması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Azınlıkların haklarının korunmasını nitelikli çoğunluk şartına bağlaması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-269",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi, sert anayasa yöntemlerinden biri",
     "title": "Aşağıdakilerden hangisi, sert anayasa yöntemlerinden biri...",
     "question": "Aşağıdakilerden hangisi, sert anayasa yöntemlerinden biri değildir?",
     "options": [
@@ -4301,13 +7314,24 @@ export const QUESTIONS = [
       "Bütün diğer kanunlar gibi görüşülme ve kabul"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Bütün diğer kanunlar gibi görüşülme ve kabul. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-270",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi anayasanın sertliğini gösteren unsurlardan",
     "title": "Aşağıdakilerden hangisi anayasanın sertliğini gösteren unsurlardan...",
     "question": "Aşağıdakilerden hangisi anayasanın sertliğini gösteren unsurlardan biri değildir?",
     "options": [
@@ -4317,13 +7341,24 @@ export const QUESTIONS = [
       "Her seçim döneminde otomatik değişim"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Her seçim döneminde otomatik değişim. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-271",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Türkiye’de anayasal gelişimin ilk",
     "title": "Aşağıdakilerden hangisi Türkiye’de anayasal gelişimin ilk...",
     "question": "Aşağıdakilerden hangisi Türkiye’de anayasal gelişimin ilk resmi adımı olarak kabul edilir?",
     "options": [
@@ -4333,13 +7368,24 @@ export const QUESTIONS = [
       "1876 Kanun-i Esasi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 1876 Kanun-i Esasi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-272",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi yürütme gücünün doğrudan yargı",
     "title": "Aşağıdakilerden hangisi yürütme gücünün doğrudan yargı...",
     "question": "Aşağıdakilerden hangisi yürütme gücünün doğrudan yargı organına verilmesine örnektir?",
     "options": [
@@ -4349,13 +7395,24 @@ export const QUESTIONS = [
       "Bakanların Meclis’e hesap vermesi"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Anayasa Mahkemesi'nin yürütmenin işlemini durdurması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-273",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi anayasanın üstünlüğü ilkesinin bir",
     "title": "Aşağıdakilerden hangisi anayasanın üstünlüğü ilkesinin bir...",
     "question": "Aşağıdakilerden hangisi anayasanın üstünlüğü ilkesinin bir sonucudur?",
     "options": [
@@ -4365,13 +7422,24 @@ export const QUESTIONS = [
       "Siyasi partilerin halktan oy alarak iktidara gelmesi"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Anayasanın diğer tüm normlardan önce uygulanması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-274",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi yazılı bir anayasa yapma",
     "title": "Aşağıdakilerden hangisi yazılı bir anayasa yapma...",
     "question": "Aşağıdakilerden hangisi yazılı bir anayasa yapma zorunluluğu olmayan ama anayasal gelenekleri güçlü bir devlettir?",
     "options": [
@@ -4381,13 +7449,24 @@ export const QUESTIONS = [
       "Fransa"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İngiltere. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-275",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi anayasa hukukunun kaynakları arasında",
     "title": "Aşağıdakilerden hangisi anayasa hukukunun kaynakları arasında...",
     "question": "Aşağıdakilerden hangisi anayasa hukukunun kaynakları arasında yer almaz?",
     "options": [
@@ -4397,13 +7476,24 @@ export const QUESTIONS = [
       "Tapu tüzüğü"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Tapu tüzüğü. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-276",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi toplum sözleşmesi teorisini savunan",
     "title": "Aşağıdakilerden hangisi toplum sözleşmesi teorisini savunan...",
     "question": "Aşağıdakilerden hangisi toplum sözleşmesi teorisini savunan düşünürlerden biridir?",
     "options": [
@@ -4413,13 +7503,24 @@ export const QUESTIONS = [
       "Machiavelli"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Thomas Hobbes. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-277",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi kuvvetler ayrılığı ilkesine göre",
     "title": "Aşağıdakilerden hangisi kuvvetler ayrılığı ilkesine göre...",
     "question": "Aşağıdakilerden hangisi kuvvetler ayrılığı ilkesine göre oluşturulmuş bir devlet düzeni değildir?",
     "options": [
@@ -4429,13 +7530,24 @@ export const QUESTIONS = [
       "Her kuvvetin ayrı organlara verilmesi"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Yargının yürütmeye bağlı olması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-278",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Türkiye Cumhuriyeti Anayasası’na göre",
     "title": "Aşağıdakilerden hangisi Türkiye Cumhuriyeti Anayasası’na göre...",
     "question": "Aşağıdakilerden hangisi Türkiye Cumhuriyeti Anayasası’na göre değiştirilemez ve değiştirilmesi teklif dahi edilemez hükümler arasında yer alır?",
     "options": [
@@ -4445,13 +7557,24 @@ export const QUESTIONS = [
       "TBMM seçimlerinin 5 yılda bir yapılması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Cumhuriyetin nitelikleri. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-279",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi temel hak ve hürriyetlerin",
     "title": "Aşağıdakilerden hangisi temel hak ve hürriyetlerin...",
     "question": "Aşağıdakilerden hangisi temel hak ve hürriyetlerin sınırlandırılmasında dikkate alınması gereken ilkelerden biri değildir?",
     "options": [
@@ -4461,13 +7584,24 @@ export const QUESTIONS = [
       "Keyfilik"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Keyfilik. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-280",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki durumlardan hangisinde temel hak ve",
     "title": "Aşağıdaki durumlardan hangisinde temel hak ve...",
     "question": "Aşağıdaki durumlardan hangisinde temel hak ve özgürlükler kısmen veya tamamen durdurulabilir?",
     "options": [
@@ -4477,13 +7611,24 @@ export const QUESTIONS = [
       "Savaş ve olağanüstü hal"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Savaş ve olağanüstü hal. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-281",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki haklardan hangisi Anayasa’ya göre çekirdek",
     "title": "Aşağıdaki haklardan hangisi Anayasa’ya göre çekirdek...",
     "question": "Aşağıdaki haklardan hangisi Anayasa’ya göre çekirdek hak kapsamındadır ve olağanüstü hâlde bile sınırlandırılamaz?",
     "options": [
@@ -4493,13 +7638,24 @@ export const QUESTIONS = [
       "Seyahat özgürlüğü"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Suçluluğu mahkeme kararıyla sabit oluncaya kadar suçsuz sayılma. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-282",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Yasama yetkisi hangi organa aittir?",
     "title": "Yasama yetkisi hangi organa aittir?",
     "question": "Yasama yetkisi hangi organa aittir?",
     "options": [
@@ -4509,13 +7665,24 @@ export const QUESTIONS = [
       "Danıştay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Türkiye Büyük Millet Meclisi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-283",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Anayasa Mahkemesi’nin görevlerinden biri",
     "title": "Aşağıdakilerden hangisi Anayasa Mahkemesi’nin görevlerinden biri...",
     "question": "Aşağıdakilerden hangisi Anayasa Mahkemesi’nin görevlerinden biri değildir?",
     "options": [
@@ -4525,13 +7692,24 @@ export const QUESTIONS = [
       "Yüce Divan sıfatıyla yargılama yapmak"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Cumhurbaşkanına yasa teklifinde bulunmak. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-284",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Anayasa’ya göre Hâkimler ve Savcılar Kurulu",
     "title": "Anayasa’ya göre Hâkimler ve Savcılar Kurulu...",
     "question": "Anayasa’ya göre Hâkimler ve Savcılar Kurulu (HSK) kaç üyeden oluşur?",
     "options": [
@@ -4541,13 +7719,24 @@ export const QUESTIONS = [
       "15"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 13. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-285",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Anayasa Mahkemesi’nin Yüce Divan sıfatıyla yargılama",
     "title": "Anayasa Mahkemesi’nin Yüce Divan sıfatıyla yargılama...",
     "question": "Anayasa Mahkemesi’nin Yüce Divan sıfatıyla yargılama yapabileceği kişilerden biri aşağıdakilerden hangisidir?",
     "options": [
@@ -4557,13 +7746,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanı Yardımcıları"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Cumhurbaşkanı Yardımcıları. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-286",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi yürütmenin yasama yetkisini kullanmasına",
     "title": "Aşağıdakilerden hangisi yürütmenin yasama yetkisini kullanmasına...",
     "question": "Aşağıdakilerden hangisi yürütmenin yasama yetkisini kullanmasına örnek oluşturur?",
     "options": [
@@ -4573,13 +7773,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanının TBMM’yi feshetmesi"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Cumhurbaşkanının kararname çıkarması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-287",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi TBMM Başkanı’nın görevlerinden biridir?",
     "title": "Aşağıdakilerden hangisi TBMM Başkanı’nın görevlerinden biridir?",
     "question": "Aşağıdakilerden hangisi TBMM Başkanı’nın görevlerinden biridir?",
     "options": [
@@ -4589,13 +7800,24 @@ export const QUESTIONS = [
       "Bakan atamalarını onaylamak"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Genel Kurul çalışmalarını yönetmek. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-288",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi borcun sona erme halleri",
     "title": "Aşağıdakilerden hangisi borcun sona erme halleri...",
     "question": "Aşağıdakilerden hangisi borcun sona erme halleri arasında yer almaz?",
     "options": [
@@ -4605,13 +7827,24 @@ export const QUESTIONS = [
       "Dönme"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Dönme. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-289",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir sözleşmenin geçerliliği açısından aşağıdakilerden hangisi",
     "title": "Bir sözleşmenin geçerliliği açısından aşağıdakilerden hangisi...",
     "question": "Bir sözleşmenin geçerliliği açısından aşağıdakilerden hangisi bir kurucu unsur olarak aranmaz?",
     "options": [
@@ -4621,13 +7854,24 @@ export const QUESTIONS = [
       "Hukuka ve ahlaka aykırılık taşımaması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Sözleşmenin yazılı yapılması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-290",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Borç ilişkisinde temerrüt halinin gerçekleşmesi için",
     "title": "Borç ilişkisinde temerrüt halinin gerçekleşmesi için...",
     "question": "Borç ilişkisinde temerrüt halinin gerçekleşmesi için aşağıdakilerden hangisi zorunludur?",
     "options": [
@@ -4637,13 +7881,24 @@ export const QUESTIONS = [
       "Zararın doğmuş olması"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Alacaklının ihtarda bulunması ve borçlunun gecikmesinin kusurlu olması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-291",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "\"Sebepsiz zenginleşme\" hükümlerinin uygulanabilmesi için aşağıdakilerden",
     "title": "\"Sebepsiz zenginleşme\" hükümlerinin uygulanabilmesi için aşağıdakilerden...",
     "question": "\"Sebepsiz zenginleşme\" hükümlerinin uygulanabilmesi için aşağıdakilerden hangisi şart değildir?",
     "options": [
@@ -4653,13 +7908,24 @@ export const QUESTIONS = [
       "Zenginleşmenin kastla gerçekleştirilmiş olması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Zenginleşmenin kastla gerçekleştirilmiş olması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-292",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi borcun ifasının geçerli sayılabilmesi",
     "title": "Aşağıdakilerden hangisi borcun ifasının geçerli sayılabilmesi...",
     "question": "Aşağıdakilerden hangisi borcun ifasının geçerli sayılabilmesi için gerekli unsurlardan biri değildir?",
     "options": [
@@ -4669,13 +7935,24 @@ export const QUESTIONS = [
       "Borcun uygun kişiye yapılması"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Borcun borçlu tarafından yerine getirilmesi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-293",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi geçerli bir borç ilişkisinin",
     "title": "Aşağıdakilerden hangisi geçerli bir borç ilişkisinin...",
     "question": "Aşağıdakilerden hangisi geçerli bir borç ilişkisinin kurulması için aranan asli unsurlar arasında yer almaz?",
     "options": [
@@ -4685,13 +7962,24 @@ export const QUESTIONS = [
       "Noter onayı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Noter onayı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-294",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir kimse, başkasına zarar verdiyse ancak",
     "title": "Bir kimse, başkasına zarar verdiyse ancak...",
     "question": "Bir kimse, başkasına zarar verdiyse ancak bu zarar haksız fiil unsurlarını taşımıyorsa, hangi sorumluluk türü gündeme gelir?",
     "options": [
@@ -4701,13 +7989,24 @@ export const QUESTIONS = [
       "Haksız fiil sorumluluğu"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Sebepsiz zenginleşme. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-295",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki sözleşme türlerinden hangisinde taraflardan yalnızca",
     "title": "Aşağıdaki sözleşme türlerinden hangisinde taraflardan yalnızca...",
     "question": "Aşağıdaki sözleşme türlerinden hangisinde taraflardan yalnızca biri edim borcu altındadır?",
     "options": [
@@ -4717,13 +8016,24 @@ export const QUESTIONS = [
       "Bağışlama sözleşmesi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Bağışlama sözleşmesi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-296",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi bir borç ilişkisinin kaynakları",
     "title": "Aşağıdakilerden hangisi bir borç ilişkisinin kaynakları...",
     "question": "Aşağıdakilerden hangisi bir borç ilişkisinin kaynakları arasında yer almaz?",
     "options": [
@@ -4733,13 +8043,24 @@ export const QUESTIONS = [
       "İrade beyanı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İrade beyanı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-297",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Borçlar Hukuku’nda “doğal borç” (eksik borç)",
     "title": "Borçlar Hukuku’nda “doğal borç” (eksik borç)...",
     "question": "Borçlar Hukuku’nda “doğal borç” (eksik borç) ile ilgili aşağıdakilerden hangisi doğrudur?",
     "options": [
@@ -4749,13 +8070,24 @@ export const QUESTIONS = [
       "Ahlaki yükümlülüklere dayanır, ifa edilebilir ama zorlanamaz."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Ahlaki yükümlülüklere dayanır, ifa edilebilir ama zorlanamaz.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-298",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Yetki almadan kamu hizmetine ilişkin gizli",
     "title": "Yetki almadan kamu hizmetine ilişkin gizli...",
     "question": "Yetki almadan kamu hizmetine ilişkin gizli bilgileri açıklamak, aşağıdaki disiplin cezalarından hangisini gerektirir?",
     "options": [
@@ -4765,13 +8097,26 @@ export const QUESTIONS = [
       "Kademe ilerlemesinin durdurulması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Devlet memurluğundan çıkarma. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-299",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Devlet memurlarına hizmetleri karşılığında kadroya dayanılarak",
     "title": "Devlet memurlarına hizmetleri karşılığında kadroya dayanılarak...",
     "question": "Devlet memurlarına hizmetleri karşılığında kadroya dayanılarak ay itibarıyla ödenen paraya ne ad verilir?",
     "options": [
@@ -4781,13 +8126,24 @@ export const QUESTIONS = [
       "İkramiye"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Aylık. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-300",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Disiplin hükümlerine ilişkin aşağıdaki ifadelerden hangileri",
     "title": "Disiplin hükümlerine ilişkin aşağıdaki ifadelerden hangileri...",
     "question": "Disiplin hükümlerine ilişkin aşağıdaki ifadelerden hangileri doğrudur?I. Memura savunma yapması için en çok beş gün süre verilir.II. Uyarma, kınama ve aylıktan kesme cezaları disiplin amirlerince verilir.III. Devlet memurluğundan çıkarma cezası",
     "options": [
@@ -4797,13 +8153,26 @@ export const QUESTIONS = [
       "II, III ve IV"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: II ve IV. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-301",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Görevinden uzaklaştırılan devlet memuru hakkında, görevden",
     "title": "Görevinden uzaklaştırılan devlet memuru hakkında, görevden...",
     "question": "Görevinden uzaklaştırılan devlet memuru hakkında, görevden uzaklaştırmayı izleyen en geç kaç iş günü içinde soruşturmaya başlanmalıdır?",
     "options": [
@@ -4813,13 +8182,24 @@ export const QUESTIONS = [
       "10"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 10. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-302",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Bir memurun görevinden geçici olarak ayrılması",
     "title": "Bir memurun görevinden geçici olarak ayrılması...",
     "question": "Bir memurun görevinden geçici olarak ayrılması üzerine aynı kurumdan vekil atanan memura, istisnalar dışında, vekâlet görevinin kaç ayı aşan süresi için vekâlet aylığı ödenir?",
     "options": [
@@ -4829,13 +8209,25 @@ export const QUESTIONS = [
       "4"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 3. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-303",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre görevi sırasında veya görevinden dolayı bir kazaya ya da saldırıya uğrayan veya meslek hastalığına yakalanan devlet memuruna ne kadar süreyle hastalık izni verilir?",
     "options": [
@@ -4845,13 +8237,24 @@ export const QUESTIONS = [
       "İyileşinceye kadar"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İyileşinceye kadar. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-304",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre dört yıl süreli yükseköğrenimi tamamlayanlar, özel hükümler ve istisnalar dışında, kaçıncı dereceden devlet memurluğuna başlar?",
     "options": [
@@ -4861,13 +8264,25 @@ export const QUESTIONS = [
       "9"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 6. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-305",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre lise dengi mesleki veya teknik öğrenimi tamamlayanlar, genel olarak hangi derece ve kademeden devlet memurluğuna başlar?",
     "options": [
@@ -4877,13 +8292,24 @@ export const QUESTIONS = [
       "12/2"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 12/2. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-306",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre bir meslek veya sanat okulunu bitirenler, Türk Medeni Kanunu'nun 12. maddesi uyarınca ergin kılınma kararı almak şartıyla en az kaç yaşını doldurduktan sonra devlet memurluğuna atanabilir?",
     "options": [
@@ -4893,13 +8319,24 @@ export const QUESTIONS = [
       "15"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 12. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-307",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre aynı yerdeki bir göreve ilk defa, yeniden veya yer değiştirme suretiyle atanan memurlar, atama emirlerinin kendilerine tebliğ edilmesinden sonra ne zaman göreve başlamak zorundadır?",
     "options": [
@@ -4909,13 +8346,24 @@ export const QUESTIONS = [
       "Tebliğ tarihinden itibaren on beşinci günü izleyen iş günü"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Tebliğ edildiği gün. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-308",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanununa göre,",
     "title": "657 sayılı Devlet Memurları Kanununa göre,...",
     "question": "657 sayılı Devlet Memurları Kanununa göre, kanser, verem ve akıl hastalığı gibi uzun süreli bir tedaviye ihtiyaç gösteren hastalığa yakalanan memura ilk seferinde en fazla kaç aya kadar hastalık izni verilebilir?",
     "options": [
@@ -4925,13 +8373,24 @@ export const QUESTIONS = [
       "24"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 18. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-309",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre memura, eşinin kardeşinin ölümü halinde isteği üzerine kaç gün izin verilir?",
     "options": [
@@ -4941,13 +8400,24 @@ export const QUESTIONS = [
       "7"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 7. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-310",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre kadın memura, doğum sonrası analık izni süresinin bitim tarihinden itibaren ilk altı ayda günde kaç saat süt izni verilir?",
     "options": [
@@ -4957,13 +8427,24 @@ export const QUESTIONS = [
       "3"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 3. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-311",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanununa göre,",
     "title": "657 sayılı Devlet Memurları Kanununa göre,...",
     "question": "657 sayılı Devlet Memurları Kanununa göre, Devlet memurlarına beş hizmet yılını tamamlamaları ve istekleri halinde memuriyetleri süresince iki defada kullanılmak üzere en fazla ne kadar süre ile aylıksız izin verilebilir?",
     "options": [
@@ -4973,13 +8454,24 @@ export const QUESTIONS = [
       "24 ay"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 12 ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-312",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanununa göre,",
     "title": "657 sayılı Devlet Memurları Kanununa göre,...",
     "question": "657 sayılı Devlet Memurları Kanununa göre, aylıksız izin süresinin bitiminden önce mazereti gerektiren sebebin ortadan kalkması hallnde kaç gün içinde göreve dönülmesi zorunludur?",
     "options": [
@@ -4989,13 +8481,24 @@ export const QUESTIONS = [
       "10 gün"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 10 gün. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-313",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre devlet memurları, kamu hizmetleriyle ilgili gizli bilgileri görevlerinden ayrılmış olsalar bile aşağıdakilerden hangisinin yazılı izni olmadan açıklayamaz?",
     "options": [
@@ -5005,13 +8508,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanlığı İdari İşler Başkanı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Yetkili bakan. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-314",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre üç yaşını doldurmamış bir çocuğu eşiyle birlikte veya tek başına evlat edinen memurlara, ilgili izinlerin bitiminden itibaren istekleri üzerine en fazla kaç ay aylıksız izin verilebilir?",
     "options": [
@@ -5021,13 +8535,24 @@ export const QUESTIONS = [
       "12 ay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 24 ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-315",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre disiplin cezasını gerektiren fiil ve hâllerin işlendiği tarihten itibaren, genel kural olarak, en geç ne kadar süre içinde disiplin cezası verilmemesi hâlinde ceza verme yetkisi zamanaşımına uğrar?",
     "options": [
@@ -5037,13 +8562,27 @@ export const QUESTIONS = [
       "6 ay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 2 yıl. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Zamanaşımı",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-316",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre kamu kurum ve kuruluşları, bu Kanun'a göre çalıştırdıkları personele ait kadrolarda yüzde kaç oranında engelli personel çalıştırmak zorundadır?",
     "options": [
@@ -5053,13 +8592,24 @@ export const QUESTIONS = [
       "%3"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: %3. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-317",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre bu Kanun'da öngörülen yönetmelikler aşağıdakilerden hangisi tarafından yürürlüğe konulur?",
     "options": [
@@ -5069,13 +8619,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Cumhurbaşkanı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-318",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -5085,13 +8646,24 @@ export const QUESTIONS = [
       "Kınama cezası alan memur, cezanın uygulanmasından beş yıl sonra yetkili amire başvurarak cezanın özlük dosyasından silinmesini isteyebilir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Türkiye Büyük Millet Meclisi memurlukları istisnai memurluklar arasında yer almaz.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-319",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, disiplin cezaları ve bunların uygulanmasıyla ilgili aşağıdakilerden hangisi yanlıştır?",
     "options": [
@@ -5101,13 +8673,26 @@ export const QUESTIONS = [
       "Disiplin cezasının yargı kararıyla iptal edilmesine ilişkin özel düzenleme saklı kalmak üzere, disiplin cezasını gerektiren fiilin işlendiği tarihten itibaren iki yıl içinde ceza verilmemesi hâlinde ceza verme yetkisi zamanaşımına uğrar."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Kademe ilerlemesinin durdurulması cezası alan memur, cezanın uygulanmasından beş yıl sonra bu cezanın özlük dosyasından silinmesini isteyebilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-320",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, aday memur Funda Hanım temel eğitimde başarısız olmuş ve sağlık nedenlerinden kaynaklanan bir durum bulunmadığı tespit edilmiştir. Bu durumda aşağıdaki işlemlerden hangisi uygulanır?",
     "options": [
@@ -5117,13 +8702,24 @@ export const QUESTIONS = [
       "Adaylığı sona ermeden başka bir kamu kurumuna nakledilir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Disiplin amirinin teklifi ve atamaya yetkili amirin onayıyla ilişiği kesilir; üç yıl süreyle devlet memurluğuna alınmaz.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-321",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, asli devlet memurluğuna atanan kişi en geç kaç ay içinde yemin ederek Yemin Belgesi’ni imzalamak zorundadır?",
     "options": [
@@ -5133,13 +8729,24 @@ export const QUESTIONS = [
       "6 ay"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 1 ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-322",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "I. SınıflandırmaII. LiyakatIII. DisiplinIV. Kariyer657 sayılı",
     "title": "I. SınıflandırmaII. LiyakatIII. DisiplinIV. Kariyer657 sayılı...",
     "question": "I. SınıflandırmaII. LiyakatIII. DisiplinIV. Kariyer657 sayılı Devlet Memurları Kanunu’na göre, yukarıdakilerden hangisi Kanun’un temel ilkeleri arasında yer almaz?",
     "options": [
@@ -5149,13 +8756,25 @@ export const QUESTIONS = [
       "I, II ve III"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Yalnız I. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-323",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre muvazzaf askerlik görevini tamamlayan devlet memurları, yeniden görevlerine dönmek istemeleri hâlinde terhis tarihinden itibaren en geç kaç gün içinde kurumlarına başvurmak zorundadır?",
     "options": [
@@ -5165,13 +8784,24 @@ export const QUESTIONS = [
       "30 gün"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 30 gün. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-324",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre sağlık kurulu raporu üzerine verilen hastalık izinleri, uzun süreli tedavi gerektiren hastalıklara ilişkin izinler ve resmî yataklı tedavi kurumlarında yatarak geçirilen tedavi süreleri hariç olmak üzere,",
     "options": [
@@ -5181,13 +8811,24 @@ export const QUESTIONS = [
       "%25"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: %25. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-325",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre disiplin cezalarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -5197,13 +8838,26 @@ export const QUESTIONS = [
       "Disiplin cezasını gerektiren fiilin, cezanın özlük dosyasından silinmesine ilişkin süre içinde tekrarlanması hâlinde bir derece ağır ceza uygulanır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Devlet memuruna savunmasını yapabilmesi için en az beş gün süre verilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-326",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre kamu kurum ve kuruluşları, bu Kanun'a göre çalıştırdıkları personele ait kadrolarda en az yüzde kaç oranında engelli personel çalıştırmak zorundadır?",
     "options": [
@@ -5213,13 +8867,24 @@ export const QUESTIONS = [
       "%7"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: %3. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-327",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre ilk defa, yeniden veya yer değiştirme suretiyle yapılan atamalarda göreve başlama sürelerine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -5229,13 +8894,24 @@ export const QUESTIONS = [
       "Eski görevlerine devamları kurumlarınca yazılı olarak bildirilen memurlar, yerlerine atanan memurların gelmesini beklemeksizin ilk atama tebliğinden itibaren en geç 10 gün içinde yeni görevlerine başlamak zorundadır."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Eski görevlerine devamları kurumlarınca yazılı olarak bildirilen memurlar, yerlerine atanan memurların gelmesini beklemeksizin ilk atama tebliğinden itibaren en geç 10 gün içinde yeni görevlerine başlamak zorundadır.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-328",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi yükümlülerinin ve sorumlularının özel hukuk",
     "title": "Vergi yükümlülerinin ve sorumlularının özel hukuk...",
     "question": "Vergi yükümlülerinin ve sorumlularının özel hukuk biçimlerini olağan kullanımları dışında vergi kaçırma amacı ile kötüye kullanmaları aşağıdakilerden hangisi ile ifade edilir?",
     "options": [
@@ -5245,13 +8921,24 @@ export const QUESTIONS = [
       "Takas"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Vergi kaçakçılığı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-329",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Mükellefler düzenledikleri defter, belge ve karnelerini",
     "title": "Mükellefler düzenledikleri defter, belge ve karnelerini...",
     "question": "Mükellefler düzenledikleri defter, belge ve karnelerini kaç yıl saklamak zorundadırlar?",
     "options": [
@@ -5261,13 +8948,24 @@ export const QUESTIONS = [
       "10"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 5. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-330",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Mükellefin genel vekili olan mali müşavirler",
     "title": "Mükellefin genel vekili olan mali müşavirler...",
     "question": "Mükellefin genel vekili olan mali müşavirler mükellef adına aşağıdaki işlemlerden hangisini yerine getiremezler?",
     "options": [
@@ -5277,13 +8975,24 @@ export const QUESTIONS = [
       "Vergi davası açma"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Vergi davası açma. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-331",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Vergi mükellefi ile vergi konusu arasında",
     "title": "Vergi mükellefi ile vergi konusu arasında...",
     "question": "Vergi mükellefi ile vergi konusu arasında ilişki kurulması aşağıdakilerin hangisinin neticesinde gerçekleştirilebilir?",
     "options": [
@@ -5293,13 +9002,24 @@ export const QUESTIONS = [
       "Verginin oranı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Vergiyi doğuran olay. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-332",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi hukukun dalları ile ilgili aşağıdaki",
     "title": "Vergi hukukun dalları ile ilgili aşağıdaki...",
     "question": "Vergi hukukun dalları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -5309,13 +9029,24 @@ export const QUESTIONS = [
       "Vergi usul hukuku, mükelleflerin yükümlülüklerinin neler olduğunu ve yükümlülüklerle ilgili yorumları düzenlemektedir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Vergi usul hukuku, mükelleflerin yükümlülüklerinin neler olduğunu ve yükümlülüklerle ilgili yorumları düzenlemektedir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-333",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Verginin vadesinde ödenmemesi durumunda mükelleflere uygulanacak",
     "title": "Verginin vadesinde ödenmemesi durumunda mükelleflere uygulanacak...",
     "question": "Verginin vadesinde ödenmemesi durumunda mükelleflere uygulanacak müeyyide aşağıdakilerden hangisi olacaktır?",
     "options": [
@@ -5325,13 +9056,24 @@ export const QUESTIONS = [
       "Mükerrer faiz"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Gecikme zammı. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-334",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Aşağıdaki durumların hangisinin mevcudiyeti halinde uzlaşmaya",
     "title": "Aşağıdaki durumların hangisinin mevcudiyeti halinde uzlaşmaya...",
     "question": "Aşağıdaki durumların hangisinin mevcudiyeti halinde uzlaşmaya gidilebilir?",
     "options": [
@@ -5341,13 +9083,24 @@ export const QUESTIONS = [
       "Kanun hükümlerine yeterince nüfuz edememe nedenlerinden dolayı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kanun hükümlerine yeterince nüfuz edememe nedenlerinden dolayı. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-335",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi mahkemelerinin tek hakimle verdikleri karara",
     "title": "Vergi mahkemelerinin tek hakimle verdikleri karara...",
     "question": "Vergi mahkemelerinin tek hakimle verdikleri karara karşı hangi sürede nereye başvurulabilir?",
     "options": [
@@ -5357,13 +9110,24 @@ export const QUESTIONS = [
       "30 gün içinde Danıştay"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 30 gün içinde BIM. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-336",
     "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Ödeme emrine karşı açılan davalar, vergi",
     "title": "Ödeme emrine karşı açılan davalar, vergi...",
     "question": "Ödeme emrine karşı açılan davalar, vergi mahkemesinde ne kadar süre içerisinde karara bağlanır?",
     "options": [
@@ -5373,13 +9137,24 @@ export const QUESTIONS = [
       "30 gün"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 7 gün. 6183 Sayılı AATUHK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "6183 Sayılı AATUHK",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı AATUHK"
+    ]
   },
   {
     "id": "q-337",
     "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Aşağıdakilerden hangisinde ihtiyati haciz uygulanması söz",
     "title": "Aşağıdakilerden hangisinde ihtiyati haciz uygulanması söz...",
     "question": "Aşağıdakilerden hangisinde ihtiyati haciz uygulanması söz konusu değildir?",
     "options": [
@@ -5389,13 +9164,25 @@ export const QUESTIONS = [
       "Borçlu belli müddet içinde mal bildiriminde bulunmamış veya noksan bildirimde bulunmuşsa"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Borçlunun birden fazla ikametgahı varsa. 6183 Sayılı AATUHK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "6183 Sayılı AATUHK",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı AATUHK",
+      "Haciz"
+    ]
   },
   {
     "id": "q-338",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi kamu alacaklarının korunması yöntemlerinden",
     "title": "Aşağıdakilerden hangisi kamu alacaklarının korunması yöntemlerinden...",
     "question": "Aşağıdakilerden hangisi kamu alacaklarının korunması yöntemlerinden biri değildir?",
     "options": [
@@ -5405,13 +9192,24 @@ export const QUESTIONS = [
       "Terkin"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Terkin. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-339",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Uzlaşma talebinin vergi ihbarnamesinin tebliğinden itibaren",
     "title": "Uzlaşma talebinin vergi ihbarnamesinin tebliğinden itibaren...",
     "question": "Uzlaşma talebinin vergi ihbarnamesinin tebliğinden itibaren kaç gün içinde yapılması gerekir?",
     "options": [
@@ -5421,13 +9219,24 @@ export const QUESTIONS = [
       "30"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 30. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-340",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisinin gerçekleşmesiyle vergi borcu etkilenmezken",
     "title": "Aşağıdakilerden hangisinin gerçekleşmesiyle vergi borcu etkilenmezken...",
     "question": "Aşağıdakilerden hangisinin gerçekleşmesiyle vergi borcu etkilenmezken vergi cezaları ortadan kalkmaktadır?",
     "options": [
@@ -5437,13 +9246,25 @@ export const QUESTIONS = [
       "Hata düzeltme"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Ölüm. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat",
+      "Cezalar"
+    ]
   },
   {
     "id": "q-341",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıda belirtilen teminatların hangisi vergi borçlusunun",
     "title": "Aşağıda belirtilen teminatların hangisi vergi borçlusunun...",
     "question": "Aşağıda belirtilen teminatların hangisi vergi borçlusunun borcuna karşılık teminat olarak kabul edilemez?",
     "options": [
@@ -5453,13 +9274,24 @@ export const QUESTIONS = [
       "Bankalar tarafından verilen teminat mektupları"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Kambiyo senetleri. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-342",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi borçlusu borcunu zamanında ödemediği ya",
     "title": "Vergi borçlusu borcunu zamanında ödemediği ya...",
     "question": "Vergi borçlusu borcunu zamanında ödemediği ya da kendi isteğiyle ödemediği takdirde vergi borcu zorla tahsil edilmektedir. Buna cebri tahsil denilmektedir. Aşağıdakilerden hangisi cebri tahsil yöntemlerinden biri değildir?",
     "options": [
@@ -5469,13 +9301,24 @@ export const QUESTIONS = [
       "Borçlunun konkordatoya gitmek istemesi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Borçlunun konkordatoya gitmek istemesi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-343",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi Kanunu'na göre, aşağıdakilerden hangisi",
     "title": "Gelir Vergisi Kanunu'na göre, aşağıdakilerden hangisi...",
     "question": "Gelir Vergisi Kanunu'na göre, aşağıdakilerden hangisi vergiye tabi gelir unsurlarından biri değildir?",
     "options": [
@@ -5485,13 +9328,24 @@ export const QUESTIONS = [
       "Trafik cezaları"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Trafik cezaları. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-344",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi Kanunu'na göre, aşağıdaki gelir",
     "title": "Gelir Vergisi Kanunu'na göre, aşağıdaki gelir...",
     "question": "Gelir Vergisi Kanunu'na göre, aşağıdaki gelir unsurlarından hangisi \"gayrimenkul sermaye iradı\" olarak değerlendirilir?",
     "options": [
@@ -5501,13 +9355,24 @@ export const QUESTIONS = [
       "Ücret geliri"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Kira geliri. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-345",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi Kanunu'na göre, aşağıdakilerden hangisi",
     "title": "Gelir Vergisi Kanunu'na göre, aşağıdakilerden hangisi...",
     "question": "Gelir Vergisi Kanunu'na göre, aşağıdakilerden hangisi gelir vergisinden istisna edilen gelirlerdendir?",
     "options": [
@@ -5517,13 +9382,25 @@ export const QUESTIONS = [
       "Menkul sermaye iradı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Veraset ve intikal yoluyla edinilen miras. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-346",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi Kanunu'na göre aşağıdakilerden hangisi",
     "title": "Gelir Vergisi Kanunu'na göre aşağıdakilerden hangisi...",
     "question": "Gelir Vergisi Kanunu'na göre aşağıdakilerden hangisi serbest meslek kazancı olarak kabul edilir?",
     "options": [
@@ -5533,13 +9410,24 @@ export const QUESTIONS = [
       "Bir iş yerindeki maaş geliri"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Bir avukatın elde ettiği gelir. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-347",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi Kanunu'na göre, aşağıdaki kazanç",
     "title": "Gelir Vergisi Kanunu'na göre, aşağıdaki kazanç...",
     "question": "Gelir Vergisi Kanunu'na göre, aşağıdaki kazanç türlerinden hangisi zirai kazanç olarak kabul edilir?",
     "options": [
@@ -5549,13 +9437,24 @@ export const QUESTIONS = [
       "Faiz geliri"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Tarlada yetiştirilen ürünlerden elde edilen gelir. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-348",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Para ve alacaklar dışındaki diğer kalemlerin",
     "title": "Para ve alacaklar dışındaki diğer kalemlerin...",
     "question": "Para ve alacaklar dışındaki diğer kalemlerin elde edilme bedelleri ile muhasebeleştirilmesi, aşağıdaki muhasebe temel kavramlarından hangisi ile açıklanır?",
     "options": [
@@ -5565,13 +9464,24 @@ export const QUESTIONS = [
       "Maliyet esası"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Maliyet esası. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-349",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Araştırma ve Geliştirme Giderleri aşağıdaki gruplardan",
     "title": "Araştırma ve Geliştirme Giderleri aşağıdaki gruplardan...",
     "question": "Araştırma ve Geliştirme Giderleri aşağıdaki gruplardan hangisinde yer alır?",
     "options": [
@@ -5581,13 +9491,24 @@ export const QUESTIONS = [
       "Diğer Faaliyetlerden Olağan Gider ve Zararlar"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Faaliyet Giderleri. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-350",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Ödenmemiş sermayesi bulunmayan X limited şirketi",
     "title": "Ödenmemiş sermayesi bulunmayan X limited şirketi...",
     "question": "Ödenmemiş sermayesi bulunmayan X limited şirketi 80.000 TL sermaye azaltımına giderek, bu işlemin tahakkukunu gerçekleştirmiştir. Söz konusu azaltımın geçmiş yıllar zararı (30.0.00 .TL) ile dönem net zararından (50.000 TL) gerçekleştirilmesi",
     "options": [
@@ -5597,13 +9518,24 @@ export const QUESTIONS = [
       "Sermaye hesabı alacaklı, 80.000 TL"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Ortaklara Borçlar hesabı borçlu, 80.000 TL. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-351",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki işlemlerden hangisi öz sermayeyi etkileyen",
     "title": "Aşağıdaki işlemlerden hangisi öz sermayeyi etkileyen...",
     "question": "Aşağıdaki işlemlerden hangisi öz sermayeyi etkileyen işlemlerden biridir?",
     "options": [
@@ -5613,13 +9545,24 @@ export const QUESTIONS = [
       "Alıcılardan olan alacağın tahsil edilmesi"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Alınan kredi karşılığında bankaya faiz ödenmesi. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-352",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Vergi Usul Kanunu'na göre yangın; deprem,",
     "title": "Vergi Usul Kanunu'na göre yangın; deprem,...",
     "question": "Vergi Usul Kanunu'na göre yangın; deprem, su baskını vb. nedenlerle kıymeti düşen mallar aşağıdaki değerleme ölçülerinden hangisi ile değerlenir?",
     "options": [
@@ -5629,13 +9572,24 @@ export const QUESTIONS = [
       "Maliyet bedeli"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Emsal bedel. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-353",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gelir ve giderlerin tahakkuk esasına göre",
     "title": "Gelir ve giderlerin tahakkuk esasına göre...",
     "question": "Gelir ve giderlerin tahakkuk esasına göre muhasebeleştirilmesi muhasebenin temel kavramlarından hangisi ile açıklanır?",
     "options": [
@@ -5645,13 +9599,24 @@ export const QUESTIONS = [
       "Dönemsellik"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Dönemsellik. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-354",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki gelir tablosu hesaplarından hangisi \"Satışların",
     "title": "Aşağıdaki gelir tablosu hesaplarından hangisi \"Satışların...",
     "question": "Aşağıdaki gelir tablosu hesaplarından hangisi \"Satışların Maliyeti\" grubunda yer almaz?",
     "options": [
@@ -5661,13 +9626,24 @@ export const QUESTIONS = [
       "Satılan Hizmet Maliyeti hesabı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Pazarlama, Satış ve Dağıtım Giderleri hesabı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-355",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir işletme devralınırken katlanılan maliyetler ile",
     "title": "Bir işletme devralınırken katlanılan maliyetler ile...",
     "question": "Bir işletme devralınırken katlanılan maliyetler ile söz konusu işletmenin rayiç bedelle hesaplanan net varlıklarının değeri arasındaki olumlu farkların izlenmesinde kullanılan hesap aşağıdakilerden hangisidir?",
     "options": [
@@ -5677,13 +9653,24 @@ export const QUESTIONS = [
       "Haklar"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Şerefiye. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-356",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İşletmenin sahip olduğu mevcutlar ile alacakların",
     "title": "İşletmenin sahip olduğu mevcutlar ile alacakların...",
     "question": "İşletmenin sahip olduğu mevcutlar ile alacakların izlendiği hesap grubu aşağıdakilerden hangisidir?",
     "options": [
@@ -5693,13 +9680,24 @@ export const QUESTIONS = [
       "Nazım hesaplar"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Varlık hesapları. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-357",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İşletmenin deposunu su basması sonucunda kayıtlarında",
     "title": "İşletmenin deposunu su basması sonucunda kayıtlarında...",
     "question": "İşletmenin deposunu su basması sonucunda kayıtlarında toplam 100.000TL olarak görünen 50 adet malın 20 adedinin % 40 değer kaybına uğradığı, takdir komisyonunca belirlenmiştir. işletme, takip eden dönemde 40.000 TL karşılığı 10 adet mal alımı için",
     "options": [
@@ -5709,13 +9707,24 @@ export const QUESTIONS = [
       "Karşılık Giderleri hesabına 40.000 TL alacak kaydı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Stok Değer Düşüklüğü Karşılığı hesabına 16.000 TL alacak kaydı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-358",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi ilamsız icra takibinin başlatılabilmesi",
     "title": "Aşağıdakilerden hangisi ilamsız icra takibinin başlatılabilmesi...",
     "question": "Aşağıdakilerden hangisi ilamsız icra takibinin başlatılabilmesi için gerekli değildir?",
     "options": [
@@ -5725,13 +9734,24 @@ export const QUESTIONS = [
       "Yetkili icra dairesine başvuru"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İlamlı bir belgeye dayanma. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-359",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Para ve teminat alacaklarının tahsili amacıyla",
     "title": "Para ve teminat alacaklarının tahsili amacıyla...",
     "question": "Para ve teminat alacaklarının tahsili amacıyla ilamsız takip başlatılabilir. Aşağıdakilerden hangisi bu yola başvurulamayacak bir alacaktır?",
     "options": [
@@ -5741,13 +9761,24 @@ export const QUESTIONS = [
       "Ticari senetten doğan teminat alacağı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Nafaka alacağı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-360",
     "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Borçlu, ödeme emrine itirazını süresi içinde",
     "title": "Borçlu, ödeme emrine itirazını süresi içinde...",
     "question": "Borçlu, ödeme emrine itirazını süresi içinde yaparsa aşağıdakilerden hangisi gerçekleşir?",
     "options": [
@@ -5757,13 +9788,24 @@ export const QUESTIONS = [
       "Mallar haczedilir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Takip durur.. 6183 Sayılı AATUHK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "6183 Sayılı AATUHK",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı AATUHK"
+    ]
   },
   {
     "id": "q-361",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İcra hukukunda “haciz” kavramı aşağıdakilerden hangisini",
     "title": "İcra hukukunda “haciz” kavramı aşağıdakilerden hangisini...",
     "question": "İcra hukukunda “haciz” kavramı aşağıdakilerden hangisini ifade eder?",
     "options": [
@@ -5773,13 +9815,25 @@ export const QUESTIONS = [
       "Borçlunun malvarlığına el konulması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Borçlunun malvarlığına el konulması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat",
+      "Haciz"
+    ]
   },
   {
     "id": "q-362",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İcra takibi sırasında borçlunun mal beyanında",
     "title": "İcra takibi sırasında borçlunun mal beyanında...",
     "question": "İcra takibi sırasında borçlunun mal beyanında bulunması aşağıdakilerden hangisine neden olur?",
     "options": [
@@ -5789,13 +9843,24 @@ export const QUESTIONS = [
       "Takibin iptaline"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İcra ceza tehdidinin ortadan kalkmasına. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-363",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İcra takibinde şikayet süresi kural olarak",
     "title": "İcra takibinde şikayet süresi kural olarak...",
     "question": "İcra takibinde şikayet süresi kural olarak ne kadardır?",
     "options": [
@@ -5805,13 +9870,24 @@ export const QUESTIONS = [
       "10 gün"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 5 gün. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-364",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İcra dairesince yapılan işlemlerin hukuka aykırı",
     "title": "İcra dairesince yapılan işlemlerin hukuka aykırı...",
     "question": "İcra dairesince yapılan işlemlerin hukuka aykırı olduğu iddiasıyla hangi yola başvurulur?",
     "options": [
@@ -5821,13 +9897,24 @@ export const QUESTIONS = [
       "Şikayet"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Şikayet. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-365",
     "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Borçlunun ödeme emrine süresinde itiraz etmemesi",
     "title": "Borçlunun ödeme emrine süresinde itiraz etmemesi...",
     "question": "Borçlunun ödeme emrine süresinde itiraz etmemesi halinde doğan sonuç aşağıdakilerden hangisidir?",
     "options": [
@@ -5837,13 +9924,24 @@ export const QUESTIONS = [
       "Dava açılması gerekir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Borç kesinleşir ve haciz aşamasına geçilir.. 6183 Sayılı AATUHK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "6183 Sayılı AATUHK",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı AATUHK"
+    ]
   },
   {
     "id": "q-366",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Borçlunun borcunu ödememesi durumunda, borçlunun taşınmazının",
     "title": "Borçlunun borcunu ödememesi durumunda, borçlunun taşınmazının...",
     "question": "Borçlunun borcunu ödememesi durumunda, borçlunun taşınmazının satılabilmesi için gereken süre en az ne kadardır?",
     "options": [
@@ -5853,13 +9951,24 @@ export const QUESTIONS = [
       "Hacizden sonra 2 ay"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Hacizden sonra 2 ay. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-367",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi iflasın açılmasının sonuçlarından biri",
     "title": "Aşağıdakilerden hangisi iflasın açılmasının sonuçlarından biri...",
     "question": "Aşağıdakilerden hangisi iflasın açılmasının sonuçlarından biri değildir?",
     "options": [
@@ -5869,13 +9978,24 @@ export const QUESTIONS = [
       "İflas idaresinin kurulması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Borçlunun tüm borçlarının sona ermesi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-368",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Haczedilen malın satılabilmesi için gerekli olan",
     "title": "Haczedilen malın satılabilmesi için gerekli olan...",
     "question": "Haczedilen malın satılabilmesi için gerekli olan ilan süresi en az ne kadardır?",
     "options": [
@@ -5885,13 +10005,24 @@ export const QUESTIONS = [
       "20 gün"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 15 gün. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-369",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Borçlu hakkında aciz vesikası düzenlenmesi aşağıdakilerden",
     "title": "Borçlu hakkında aciz vesikası düzenlenmesi aşağıdakilerden...",
     "question": "Borçlu hakkında aciz vesikası düzenlenmesi aşağıdakilerden hangisine bağlıdır?",
     "options": [
@@ -5901,13 +10032,24 @@ export const QUESTIONS = [
       "Takibin açılması"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Tüm malların haczedilmesi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-370",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Birden fazla alacaklının haciz koydurduğu bir",
     "title": "Birden fazla alacaklının haciz koydurduğu bir...",
     "question": "Birden fazla alacaklının haciz koydurduğu bir taşınmazda satış sonrası paylaşım aşağıdakilere göre yapılır?",
     "options": [
@@ -5917,13 +10059,25 @@ export const QUESTIONS = [
       "Borçlunun rızasına göre"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Alacaklılar arasında sıraya göre. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat",
+      "Haciz"
+    ]
   },
   {
     "id": "q-371",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İcra ve İflas Hukuku’nda “paraya çevirme”",
     "title": "İcra ve İflas Hukuku’nda “paraya çevirme”...",
     "question": "İcra ve İflas Hukuku’nda “paraya çevirme” sürecinde borçlunun borcu ödemesi halinde süreç hangi aşamada sona erer?",
     "options": [
@@ -5933,13 +10087,24 @@ export const QUESTIONS = [
       "Mahkeme kararı ile"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Satıştan önce ödeme olursa. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-372",
     "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Ali, borçlusu Veli’den olan alacağını tahsil",
     "title": "Ali, borçlusu Veli’den olan alacağını tahsil...",
     "question": "Ali, borçlusu Veli’den olan alacağını tahsil edememiştir. Elinde herhangi bir ilam bulunmayan Ali, ilamsız takip yoluna başvurmuş ve ödeme emri göndertmiştir. Veli, yasal süresi içinde ödeme emrine itiraz etmiştir. Bu durumda Ali'nin alacağını",
     "options": [
@@ -5949,13 +10114,24 @@ export const QUESTIONS = [
       "Takibi kendiliğinden durdurmak"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: İtirazın iptali davası açmak. 6183 Sayılı AATUHK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "6183 Sayılı AATUHK",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı AATUHK"
+    ]
   },
   {
     "id": "q-373",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Yargı organlarının, herhangi bir yasal düzenleme",
     "title": "Yargı organlarının, herhangi bir yasal düzenleme...",
     "question": "Yargı organlarının, herhangi bir yasal düzenleme bulunmamasına rağmen bazı idari işlemleri denetlemekten kaçınmasına ne ad verilir?",
     "options": [
@@ -5965,13 +10141,24 @@ export const QUESTIONS = [
       "Yargı kısıntısı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Yargı kısıntısı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-374",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Kamu Denetçiliği Kurumunun görev",
     "title": "Aşağıdakilerden hangisi Kamu Denetçiliği Kurumunun görev...",
     "question": "Aşağıdakilerden hangisi Kamu Denetçiliği Kurumunun görev alanı dışındadır?",
     "options": [
@@ -5981,13 +10168,24 @@ export const QUESTIONS = [
       "Kamu görevlilerinin eylemleri"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Mahkemelerin verdiği kararlar. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-375",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki kurumlardan hangisi yalnızca öneride bulunma",
     "title": "Aşağıdaki kurumlardan hangisi yalnızca öneride bulunma...",
     "question": "Aşağıdaki kurumlardan hangisi yalnızca öneride bulunma yetkisine sahiptir, kararları bağlayıcı değildir?",
     "options": [
@@ -5997,13 +10195,24 @@ export const QUESTIONS = [
       "Anayasa Mahkemesi"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Kamu Denetçiliği Kurumu. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-376",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki kaynaklardan hangisi idari yargılama hukukunun",
     "title": "Aşağıdaki kaynaklardan hangisi idari yargılama hukukunun...",
     "question": "Aşağıdaki kaynaklardan hangisi idari yargılama hukukunun temel kaynakları arasında yer almaz?",
     "options": [
@@ -6013,13 +10222,24 @@ export const QUESTIONS = [
       "Türk Ceza Kanunu"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Türk Ceza Kanunu. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-377",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi bir idari işlem olamaz?",
     "title": "Aşağıdakilerden hangisi bir idari işlem olamaz?",
     "question": "Aşağıdakilerden hangisi bir idari işlem olamaz?",
     "options": [
@@ -6029,13 +10249,24 @@ export const QUESTIONS = [
       "Mahkemenin hüküm kurması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Mahkemenin hüküm kurması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-378",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Sayıştay, kamu zararı tespit ettiğinde aşağıdakilerden",
     "title": "Sayıştay, kamu zararı tespit ettiğinde aşağıdakilerden...",
     "question": "Sayıştay, kamu zararı tespit ettiğinde aşağıdakilerden hangisini yapma yetkisine sahiptir?",
     "options": [
@@ -6045,13 +10276,24 @@ export const QUESTIONS = [
       "Disiplin cezası uygular."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Tazmin kararı verir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-379",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Danıştayın aşağıdaki görevlerinden hangisi 2017 Anayasa",
     "title": "Danıştayın aşağıdaki görevlerinden hangisi 2017 Anayasa...",
     "question": "Danıştayın aşağıdaki görevlerinden hangisi 2017 Anayasa değişikliğiyle kaldırılmıştır?",
     "options": [
@@ -6061,13 +10303,24 @@ export const QUESTIONS = [
       "Kamu hizmeti imtiyaz sözleşmelerini değerlendirmek"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Tüzük tasarılarını incelemek. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-380",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Sayıştay denetimine tabi değildir?",
     "title": "Aşağıdakilerden hangisi Sayıştay denetimine tabi değildir?",
     "question": "Aşağıdakilerden hangisi Sayıştay denetimine tabi değildir?",
     "options": [
@@ -6077,13 +10330,24 @@ export const QUESTIONS = [
       "Merkezi yönetim kapsamındaki kamu idareleri"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Türkiye Varlık Fonu. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-381",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Danıştay Başsavcısının görevi aşağıdakilerden hangisidir?",
     "title": "Danıştay Başsavcısının görevi aşağıdakilerden hangisidir?",
     "question": "Danıştay Başsavcısının görevi aşağıdakilerden hangisidir?",
     "options": [
@@ -6093,13 +10357,24 @@ export const QUESTIONS = [
       "Mahalli idareleri denetlemek"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İlk derece davalarda esas hakkındaki düşünceyi bildirmek. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-382",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Tam yargı davası, aşağıdaki idari tasarruflardan",
     "title": "Tam yargı davası, aşağıdaki idari tasarruflardan...",
     "question": "Tam yargı davası, aşağıdaki idari tasarruflardan hangisine karşı açılamaz?",
     "options": [
@@ -6109,13 +10384,24 @@ export const QUESTIONS = [
       "Hazırlık işlemi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Hazırlık işlemi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-383",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki iktisatçılardan hangisi piyasa başarısızlığı kuramına",
     "title": "Aşağıdaki iktisatçılardan hangisi piyasa başarısızlığı kuramına...",
     "question": "Aşağıdaki iktisatçılardan hangisi piyasa başarısızlığı kuramına katkı yapmamıştır?",
     "options": [
@@ -6125,13 +10411,24 @@ export const QUESTIONS = [
       "John Stuart Mill"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: John Stuart Mill. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-384",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Piyasa başarısızlığı kuramı kaynakların dağıtılmasının esas",
     "title": "Piyasa başarısızlığı kuramı kaynakların dağıtılmasının esas...",
     "question": "Piyasa başarısızlığı kuramı kaynakların dağıtılmasının esas mekanizması olarak neyi kabul etmektedir?",
     "options": [
@@ -6141,13 +10438,24 @@ export const QUESTIONS = [
       "Eksik rekabeti"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Piyasayı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-385",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Richard A. Musgrave’in bir kamusal mal",
     "title": "Richard A. Musgrave’in bir kamusal mal...",
     "question": "Richard A. Musgrave’in bir kamusal mal için geçerli olduğunu düşündüğü ikinci özellik aşağıdakilerden hangisidir?",
     "options": [
@@ -6157,13 +10465,24 @@ export const QUESTIONS = [
       "Dışlanamama"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Dışlanamama. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-386",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi küresel kamusal mal türleri",
     "title": "Aşağıdakilerden hangisi küresel kamusal mal türleri...",
     "question": "Aşağıdakilerden hangisi küresel kamusal mal türleri arasında yer almaz?",
     "options": [
@@ -6173,13 +10492,24 @@ export const QUESTIONS = [
       "Eğitim"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Eğitim. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-387",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Ortak mallar arasında aşağıdakilerden hangisi bulunmaz?",
     "title": "Ortak mallar arasında aşağıdakilerden hangisi bulunmaz?",
     "question": "Ortak mallar arasında aşağıdakilerden hangisi bulunmaz?",
     "options": [
@@ -6189,13 +10519,24 @@ export const QUESTIONS = [
       "Radyo televizyon yayın alanları"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Tarlalar, bahçeler ve bağlar. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-388",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ekonomide fiyatlar genel düzeyinde uzun",
     "title": "Bir ekonomide fiyatlar genel düzeyinde uzun...",
     "question": "Bir ekonomide fiyatlar genel düzeyinde uzun süreli bir düşüş eğilimi yaşanmakta ve tüketiciler harcamalarını sürekli olarak ertelemektedir. Bu durum toplam talebin düşmesine, üretimin azalmasına ve işsizliğin artmasına neden olmuştur. Bu ortamda,",
     "options": [
@@ -6205,13 +10546,24 @@ export const QUESTIONS = [
       "Yapısal durgunluk"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Likidite tuzağı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-389",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "Aşağıda bir ülkenin ekonomik yapısıyla ilgili",
     "title": "Aşağıda bir ülkenin ekonomik yapısıyla ilgili...",
     "question": "Aşağıda bir ülkenin ekonomik yapısıyla ilgili bilgiler verilmiştir: – Devlet harcamaları kısıtlı tutulmakta – Bütçe fazlası verilmektedir – Merkez Bankası para arzını sabit tutmaktadır – Ekonomide tam rekabet koşulları hâkimdir – İşsizlik oranı",
     "options": [
@@ -6221,13 +10573,24 @@ export const QUESTIONS = [
       "Yeni Keynesyen iktisat"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Monetarist iktisat. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-390",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Uzun dönem ekonomik büyüme için sermaye",
     "title": "Uzun dönem ekonomik büyüme için sermaye...",
     "question": "Uzun dönem ekonomik büyüme için sermaye birikimi önemlidir. Ancak yalnızca fiziksel sermayeye yatırım yapılması, azalan verimler nedeniyle büyümeyi sürdürülebilir kılmaz. Bu nedenle insan sermayesine, teknolojiye ve kurumsal yapıya yatırım da",
     "options": [
@@ -6237,13 +10600,24 @@ export const QUESTIONS = [
       "Harrod-Domar modeli"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İçsel büyüme modeli. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-391",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ekonomide büyüme hızı % 6,",
     "title": "Bir ekonomide büyüme hızı % 6,...",
     "question": "Bir ekonomide büyüme hızı % 6, nüfus artış oranı % 2 ve teknolojik gelişme oranı % 1’dir. Bu ekonomi için kişi başına düşen üretimdeki yıllık artış oranı, büyümenin temel bileşenleri dikkate alınarak hesaplanmak istenmektedir. Buna göre bu ülkenin",
     "options": [
@@ -6253,13 +10627,24 @@ export const QUESTIONS = [
       "% 4"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: % 3. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-392",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ülkede ekonomik büyüme hızı dönemsel",
     "title": "Bir ülkede ekonomik büyüme hızı dönemsel...",
     "question": "Bir ülkede ekonomik büyüme hızı dönemsel olarak artmakta ve azalmaktadır. Büyüme oranının artış gösterdiği dönemlerde istihdam, yatırım ve tüketim de artmakta; buna karşılık büyüme hızının yavaşladığı dönemlerde işsizlik oranı yükselmekte ve üretim",
     "options": [
@@ -6269,13 +10654,24 @@ export const QUESTIONS = [
       "Dış ticaret açığı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Konjonktür dalgalanması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-393",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ekonomide toplam talep eğrisinin sağa",
     "title": "Bir ekonomide toplam talep eğrisinin sağa...",
     "question": "Bir ekonomide toplam talep eğrisinin sağa kayması genellikle üretim ve istihdamın artmasına neden olur. Ancak bu durumun etkisi, toplam arz eğrisinin yapısına bağlı olarak değişebilir. Örneğin, kısa dönem toplam arz eğrisinin pozitif eğimli olması",
     "options": [
@@ -6285,13 +10681,24 @@ export const QUESTIONS = [
       "Toplam talep artışı, üretim düzeyini artırır."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Toplam talep artışı, üretim düzeyini artırır.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-394",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Keynesyen iktisadın temel varsayımlarından",
     "title": "Aşağıdakilerden hangisi Keynesyen iktisadın temel varsayımlarından...",
     "question": "Aşağıdakilerden hangisi Keynesyen iktisadın temel varsayımlarından biridir?",
     "options": [
@@ -6301,13 +10708,24 @@ export const QUESTIONS = [
       "Toplam talep ekonomiyi belirler."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Toplam talep ekonomiyi belirler.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-395",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Monetarist görüşün savunduğu temel",
     "title": "Aşağıdakilerden hangisi Monetarist görüşün savunduğu temel...",
     "question": "Aşağıdakilerden hangisi Monetarist görüşün savunduğu temel politikalardan biridir?",
     "options": [
@@ -6317,13 +10735,24 @@ export const QUESTIONS = [
       "Vergilerin artırılması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Para arzının iktisadi büyüme oranında artırılması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-396",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "IS-LM modeli aşağıdakilerden hangisini analiz etmek",
     "title": "IS-LM modeli aşağıdakilerden hangisini analiz etmek...",
     "question": "IS-LM modeli aşağıdakilerden hangisini analiz etmek amacıyla geliştirilmiştir?",
     "options": [
@@ -6333,13 +10762,24 @@ export const QUESTIONS = [
       "Fiyatların katılığı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Para ve mal piyasalarında eşanlı dengeyi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-397",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "1970’li yıllarda dünya ekonomisinde yaşanan petrol",
     "title": "1970’li yıllarda dünya ekonomisinde yaşanan petrol...",
     "question": "1970’li yıllarda dünya ekonomisinde yaşanan petrol krizinin ardından birçok ülkede aynı anda hem işsizlik hem de enflasyonun yükseldiği bir dönem yaşanmıştır. Bu döneme özgü olarak, daha önce geçerli olduğu kabul edilen Phillips Eğrisi’nin öngördüğü",
     "options": [
@@ -6349,13 +10789,24 @@ export const QUESTIONS = [
       "Kamu harcamalarının artırılmasının enflasyonu düşürmede temel politika aracı olarak benimsenmesi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kamu harcamalarının artırılmasının enflasyonu düşürmede temel politika aracı olarak benimsenmesi. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-398",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Bir ülke ekonomisinde mal, para ve",
     "title": "Bir ülke ekonomisinde mal, para ve...",
     "question": "Bir ülke ekonomisinde mal, para ve döviz piyasalarının aynı anda dengede olduğu durum IS-LM-BP modeli ile açıklanır. Bu modelde BP eğrisi dış dengeyi temsil eder. Sermaye hareketliliği serbest ise, sabit kur rejiminde sadece para politikası etkisiz",
     "options": [
@@ -6365,13 +10816,24 @@ export const QUESTIONS = [
       "Sermaye hareketliliği sıfır ise IS-LM modeli yeterlidir, BP eğrisi gerekmez."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sabit kur ve tam sermaye hareketliliği altında para politikası etkisiz hale gelir.. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-399",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Solow’un Neo-Klasik büyüme modeline göre, ekonomik",
     "title": "Solow’un Neo-Klasik büyüme modeline göre, ekonomik...",
     "question": "Solow’un Neo-Klasik büyüme modeline göre, ekonomik büyüme uzun vadede sermaye birikimi, nüfus artışı ve teknolojik gelişmelere bağlıdır. Ancak sermaye birikimi tek başına sürdürülebilir büyüme sağlayamaz çünkü azalan verimler yasası geçerlidir. Bu",
     "options": [
@@ -6381,13 +10843,24 @@ export const QUESTIONS = [
       "Devlet müdahalesi büyüme sürecinin temel unsuru olarak görülür."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Nüfus artışı büyümeyi sınırlayıcı bir unsur olabilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-400",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ülkenin toplam arzı kısa dönemde",
     "title": "Bir ülkenin toplam arzı kısa dönemde...",
     "question": "Bir ülkenin toplam arzı kısa dönemde ani bir şekilde düşmüştür. Bu durumun nedeni enerji fiyatlarında yaşanan hızlı artış, kur şokları ve üretim maliyetlerinin yükselmesidir. Aynı dönemde hükümet, talebi artırmak amacıyla kamu harcamalarını",
     "options": [
@@ -6397,13 +10870,24 @@ export const QUESTIONS = [
       "Büyüme şoku"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Stagflasyon. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-401",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ülkede tasarruf oranlarının yükselmesi beklenmedik",
     "title": "Bir ülkede tasarruf oranlarının yükselmesi beklenmedik...",
     "question": "Bir ülkede tasarruf oranlarının yükselmesi beklenmedik biçimde toplam üretimi azaltmış, işsizlik oranı artmıştır. Bireylerin daha fazla tasarruf yapması, tüketim harcamalarında ani bir düşüşe neden olmuş, bu durum firmaların üretimlerini kısmalarına",
     "options": [
@@ -6413,13 +10897,24 @@ export const QUESTIONS = [
       "Laffer etkisi"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Tasarruf paradoksu. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-402",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Maliye politikasının temel amaçlarından biri ekonomik",
     "title": "Maliye politikasının temel amaçlarından biri ekonomik...",
     "question": "Maliye politikasının temel amaçlarından biri ekonomik istikrarı sağlamaktır. Aşağıdakilerden hangisi maliye politikasının bu amaca yönelik araçlarından biri değildir?",
     "options": [
@@ -6429,13 +10924,24 @@ export const QUESTIONS = [
       "Transfer harcamalarını artırmak"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Merkez bankasının faiz oranlarını değiştirmesi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-403",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi maliye politikasının bir aracı",
     "title": "Aşağıdakilerden hangisi maliye politikasının bir aracı...",
     "question": "Aşağıdakilerden hangisi maliye politikasının bir aracı değildir?",
     "options": [
@@ -6445,13 +10951,24 @@ export const QUESTIONS = [
       "Bütçe planlaması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Para arzını düzenleme. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-404",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Hükümetin vergi oranlarını düşürerek tüketimi artırmayı",
     "title": "Hükümetin vergi oranlarını düşürerek tüketimi artırmayı...",
     "question": "Hükümetin vergi oranlarını düşürerek tüketimi artırmayı hedeflemesi hangi tür maliye politikasına örnektir?",
     "options": [
@@ -6461,13 +10978,24 @@ export const QUESTIONS = [
       "Otomatik maliye politikası"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Genişletici maliye politikası. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-405",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Maliye politikasının etkinliğini sınırlayan faktörlerden biri",
     "title": "Maliye politikasının etkinliğini sınırlayan faktörlerden biri...",
     "question": "Maliye politikasının etkinliğini sınırlayan faktörlerden biri aşağıdakilerden hangisidir?",
     "options": [
@@ -6477,13 +11005,24 @@ export const QUESTIONS = [
       "Sabit vergi oranları"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Zaman gecikmeleri. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-406",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Bir üretim işletmesinde, maliyetlerin hangi ürünlere",
     "title": "Bir üretim işletmesinde, maliyetlerin hangi ürünlere...",
     "question": "Bir üretim işletmesinde, maliyetlerin hangi ürünlere yükleneceğini belirlemek amacıyla kullanılan sistem aşağıdakilerden hangisidir?",
     "options": [
@@ -6493,13 +11032,24 @@ export const QUESTIONS = [
       "Likidite oranı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Maliyet dağıtım sistemi. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-407",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Ahmet Bey, tekstil fabrikasında üretim maliyetlerini",
     "title": "Ahmet Bey, tekstil fabrikasında üretim maliyetlerini...",
     "question": "Ahmet Bey, tekstil fabrikasında üretim maliyetlerini analiz ederken; direkt işçilik, direkt hammadde ve genel üretim giderlerini ayrı ayrı sınıflandırmak istemektedir. Bu durumda kullandığı maliyet sınıflandırması türü aşağıdakilerden hangisidir?",
     "options": [
@@ -6509,13 +11059,24 @@ export const QUESTIONS = [
       "Fayda-maliyet sınıflaması"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Unsur (girdiler) bazlı sınıflandırma. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-408",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Aşağıdakilerden hangisi değişken maliyet özelliği göstermez?",
     "title": "Aşağıdakilerden hangisi değişken maliyet özelliği göstermez?",
     "question": "Aşağıdakilerden hangisi değişken maliyet özelliği göstermez?",
     "options": [
@@ -6525,13 +11086,24 @@ export const QUESTIONS = [
       "Sabit kira gideri"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Sabit kira gideri. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-409",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Birim maliyetin düşmesi için üretim hacminin",
     "title": "Birim maliyetin düşmesi için üretim hacminin...",
     "question": "Birim maliyetin düşmesi için üretim hacminin artırılması gereken maliyet türü aşağıdakilerden hangisidir?",
     "options": [
@@ -6541,13 +11113,24 @@ export const QUESTIONS = [
       "Direkt maliyet"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sabit maliyet. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-410",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Dönem başı mamul stoku 1.000 TL,",
     "title": "Dönem başı mamul stoku 1.000 TL,...",
     "question": "Dönem başı mamul stoku 1.000 TL, dönem içi üretim maliyeti 9.000 TL ve dönem sonu mamul stoku 2.000 TL ise, satılan mamul maliyeti kaç TL'dir?",
     "options": [
@@ -6557,13 +11140,24 @@ export const QUESTIONS = [
       "11.000"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 8.000. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-411",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Bir işletmede toplam sabit giderler 10.000",
     "title": "Bir işletmede toplam sabit giderler 10.000...",
     "question": "Bir işletmede toplam sabit giderler 10.000 TL, üretilen ürün miktarı 5.000 birimdir. Sabit giderlerin birim başı maliyeti kaç TL olur?",
     "options": [
@@ -6573,13 +11167,24 @@ export const QUESTIONS = [
       "4"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 2. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-412",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Aşağıdakilerden hangisi fayda-maliyet analizi için doğru",
     "title": "Aşağıdakilerden hangisi fayda-maliyet analizi için doğru...",
     "question": "Aşağıdakilerden hangisi fayda-maliyet analizi için doğru bir ifadedir?",
     "options": [
@@ -6589,13 +11194,24 @@ export const QUESTIONS = [
       "Net kar hesaplamasıdır."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Elde edilen fayda, katlanılan maliyetten yüksekse yatırım yapılır.. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-413",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Aşağıdakilerden hangisi dolaylı (endirekt) maliyet örneğidir?",
     "title": "Aşağıdakilerden hangisi dolaylı (endirekt) maliyet örneğidir?",
     "question": "Aşağıdakilerden hangisi dolaylı (endirekt) maliyet örneğidir?",
     "options": [
@@ -6605,13 +11221,24 @@ export const QUESTIONS = [
       "Satılan ürünün nakliye ücreti"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Üretim müdürünün maaşı. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-414",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Ayşe Hanım, maliyet muhasebesi dersi sınavında",
     "title": "Ayşe Hanım, maliyet muhasebesi dersi sınavında...",
     "question": "Ayşe Hanım, maliyet muhasebesi dersi sınavında şu soruyla karşılaşmıştır: Bir maliyet sisteminde sadece üretimle ilgili olan ve kontrol edilebilen giderlerin göz önüne alındığı yöntem aşağıdakilerden hangisidir?",
     "options": [
@@ -6621,13 +11248,24 @@ export const QUESTIONS = [
       "Kontrol edilebilir maliyetleme"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kontrol edilebilir maliyetleme. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-415",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Bir işletme, birim başına 20 TL",
     "title": "Bir işletme, birim başına 20 TL...",
     "question": "Bir işletme, birim başına 20 TL sabit maliyet ve 15 TL değişken maliyetle üretim yapmaktadır. Ürün 50 TL'ye satıldığında kâr eşiği (başabaş noktası) kaç birim olur?",
     "options": [
@@ -6637,13 +11275,24 @@ export const QUESTIONS = [
       "1500"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 1200. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-416",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Türk Medenî Kanunu'na göre,",
     "title": "Aşağıdakilerden hangisi Türk Medenî Kanunu'na göre,...",
     "question": "Aşağıdakilerden hangisi Türk Medenî Kanunu'na göre, kişinin fiil ehliyetine sahip olması için gereken koşullardan biri değildir?",
     "options": [
@@ -6653,13 +11302,24 @@ export const QUESTIONS = [
       "Türkiye Cumhuriyeti vatandaşı olmak"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Türkiye Cumhuriyeti vatandaşı olmak. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-417",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Türk Medenî Kanunu'na göre",
     "title": "Aşağıdakilerden hangisi Türk Medenî Kanunu'na göre...",
     "question": "Aşağıdakilerden hangisi Türk Medenî Kanunu'na göre hâkimin hukuku uygulama sırasına göre doğrudur?",
     "options": [
@@ -6669,13 +11329,24 @@ export const QUESTIONS = [
       "Hâkimin takdiri - Kanun -Örf ve âdet"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Kanun - Örf ve âdet - Hâkimin takdiri. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-418",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi fiil ehliyetine sahip olmanın",
     "title": "Aşağıdakilerden hangisi fiil ehliyetine sahip olmanın...",
     "question": "Aşağıdakilerden hangisi fiil ehliyetine sahip olmanın koşullarından biri değildir?",
     "options": [
@@ -6685,13 +11356,24 @@ export const QUESTIONS = [
       "Türk vatandaşı olmak"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Türk vatandaşı olmak. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-419",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi kişilik hakkına yönelik saldırıya",
     "title": "Aşağıdakilerden hangisi kişilik hakkına yönelik saldırıya...",
     "question": "Aşağıdakilerden hangisi kişilik hakkına yönelik saldırıya karşı açılabilecek davalar arasında yer almaz?",
     "options": [
@@ -6701,13 +11383,24 @@ export const QUESTIONS = [
       "Ceza davası"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Ceza davası. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-420",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi, yerleşim yerinin kazanılabilmesi için",
     "title": "Aşağıdakilerden hangisi, yerleşim yerinin kazanılabilmesi için...",
     "question": "Aşağıdakilerden hangisi, yerleşim yerinin kazanılabilmesi için zorunlu şartlardan biridir?",
     "options": [
@@ -6717,13 +11410,24 @@ export const QUESTIONS = [
       "Sürekli kalma niyetiyle oturmak"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Sürekli kalma niyetiyle oturmak. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-421",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi tüzel kişiliğin sona ermesinden",
     "title": "Aşağıdakilerden hangisi tüzel kişiliğin sona ermesinden...",
     "question": "Aşağıdakilerden hangisi tüzel kişiliğin sona ermesinden sonra malvarlığının aktarılabileceği yerlerden biridir?",
     "options": [
@@ -6733,13 +11437,24 @@ export const QUESTIONS = [
       "Herhangi bir dernek"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: İlgili kamu kurumu. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-422",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Ahmet, 16 yaşını doldurmuş ve evlenmek",
     "title": "Ahmet, 16 yaşını doldurmuş ve evlenmek...",
     "question": "Ahmet, 16 yaşını doldurmuş ve evlenmek istemektedir. Ailesi bu evliliğe onay vermektedir. Ancak evlendirme memuru, başvuruyu kabul etmez. Bunun üzerine Ahmet, mahkemeye başvurur. Bu durumda hâkim hangi şartların birlikte gerçekleşmesi hâlinde",
     "options": [
@@ -6749,13 +11464,24 @@ export const QUESTIONS = [
       "Onaltı yaşını doldurmuş olması ve olağanüstü durum ile pek önemli sebebin bulunması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Onaltı yaşını doldurmuş olması ve olağanüstü durum ile pek önemli sebebin bulunması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-423",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir kişi, yoğun sis altında geçirdiği",
     "title": "Bir kişi, yoğun sis altında geçirdiği...",
     "question": "Bir kişi, yoğun sis altında geçirdiği gemi kazasında kaybolur. Cesedine ulaşılamaz ve üzerinden bir yıl geçmesine rağmen kendisinden haber alınamaz. Ailesi, mal paylaşımı işlemlerini başlatmak istemektedir. Bu durumda aile ne yapmalıdır?",
     "options": [
@@ -6765,13 +11491,24 @@ export const QUESTIONS = [
       "Mahkemeden ölüm karinesiyle birlikte gaiplik kararı talep etmelidir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Mahkemeden ölüm karinesiyle birlikte gaiplik kararı talep etmelidir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-424",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Büşra, nişanlısı tarafından hiçbir açıklama yapılmadan",
     "title": "Büşra, nişanlısı tarafından hiçbir açıklama yapılmadan...",
     "question": "Büşra, nişanlısı tarafından hiçbir açıklama yapılmadan düğünden birkaç hafta önce terk edilmiştir. Terk edilen Büşra, evlenmek için yaptığı harcamaların karşılığını almak istemektedir. Bu durumda Büşra aşağıdaki yollardan hangisine başvurabilir?",
     "options": [
@@ -6781,13 +11518,24 @@ export const QUESTIONS = [
       "Savcılığa suç duyurusunda bulunarak cezai süreç başlatabilir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Maddi tazminat davası açarak yaptığı harcamaların karşılanmasını isteyebilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-425",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Ayşe Hanım, kızlık soyadını geri almak",
     "title": "Ayşe Hanım, kızlık soyadını geri almak...",
     "question": "Ayşe Hanım, kızlık soyadını geri almak istemektedir. Evlilik süresince aldığı eşinin soyadını bırakmak, doğduğu adı yeniden kullanmak istemektedir. Bu durumda Ayşe Hanım aşağıdakilerden hangisini yapmalıdır?",
     "options": [
@@ -6797,13 +11545,24 @@ export const QUESTIONS = [
       "Mahkemeye başvurarak ad değiştirme davası açmalıdır."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Notere başvurarak dilekçe vermelidir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-426",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi bir konfederasyonun kurulabilmesi için",
     "title": "Aşağıdakilerden hangisi bir konfederasyonun kurulabilmesi için...",
     "question": "Aşağıdakilerden hangisi bir konfederasyonun kurulabilmesi için gereken asgari şartlardan biridir?",
     "options": [
@@ -6813,13 +11572,24 @@ export const QUESTIONS = [
       "En az 3 federasyon"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: En az 3 federasyon. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-427",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi bir kişinin dernek kurucusu",
     "title": "Aşağıdakilerden hangisi bir kişinin dernek kurucusu...",
     "question": "Aşağıdakilerden hangisi bir kişinin dernek kurucusu olabilmesi için zorunlu koşuldur?",
     "options": [
@@ -6829,13 +11599,24 @@ export const QUESTIONS = [
       "Türk vatandaşı olmak"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Fiil ehliyetine sahip olmak. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-428",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi şube açmak isteyen bir",
     "title": "Aşağıdakilerden hangisi şube açmak isteyen bir...",
     "question": "Aşağıdakilerden hangisi şube açmak isteyen bir derneğin kurucular kurulu için asgari koşuldur?",
     "options": [
@@ -6845,13 +11626,24 @@ export const QUESTIONS = [
       "Tüm kurucuların onayı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: En az 3 kişi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-429",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi bir kişinin yasal yerleşim",
     "title": "Aşağıdakilerden hangisi bir kişinin yasal yerleşim...",
     "question": "Aşağıdakilerden hangisi bir kişinin yasal yerleşim yeri olarak kabul edilmez?",
     "options": [
@@ -6861,13 +11653,24 @@ export const QUESTIONS = [
       "Annesine bırakılmış küçük çocuğun yerleşim yeri"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Öğretim kurumu nedeniyle bulunulan yer. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-430",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi bir vakfın tüzel kişilik",
     "title": "Aşağıdakilerden hangisi bir vakfın tüzel kişilik...",
     "question": "Aşağıdakilerden hangisi bir vakfın tüzel kişilik kazanma anıdır?",
     "options": [
@@ -6877,13 +11680,24 @@ export const QUESTIONS = [
       "Sicile tescil edilmesi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Sicile tescil edilmesi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-431",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bilgi Edinme Hakkı aşağıdakilerden hangisinde doğru",
     "title": "Bilgi Edinme Hakkı aşağıdakilerden hangisinde doğru...",
     "question": "Bilgi Edinme Hakkı aşağıdakilerden hangisinde doğru ifade edilmiştir?",
     "options": [
@@ -6893,13 +11707,24 @@ export const QUESTIONS = [
       "Doğal bir haktır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Anayasal bir haktır.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-432",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre Bilgi veya belgelere erişim için gereken maliyet tutarının idare tarafından başvuru sahibine bildirilmesiyle başvuru sahibi kaç iş günü içerisinde ücreti ödemelidir?",
     "options": [
@@ -6909,13 +11734,24 @@ export const QUESTIONS = [
       "15"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 15. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-433",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi 4982 sayılı Bilgi Edinme",
     "title": "Aşağıdakilerden hangisi 4982 sayılı Bilgi Edinme...",
     "question": "Aşağıdakilerden hangisi 4982 sayılı Bilgi Edinme Hakkı Kanunu’nun kapsamı dışındadır?",
     "options": [
@@ -6925,13 +11761,24 @@ export const QUESTIONS = [
       "Adli soruşturma ve kovuşturmaya ilişkin bilgi veya belgeler"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Adli soruşturma ve kovuşturmaya ilişkin bilgi veya belgeler. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-434",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre, aşağıdaki bilgi ve belgelerden hangisi bilgi edinme hakkı kapsamı dışında değildir?",
     "options": [
@@ -6941,13 +11788,24 @@ export const QUESTIONS = [
       "Ticari sır"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Yargı denetimi dışında kalan işlemler. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-435",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre, bilgi edinme istemi reddedilen başvuru sahibi, yargı yoluna başvurmadan önce kararın tebliğinden itibaren onbeş gün içinde önce nereye itiraz edebilir?",
     "options": [
@@ -6957,13 +11815,24 @@ export const QUESTIONS = [
       "Valiliğe"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Bilgi Edinme Değerlendirme Kuruluna. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-436",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi kurumlarca Bilgi Edinme Hakkı",
     "title": "Aşağıdakilerden hangisi kurumlarca Bilgi Edinme Hakkı...",
     "question": "Aşağıdakilerden hangisi kurumlarca Bilgi Edinme Hakkı Kanunu kapsamında değerlendirilmelidir?",
     "options": [
@@ -6973,13 +11842,24 @@ export const QUESTIONS = [
       "Devlet sırrına ilişkin bilgi veya belgeler"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Gizliliği kaldırılan bilgi veya belgeler. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-437",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "I- Bilgi edinme başvurusu, başvurulan kurum",
     "title": "I- Bilgi edinme başvurusu, başvurulan kurum...",
     "question": "I- Bilgi edinme başvurusu, başvurulan kurum ve kuruluşların ellerinde bulunan veya görevleri gereği bulunması gereken bilgi veya belgelere ilişkin olmalıdır.II- Kurum ve kuruluşlar, ayrı veya özel bir çalışma, araştırma, inceleme ya da analiz",
     "options": [
@@ -6989,13 +11869,24 @@ export const QUESTIONS = [
       "Yalnız II"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: I – II – III. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-438",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre başvuru içeriğinin birden fazla kurum ve kuruluşu ilgilendirmesi durumlarında bilgi ve belgeye erişimi kaç iş günü içerisinde sağlarlar?",
     "options": [
@@ -7005,13 +11896,24 @@ export const QUESTIONS = [
       "30"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 30. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-439",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre bilgi edinme istemi reddedilen başvuru sahibi, yargı yoluna başvurmadan önce kararın tebliğinden itibaren kaç gün içinde kurula itiraz edebilir?",
     "options": [
@@ -7021,13 +11923,24 @@ export const QUESTIONS = [
       "60"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 15. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-440",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre Bilgi Edinme Değerlendirme Kurul üyelerinin görev süresi kaç yıldır?",
     "options": [
@@ -7037,13 +11950,24 @@ export const QUESTIONS = [
       "4"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 4. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-441",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Kurum ve kuruluşlara yapılan gerçek bir",
     "title": "Kurum ve kuruluşlara yapılan gerçek bir...",
     "question": "Kurum ve kuruluşlara yapılan gerçek bir kişi­ye ait bilgi edinme başvurusunda aşağıdaki­lerden hangisi aranmaz?",
     "options": [
@@ -7053,13 +11977,24 @@ export const QUESTIONS = [
       "Ad Soyad"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Fotoğraf. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-442",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre “itiraz usulü” ile ilgili olarak aşağıdaki hükümlerden hangisi yanlıştır?",
     "options": [
@@ -7069,13 +12004,24 @@ export const QUESTIONS = [
       "Bilgi Edinme Değerlendirme Kurulu, kendisine yapılan itiraz ile ilgili kararını otuz iş günü içinde verir."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Bilgi Edinme Değerlendirme Kuruluna itiraz, başvuru sahibinin idari yargıya başvurma süresini durdurmaz.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-443",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bilgi Edinme Hakkı Kanunu’na göre aşağıdaki",
     "title": "Bilgi Edinme Hakkı Kanunu’na göre aşağıdaki...",
     "question": "Bilgi Edinme Hakkı Kanunu’na göre aşağıdaki ifadelerden hangisi doğrudur?",
     "options": [
@@ -7085,13 +12031,24 @@ export const QUESTIONS = [
       "Kamu yararının gerektirdiği hallerde, kişisel bilgi veya belgeler, kurum ve kuruluşlar tarafından ilgili kişiye en az yedi gün önceden haber verilerek yazılı rızası alınmak koşuluyla açıklanabilir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kamu yararının gerektirdiği hallerde, kişisel bilgi veya belgeler, kurum ve kuruluşlar tarafından ilgili kişiye en az yedi gün önceden haber verilerek yazılı rızası alınmak koşuluyla açıklanabilir.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-444",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre “Bilgi Edinme Değerlendirme Kurulu” kaç üyeden oluşur?",
     "options": [
@@ -7101,13 +12058,24 @@ export const QUESTIONS = [
       "13"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 9. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-445",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "I. Kurum ve kuruluşlar, başvuru sahibine",
     "title": "I. Kurum ve kuruluşlar, başvuru sahibine...",
     "question": "I. Kurum ve kuruluşlar, başvuru sahibine istenen belgenin onaylı bir kopyasını verirler.II. Kurum ve kuruluşlar, bilgi edinme başvurularıyla ilgili cevaplarını sadece elektronik ortamda başvuru sahibine bildirirler.III. Dilekçede, istenen bilgi veya",
     "options": [
@@ -7117,13 +12085,24 @@ export const QUESTIONS = [
       "III ve IV"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: I ve III. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-446",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre Bilgi Edinme Değerlendirme Kurulu ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
     "options": [
@@ -7133,13 +12112,24 @@ export const QUESTIONS = [
       "Kurulun sekretarya hizmetleri Adalet Bakanlığı tarafından yerine getirilir."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Kurul, Cumhurbaşkanınca seçilecek on üyeden oluşur.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-447",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’nagöre",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’nagöre...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’nagöre Bilgi Edinme Değerlendirme Kurulu üyeleri aşağıdakilerden hangisi tarafından seçilir?",
     "options": [
@@ -7149,13 +12139,24 @@ export const QUESTIONS = [
       "TBMM"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Cumhurbaşkanı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-448",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre Bilgi Edinme Değerlendirme Kurulu’nun sekretarya hizmetleri hangi kurum tarafından yerine getirilir?",
     "options": [
@@ -7165,13 +12166,24 @@ export const QUESTIONS = [
       "Adalet Bakanlığı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Adalet Bakanlığı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-449",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre aşağıdakilerden hangisi bu Kanun’un kapsamında yer almaz?",
     "options": [
@@ -7181,13 +12193,24 @@ export const QUESTIONS = [
       "Kurum ve kuruluşların teklif niteliğinde olan belgeler"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Kurum ve kuruluşların, kamuoyunu ilgilendirmeyen ve sadece kendi personeli ile kurum içi uygulamalarına ilişkin düzenlemeler hakkındaki bilgi veya belgeler. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-450",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na",
     "title": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na...",
     "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu’na göre, aşağıdakilerden hangisi istenecek bilgi veya belgelerden biridir?",
     "options": [
@@ -7197,13 +12220,24 @@ export const QUESTIONS = [
       "Devlet sırrına ilişkin bilgi veya belgeler"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Kurum ve kuruluşların ellerinde bulunan bilgi veya belgeler. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-451",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, gerçeğe aykırı rapor veya belge düzenlemek fiili aşağıdaki disiplin cezalarından hangisini gerektirir?",
     "options": [
@@ -7213,13 +12247,26 @@ export const QUESTIONS = [
       "Kademe ilerlemesinin durdurulması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kademe ilerlemesinin durdurulması. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-452",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, amirine veya maiyetindekilere karşı küçük düşürücü ya da aşağılayıcı fiil ve hareketlerde bulunmak aşağıdaki disiplin cezalarından hangisini gerektirir?",
     "options": [
@@ -7229,13 +12276,26 @@ export const QUESTIONS = [
       "Kademe ilerlemesinin durdurulması"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Kademe ilerlemesinin durdurulması. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah",
+      "Cezalar",
+      "Disiplin"
+    ]
   },
   {
     "id": "q-453",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, hizmetleri sırasında radyoaktif ışınlarla çalışan personele yıllık izinlerine ek olarak her yıl ne kadar sağlık izni verilir?",
     "options": [
@@ -7245,13 +12305,24 @@ export const QUESTIONS = [
       "10 gün"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: 1 ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-454",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, çocuğu evlenen memura isteği üzerine kaç gün mazeret izni verilir?",
     "options": [
@@ -7261,13 +12332,24 @@ export const QUESTIONS = [
       "12 gün"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: 7 gün. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-455",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, kanunlarda belirtilen hâller dışında devlet memurunun memurluğuna son verilememesi, aylık ve diğer haklarının elinden alınamaması hangi genel hakkın kapsamındadır?",
     "options": [
@@ -7277,13 +12359,24 @@ export const QUESTIONS = [
       "İsnat ve iftiralara karşı koruma"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Güvenlik. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-456",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, salgın hastalık ve doğal afet gibi olağanüstü hâllerde ücretle karşılanabilen fazla çalışmanın süresi ve saat başına ödenecek ücret nasıl belirlenir?",
     "options": [
@@ -7293,13 +12386,24 @@ export const QUESTIONS = [
       "Cumhurbaşkanı kararıyla"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Cumhurbaşkanı kararıyla. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-457",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, aşağıdakilerden hangisi devlet memurlarının ödev ve sorumlulukları arasında değil, genel hakları arasında düzenlenmiştir?",
     "options": [
@@ -7309,13 +12413,24 @@ export const QUESTIONS = [
       "Sadakat"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Uygulamayı isteme hakkı. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-458",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, kamu kurum ve kuruluşları toplam dolu kadro sayılarının, yurt dışı teşkilatı hariç, en az yüzde kaçı oranında engelli personel çalıştırmak zorundadır?",
     "options": [
@@ -7325,13 +12440,24 @@ export const QUESTIONS = [
       "%3"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: %3. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-459",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "I. Anne ve babasına ait mal",
     "title": "I. Anne ve babasına ait mal...",
     "question": "I. Anne ve babasına ait mal ve borçlarII. Velayeti altındaki çocuklarına ait mal ve borçlarIII. Eşine ait mal ve borçlarIV. Kardeşine ait mal ve borçlar657 sayılı Devlet Memurları Kanunu’na göre, devlet memurları kendileri dışında yukarıdakilerden",
     "options": [
@@ -7341,13 +12467,24 @@ export const QUESTIONS = [
       "I ve IV"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: II ve III. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-460",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre yer değiştirme suretiyle atamalara ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -7357,13 +12494,24 @@ export const QUESTIONS = [
       "Yer değiştirme suretiyle atamaların bölgeler arasında adil ve dengeli bir sistem içinde yapılması esastır."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Atamalar, memurların başvuru tarihleri esas alınarak yalnızca talep sırasına göre yapılır.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-461",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu'na göre",
     "title": "657 sayılı Devlet Memurları Kanunu'na göre...",
     "question": "657 sayılı Devlet Memurları Kanunu'na göre kadrosu kaldırılan devlet memurları, en geç ne kadar süre içinde kendi kurumlarında niteliklerine uygun bir kadroya atanır?",
     "options": [
@@ -7373,13 +12521,24 @@ export const QUESTIONS = [
       "9 ay"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: 6 ay. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-462",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Kalkınma planı, yıllık program ve iş",
     "title": "Kalkınma planı, yıllık program ve iş...",
     "question": "Kalkınma planı, yıllık program ve iş programlarında yer alan önemli projelerin hazırlanması, gerçekleştirilmesi, işletilmesi ve işlerliği için zorunlu ve istisnai durumlarda, özel meslek bilgisi ve uzmanlık gerektiren geçici işlerde,",
     "options": [
@@ -7389,13 +12548,25 @@ export const QUESTIONS = [
       "Kadro karşılığı sözleşmeli personel"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sözleşmeli personel. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-463",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "I. İlkokul öğretmenliği (yaz tatili hariç)II.",
     "title": "I. İlkokul öğretmenliği (yaz tatili hariç)II....",
     "question": "I. İlkokul öğretmenliği (yaz tatili hariç)II. TabiplikIII. EczacılıkIV. Vaizlik657 sayılı Devlet Memurları Kanunu'na göre yukarıdaki görevlerden hangilerine ait boş kadrolara, Kanun'da belirtilen şartlarla açıktan vekil atanabilir?",
     "options": [
@@ -7405,13 +12576,24 @@ export const QUESTIONS = [
       "II, III ve IV"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: I, II, III ve IV. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-464",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ticari işletmenin devrinde aşağıdakilerden hangisinin",
     "title": "Bir ticari işletmenin devrinde aşağıdakilerden hangisinin...",
     "question": "Bir ticari işletmenin devrinde aşağıdakilerden hangisinin devri zorunlu değildir?",
     "options": [
@@ -7421,13 +12603,24 @@ export const QUESTIONS = [
       "Mal stokları"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Ticari defterler. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-465",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Tacir sıfatını kazanmış bir kişi aşağıdaki",
     "title": "Tacir sıfatını kazanmış bir kişi aşağıdaki...",
     "question": "Tacir sıfatını kazanmış bir kişi aşağıdaki yükümlülüklerden hangisine tabi değildir?",
     "options": [
@@ -7437,13 +12630,24 @@ export const QUESTIONS = [
       "Tüketici kanununa göre hareket etmek"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Tüketici kanununa göre hareket etmek. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-466",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gerçek kişi tacirin iflası durumunda, işletmeye",
     "title": "Gerçek kişi tacirin iflası durumunda, işletmeye...",
     "question": "Gerçek kişi tacirin iflası durumunda, işletmeye ilişkin borçlar dışında kalan kişisel borçlarıyla ilgili hangi takip yolu işletilir?",
     "options": [
@@ -7453,13 +12657,24 @@ export const QUESTIONS = [
       "İlamlı takip"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İflas takibi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-467",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi bir ticari iş karinesi",
     "title": "Aşağıdakilerden hangisi bir ticari iş karinesi...",
     "question": "Aşağıdakilerden hangisi bir ticari iş karinesi kapsamına girer?",
     "options": [
@@ -7469,13 +12684,24 @@ export const QUESTIONS = [
       "İşin ticari işletme ile ilgili olmaması"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Taraflardan yalnızca birinin tacir olması. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-468",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Ticaret unvanı ile ilgili olarak aşağıdaki",
     "title": "Ticaret unvanı ile ilgili olarak aşağıdaki...",
     "question": "Ticaret unvanı ile ilgili olarak aşağıdaki ifadelerden hangisi doğrudur?",
     "options": [
@@ -7485,13 +12711,24 @@ export const QUESTIONS = [
       "Ticaret unvanı yalnızca Türkçe olmalıdır."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sadece sermaye şirketlerinde kullanılır.. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-469",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Aşağıdakilerden hangisi “tam mükellefiyet” esasına göre",
     "title": "Aşağıdakilerden hangisi “tam mükellefiyet” esasına göre...",
     "question": "Aşağıdakilerden hangisi “tam mükellefiyet” esasına göre gelir vergisine tabi tutulur?",
     "options": [
@@ -7501,13 +12738,24 @@ export const QUESTIONS = [
       "Sadece Almanya’da çalışan ve orada ikamet eden Türk vatandaşı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Bir takvim yılı içinde Türkiye’de 7 ay kalan Fransız vatandaş. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-470",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi’nde kazancın tahakkuk esasına göre",
     "title": "Gelir Vergisi’nde kazancın tahakkuk esasına göre...",
     "question": "Gelir Vergisi’nde kazancın tahakkuk esasına göre elde edilmiş sayıldığı bir gelir unsuru aşağıdakilerden hangisidir?",
     "options": [
@@ -7517,13 +12765,24 @@ export const QUESTIONS = [
       "Ticari kazanç"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Ticari kazanç. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-471",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi dolaylı vergi kapsamında yer",
     "title": "Aşağıdakilerden hangisi dolaylı vergi kapsamında yer...",
     "question": "Aşağıdakilerden hangisi dolaylı vergi kapsamında yer alır?",
     "options": [
@@ -7533,13 +12792,24 @@ export const QUESTIONS = [
       "Katma Değer Vergisi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Katma Değer Vergisi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-472",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi'nde, yıllara sari inşaat ve",
     "title": "Gelir Vergisi'nde, yıllara sari inşaat ve...",
     "question": "Gelir Vergisi'nde, yıllara sari inşaat ve onarma işlerinden elde edilen kazanç hangi dönemin geliri sayılır?",
     "options": [
@@ -7549,13 +12819,24 @@ export const QUESTIONS = [
       "İşin bittiği yılın"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İşin bittiği yılın. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-473",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi ticari kazancın bilanço esasına",
     "title": "Aşağıdakilerden hangisi ticari kazancın bilanço esasına...",
     "question": "Aşağıdakilerden hangisi ticari kazancın bilanço esasına göre tespitinde kullanılması gereken defterlerden biri değildir?",
     "options": [
@@ -7565,13 +12846,24 @@ export const QUESTIONS = [
       "Envanter defteri"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: İşletme hesabı defteri. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-474",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Türk Vergi Sistemi’nde dolaysız",
     "title": "Aşağıdakilerden hangisi Türk Vergi Sistemi’nde dolaysız...",
     "question": "Aşağıdakilerden hangisi Türk Vergi Sistemi’nde dolaysız vergilerden biridir?",
     "options": [
@@ -7581,13 +12873,24 @@ export const QUESTIONS = [
       "Gelir Vergisi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Gelir Vergisi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-475",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi’nin konusunu aşağıdakilerden hangisi oluşturur?",
     "title": "Gelir Vergisi’nin konusunu aşağıdakilerden hangisi oluşturur?",
     "question": "Gelir Vergisi’nin konusunu aşağıdakilerden hangisi oluşturur?",
     "options": [
@@ -7597,13 +12900,24 @@ export const QUESTIONS = [
       "Kamu kurumlarının yıllık faaliyet raporları"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Gerçek kişilerin bir yıl içinde elde ettikleri kazanç ve iratların safi tutarı. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK"
+    ]
   },
   {
     "id": "q-476",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdaki gelir unsurlarından hangisi \"diğer kazanç",
     "title": "Aşağıdaki gelir unsurlarından hangisi \"diğer kazanç...",
     "question": "Aşağıdaki gelir unsurlarından hangisi \"diğer kazanç ve iratlar\" kapsamında değerlendirilir?",
     "options": [
@@ -7613,13 +12927,24 @@ export const QUESTIONS = [
       "Arızi kazanç"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Arızi kazanç. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-477",
     "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Gelir Vergisi (193) & Kurumlar Vergisi (5520)",
+    "subtopic": "Gelir Vergisi’nde yıllık olma ilkesi hangi",
     "title": "Gelir Vergisi’nde yıllık olma ilkesi hangi...",
     "question": "Gelir Vergisi’nde yıllık olma ilkesi hangi durumlarda istisna oluşturur?",
     "options": [
@@ -7629,13 +12954,25 @@ export const QUESTIONS = [
       "Ölüm ve memleketi terk durumlarında"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Ölüm ve memleketi terk durumlarında. 193 GVK & 5520 KVK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "193 GVK & 5520 KVK",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "193 GVK & 5520 KVK",
+      "İstisnalar"
+    ]
   },
   {
     "id": "q-478",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Aşağıdakilerden hangisi dar mükellef sayılır?",
     "title": "Aşağıdakilerden hangisi dar mükellef sayılır?",
     "question": "Aşağıdakilerden hangisi dar mükellef sayılır?",
     "options": [
@@ -7645,13 +12982,24 @@ export const QUESTIONS = [
       "Türkiye’de yerleşik olmayan, sadece Türkiye’de kira geliri elde eden yabancı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Türkiye’de yerleşik olmayan, sadece Türkiye’de kira geliri elde eden yabancı. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-479",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Dünya Bankası’nın temel amacı aşağıdakilerden hangisidir?",
     "title": "Dünya Bankası’nın temel amacı aşağıdakilerden hangisidir?",
     "question": "Dünya Bankası’nın temel amacı aşağıdakilerden hangisidir?",
     "options": [
@@ -7661,13 +13009,24 @@ export const QUESTIONS = [
       "Küresel vergi sistemini denetlemek"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Gelişmekte olan ülkelere uzun vadeli kalkınma kredileri sağlamak. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-480",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Uluslararası Para Fonu’nun (IMF) temel işlevlerinden",
     "title": "Uluslararası Para Fonu’nun (IMF) temel işlevlerinden...",
     "question": "Uluslararası Para Fonu’nun (IMF) temel işlevlerinden biri aşağıdakilerden hangisidir?",
     "options": [
@@ -7677,13 +13036,24 @@ export const QUESTIONS = [
       "Gelişmekte olan ülkelere silah yardımı yapmak"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Üye ülkelere kısa vadeli ödeme dengesi desteği sağlamak. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-481",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Dünya Ticaret Örgütü’nün (DTÖ)",
     "title": "Aşağıdakilerden hangisi Dünya Ticaret Örgütü’nün (DTÖ)...",
     "question": "Aşağıdakilerden hangisi Dünya Ticaret Örgütü’nün (DTÖ) görevleri arasında yer alır?",
     "options": [
@@ -7693,13 +13063,24 @@ export const QUESTIONS = [
       "Ulusal para politikalarını belirlemek"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Uluslararası ticaretin serbestleştirilmesini ve düzenlenmesini sağlamak. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-482",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ülkenin başka bir ülkeye mal",
     "title": "Bir ülkenin başka bir ülkeye mal...",
     "question": "Bir ülkenin başka bir ülkeye mal ve hizmet satması aşağıdakilerden hangisiyle ifade edilir?",
     "options": [
@@ -7709,13 +13090,24 @@ export const QUESTIONS = [
       "İhracat"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İhracat. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-483",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıdakilerden hangisi Avrupa Birliği’nin ekonomik bütünleşme",
     "title": "Aşağıdakilerden hangisi Avrupa Birliği’nin ekonomik bütünleşme...",
     "question": "Aşağıdakilerden hangisi Avrupa Birliği’nin ekonomik bütünleşme düzeylerinden biridir?",
     "options": [
@@ -7725,13 +13117,24 @@ export const QUESTIONS = [
       "Ulusal kalkınma planı"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Gümrük Birliği. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-484",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "“Bretton Woods” sistemi aşağıdaki kuruluşlardan hangisinin",
     "title": "“Bretton Woods” sistemi aşağıdaki kuruluşlardan hangisinin...",
     "question": "“Bretton Woods” sistemi aşağıdaki kuruluşlardan hangisinin kurulmasına zemin hazırlamıştır?",
     "options": [
@@ -7741,13 +13144,24 @@ export const QUESTIONS = [
       "Kuzey Atlantik Antlaşması Örgütü (NATO)"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Uluslararası Para Fonu (IMF). Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-485",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "OPEC’in küresel ekonomi üzerindeki etkisi en",
     "title": "OPEC’in küresel ekonomi üzerindeki etkisi en...",
     "question": "OPEC’in küresel ekonomi üzerindeki etkisi en çok hangi piyasada hissedilir?",
     "options": [
@@ -7757,13 +13171,24 @@ export const QUESTIONS = [
       "Gıda ithalatı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Enerji – Petrol. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-486",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Bir ülkenin döviz rezervlerinin azalması durumunda",
     "title": "Bir ülkenin döviz rezervlerinin azalması durumunda...",
     "question": "Bir ülkenin döviz rezervlerinin azalması durumunda ilk olarak hangi uluslararası kuruluştan destek talep etmesi beklenir?",
     "options": [
@@ -7773,13 +13198,24 @@ export const QUESTIONS = [
       "G-20"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Uluslararası Para Fonu (IMF). Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-487",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Küresel ölçekte yoksullukla mücadele, sürdürülebilir büyüme",
     "title": "Küresel ölçekte yoksullukla mücadele, sürdürülebilir büyüme...",
     "question": "Küresel ölçekte yoksullukla mücadele, sürdürülebilir büyüme ve finansal destek konularında faaliyet gösteren program aşağıdakilerden hangisidir?",
     "options": [
@@ -7789,13 +13225,24 @@ export const QUESTIONS = [
       "GATT"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: UNDP. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-488",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Döviz kuru politikalarının istikrara kavuşması için",
     "title": "Döviz kuru politikalarının istikrara kavuşması için...",
     "question": "Döviz kuru politikalarının istikrara kavuşması için teknik destek sunan uluslararası kuruluş aşağıdakilerden hangisidir?",
     "options": [
@@ -7805,13 +13252,24 @@ export const QUESTIONS = [
       "Avrupa Yatırım Bankası"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Uluslararası Para Fonu. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-489",
     "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Vergi daireleri, vergi kanunları ve özel",
     "title": "Vergi daireleri, vergi kanunları ve özel...",
     "question": "Vergi daireleri, vergi kanunları ve özel kanunlar ile bu kanunlara dayanılarak ........... belli edilen kamu gelirleri ile ilgili mükellefi tesbit, tarh, tahakkuk, tecil, tahsil, terkin, ödeme, iade ve muhasebe işlemlerini yürütür. Yukarıda boş",
     "options": [
@@ -7821,13 +13279,24 @@ export const QUESTIONS = [
       "Hazine ve Maliye Bakanlığı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Hazine ve Maliye Bakanlığı. 6183 Sayılı AATUHK hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "6183 Sayılı AATUHK",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "AATUHK",
+      "6183 Sayılı AATUHK"
+    ]
   },
   {
     "id": "q-490",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi dairelerinin yetki alanına ilişkin aşağıda",
     "title": "Vergi dairelerinin yetki alanına ilişkin aşağıda...",
     "question": "Vergi dairelerinin yetki alanına ilişkin aşağıda verilen ifadelerden hangisi yanlıştır?",
     "options": [
@@ -7837,13 +13306,24 @@ export const QUESTIONS = [
       "Birden çok vergi dairesi kurulan il ve ilçe merkezlerinde işyeri ya da ikametgahları bağlı olduğu vergi dairesinin yetki alanı dışında bulunan mükelleflere ilişkin kovuşturma, yoklama, tebliğ gibi işlemlerin, mükellefin bağlı olduğu vergi dairesince"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Birden çok vergi dairesi kurulan il ve ilçe merkezlerinde işyeri ya da ikametgahları bağlı olduğu vergi dairesinin yetki alanı dışında bulunan mükelleflere ilişkin kovuşturma, yoklama, tebliğ gibi işlemlerin, mükellefin bağlı olduğu vergi dairesince. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-491",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "I. Vergi, resim, harç ile çeşitli",
     "title": "I. Vergi, resim, harç ile çeşitli...",
     "question": "I. Vergi, resim, harç ile çeşitli kanunlarda belirtilen diğer Devlet gelirlerinin tahsiledilebilir hale gelmesinisağlayan iş ve işlemleri yapmak II. Mükelleflerin şahıs hesaplarını izlemek amacıyla hesap, kart ve defterlerini tutmak, saklamak ve her",
     "options": [
@@ -7853,13 +13333,24 @@ export const QUESTIONS = [
       "Yalnız II."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: I, II ve III.. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-492",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıda verilenlerden hangisi \"Vergi Dairesi Başkanlığı",
     "title": "Aşağıda verilenlerden hangisi \"Vergi Dairesi Başkanlığı...",
     "question": "Aşağıda verilenlerden hangisi \"Vergi Dairesi Başkanlığı Yönetimi\"ne ilişkin doğru değildir?",
     "options": [
@@ -7869,13 +13360,24 @@ export const QUESTIONS = [
       "Vergi müdürü, iş hacmi fazla olan bölüm ve servislerde, birden fazla müdür yardımcısı görevlendirebilir."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Başkan birden fazla servisin yönetimini bir servis şefine veremez.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-493",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Vergi dairesi müdürlüklerinin personel ihtiyaçları ve",
     "title": "Vergi dairesi müdürlüklerinin personel ihtiyaçları ve...",
     "question": "Vergi dairesi müdürlüklerinin personel ihtiyaçları ve buna bağlı kadro, ünvan ve dereceler itibariyle dağılımı; iş hacmi, yöresel özellikler ve beklenen gelişmeler dikkate alınarak ............ belirlenir. Yukarıda boş bırakılan alana aşağıdaki",
     "options": [
@@ -7885,13 +13387,24 @@ export const QUESTIONS = [
       "Hazine ve Maliye Bakanlığınca"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Gelirler Genel Müdürlüğünce. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-494",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne",
     "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne...",
     "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre, İl merkezlerinde (Büyükşehir Belediye sınırları içindeki ilçeler dahil) iş hacmine göre defterdarlığa bağlı olarak bir veya birden çok başkanlık veya müdürlük şeklinde vergi dairesi kurmaya,",
     "options": [
@@ -7901,13 +13414,24 @@ export const QUESTIONS = [
       "İçişleri Bakanlığı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İçişleri Bakanlığı. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-495",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne",
     "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne...",
     "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre, vergi dairelerinin kuruluş şekli, sayısı, faaliyet bölgesi, bunların hangi vergi, resim ve harçların tahakkuk ve tahsili ile uğraşacakları kim tarafından belirlenir?",
     "options": [
@@ -7917,13 +13441,24 @@ export const QUESTIONS = [
       "Hazine ve Maliye Bakanlığı"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Hazine ve Maliye Bakanlığı. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-496",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne",
     "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne...",
     "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre, aşağıda verilen servislerden hangisi vergilendirme bölümündeki servislerden biri değildir?",
     "options": [
@@ -7933,13 +13468,24 @@ export const QUESTIONS = [
       "İcra Servisi"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: İcra Servisi. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-497",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne",
     "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne...",
     "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre, aşağıda verilenlerden hangisi \"gelir servislerinin görevleri\" arasında yer almaz?",
     "options": [
@@ -7949,13 +13495,24 @@ export const QUESTIONS = [
       "İstenilen istatistiki bilgileri ilgili servislerden toplayarak defterdarlık gelir müdürlüğüne göndermek"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Haciz tutanağında gösterilen menkul malların koruma ve saklama işlemlerini yapmak. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-498",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne",
     "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne...",
     "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre, aşağıda verilenlerden hangisi \"Yazışma, Arşiv ve Özlük Hizmetleri Servisinin\" görevleri arasında yer almaz?",
     "options": [
@@ -7965,13 +13522,24 @@ export const QUESTIONS = [
       "Veznece tahsil olunan paraları belirlenen esaslara uygun olarak bankaya yatırmak"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Veznece tahsil olunan paraları belirlenen esaslara uygun olarak bankaya yatırmak. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-499",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne",
     "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne...",
     "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre, vergi dairelerinin görev ve yetkilerini düzenleyen yönetmelik hangi kanuna dayanılarak hazırlanmıştır?",
     "options": [
@@ -7981,13 +13549,24 @@ export const QUESTIONS = [
       "5345 sayılı Gelir İdaresi Başkanlığının Teşkilat ve Görevleri Hakkında Kanun"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 5345 sayılı Gelir İdaresi Başkanlığının Teşkilat ve Görevleri Hakkında Kanun. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-500",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne",
     "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne...",
     "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre aşağıdakilerden hangisi vergi dairelerinin iştigal konularından biri değildir?",
     "options": [
@@ -7997,13 +13576,24 @@ export const QUESTIONS = [
       "Tebligat"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Tebligat. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-501",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi dairelerinin yetki alanları kim tarafından",
     "title": "Vergi dairelerinin yetki alanları kim tarafından...",
     "question": "Vergi dairelerinin yetki alanları kim tarafından belirlenir?",
     "options": [
@@ -8013,13 +13603,24 @@ export const QUESTIONS = [
       "Vergi Dairesi Başkanı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Hazine ve Maliye Bakanlığı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-502",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "İlçelerde bağlı vergi dairesi kimin yönetimi",
     "title": "İlçelerde bağlı vergi dairesi kimin yönetimi...",
     "question": "İlçelerde bağlı vergi dairesi kimin yönetimi altındadır?",
     "options": [
@@ -8029,13 +13630,24 @@ export const QUESTIONS = [
       "Kaymakam"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Malmüdürü. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-503",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Süreksiz Yükümlülükler Vergilendirme Servisi hangi servisin",
     "title": "Süreksiz Yükümlülükler Vergilendirme Servisi hangi servisin...",
     "question": "Süreksiz Yükümlülükler Vergilendirme Servisi hangi servisin görevlerini yerine getirir?",
     "options": [
@@ -8045,13 +13657,24 @@ export const QUESTIONS = [
       "Tahakkuk servisi"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sürekli yükümlülükler servisi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-504",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne",
     "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne...",
     "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre aşağıdakilerden hangisi vergi dairesi başkanının görevlerinden biridir?",
     "options": [
@@ -8061,13 +13684,24 @@ export const QUESTIONS = [
       "Hazineyi yargı mercilerinde temsil etmek"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Hazineyi yargı mercilerinde temsil etmek. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-505",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi müdürü görevlerinden hangisini yapmaz?",
     "title": "Vergi müdürü görevlerinden hangisini yapmaz?",
     "question": "Vergi müdürü görevlerinden hangisini yapmaz?",
     "options": [
@@ -8077,13 +13711,24 @@ export const QUESTIONS = [
       "Teftiş raporlarını değerlendirmek"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Teftiş raporlarını değerlendirmek. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-506",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Gider tahakkuk memurluğu görevi bağlı vergi",
     "title": "Gider tahakkuk memurluğu görevi bağlı vergi...",
     "question": "Gider tahakkuk memurluğu görevi bağlı vergi dairelerinde kimdedir?",
     "options": [
@@ -8093,13 +13738,24 @@ export const QUESTIONS = [
       "Malmüdürü"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Tahakkuk servis şefi. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-507",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi dairesinde görevli memurların araç, gereç",
     "title": "Vergi dairesinde görevli memurların araç, gereç...",
     "question": "Vergi dairesinde görevli memurların araç, gereç ve basılı kâğıtları kullanma sorumluluğu aşağıdakilerden hangisini içermez?",
     "options": [
@@ -8109,13 +13765,24 @@ export const QUESTIONS = [
       "Hazine zararından sorumlu olmak"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Harcamaları denetlemek. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-508",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi müdürleri kime karşı sorumludur?",
     "title": "Vergi müdürleri kime karşı sorumludur?",
     "question": "Vergi müdürleri kime karşı sorumludur?",
     "options": [
@@ -8125,13 +13792,24 @@ export const QUESTIONS = [
       "Defterdar"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Vergi dairesi başkanı. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-509",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıda belirtilen işlemlerden hangisi Vergi dairesi",
     "title": "Aşağıda belirtilen işlemlerden hangisi Vergi dairesi...",
     "question": "Aşağıda belirtilen işlemlerden hangisi Vergi dairesi başkanlıklarının yapmakla görevli olduğu hizmetlerden biri değildir?",
     "options": [
@@ -8141,13 +13819,24 @@ export const QUESTIONS = [
       "Nüfus ve vatandaşlık hizmetlerini yürütmek"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Nüfus ve vatandaşlık hizmetlerini yürütmek. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-510",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "I. Grup müdürlükleri II. Hukuk bürosu",
     "title": "I. Grup müdürlükleri II. Hukuk bürosu...",
     "question": "I. Grup müdürlükleri II. Hukuk bürosu III. Vergi dairesi müdürlükleri Yukarıda verilenlerden hangisi / hangileri Vergi dairesi başkanlıklarının örgütlenmesi içerisinde yer almaktadır?",
     "options": [
@@ -8157,13 +13846,24 @@ export const QUESTIONS = [
       "Yalnız II."
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: I, II ve III.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-511",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Aşağıda verilenlerden hangisi \"Tahsilat grup müdürlüğünün",
     "title": "Aşağıda verilenlerden hangisi \"Tahsilat grup müdürlüğünün...",
     "question": "Aşağıda verilenlerden hangisi \"Tahsilat grup müdürlüğünün görevleri\" arasında yer almaz?",
     "options": [
@@ -8173,13 +13873,24 @@ export const QUESTIONS = [
       "Haczedilen menkul malların satışını sağlamak"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Vergi dairesi başkanlığının sivil savunma ve seferberlik hizmetlerini yürütmek. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-512",
     "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "I. Bilgi işlem faaliyetlerine yönelik iş",
     "title": "I. Bilgi işlem faaliyetlerine yönelik iş...",
     "question": "I. Bilgi işlem faaliyetlerine yönelik iş ve işlemleri yürütmek. II. Bütçe gelirlerinden yapılacak red ve iadelerde, muhasebe işlem fişini imzalamak. III. Teftiş sonucu düzenlenen raporları ilgililerle birlikte cevaplandırmak. Yukarıda verilenlerden",
     "options": [
@@ -8189,13 +13900,24 @@ export const QUESTIONS = [
       "II ve III."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: II ve III.. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "5018 KMYKK & Kamu İhale (4734/4735)"
+    ]
   },
   {
     "id": "q-513",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Vergi Dairesi Başkanlıklarının Yönetimi'ne ilişkin verilen",
     "title": "Vergi Dairesi Başkanlıklarının Yönetimi'ne ilişkin verilen...",
     "question": "Vergi Dairesi Başkanlıklarının Yönetimi'ne ilişkin verilen bilgilerden doğru değildir?",
     "options": [
@@ -8205,13 +13927,24 @@ export const QUESTIONS = [
       "Takdir, uzlaşma, satış komisyonları, şubeler ve vergi dairesi müdürlükleri tüm iş ve işlemlerini, vergi dairesi başkanının uygun gördüğü grup müdürlüğü ile ilişkilendirilmiş olarak yürütür."
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Müdürlüklere bağlı bölümlerde, servisler müdürler tarafından yönetilir.. İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982 hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "İşlem Yönergesi, CBK (1 & 4), Muhasebe & 4982"
+    ]
   },
   {
     "id": "q-514",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "213 sayılı Vergi Usul Kanunu hükümlerine",
     "title": "213 sayılı Vergi Usul Kanunu hükümlerine...",
     "question": "213 sayılı Vergi Usul Kanunu hükümlerine göre, vergi dairesi tarafından kanuni esaslara uyularak hesaplanan verginin, alacaklı vergi dairesi tarafından mükellefe bildirilmesi aşamasına ne ad verilir?",
     "options": [
@@ -8221,13 +13954,24 @@ export const QUESTIONS = [
       "Tahsil"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Tebliğ. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-515",
     "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "213 sayılı Vergi Usul Kanunu'nun genel",
     "title": "213 sayılı Vergi Usul Kanunu'nun genel...",
     "question": "213 sayılı Vergi Usul Kanunu'nun genel uygulama alanı dikkate alındığında, aşağıda yer alan vergi, resim ve harçlardan hangisi bu kanun kapsamına girmez?",
     "options": [
@@ -8237,13 +13981,24 @@ export const QUESTIONS = [
       "Gümrük idareleri tarafından alınan vergi ve resimler"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Gümrük idareleri tarafından alınan vergi ve resimler. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil"
+    ]
   },
   {
     "id": "q-516",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "213 sayılı Vergi Usul Kanunu'nun 114.",
     "title": "213 sayılı Vergi Usul Kanunu'nun 114....",
     "question": "213 sayılı Vergi Usul Kanunu'nun 114. maddesinde düzenlenen genel hükme göre, vergi alacağının doğduğu takvim yılını takip eden yılın başından başlayarak kaç yıl içinde tarh ve mükellefe tebliğ edilmeyen vergiler zamanaşımına uğrar?",
     "options": [
@@ -8253,13 +14008,25 @@ export const QUESTIONS = [
       "5 yıl"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: 5 yıl. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu",
+      "Zamanaşımı"
+    ]
   },
   {
     "id": "q-517",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "213 sayılı Vergi Usul Kanunu kapsamına",
     "title": "213 sayılı Vergi Usul Kanunu kapsamına...",
     "question": "213 sayılı Vergi Usul Kanunu kapsamına göre; vergi incelemesi yapmaya yetkili olanlar tarafından, defter ve belgeler ile kayıtlara dayanılarak matrahın tamamen veya kısmen tespiti mümkün olmadığı durumlarda takdir komisyonları veya inceleme",
     "options": [
@@ -8269,13 +14036,24 @@ export const QUESTIONS = [
       "İdarece vergi tarhı"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: Re'sen vergi tarhı. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-518",
     "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "213 sayılı Vergi Usul Kanunu'nun 359.",
     "title": "213 sayılı Vergi Usul Kanunu'nun 359....",
     "question": "213 sayılı Vergi Usul Kanunu'nun 359. maddesinde düzenlenen kaçakçılık suçları kapsamında, \"gerçek bir muamele veya durum olmadığı hâlde bunlar varmış gibi düzenlenen belge\" ifadesi aşağıdakilerden hangisinin kanuni tanımıdır?",
     "options": [
@@ -8285,13 +14063,24 @@ export const QUESTIONS = [
       "Serbest meslek makbuzu"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Sahte belge (Naylon fatura). 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "213 Sayılı Vergi Usul Kanunu",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "213 Sayılı Vergi Usul Kanunu"
+    ]
   },
   {
     "id": "q-519",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, hastalık raporlarının hangi durumlarda, hangi hekimler veya sağlık kurulları tarafından verileceğine ilişkin düzenleme hazırlanırken aşağıdaki kurum veya kuruluşlardan hangisinin görüşünün alınması",
     "options": [
@@ -8301,13 +14090,24 @@ export const QUESTIONS = [
       "Sosyal Güvenlik Kurumu"
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Sosyal Güvenlik Kurumu. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-520",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, devlet memurlarının çocuk bakımevi ve sosyal tesis ihtiyaçlarının karşılanmasına ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
     "options": [
@@ -8317,13 +14117,24 @@ export const QUESTIONS = [
       "Sosyal tesisler yalnızca emekli devlet memurları için kurulabilir."
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Gerekli görülen yerlerde çocuk bakımevi ve sosyal tesisler kurulabilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-521",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, amir konumundaki devlet memurlarının görev ve sorumlulukları hakkında aşağıdaki ifadelerden hangisi yanlıştır?",
     "options": [
@@ -8333,13 +14144,24 @@ export const QUESTIONS = [
       "Amir, emrindeki memurlardan borç alabilir."
     ],
     "correctAnswer": 3,
+    "correct_answer": "D",
     "explanation": "Doğru seçenek: Amir, emrindeki memurlardan borç alabilir.. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-522",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, aşağıdakilerden hangisi devlet memurlarının genel hakları arasında yer almaz?",
     "options": [
@@ -8349,13 +14171,24 @@ export const QUESTIONS = [
       "Denetimindeki teşebbüsten menfaat sağlama"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Güvenlik. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-523",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "657 sayılı Devlet Memurları Kanunu’na göre,",
     "title": "657 sayılı Devlet Memurları Kanunu’na göre,...",
     "question": "657 sayılı Devlet Memurları Kanunu’na göre, sürekli görevle ilk defa yurt dışına atanan devlet memurunun yurt dışı aylığı hangi tarihten itibaren ödenir?",
     "options": [
@@ -8365,13 +14198,24 @@ export const QUESTIONS = [
       "Atama emrinin tebliğ edildiği ayın sonundan itibaren"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Yurt dışındaki görevine başladığı tarihten itibaren. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-524",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Öğretmenlere asıl görevlerinin yanında ikinci görev",
     "title": "Öğretmenlere asıl görevlerinin yanında ikinci görev...",
     "question": "Öğretmenlere asıl görevlerinin yanında ikinci görev olarak verilebilecek görevler arasında aşağıdakilerden hangisi yer almaz?",
     "options": [
@@ -8381,13 +14225,24 @@ export const QUESTIONS = [
       "Millî eğitim müdür yardımcılığı"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: Enstitü müdürlüğü. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-525",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Devlet memurluğunda esas alınan temel ilkeler",
     "title": "Devlet memurluğunda esas alınan temel ilkeler...",
     "question": "Devlet memurluğunda esas alınan temel ilkeler aşağıdakilerin hangisinde birlikte ve eksiksiz olarak verilmiştir?",
     "options": [
@@ -8397,13 +14252,24 @@ export const QUESTIONS = [
       "Sadakat – Sınıflandırma – Tarafsızlık"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Sınıflandırma – Kariyer – Liyakat. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-526",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Aşağıdakilerden hangisi devlet memurlarının “Ödevler ve",
     "title": "Aşağıdakilerden hangisi devlet memurlarının “Ödevler ve...",
     "question": "Aşağıdakilerden hangisi devlet memurlarının “Ödevler ve Sorumluluklar” bölümünde değil, “Genel Haklar” bölümünde düzenlenmiştir?",
     "options": [
@@ -8413,13 +14279,24 @@ export const QUESTIONS = [
       "Tarafsızlık ve devlete bağlılık"
     ],
     "correctAnswer": 2,
+    "correct_answer": "C",
     "explanation": "Doğru seçenek: İsnat ve iftiralara karşı koruma. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "İleri"
+    "difficulty": "İleri",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   },
   {
     "id": "q-527",
     "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "Vergi Daireleri İşlem Yönergesi & CBK (1 & 4)",
+    "subtopic": "Kamu kurum ve kuruluşları, yurt dışı",
     "title": "Kamu kurum ve kuruluşları, yurt dışı...",
     "question": "Kamu kurum ve kuruluşları, yurt dışı teşkilatları hariç toplam dolu kadro sayılarının yüzde kaçı oranında engelli personel çalıştırmak zorundadır?",
     "options": [
@@ -8429,13 +14306,24 @@ export const QUESTIONS = [
       "%5"
     ],
     "correctAnswer": 1,
+    "correct_answer": "B",
     "explanation": "Doğru seçenek: %3. Vergi Teşkilat & Mevzuat hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "Vergi Teşkilat & Mevzuat",
-    "difficulty": "Temel"
+    "difficulty": "Temel",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "Vergi Teşkilat & Mevzuat"
+    ]
   },
   {
     "id": "q-528",
     "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Kamuya Açık Sınav & Deneme Arşivi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & Harcırah Kanunu (6245)",
+    "subtopic": "Aynı yerdeki bir göreve yer değiştirme",
     "title": "Aynı yerdeki bir göreve yer değiştirme...",
     "question": "Aynı yerdeki bir göreve yer değiştirme suretiyle atanan devlet memuru, atama emrinin kendisine tebliğ edilmesinden sonra ne zaman göreve başlamak zorundadır?",
     "options": [
@@ -8445,8 +14333,13 @@ export const QUESTIONS = [
       "On beş gün sonra"
     ],
     "correctAnswer": 0,
+    "correct_answer": "A",
     "explanation": "Doğru seçenek: Tebliğ tarihini izleyen iş günü. 657 DMK & 6245 Harcırah hükümleri uyarınca sınav mevzuatı çerçevesinde doğru cevap belirlenmiştir.",
     "articleRef": "657 DMK & 6245 Harcırah",
-    "difficulty": "Orta"
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "657 DMK & 6245 Harcırah"
+    ]
   }
 ];

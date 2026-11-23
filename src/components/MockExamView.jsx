@@ -1,5 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, CheckCircle, XCircle, Award, RotateCcw, AlertTriangle, ArrowRight } from 'lucide-react';
+import { 
+  Clock, 
+  CheckCircle, 
+  XCircle, 
+  Award, 
+  RotateCcw, 
+  AlertTriangle, 
+  ArrowRight,
+  ExternalLink,
+  ShieldCheck,
+  CheckCircle2,
+  HelpCircle,
+  Zap,
+  Target,
+  Flame
+} from 'lucide-react';
 import confetti from 'canvas-confetti';
 
 export default function MockExamView({ questions, onRecordMistake }) {
@@ -7,8 +22,10 @@ export default function MockExamView({ questions, onRecordMistake }) {
   const [examQuestions, setExamQuestions] = useState([]);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState({});
-  const [timeLeft, setTimeLeft] = useState(1200); // 20 minutes (1200s)
+  const [timeLeft, setTimeLeft] = useState(1800);
+  const [totalTime, setTotalTime] = useState(1800);
   const [isFinished, setIsFinished] = useState(false);
+  const [selectedCount, setSelectedCount] = useState(25);
 
   // Timer effect
   useEffect(() => {
@@ -33,13 +50,19 @@ export default function MockExamView({ questions, onRecordMistake }) {
     return copy;
   };
 
-  const startExam = (questionCount = 15) => {
-    const count = Math.min(questionCount, questions.length);
-    const shuffled = shuffleArray(questions).slice(0, count);
+  const startExam = (count = 25) => {
+    const qCount = Math.min(count, questions.length);
+    const shuffled = shuffleArray(questions).slice(0, qCount);
+    
+    // Time: ~72 seconds per question (25 soru -> 30 dk, 50 soru -> 60 dk, 100 soru -> 120 dk)
+    const minutes = count === 100 ? 120 : (count === 50 ? 60 : 30);
+    const totalSeconds = minutes * 60;
+
     setExamQuestions(shuffled);
     setCurrentIdx(0);
     setAnswers({});
-    setTimeLeft(count * 80); // ~80 seconds per question
+    setTimeLeft(totalSeconds);
+    setTotalTime(totalSeconds);
     setIsFinished(false);
     setExamActive(true);
   };
@@ -85,41 +108,108 @@ export default function MockExamView({ questions, onRecordMistake }) {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
+  const optionLetters = ['A', 'B', 'C', 'D'];
+
   // Pre-exam Start Screen
   if (!examActive) {
     return (
-      <div className="max-w-2xl mx-auto py-12 px-4 text-center">
-        <div className="w-16 h-16 rounded-2xl bg-brand-50 dark:bg-brand-950/60 text-brand-700 dark:text-brand-300 flex items-center justify-center mx-auto mb-5 shadow-xs">
-          <Award className="w-8 h-8" />
-        </div>
-        <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
-          Müdür Yardımcılığı Deneme Sınavı
-        </h2>
-        <p className="mt-2 text-sm text-slate-600 dark:text-slate-300 max-w-md mx-auto leading-relaxed">
-          Gerçek sınav kurallarına göre hazırlanmış, süreli ve tüm konulardan karma sorular içeren simülasyon.
-        </p>
-
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-lg mx-auto text-left">
-          <div className="p-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
-            <span className="text-xs text-slate-400">Soru Sayısı</span>
-            <div className="text-lg font-bold text-slate-800 dark:text-white mt-1">15 Soru</div>
+      <div className="max-w-3xl mx-auto py-10 px-4 text-center space-y-8">
+        <div>
+          <div className="w-16 h-16 rounded-2xl bg-brand-50 dark:bg-brand-950/60 text-brand-700 dark:text-brand-300 flex items-center justify-center mx-auto mb-4 shadow-xs">
+            <Award className="w-8 h-8" />
           </div>
-          <div className="p-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
-            <span className="text-xs text-slate-400">Sınav Süresi</span>
-            <div className="text-lg font-bold text-slate-800 dark:text-white mt-1">20 Dakika</div>
-          </div>
-          <div className="p-4 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
-            <span className="text-xs text-slate-400">Baraj Puanı</span>
-            <div className="text-lg font-bold text-slate-800 dark:text-white mt-1">70 Puan</div>
-          </div>
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
+            Müdür Yardımcılığı Deneme Sınavı
+          </h2>
+          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300 max-w-lg mx-auto leading-relaxed">
+            Gerçek sınav kurallarına göre hazırlanmış, süreli ve tüm konulardan karma 4 şıklı sorular içeren simülasyon.
+          </p>
         </div>
 
-        <button
-          onClick={() => startExam(15)}
-          className="mt-8 px-8 py-3.5 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-medium text-base shadow-sm transition-transform active:scale-95"
-        >
-          Deneme Sınavını Başlat
-        </button>
+        {/* Exam Type Selector Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
+          {/* 25 Soru */}
+          <div 
+            onClick={() => setSelectedCount(25)}
+            className={`p-5 rounded-2xl border transition-all cursor-pointer ${
+              selectedCount === 25 
+                ? 'border-brand-600 bg-brand-50/50 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-sm' 
+                : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-slate-300'
+            }`}
+          >
+            <div className="flex items-center justify-between mb-3">
+              <span className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 flex items-center justify-center">
+                <Zap className="w-4 h-4" />
+              </span>
+              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
+                Hızlı
+              </span>
+            </div>
+            <div className="text-lg font-bold text-slate-900 dark:text-white">25 Soru</div>
+            <div className="text-xs text-slate-500 mt-1">Süre: 30 Dakika</div>
+            <div className="text-[11px] text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
+              Kısa tekrar ve hızlı pratik için ideal.
+            </div>
+          </div>
+
+          {/* 50 Soru */}
+          <div 
+            onClick={() => setSelectedCount(50)}
+            className={`p-5 rounded-2xl border transition-all cursor-pointer ${
+              selectedCount === 50 
+                ? 'border-brand-600 bg-brand-50/50 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-sm' 
+                : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-slate-300'
+            }`}
+          >
+            <div className="flex items-center justify-between mb-3">
+              <span className="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 dark:bg-amber-950 dark:text-amber-300 flex items-center justify-center">
+                <Target className="w-4 h-4" />
+              </span>
+              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-brand-100 text-brand-800 dark:bg-brand-950 dark:text-brand-300">
+                Önerilen
+              </span>
+            </div>
+            <div className="text-lg font-bold text-slate-900 dark:text-white">50 Soru</div>
+            <div className="text-xs text-slate-500 mt-1">Süre: 60 Dakika</div>
+            <div className="text-[11px] text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
+              Dengeli ve tam kapsamlı deneme.
+            </div>
+          </div>
+
+          {/* 100 Soru */}
+          <div 
+            onClick={() => setSelectedCount(100)}
+            className={`p-5 rounded-2xl border transition-all cursor-pointer ${
+              selectedCount === 100 
+                ? 'border-brand-600 bg-brand-50/50 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-sm' 
+                : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-slate-300'
+            }`}
+          >
+            <div className="flex items-center justify-between mb-3">
+              <span className="w-8 h-8 rounded-lg bg-rose-100 text-rose-700 dark:bg-rose-950 dark:text-rose-300 flex items-center justify-center">
+                <Flame className="w-4 h-4" />
+              </span>
+              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
+                Tam Sınav
+              </span>
+            </div>
+            <div className="text-lg font-bold text-slate-900 dark:text-white">100 Soru</div>
+            <div className="text-xs text-slate-500 mt-1">Süre: 120 Dakika</div>
+            <div className="text-[11px] text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
+              Resmi GİB sınavının birebir simülasyonu.
+            </div>
+          </div>
+        </div>
+
+        {/* Start Button */}
+        <div>
+          <button
+            onClick={() => startExam(selectedCount)}
+            className="px-10 py-3.5 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-medium text-base shadow-sm transition-transform active:scale-95 cursor-pointer"
+          >
+            {selectedCount} Soruluk Denemeyi Başlat
+          </button>
+        </div>
       </div>
     );
   }
@@ -141,7 +231,7 @@ export default function MockExamView({ questions, onRecordMistake }) {
     const isPassed = score >= 70;
 
     return (
-      <div className="max-w-2xl mx-auto space-y-6 py-6">
+      <div className="max-w-3xl mx-auto space-y-6 py-6">
         <div className="p-8 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-center shadow-xs">
           <div className={`w-20 h-20 rounded-full mx-auto flex items-center justify-center mb-4 ${
             isPassed ? 'bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600' : 'bg-amber-50 dark:bg-amber-950/60 text-amber-600'
@@ -177,15 +267,17 @@ export default function MockExamView({ questions, onRecordMistake }) {
 
           <button
             onClick={() => setExamActive(false)}
-            className="px-6 py-2.5 rounded-xl bg-brand-700 hover:bg-brand-800 text-white text-sm font-medium transition-colors"
+            className="px-6 py-2.5 rounded-xl bg-brand-700 hover:bg-brand-800 text-white text-sm font-medium transition-colors cursor-pointer"
           >
-            Yeni Deneme Sınavı
+            Yeni Deneme Sınavı Seç
           </button>
         </div>
 
         {/* Detailed Question Review */}
         <div className="space-y-4">
-          <h4 className="font-semibold text-slate-800 dark:text-white px-1">Soru Detayları ve Açıklamalar</h4>
+          <h4 className="font-semibold text-slate-800 dark:text-white px-1">
+            Soru Detayları ve Gerekçeli Açıklamalar ({examQuestions.length} Soru)
+          </h4>
           {examQuestions.map((q, idx) => {
             const userAns = answers[q.id];
             const isCorrect = userAns === q.correctAnswer;
@@ -194,22 +286,52 @@ export default function MockExamView({ questions, onRecordMistake }) {
             return (
               <div 
                 key={q.id}
-                className="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-2 text-sm"
+                className="p-5 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-3 text-sm"
               >
-                <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300">
-                    Soru {idx + 1} - {q.articleRef}
-                  </span>
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-xs font-bold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300">
+                      Soru {idx + 1}
+                    </span>
+                    <span className="text-xs font-semibold px-2 py-0.5 rounded bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300">
+                      {q.articleRef}
+                    </span>
+                  </div>
                   <span className={`text-xs font-bold ${
                     isBlank ? 'text-slate-400' : isCorrect ? 'text-emerald-600' : 'text-rose-600'
                   }`}>
-                    {isBlank ? 'Boş Bırakıldı' : isCorrect ? '✓ Doğru' : '✗ Yanlış'}
+                    {isBlank ? '⚪ Boş Bırakıldı' : isCorrect ? '✓ Doğru' : '✗ Yanlış'}
                   </span>
                 </div>
+
                 <p className="font-medium text-slate-800 dark:text-slate-100">{q.question}</p>
-                <div className="text-xs text-slate-600 dark:text-slate-300 mt-2 p-3 bg-slate-50 dark:bg-slate-900/40 rounded-xl">
-                  <p className="font-semibold text-emerald-700 dark:text-emerald-400">Doğru: {q.options[q.correctAnswer]}</p>
-                  <p className="mt-1">{q.explanation}</p>
+
+                {/* Given Answer vs Correct Answer */}
+                <div className="text-xs text-slate-600 dark:text-slate-300 p-3 bg-slate-50 dark:bg-slate-900/40 rounded-xl space-y-1.5 border border-slate-200/60 dark:border-slate-700/60">
+                  <div className="flex items-center justify-between">
+                    <p className="font-semibold text-emerald-700 dark:text-emerald-400">
+                      Doğru Cevap: ({optionLetters[q.correctAnswer]}) {q.options[q.correctAnswer]}
+                    </p>
+                    {q.source_url && (
+                      <a 
+                        href={q.source_url} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        className="text-[11px] text-brand-700 dark:text-brand-400 hover:underline inline-flex items-center space-x-0.5"
+                      >
+                        <span>Mevzuat</span>
+                        <ExternalLink className="w-2.5 h-2.5 ml-0.5" />
+                      </a>
+                    )}
+                  </div>
+                  {!isBlank && !isCorrect && (
+                    <p className="text-rose-600 dark:text-rose-400">
+                      Verdiğiniz Cevap: ({optionLetters[userAns]}) {q.options[userAns]}
+                    </p>
+                  )}
+                  <p className="pt-1 text-slate-600 dark:text-slate-300 text-xs leading-relaxed border-t border-slate-200/60 dark:border-slate-800">
+                    {q.explanation}
+                  </p>
                 </div>
               </div>
             );
@@ -221,92 +343,128 @@ export default function MockExamView({ questions, onRecordMistake }) {
 
   // Active Exam View
   const currentQ = examQuestions[currentIdx];
-  const optionLetters = ['A', 'B', 'C', 'D'];
+  const userSelected = answers[currentQ.id];
 
   return (
-    <div className="max-w-3xl mx-auto space-y-6">
+    <div className="max-w-3xl mx-auto space-y-4">
       {/* Exam Header Bar */}
-      <div className="p-4 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-between shadow-xs">
+      <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-4 flex items-center justify-between shadow-xs">
         <div className="flex items-center space-x-2">
-          <span className="font-semibold text-slate-800 dark:text-white text-sm">
+          <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-brand-100 text-brand-800 dark:bg-brand-950 dark:text-brand-300">
             Soru {currentIdx + 1} / {examQuestions.length}
+          </span>
+          <span className="text-xs text-slate-400 hidden sm:inline">
+            Cevaplanan: {Object.keys(answers).length}
           </span>
         </div>
 
-        <div className={`flex items-center space-x-1.5 px-3 py-1 rounded-full text-xs font-mono font-bold ${
-          timeLeft < 180 ? 'bg-rose-100 text-rose-700 animate-pulse' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300'
+        {/* Countdown Timer */}
+        <div className={`flex items-center space-x-1.5 px-3 py-1 rounded-lg text-sm font-mono font-bold ${
+          timeLeft < 300 
+            ? 'bg-rose-100 text-rose-700 dark:bg-rose-950 dark:text-rose-300 animate-pulse' 
+            : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200'
         }`}>
-          <Clock className="w-3.5 h-3.5" />
+          <Clock className="w-4 h-4" />
           <span>{formatTime(timeLeft)}</span>
         </div>
 
         <button
-          onClick={handleFinishExam}
-          className="px-3.5 py-1.5 rounded-lg bg-rose-600 hover:bg-rose-700 text-white text-xs font-medium transition-colors"
+          onClick={() => {
+            if (window.confirm('Sınavı sonlandırmak ve sonuçlarınızı görmek istiyor musunuz?')) {
+              handleFinishExam();
+            }
+          }}
+          className="px-3.5 py-1.5 rounded-lg text-xs font-medium bg-rose-600 hover:bg-rose-700 text-white transition-colors cursor-pointer"
         >
           Sınavı Bitir
         </button>
       </div>
 
       {/* Question Card */}
-      <div className="p-6 sm:p-8 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-xs">
-        <div className="text-xs font-semibold text-brand-700 dark:text-brand-300 mb-2">
-          {currentQ.articleRef}
+      <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-6 sm:p-8 shadow-xs space-y-6">
+        <div className="flex items-center justify-between text-xs text-slate-400 border-b border-slate-100 dark:border-slate-700/60 pb-3">
+          <span>{currentQ.articleRef}</span>
+          <span>{currentQ.difficulty || 'Standart'}</span>
         </div>
+
         <h3 className="text-base sm:text-lg font-medium text-slate-800 dark:text-slate-100 leading-relaxed">
           {currentQ.question}
         </h3>
 
-        <div className="mt-6 space-y-3">
-          {currentQ.options.map((opt, i) => {
-            const isChosen = answers[currentQ.id] === i;
+        {/* Options */}
+        <div className="space-y-3">
+          {currentQ.options.map((opt, idx) => {
+            const isSelected = userSelected === idx;
             return (
               <button
-                key={i}
-                onClick={() => handleSelect(i)}
-                className={`w-full text-left p-4 rounded-xl border flex items-start space-x-3.5 transition-all ${
-                  isChosen
-                    ? 'border-brand-600 bg-brand-50/80 dark:bg-brand-950/60 text-brand-950 dark:text-brand-100 ring-1 ring-brand-600'
-                    : 'border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/60 text-slate-700 dark:text-slate-200'
+                key={idx}
+                onClick={() => handleSelect(idx)}
+                className={`w-full text-left p-4 rounded-xl border transition-all flex items-start space-x-3.5 cursor-pointer ${
+                  isSelected 
+                    ? 'border-brand-600 bg-brand-50/70 dark:bg-brand-950/40 text-brand-900 dark:text-brand-100 ring-1 ring-brand-600 font-medium'
+                    : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800/80 hover:border-slate-300 text-slate-700 dark:text-slate-200'
                 }`}
               >
-                <span className={`w-6 h-6 rounded-md flex items-center justify-center text-xs font-bold ${
-                  isChosen ? 'bg-brand-700 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-600'
+                <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-xs font-semibold shrink-0 ${
+                  isSelected 
+                    ? 'bg-brand-700 text-white' 
+                    : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300'
                 }`}>
-                  {optionLetters[i]}
+                  {optionLetters[idx]}
                 </span>
-                <span className="text-sm pt-0.5">{opt}</span>
+                <span className="text-sm sm:text-base leading-snug pt-0.5 flex-1">
+                  {opt}
+                </span>
               </button>
             );
           })}
         </div>
+
+        {/* Navigation Buttons */}
+        <div className="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-700/60">
+          <button
+            onClick={() => setCurrentIdx(prev => Math.max(0, prev - 1))}
+            disabled={currentIdx === 0}
+            className="px-4 py-2 rounded-lg text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 disabled:opacity-40 cursor-pointer"
+          >
+            ← Önceki Soru
+          </button>
+
+          {currentIdx < examQuestions.length - 1 ? (
+            <button
+              onClick={() => setCurrentIdx(prev => Math.min(examQuestions.length - 1, prev + 1))}
+              className="px-5 py-2 rounded-lg text-xs font-medium bg-brand-700 hover:bg-brand-800 text-white transition-colors cursor-pointer"
+            >
+              Sonraki Soru →
+            </button>
+          ) : (
+            <button
+              onClick={handleFinishExam}
+              className="px-5 py-2 rounded-lg text-xs font-medium bg-emerald-600 hover:bg-emerald-700 text-white transition-colors cursor-pointer"
+            >
+              Sınavı Tamamla ✓
+            </button>
+          )}
+        </div>
       </div>
 
-      {/* Navigation Matrix */}
-      <div className="flex items-center justify-between">
-        <button
-          onClick={() => setCurrentIdx(Math.max(0, currentIdx - 1))}
-          disabled={currentIdx === 0}
-          className="px-4 py-2 text-sm font-medium text-slate-600 dark:text-slate-300 disabled:opacity-40"
-        >
-          Önceki
-        </button>
-
-        {/* Quick jump pills */}
-        <div className="flex space-x-1.5 overflow-x-auto max-w-[260px] sm:max-w-md py-1">
+      {/* Question Matrix Drawer */}
+      <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-4 shadow-xs">
+        <div className="text-xs font-medium text-slate-500 mb-2">Soru Matrisi:</div>
+        <div className="flex flex-wrap gap-1.5 max-h-32 overflow-y-auto">
           {examQuestions.map((q, idx) => {
-            const isAns = answers[q.id] !== undefined;
+            const isAnswered = answers[q.id] !== undefined;
             const isCurrent = idx === currentIdx;
             return (
               <button
                 key={q.id}
                 onClick={() => setCurrentIdx(idx)}
-                className={`w-7 h-7 rounded-lg text-xs font-medium shrink-0 transition-all ${
+                className={`w-7 h-7 rounded-lg text-xs font-bold transition-all cursor-pointer ${
                   isCurrent 
-                    ? 'ring-2 ring-brand-600 font-bold bg-brand-100 dark:bg-brand-900 text-brand-900 dark:text-white'
-                    : isAns
-                      ? 'bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900'
-                      : 'bg-slate-100 dark:bg-slate-700 text-slate-500'
+                    ? 'ring-2 ring-brand-500 bg-brand-700 text-white' 
+                    : isAnswered 
+                    ? 'bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300' 
+                    : 'bg-slate-100 dark:bg-slate-700 text-slate-500 hover:bg-slate-200'
                 }`}
               >
                 {idx + 1}
@@ -314,14 +472,6 @@ export default function MockExamView({ questions, onRecordMistake }) {
             );
           })}
         </div>
-
-        <button
-          onClick={() => setCurrentIdx(Math.min(examQuestions.length - 1, currentIdx + 1))}
-          disabled={currentIdx === examQuestions.length - 1}
-          className="px-4 py-2 text-sm font-medium bg-brand-700 text-white rounded-lg disabled:opacity-40"
-        >
-          Sonraki
-        </button>
       </div>
     </div>
   );
