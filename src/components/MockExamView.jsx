@@ -13,7 +13,8 @@ import {
   HelpCircle,
   Zap,
   Target,
-  Flame
+  Flame,
+  Check
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
@@ -22,10 +23,10 @@ export default function MockExamView({ questions, onRecordMistake }) {
   const [examQuestions, setExamQuestions] = useState([]);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [answers, setAnswers] = useState({});
-  const [timeLeft, setTimeLeft] = useState(1800);
-  const [totalTime, setTotalTime] = useState(1800);
+  const [timeLeft, setTimeLeft] = useState(6000); // 100 minutes (6000s) default
+  const [totalTime, setTotalTime] = useState(6000);
   const [isFinished, setIsFinished] = useState(false);
-  const [selectedCount, setSelectedCount] = useState(25);
+  const [selectedCount, setSelectedCount] = useState(80); // Default to official 80 questions
 
   // Timer effect
   useEffect(() => {
@@ -50,12 +51,20 @@ export default function MockExamView({ questions, onRecordMistake }) {
     return copy;
   };
 
-  const startExam = (count = 25) => {
+  const startExam = (count = 80) => {
     const qCount = Math.min(count, questions.length);
     const shuffled = shuffleArray(questions).slice(0, qCount);
     
-    // Time: ~72 seconds per question (25 soru -> 30 dk, 50 soru -> 60 dk, 100 soru -> 120 dk)
-    const minutes = count === 100 ? 120 : (count === 50 ? 60 : 30);
+    // Official timing:
+    // 80 Soru -> 100 Dakika (Resmi GİB/MEB Sınavı)
+    // 50 Soru -> 60 Dakika (Hızlı Deneme)
+    // 100 Soru -> 120 Dakika (Kapsamlı Simülasyon)
+    let minutes = 100;
+    if (count === 50) minutes = 60;
+    else if (count === 100) minutes = 120;
+    else if (count === 80) minutes = 100;
+    else minutes = Math.round(count * 1.25);
+
     const totalSeconds = minutes * 60;
 
     setExamQuestions(shuffled);
@@ -86,7 +95,7 @@ export default function MockExamView({ questions, onRecordMistake }) {
       }
     });
 
-    // Calculate score
+    // Calculate score (GİB kuralı: Yanlış doğruyu götürmez, doğrudan doğru sayısı / soru sayısı * 100)
     let correct = 0;
     examQuestions.forEach(q => {
       if (answers[q.id] === q.correctAnswer) correct++;
@@ -113,90 +122,113 @@ export default function MockExamView({ questions, onRecordMistake }) {
   // Pre-exam Start Screen
   if (!examActive) {
     return (
-      <div className="max-w-3xl mx-auto py-10 px-4 text-center space-y-8">
+      <div className="max-w-3xl mx-auto py-8 px-4 text-center space-y-8">
         <div>
           <div className="w-16 h-16 rounded-2xl bg-brand-50 dark:bg-brand-950/60 text-brand-700 dark:text-brand-300 flex items-center justify-center mx-auto mb-4 shadow-xs">
             <Award className="w-8 h-8" />
           </div>
+          <div className="inline-block px-3 py-1 rounded-full bg-brand-100 text-brand-800 dark:bg-brand-950 dark:text-brand-300 text-xs font-semibold uppercase tracking-wider mb-2">
+            GİB Görevde Yükselme Standart Formatı
+          </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
-            Müdür Yardımcılığı Deneme Sınavı
+            Vergi Dairesi Müdür Yardımcılığı Deneme Sınavı
           </h2>
           <p className="mt-2 text-sm text-slate-600 dark:text-slate-300 max-w-lg mx-auto leading-relaxed">
-            Gerçek sınav kurallarına göre hazırlanmış, süreli ve tüm konulardan karma 4 şıklı sorular içeren simülasyon.
+            Şu ana kadar yapılan resmi GİB/MEB sınavlarının kurallarına birebir uygun: <strong>4 şık (A, B, C, D)</strong>, yanlışın doğruyu götürmediği ve <strong>70 puan barajlı</strong> sınav simülasyonu.
           </p>
+        </div>
+
+        {/* Official Rules Info Banner */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto text-left text-xs">
+          <div className="p-3 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+            <span className="text-slate-400 block mb-0.5">Soru Formatı</span>
+            <span className="font-bold text-slate-800 dark:text-white text-sm">4 Seçenek (A-D)</span>
+          </div>
+          <div className="p-3 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+            <span className="text-slate-400 block mb-0.5">Yanlış Kuralı</span>
+            <span className="font-bold text-emerald-600 dark:text-emerald-400 text-sm">Doğruyu Götürmez</span>
+          </div>
+          <div className="p-3 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+            <span className="text-slate-400 block mb-0.5">Baraj Puanı</span>
+            <span className="font-bold text-brand-700 dark:text-brand-300 text-sm">70 / 100 Puan</span>
+          </div>
+          <div className="p-3 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+            <span className="text-slate-400 block mb-0.5">Soru Havuzu</span>
+            <span className="font-bold text-slate-800 dark:text-white text-sm">528 Soru</span>
+          </div>
         </div>
 
         {/* Exam Type Selector Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
-          {/* 25 Soru */}
+          {/* 80 Soru - Resmi Format */}
           <div 
-            onClick={() => setSelectedCount(25)}
-            className={`p-5 rounded-2xl border transition-all cursor-pointer ${
-              selectedCount === 25 
-                ? 'border-brand-600 bg-brand-50/50 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-sm' 
+            onClick={() => setSelectedCount(80)}
+            className={`p-5 rounded-2xl border transition-all cursor-pointer relative ${
+              selectedCount === 80 
+                ? 'border-brand-600 bg-brand-50/60 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-md' 
                 : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-slate-300'
             }`}
           >
             <div className="flex items-center justify-between mb-3">
-              <span className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 flex items-center justify-center">
-                <Zap className="w-4 h-4" />
+              <span className="w-8 h-8 rounded-lg bg-brand-100 text-brand-800 dark:bg-brand-900 dark:text-brand-200 flex items-center justify-center font-bold">
+                80
               </span>
-              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
-                Hızlı
+              <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-brand-700 text-white shadow-xs">
+                Resmi GİB Formatı
               </span>
             </div>
-            <div className="text-lg font-bold text-slate-900 dark:text-white">25 Soru</div>
-            <div className="text-xs text-slate-500 mt-1">Süre: 30 Dakika</div>
-            <div className="text-[11px] text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
-              Kısa tekrar ve hızlı pratik için ideal.
+            <div className="text-lg font-bold text-slate-900 dark:text-white">80 Soru (100 Dk)</div>
+            <div className="text-xs text-slate-500 mt-1">Soru Başına: 1.25 Puan</div>
+            <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
+              MEB / GİB'in uyguladığı gerçek sınav formatıdır.
             </div>
           </div>
 
-          {/* 50 Soru */}
+          {/* 50 Soru - Hızlı Pratik */}
           <div 
             onClick={() => setSelectedCount(50)}
             className={`p-5 rounded-2xl border transition-all cursor-pointer ${
               selectedCount === 50 
-                ? 'border-brand-600 bg-brand-50/50 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-sm' 
+                ? 'border-brand-600 bg-brand-50/60 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-md' 
                 : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-slate-300'
             }`}
           >
             <div className="flex items-center justify-between mb-3">
-              <span className="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 dark:bg-amber-950 dark:text-amber-300 flex items-center justify-center">
-                <Target className="w-4 h-4" />
+              <span className="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300 flex items-center justify-center font-bold">
+                50
               </span>
-              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-brand-100 text-brand-800 dark:bg-brand-950 dark:text-brand-300">
-                Önerilen
+              <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
+                Pratik Deneme
               </span>
             </div>
-            <div className="text-lg font-bold text-slate-900 dark:text-white">50 Soru</div>
-            <div className="text-xs text-slate-500 mt-1">Süre: 60 Dakika</div>
-            <div className="text-[11px] text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
-              Dengeli ve tam kapsamlı deneme.
+            <div className="text-lg font-bold text-slate-900 dark:text-white">50 Soru (60 Dk)</div>
+            <div className="text-xs text-slate-500 mt-1">Soru Başına: 2.0 Puan</div>
+            <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
+              1 saatlik pratik çalışma ve eksik tespit seansı.
             </div>
           </div>
 
-          {/* 100 Soru */}
+          {/* 100 Soru - Tam Kapsam */}
           <div 
             onClick={() => setSelectedCount(100)}
             className={`p-5 rounded-2xl border transition-all cursor-pointer ${
               selectedCount === 100 
-                ? 'border-brand-600 bg-brand-50/50 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-sm' 
+                ? 'border-brand-600 bg-brand-50/60 dark:bg-brand-950/40 ring-2 ring-brand-500 shadow-md' 
                 : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-slate-300'
             }`}
           >
             <div className="flex items-center justify-between mb-3">
-              <span className="w-8 h-8 rounded-lg bg-rose-100 text-rose-700 dark:bg-rose-950 dark:text-rose-300 flex items-center justify-center">
-                <Flame className="w-4 h-4" />
+              <span className="w-8 h-8 rounded-lg bg-rose-100 text-rose-700 dark:bg-rose-950 dark:text-rose-300 flex items-center justify-center font-bold">
+                100
               </span>
               <span className="text-xs font-semibold px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300">
-                Tam Sınav
+                Tam Kapsam
               </span>
             </div>
-            <div className="text-lg font-bold text-slate-900 dark:text-white">100 Soru</div>
-            <div className="text-xs text-slate-500 mt-1">Süre: 120 Dakika</div>
-            <div className="text-[11px] text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
-              Resmi GİB sınavının birebir simülasyonu.
+            <div className="text-lg font-bold text-slate-900 dark:text-white">100 Soru (120 Dk)</div>
+            <div className="text-xs text-slate-500 mt-1">Soru Başına: 1.0 Puan</div>
+            <div className="text-[11px] text-slate-500 dark:text-slate-400 mt-3 pt-3 border-t border-slate-100 dark:border-slate-700/60">
+              Tüm konuları içeren genişletilmiş deneme.
             </div>
           </div>
         </div>
@@ -227,7 +259,10 @@ export default function MockExamView({ questions, onRecordMistake }) {
       else wrongCount++;
     });
 
-    const score = Math.round((correctCount / examQuestions.length) * 100);
+    // Score calculation: (Correct / Total) * 100
+    const pointPerQuestion = 100 / examQuestions.length;
+    const rawScore = correctCount * pointPerQuestion;
+    const score = Math.round(rawScore * 10) / 10;
     const isPassed = score >= 70;
 
     return (
@@ -240,14 +275,18 @@ export default function MockExamView({ questions, onRecordMistake }) {
           </div>
 
           <h3 className="text-2xl font-bold text-slate-900 dark:text-white">
-            {isPassed ? 'Tebrikler! Sınav Başarılı 🎉' : 'Çalışmaya Devam! Eksikleri Kapatabilirsin 💪'}
+            {isPassed ? 'Tebrikler! Sınavı Kazandınız 🎉' : 'Çalışmaya Devam! Eksikleri Kapatabilirsin 💪'}
           </h3>
           <p className="text-sm text-slate-500 mt-1">
-            GİB Müdür Yardımcılığı Deneme Sınavı Karne Raporu
+            GİB Vergi Dairesi Müdür Yardımcılığı Resmi Sınav Karnesi
           </p>
 
-          <div className="text-4xl font-black text-brand-700 dark:text-brand-300 my-6">
+          <div className="text-4xl font-black text-brand-700 dark:text-brand-300 my-5">
             {score} <span className="text-lg font-normal text-slate-400">/ 100 Puan</span>
+          </div>
+
+          <div className="inline-block px-4 py-1.5 rounded-full text-xs font-semibold mb-6 tracking-wide bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200">
+            {isPassed ? '✅ 70 Puan Barajı Aşıldı (Başarılı)' : '⚠️ Baraj: 70 Puan (Tekrar Çözünüz)'}
           </div>
 
           <div className="grid grid-cols-3 gap-3 max-w-sm mx-auto mb-6">
@@ -263,6 +302,10 @@ export default function MockExamView({ questions, onRecordMistake }) {
               <div className="text-2xl font-bold">{blankCount}</div>
               <div className="text-xs">Boş</div>
             </div>
+          </div>
+
+          <div className="text-xs text-slate-500 mb-6 bg-slate-50 dark:bg-slate-900/50 p-3 rounded-xl max-w-md mx-auto">
+            ℹ️ <strong>GİB Kuralı:</strong> Yanlışlar doğruları götürmemiştir. Puanınız doğrudan {examQuestions.length} soru üzerinden {correctCount} doğru cevap karşılığı hesaplanmıştır.
           </div>
 
           <button
@@ -384,7 +427,9 @@ export default function MockExamView({ questions, onRecordMistake }) {
       <div className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl p-6 sm:p-8 shadow-xs space-y-6">
         <div className="flex items-center justify-between text-xs text-slate-400 border-b border-slate-100 dark:border-slate-700/60 pb-3">
           <span>{currentQ.articleRef}</span>
-          <span>{currentQ.difficulty || 'Standart'}</span>
+          <span className="text-xs px-2 py-0.5 rounded bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300 font-semibold">
+            {optionLetters.length} Seçenekli GİB Formatı
+          </span>
         </div>
 
         <h3 className="text-base sm:text-lg font-medium text-slate-800 dark:text-slate-100 leading-relaxed">
