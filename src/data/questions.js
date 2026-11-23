@@ -1,6 +1,6 @@
 // Vergi Dairesi Müdür ve Müdür Yardımcılığı Sınavı Kapsamlı Soru Bankası
-// Toplam Soru Sayısı: 528
-// JSON Şeması: id, source, source_name, source_url, year, topic, subtopic, question, options, correctAnswer, correct_answer, explanation, articleRef, difficulty, tags
+// Toplam Soru Sayısı: 805
+// Resmi GİB / MEB Sınav Formatı: 4 Seçenekli (A, B, C, D)
 export const QUESTIONS = [
   {
     "id": "q-1",
@@ -14340,6 +14340,7541 @@ export const QUESTIONS = [
     "tags": [
       "PERSONEL-MEVZUAT",
       "657 DMK & 6245 Harcırah"
+    ]
+  },
+  {
+    "id": "q-529",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Vergi Dairesinin ilan panosuna 01.03.2023 tarihinde...",
+    "title": "Vergi Dairesinin ilan panosuna 01.03.2023 tarihinde...",
+    "question": "Vergi Dairesinin ilan panosuna 01.03.2023 tarihinde asılan Vergi Ceza İhbarnamesi 20.03.2023 tarihinde gazetede ayrıca ilan edilmiştir. Vergi Ceza İhbarnamesi dava konusu edilmedi ise kesinleşme günü aşağıdakilerden hangisidir?",
+    "options": [
+      "19.04.2023",
+      "16.05.2023",
+      "17.05.2023",
+      "15.04.2023"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 16.05.2023. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-530",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Vergi Usul Kanunu hükümlerine göre aşağıdakilerden...",
+    "title": "Vergi Usul Kanunu hükümlerine göre aşağıdakilerden...",
+    "question": "Vergi Usul Kanunu hükümlerine göre aşağıdakilerden hangisi Vergi mahremiyeti ile ilgili söylenemez?",
+    "options": [
+      "Mükelleflerin vergi tarhına esas olan beyanları, kesinleşen vergi ve cezaları ile vadesi geçtiği halde ödenmemiş bulunan vergi ve ceza miktarları Maliye Bakanlığınca açıklanması ihlal sayılmaz",
+      "Bankalara, yapacakları vergi tahsiline yönelik bilgiler verilebilir.",
+      "Kamu kurum ve kuruluşları tarafından ilgili kanunları uyarınca mükelleflerden talep edilebilen, kurum ve kuruluşların görevleriyle doğrudan ilgili olmasa da görevlerinin ifası için gerekli bilgilerin, bu kurum ve kuruluşlara verilmesi ihlal sayılmaz.",
+      "Sahte veya muhteviyatı itibariyle yanıltıcı belge düzenledikleri veya kullandıkları tespit vergi inceleme raporuyla tespit olunanların, kanunla kurulmuş mesleki kuruluşlarına bildirilmesi vergi mahremiyetini ihlal sayılmaz"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Kamu kurum ve kuruluşları tarafından ilgili kanunları uyarınca mükelleflerden talep edilebilen, kurum ve kuruluşların görevleriyle doğrudan ilgili olmasa da görevlerinin ifası için gerekli bilgilerin, bu kurum ve kuruluşlara verilmesi ihlal sayılmaz.. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-531",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Vergi Usul Kanunu hükümlerine göre 01.06.2022...",
+    "title": "Vergi Usul Kanunu hükümlerine göre 01.06.2022...",
+    "question": "Vergi Usul Kanunu hükümlerine göre 01.06.2022 tarihinde tasfiyeye giren ve tasfiyesi tamamlanarak tüzel kişiliği ticaret sicilinden 01.03.2023 tarihinde silinmiş şirketle ilgili olarak silinme tarihinden sonra vergi dairesine intikal eden aşağıdaki işlemlerden hangisi doğrudur?",
+    "options": [
+      "2023 Ocak dönemini ilgilendiren vergi tarhiyatı ve ceza kesme işlemi, tasfiye memuru adına yapılır kanuni temsilciye tebliğ edilir",
+      "2022 Ağustos dönemini ilgilendiren vergi tarhiyatı ve ceza kesme işlemi, tasfiye memurlarının adlarına orantılı olarak yapılır",
+      "2022 Ocak dönemini ilgilendiren vergi tarhiyatı ve ceza kesme işlemi, kanuni temsilci adına yapılır, ortaklardan herhangi birine tebliğ edilebilir",
+      "2022 Ağustos dönemini ilgilendiren vergi tarhiyatı ve ceza kesme işlemi, müteselsilen sorumlu olmak üzere, tasfiye memurlarından herhangi biri adına yapılır."
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) 2022 Ağustos dönemini ilgilendiren vergi tarhiyatı ve ceza kesme işlemi, müteselsilen sorumlu olmak üzere, tasfiye memurlarından herhangi biri adına yapılır.. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-532",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Antalya Vergi Dairesi Başkanlığı Elmalı Vergi...",
+    "title": "Antalya Vergi Dairesi Başkanlığı Elmalı Vergi...",
+    "question": "Antalya Vergi Dairesi Başkanlığı Elmalı Vergi Dairesi Müdürlüğünde SMMM faaliyeti nedeniyle kayıtlı Bayan B’nın 24.03.2023 tarihinde eşi Avukat Bay C nin babası vefat etmiştir. SMMM Bayan B aynı zamanda eşi Bay C’nin babasının beyannamelerini vermektedir. Bayan B’nin defterini tuttuğu diğer mükelleflerin ve Eşinin babasının sırasıyla 2023/Şubat dönemi KDV Beyannamesi en son hangi tarihe kadar verilmelidir?",
+    "options": [
+      "02.04.2023 - 24.07.2023",
+      "12.04.2023 - 12.04.2023",
+      "04.04.2023 - 28.06.2023",
+      "12.04.2023 - 24.07.2023"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 04.04.2023 - 28.06.2023. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-533",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Vergi Usul Kanunu hükümlerine göre iktisadi...",
+    "title": "Vergi Usul Kanunu hükümlerine göre iktisadi...",
+    "question": "Vergi Usul Kanunu hükümlerine göre iktisadi işletmelere dahil aşağıdaki kıymetlerden hangisi gayrimenkuller gibi değerlenemez?",
+    "options": [
+      "Gemi",
+      "Otomobil",
+      "Tesisat ve makina",
+      "Gayrinakdi hak"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Gayrinakdi hak. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-534",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "I-İdarece tereddüt edilmeyen açık ve mutlak...",
+    "title": "I-İdarece tereddüt edilmeyen açık ve mutlak...",
+    "question": "I-İdarece tereddüt edilmeyen açık ve mutlak vergi hataları re&#8217;sen düzeltilir. II- Vergi mahkemesinde dava açma süresi geçtikten sonra yaptıkları düzeltme talepleri reddolunanlar hiçbir merciye şikayette bulunamaz. III- Zamanaşımı süresi dolduktan sonra meydana çıkarılan vergi hataları düzeltilemez. IV- Zamanaşımı süresinin son yılı içinde tarh ve tebliğ edilen vergilerde hatanın yapıldığı yılı takip eden yılın başından başlayarak bir yıldan aşağı olamaz. V- Vergi mahkemesi, bölge idare mahkemesi ve danıştaydan geçmiş olan muamelelerde vergi hataları bulunduğu takdirde, bu hatalar, yargı kararları kesinleşmiş olursa düzeltilemez Düzeltme ile ilgili olarak yukarıdakilerden hangileri yanlıştır?",
+    "options": [
+      "II-III",
+      "II-IV-V",
+      "I-III-IV",
+      "I-III"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) II-IV-V. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-535",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Vergi Usul Kanunu hükümlerine göre Aşağıdaki...",
+    "title": "Vergi Usul Kanunu hükümlerine göre Aşağıdaki...",
+    "question": "Vergi Usul Kanunu hükümlerine göre Aşağıdaki durumlardan hangisinde özel usulsüzlük cezası kesilmez?",
+    "options": [
+      "Elektronik ortamda düzenlenmesi gereken faturanın zorunlu haller hariç olmak üzere kâğıt olarak düzenlenmesi",
+      "Tasdiki mecburi olan defterlerden herhangi birinin tasdik muamelesinin, süresinin sonundan başlayarak bir ay içinde yaptırılmış olması",
+      "Belge basımı ile ilgili bildirim görevini tamamen veya kısmen yerine getirmeyen matbaa işletmecileri",
+      "Muhasebe standartlarına, tek düzen hesap planınave mali tablolara ilişkin usul ve esaslar ile muhasebeye yönelik bilgisayar programlarının üretilmesine ve kullanılmasına ilişkin kural ve standartlara uymayanlar"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Tasdiki mecburi olan defterlerden herhangi birinin tasdik muamelesinin, süresinin sonundan başlayarak bir ay içinde yaptırılmış olması. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-536",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Aşağıdakilerin hangisi resen vergi tarhı nedeni...",
+    "title": "Aşağıdakilerin hangisi resen vergi tarhı nedeni...",
+    "question": "Aşağıdakilerin hangisi resen vergi tarhı nedeni değildir?",
+    "options": [
+      "Kanuni defterlerin vergi incelenmesi yapmaya yetkili olanlara her hangi bir sebeple ibraz edilmezse",
+      "Tutulması mecburi olan defterlerin hepsi veya bir kısmı tutulmamış veya tasdik ettirilmemiş olursa",
+      "Bu kanuna göre tutulması mecburi olan defterlerin hepsi veya bir kısmı tutulmamış",
+      "Bilgi isteme yazısının tebliği üzerine, bilginin verilmesi için tayin olunan yasal sürede cevap verilmemesi"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Bilgi isteme yazısının tebliği üzerine, bilginin verilmesi için tayin olunan yasal sürede cevap verilmemesi. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-537",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "213 Sayılı Ve rgi Usul Kanunu...",
+    "title": "213 Sayılı Ve rgi Usul Kanunu...",
+    "question": "213 Sayılı Ve rgi Usul Kanunu hükümlerine göre aşağıdakilerden hangisi bilinen adres değildir?",
+    "options": [
+      "Mükellef tarafından işe bırakmada bildirilen işyeri adresleri",
+      "Mükellef tarafından adres değişikliğinde bildirilen işyeri adresleri",
+      "Yoklama fişinde veya ilgilinin imzası bulunmak şartıyla yetkili memurlar tarafından bir tutanakla tespit edilen işyeri adresleri",
+      "Adres kayıt sisteminde bulunan yerleşim yeri adresi"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Mükellef tarafından işe bırakmada bildirilen işyeri adresleri. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-538",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Vergi Usul Kanununa göre arama neticesinde...",
+    "title": "Vergi Usul Kanununa göre arama neticesinde...",
+    "question": "Vergi Usul Kanununa göre arama neticesinde alınan defter ve vesikalar üzerindeki incelemeler en geç ne kadar sürede bitirilir ve incelemelerin haklı sebeplere dayanarak kanunda belirlenen süre içinde bitirilmesine imkan olmayan hallerde kimin kararı ile bu süre uzatılabilir?",
+    "options": [
+      "3 ay- İnceleme elamanı",
+      "3 ay- Sulh yargıcı",
+      "6 ay- İnceleme elamanı",
+      "6 ay- Sulh yargıcı"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 3 ay- Sulh yargıcı. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-539",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Aşağıdakilerinden hangisi Serbest Meslek faaliyetinde işe...",
+    "title": "Aşağıdakilerinden hangisi Serbest Meslek faaliyetinde işe...",
+    "question": "Aşağıdakilerinden hangisi Serbest Meslek faaliyetinde işe başlama belirtilerindendir?",
+    "options": [
+      "Bir iş yeri açmak",
+      "Ticaret siciline veya mesleki bir teşekküle kaydolunmak",
+      "İşyeri kiralamak",
+      "Devamlı olarak mesleki faaliyette bulunduğunu gösteren kartvizit dağıtmak"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Devamlı olarak mesleki faaliyette bulunduğunu gösteren kartvizit dağıtmak. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-540",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Vergi Usul Kanunun 160/A maddesi kapsamında...",
+    "title": "Vergi Usul Kanunun 160/A maddesi kapsamında...",
+    "question": "Vergi Usul Kanunun 160/A maddesi kapsamında mükellefiyeti terkin edilen ve bu durumu kendine tebliğ edilen mükellef verilen yasal süre içinde kanunda belirtilen şartları yerine getirir ise mükellefiyet kaydı hangi tarih itibari ile açılabilir?",
+    "options": [
+      "Verilen sürenin son günü itibari ile",
+      "Şartların tamamını sağladığı gün itibari ile",
+      "Terkin tarihi itibari ile",
+      "Teminatın verildiği tarih itibari ile"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Terkin tarihi itibari ile. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-541",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "2 13 Sayılı Vergi Usul Kanunu...",
+    "title": "2 13 Sayılı Vergi Usul Kanunu...",
+    "question": "2 13 Sayılı Vergi Usul Kanunu hükümlerine göre işe bırakma bildirimi işe bırakma tarihinden itibaren ne kadar sürede yapılmalıdır?",
+    "options": [
+      "10 gün",
+      "15 gün",
+      "30 gün",
+      "1 ay"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) 1 ay. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-542",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Aşağıdaki durumların hangisi/hangilerinde mükellefler yıl içerisinde...",
+    "title": "Aşağıdaki durumların hangisi/hangilerinde mükellefler yıl içerisinde...",
+    "question": "Aşağıdaki durumların hangisi/hangilerinde mükellefler yıl içerisinde defter tastik ettirmek zorunda dır? I-Mükellefin yıl içerisinde vefat etmesi halinde mirasçıların aynı faaliyete devam etmesi II-Limited Şirketin Anonim Şirkete dönüşmesi III-Mükellefin tasdike tabi defterlerinin dolması IV-Yiyecek ticareti yapan mükellefin ek olarak giyecek ticareti faaliyetine başlaması",
+    "options": [
+      "I",
+      "IV",
+      "I-IV",
+      "II-III"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) II-III. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-543",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi Gelir Vergisi Kanunu Geçici...",
+    "title": "Aşağıdakilerin hangisi Gelir Vergisi Kanunu Geçici...",
+    "question": "Aşağıdakilerin hangisi Gelir Vergisi Kanunu Geçici 67. madde kapsamında tevkifata tabi değildir?",
+    "options": [
+      "Mevduat faizleri",
+      "Hisse senedi kar payları",
+      "Devlet tahvili ve Hazine bonoları faiz gelirleri",
+      "Repo gelirleri"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Hisse senedi kar payları. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-544",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi Gelir Vergisi kanununun 20/B...",
+    "title": "Aşağıdakilerin hangisi Gelir Vergisi kanununun 20/B...",
+    "question": "Aşağıdakilerin hangisi Gelir Vergisi kanununun 20/B maddesinde yer alan Sosyal İçerik Üreticiliği ile Mobil Cihazlar İçin Uygulama Geliştiriciliğinde Kazanç İstisnası ile ilgili olarak yanlış ifade edilmiştir?",
+    "options": [
+      "Mükelleflerin madde kapsamı dışında başka faaliyetlerinden kaynaklanan kazanç ya da iratlarının bulunması istisnadan faydalanmalarına engel değildir.",
+      "Bu istisnadan faydalanılabilmesi için Türkiye’de kurulu bankalarda bir hesap açılması ve bu faaliyetlere ilişkin tüm hasılatın münhasıran bu hesap aracılığıyla tahsil edilmesi şarttır",
+      "İstisnaya ilişkin şartların taşınmadığının tespit edilmesi halinde eksik tahakkuk etmiş olan vergi, vergi ziyaı cezası kesilmek suretiyle gecikme zammıyla birlikte tahsil olunur.",
+      "Bankalar, kanun maddesi kapsamında açılan hesaplara aktarılan hasılat tutarı üzerinden, aktarım tarihi itibarıyla %15 oranında gelir vergisi tevkifatı yapmak ve Kanunun 98 ve 119 uncu maddelerindeki esaslar çerçevesinde beyan edip ödemekle yükümlüdür"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) İstisnaya ilişkin şartların taşınmadığının tespit edilmesi halinde eksik tahakkuk etmiş olan vergi, vergi ziyaı cezası kesilmek suretiyle gecikme zammıyla birlikte tahsil olunur.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-545",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Gelir Vergisi Kanununun zirai kazancın vergilendirilmesi...",
+    "title": "Gelir Vergisi Kanununun zirai kazancın vergilendirilmesi...",
+    "question": "Gelir Vergisi Kanununun zirai kazancın vergilendirilmesi ile ilgili hükümlerine göre aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Çiftçiye ait olmakla beraber ziraî işletmeye dahil edilmeyen biçerdöverin işletilmesinden elde edilen gelirler ticarî kazanç hükümlerine göre vergilendirilir.",
+      "On yaşına kadar ikiden fazla biçerdövere sahip olan çiftçilerin kazançları gerçek usulde vergilendirilir.",
+      "Zirai kazancının gerçek usulde tespitinde bilanço esasını kabul edenler iki yıl geçmedikçe bu usulden dönemezler",
+      "Kazançları gerçek usulde vergilendirilmeyen çiftçiler bu kazançları için beyanname vermezler."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) On yaşına kadar ikiden fazla biçerdövere sahip olan çiftçilerin kazançları gerçek usulde vergilendirilir.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-546",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Tam mükellef Bay (A)’nın, 2022 takvim...",
+    "title": "Tam mükellef Bay (A)’nın, 2022 takvim...",
+    "question": "Tam mükellef Bay (A)’nın, 2022 takvim yılında elde etmiş olduğu geliri aşağıdaki gibidir: -Tamamı tevkifata tabi tutulmuş iş yeri kira geliri 40.000 TL -Mesken kira geliri 50.500 TL -Türkiye de kurulu bankadan Repo geliri 100.000 TL Götürü gider usulüne seçen mükellef Bay (A)’nın Yıllık Gelir Vergisi Beyannamesinde beyan edeceği gelir vergisi matrahı aşağıdakilerden hangisidir?",
+    "options": [
+      "68.850",
+      "76.925",
+      "70.975",
+      "168.850"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) 68.850. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-547",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Gelir Vergisi Kanunu hükümlerine göre aşağıdaki...",
+    "title": "Gelir Vergisi Kanunu hükümlerine göre aşağıdaki...",
+    "question": "Gelir Vergisi Kanunu hükümlerine göre aşağıdaki kazanç ve iradlardan hangisi /hangileri Gayrı menkul Sermaye İradıdır ? a-Voli mahallerinin kiralanmasından elde edilen kazançlar b-Memurun otomobilini yıllık olarak kira vermesinden sağladığı kazanç c-Telif hakkının kanuni mirasçısı tarafından kiralanmasından doğan kazanç d-Tüccarın İşletmeye dahil bulunan gayrimenkulünü kiralanmasından sağladığı kazanç e-Avukatın envanterine kayıtlı işyerini kiraya vermesinden sağladığı kazanç",
+    "options": [
+      "(a-b-e)",
+      "(c-d-e)",
+      "(a-b-c)",
+      "(b-c-e)"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) (a-b-e). 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-548",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisine ödenen veya sağlanan para,...",
+    "title": "Aşağıdakilerin hangisine ödenen veya sağlanan para,...",
+    "question": "Aşağıdakilerin hangisine ödenen veya sağlanan para, ayın ve menfaatler Gelir Vergisi Kanunu hükümlerine göre ücrettir?",
+    "options": [
+      "Noterlik görevini ifa ile mükellef olanlar",
+      "Bilirkişiler",
+      "Konser veren müzik sanatçıları",
+      "Tahkim işleri dolayısıyla hakemlerin aldıkları ücretler"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Bilirkişiler. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-549",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi gerçek kişiler tarafından Gelir...",
+    "title": "Aşağıdakilerin hangisi gerçek kişiler tarafından Gelir...",
+    "question": "Aşağıdakilerin hangisi gerçek kişiler tarafından Gelir Vergisi Beyannamesi üzerinde indirim konusu yapılabilir?",
+    "options": [
+      "Kiralama yoluyla edinilen veya işletmede kayıtlı olan yatın giderleri",
+      "Teşebbüs sahibinin suçlarından doğan tazminatlar",
+      "Mükellefin çalışmayan eşine ilişkin olarak yaptığı sağlık harcamaları",
+      "Teşebbüs sahibinin eşine işletmeden ödediği aylıklar"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Mükellefin çalışmayan eşine ilişkin olarak yaptığı sağlık harcamaları. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-550",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Tam mükellef (A) AŞ nin 2023...",
+    "title": "Tam mükellef (A) AŞ nin 2023...",
+    "question": "Tam mükellef (A) AŞ nin 2023 Şubat dönemi ihracat ve yurt içi teslim bilgileri ve satışlarına yönelik gider bilgileri aşağıdaki gibidir; Almanya’ya yaptığı ihracattan döviz olarak elde ettiği kazanç 1.000.000 TL Türkmenistan’a yaptığı ihracattan TL olarak elde ettiği kazanç 500.000 TL Yurt içi teslim tutarı 2.000.000 TL Almanya ihracatı için yaptığı belgeli gideri 1.000 belgesiz gideri 6.000 TL Türkmenistan ihracatı için yaptığı belgesiz gideri 500 TL belgeli gideri 1.100 TL dir (A) AŞ nin 2023 Şubat dönemi ihracat gelirlerine konu götürü olarak indirebileceği gider tutarı ne kadardır?",
+    "options": [
+      "7.500 TL",
+      "5.000 TL",
+      "8.600 TL",
+      "5.500 TL"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 5.000 TL. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-551",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Satın alınan veya trampa suretiyle iktisap...",
+    "title": "Satın alınan veya trampa suretiyle iktisap...",
+    "question": "Satın alınan veya trampa suretiyle iktisap olunan arazinin iktisap tarihinden itibaren 5 yıl içinde parsellenerek bu müddet içinde veya daha sonraki yıllarda kısmen veya tamamen satılmasından elde edilen kazanç aşağıdaki hangi gelir unsuru olarak değerlendirilir?",
+    "options": [
+      "Ticari kazanç",
+      "Arizi kazanç",
+      "Değer artış kazancı",
+      "Kazanç olarak vergilendirilmez"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Ticari kazanç. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-552",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Gelir Vergisi Kanununun dar mükellefiyete tabi...",
+    "title": "Gelir Vergisi Kanununun dar mükellefiyete tabi...",
+    "question": "Gelir Vergisi Kanununun dar mükellefiyete tabi kimseler bakımından kazanç ve iradın Türkiye&#8217;de elde edilmesine ilişkin hükümlerine göre aşağıdakilerin hangisi yanlıştır?",
+    "options": [
+      "Kazanç sahibinin Türkiye'de işyerinin olması veya daimi temsilci bulundurması ve kazancın bu yerlerde veya bu temsilciler vasıtasıyla sağlanması",
+      "Hizmetin Türkiye'de ifa edilmiş veya edilmekte olması veya Türkiye'de değerlendirilmesi",
+      "Menkul sermaye iratlarında sermayenin Türkiye'de yatırılmış olması",
+      "Zirai faaliyetlerin Türkiye'de değerlendirilmesi"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Zirai faaliyetlerin Türkiye'de değerlendirilmesi. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-553",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi Hasılat esaslı kazanç tespitinin...",
+    "title": "Aşağıdakilerin hangisi Hasılat esaslı kazanç tespitinin...",
+    "question": "Aşağıdakilerin hangisi Hasılat esaslı kazanç tespitinin şartlarından değildir?",
+    "options": [
+      "Şehir içi yolcu taşımacılığı faaliyetinden kaynaklanan hasılatlarının tamamını elektronik ücret toplama sistemleri aracılığıyla elde edilmesi gerekmektedir",
+      "Söz konusu faaliyetlerinden elde ettikleri gayrisafi hasılatlarının %10’u bu faaliyetlerine ilişkin vergiye tabi kazanç olarak esas alınır.",
+      "213 sayılı Vergi Usul Kanununun 353 üncü maddesinin birinci ve ikinci fıkrası hükümleri uyarınca bir takvim yılı içinde iki kez ceza kesilen mükellefler, cezanın kesildiği ve takip eden bir takvim yılına ait kazançları için bu madde hükümlerinden yararlanamaz Bu faaliyetlerine ilişkin gider veya maliyetleri, vergiye tabi diğer kazanç veya iratlarının tespitinde dikkate alınmaz.",
+      "Bu faaliyetlerine ilişkin gider veya maliyetleri, vergiye tabi diğer kazanç veya iratlarının tespitinde dikkate alınmaz."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 213 sayılı Vergi Usul Kanununun 353 üncü maddesinin birinci ve ikinci fıkrası hükümleri uyarınca bir takvim yılı içinde iki kez ceza kesilen mükellefler, cezanın kesildiği ve takip eden bir takvim yılına ait kazançları için bu madde hükümlerinden yararlanamaz Bu faaliyetlerine ilişkin gider veya maliyetleri, vergiye tabi diğer kazanç veya iratlarının tespitinde dikkate alınmaz.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-554",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Gelir vergisi kanununun ücret kazancına ilişkin...",
+    "title": "Gelir vergisi kanununun ücret kazancına ilişkin...",
+    "question": "Gelir vergisi kanununun ücret kazancına ilişkin hükümleri gereği aşağıdakilerin hangisi doğru bir ifade değildir?",
+    "options": [
+      "Ücret işverene tabi belirli bir işyerine bağlı olarak çalışanlara verilir",
+      "Hizmet karşılığı verilmesi gerekir",
+      "Gayrimenkul sermaye iradı sahibi yanında çalışanların,elde ettikleri ücretler için hiç bir şekilde beyanname verilmez",
+      "Ücret para ve ayınlar ile sağlanan ve para ile temsil edilebilen menfaatlerdir"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Gayrimenkul sermaye iradı sahibi yanında çalışanların,elde ettikleri ücretler için hiç bir şekilde beyanname verilmez. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-555",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunu gereği...",
+    "title": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunu gereği...",
+    "question": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunu gereği kurulan İş ortaklığı hakkında yanlıştır?",
+    "options": [
+      "İş ortaklığı, devamlılık gösteren ve aynı nitelikte olan iş veya işler için değil, belirli bir sürede bitecek bir iş için kurulacak ve tam veya dar mükellefiyete tabi olacaktır.",
+      "Birlikte yapılması öngörülen ve müştereken yüklenilen işin bitimi ve Vergi Usul Kanununda belirtilen mükellefiyetle ilgili ödevlerin tamamının yerine getirilmesiyle mükellefiyetin sona ermesi gerekir",
+      "Ortaklardan en az birisinin kurumlar vergisi mükellefi olması gerekir",
+      "Belli bir işi sonuçlandırmak üzere yazılı bir sözleşmeyle kurulması gerekir"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) İş ortaklığı, devamlılık gösteren ve aynı nitelikte olan iş veya işler için değil, belirli bir sürede bitecek bir iş için kurulacak ve tam veya dar mükellefiyete tabi olacaktır.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-556",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi Kurumlar Vergisi mükellefi değildir?",
+    "title": "Aşağıdakilerden hangisi Kurumlar Vergisi mükellefi değildir?",
+    "question": "Aşağıdakilerden hangisi Kurumlar Vergisi mükellefi değildir?",
+    "options": [
+      "Sermayesi Paylara Bölünmüş Komandit Şirketi",
+      "Derneği İktisadi İşletmesi",
+      "Kollektif şirket",
+      "İktisadi Kamu Kuruluşu"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Kollektif şirket. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-557",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Kurumlar Vergisi mükellefi Veri Akademisi İşletmesinin...",
+    "title": "Kurumlar Vergisi mükellefi Veri Akademisi İşletmesinin...",
+    "question": "Kurumlar Vergisi mükellefi Veri Akademisi İşletmesinin 2022 vergilendirme dönemine ilişkin bilgileri aşağıdaki gibidir: Ticari Kazanç 5.000.000 KKEG 400.000 Yurtiçi İştirak Kazancı 500.000 Taşınmaz Satış Kazancı 200.000 İştirak Hissesi Satış Kazancı 400.000 2016 Geçmiş Yıl Zararı 2.000.000 Bu bilgilere göre mükellef kurumun 2021 vergilendirme dönemi kurumlar Vergisi matrahı aşağıdakilerin hangisidir?(Kurum, kazanç istisnalarına ilişkin tüm şartları taşımaktadır)",
+    "options": [
+      "4.500.000",
+      "2.500.000",
+      "4.300.000",
+      "2.000.000"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) 4.500.000. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-558",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "“Tam mükellef bir sermaye şirketinin, diğer...",
+    "title": "“Tam mükellef bir sermaye şirketinin, diğer...",
+    "question": "“Tam mükellef bir sermaye şirketinin, diğer bir sermaye şirketinin hisselerini, bu şirketin yönetimini ve hisse çoğunluğunu elde edecek şekilde devralması ve karşılığında bu şirketin hisselerini devreden ortaklarına kendi şirketinin sermayesini temsil eden iştirak hisselerini vermesi, bu Kanunun uygulanmasında &#8230;&#8230;&#8230;&#8230; hükmündedir.” Kurumlar Vergisi Kanununa göre yukarıdaki boşluğa gelmesi gereken ifade aşağıdakilerin hangisidir ?",
+    "options": [
+      "Hisse Değişimi",
+      "Kısmi Bölünme",
+      "Tam Bölünme",
+      "Birleşme"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Hisse Değişimi. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-559",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Kurumlar Vergisi Kanununa göre Kurumlar Vergisi...",
+    "title": "Kurumlar Vergisi Kanununa göre Kurumlar Vergisi...",
+    "question": "Kurumlar Vergisi Kanununa göre Kurumlar Vergisi mükellefi Tam mükellef (ABC) Bankasının 2023 2 dönemde uygulayacağı kurum geçici vergisi oranı aşağıdakilerin hangisidir?",
+    "options": [
+      "20",
+      "22",
+      "23",
+      "25"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) 25. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-560",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Kurumlar Vergisi Kanununun tasfiyeye ilişkin hükümlerine...",
+    "title": "Kurumlar Vergisi Kanununun tasfiyeye ilişkin hükümlerine...",
+    "question": "Kurumlar Vergisi Kanununun tasfiyeye ilişkin hükümlerine göre aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Tasfiye, kurumun tasfiyeye girmesine ilişkin genel kurul kararının alındığı tarihte başlar",
+      "Tasfiye dönemi başlangıç tarihinden aynı takvim yılı sonuna kadar olan dönem ile bu dönemden sonraki her takvim yılı ve tasfiyenin sona erdiği dönem için ilgili takvim yılı başından tasfiyenin bitiş tarihine kadar olan dönem bağımsız bir tasfiye dönemi sayılır.",
+      "Tasfiye halindeki kurumların vergi matrahı tasfiye kârıdır.",
+      "Tasfiyeden vazgeçilmesi halinde, kurum hakkında tasfiye hükümleri uygulanmaz"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Tasfiye, kurumun tasfiyeye girmesine ilişkin genel kurul kararının alındığı tarihte başlar. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-561",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunu gereğince...",
+    "title": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunu gereğince...",
+    "question": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunu gereğince Kara Taşımacılığı faaliyetinde bulunan yabancı ulaştırma kurumunun vergiye matrah olacak kurum kazancının hesabında hasılatına uygulanacak ortalama emsal orandır?",
+    "options": [
+      "%15",
+      "% 5",
+      "%12",
+      "%10"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) %12. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-562",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi kurum kazancının tespitinde gider...",
+    "title": "Aşağıdakilerin hangisi kurum kazancının tespitinde gider...",
+    "question": "Aşağıdakilerin hangisi kurum kazancının tespitinde gider olarak indirilebilir?",
+    "options": [
+      "Örtülü sermaye üzerinden ödenen faiz",
+      "Basın yoluyla işlenen fiillerden doğacak maddî ve manevî zararlardan dolayı ödenen tazminat giderleri",
+      "Sermayesi paylara bölünmüş komandit şirketlerde komandite ortağın kâr payı",
+      "Hesaplanan kurumlar vergisi"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Sermayesi paylara bölünmüş komandit şirketlerde komandite ortağın kâr payı. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-563",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi, Kurumlar Vergisi Kanununun 5-1/a...",
+    "title": "Aşağıdakilerden hangisi, Kurumlar Vergisi Kanununun 5-1/a...",
+    "question": "Aşağıdakilerden hangisi, Kurumlar Vergisi Kanununun 5-1/a maddesinde yer alan yurtiçi iştirak kazançları istisnası hakkında yanlıştır?",
+    "options": [
+      "Tam mükellefiyete tabi kurumlar Dar mükellefiyete tabi başka bir kurumun sermayesine katılımlarından elde ettikleri kazançlar bu istisnadan faydalanamaz",
+      "Dar mükellefiyete tabi kurumlar tam mükellefiyete tabi başka bir kurumun kârına katılma imkânı veren kurucu senetlerinden elde ettikleri kazançlar bu istisnadan faydalanabilir.",
+      "Dar mükellefiyete tabi kurumlar Dar mükellefiyete tabi başka bir kurumun sermayesine katılımlarından elde ettikleri kazançlar bu istisnadan faydalanabilir.",
+      "Dar mükellefiyete tabi kurumlar Tam mükellefiyete tabi başka bir kurumun kârına katılma imkânı veren kurucu senetlerinden elde ettikleri kazançlar bu istisnadan faydalanabilir"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Dar mükellefiyete tabi kurumlar Dar mükellefiyete tabi başka bir kurumun sermayesine katılımlarından elde ettikleri kazançlar bu istisnadan faydalanabilir.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-564",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Kurumlar Vergisi Kanunun zarar mahsubu hükümleri...",
+    "title": "Kurumlar Vergisi Kanunun zarar mahsubu hükümleri...",
+    "question": "Kurumlar Vergisi Kanunun zarar mahsubu hükümleri gereği aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Beş yıldan fazla nakledilmemek şartıyla geçmiş yılların beyannamelerinde yer alan zararlar indirilebilir",
+      "Türkiye’de indirim konusu yapılan yurt dışı zararın, ilgili ülkede de mahsup edilmesi veya gider yazılması halinde, Türkiye’deki beyannameye dahil edilecek yurt dışı kazanç, mahsup veya gider yazılmadan önceki tutardır",
+      "Türkiye'de kurumlar vergisinden istisna edilen kazançlarla ilgili olanlar hariç olmak üzere beş yıldan fazla nakledilmemek şartıyla yurt dışı faaliyetlerden doğan zararlar mahsup edilebilir",
+      "Kısmi bölünme işlemi sonucu bölünen kurumun öz sermaye tutarını geçmeyen zararları mahsup edilebilir"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Kısmi bölünme işlemi sonucu bölünen kurumun öz sermaye tutarını geçmeyen zararları mahsup edilebilir. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-565",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Aşağıdakilerin hangisi KDV’nin konusuna girmez?",
+    "title": "Aşağıdakilerin hangisi KDV’nin konusuna girmez?",
+    "question": "Aşağıdakilerin hangisi KDV’nin konusuna girmez?",
+    "options": [
+      "Profesyonel sporcuların katıldığı sportif faaliyetler",
+      "Yurt dışında yapılan zirai faaliyet",
+      "Her türlü mal ve hizmet ithalatı",
+      "Müzayede mahallerinde yapılan satışlar"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Yurt dışında yapılan zirai faaliyet. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-566",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Katma Değer Vergisi Kanununa göre vergiye...",
+    "title": "Katma Değer Vergisi Kanununa göre vergiye...",
+    "question": "Katma Değer Vergisi Kanununa göre vergiye tabi her bir işlem için kanuni oran yüzde kaçtır?",
+    "options": [
+      "%1",
+      "%8",
+      "%10",
+      "%18"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) %10. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-567",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Katma Değer Vergisi Kanununun teslime ilişkin...",
+    "title": "Katma Değer Vergisi Kanununun teslime ilişkin...",
+    "question": "Katma Değer Vergisi Kanununun teslime ilişkin hükümlerine göre aşağıdakilerin hangisi doğrudur?",
+    "options": [
+      "Teslim, bir mal üzerindeki tasarruf hakkının malik veya onun adına hareket edenlerce, sadece alıcıya devredilmesidir",
+      "Bir malın alıcı adına hareket edenlerin gösterdiği yere tevdii teslim hükmünde değildir",
+      "Bir mal üzerindeki tasarruf hakkının iki veya daha fazla kimse tarafından zincirleme akit yapılmak suretiyle, malın bu arada el değiştirmeden doğrudan sonuncu kişiye devredilmesi halinde, aradaki safhaların her biri ayrı bir teslimdir.",
+      "Kap ve ambalajlar ile döküntü ve tali maddelerin geri verilmesinin mutat olduğu hallerde teslim bunlar dahil yapılmış sayılır."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Bir mal üzerindeki tasarruf hakkının iki veya daha fazla kimse tarafından zincirleme akit yapılmak suretiyle, malın bu arada el değiştirmeden doğrudan sonuncu kişiye devredilmesi halinde, aradaki safhaların her biri ayrı bir teslimdir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-568",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "KDV Genel Uygulama Tebliğine göre aşağıdaki...",
+    "title": "KDV Genel Uygulama Tebliğine göre aşağıdaki...",
+    "question": "KDV Genel Uygulama Tebliğine göre aşağıdaki kurum ve kuruluşlardan hangisi belirlenmiş alıcılar arasında yer almaz?",
+    "options": [
+      "Bankalar",
+      "Kalkınma ajansı",
+      "Kamu kurumu niteliğindeki meslek kuruluşları",
+      "Sağlık Bakanlığına bağlı aile hekimliği kurumları"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Sağlık Bakanlığına bağlı aile hekimliği kurumları. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-569",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Aşağıdakilerden hangisi KDV nin mükellefi hakkında...",
+    "title": "Aşağıdakilerden hangisi KDV nin mükellefi hakkında...",
+    "question": "Aşağıdakilerden hangisi KDV nin mükellefi hakkında yanlış ifade edilmiştir?",
+    "options": [
+      "Gelir Vergisi Kanunu’nun 70 inci maddesinde belirtilen mal ve hakları kiraya verenler mükelleftir",
+      "Her türlü şans ve talih oyunlarını tertipleyenler mükelleftir",
+      "Vergiye tabi bir işlem söz konusu olmadığı halde, düzenlenen belgelerde Katma değer vergisi gösterilirse, düzenlenen bu tür vesikalarda ki katma değer vergisini ödeyenler mükelleftir",
+      "Mal teslimi ve hizmet ifası hallerinde bu işleri yapanlar mükelleftir"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Vergiye tabi bir işlem söz konusu olmadığı halde, düzenlenen belgelerde Katma değer vergisi gösterilirse, düzenlenen bu tür vesikalarda ki katma değer vergisini ödeyenler mükelleftir. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-570",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Belgesiz mal bulundurdukları veya hizmet satın...",
+    "title": "Belgesiz mal bulundurdukları veya hizmet satın...",
+    "question": "Belgesiz mal bulundurdukları veya hizmet satın aldıkları tespit edilen mükelleflere, bu mal ve hizmetlere ait alış belgelerinin ibrazı için tespit tarihinden itibaren kaç gün süre verilir?",
+    "options": [
+      "7",
+      "10",
+      "15",
+      "30"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 10. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-571",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Aşağıdakilerden hangisi KDV matrahına dahil edilir?",
+    "title": "Aşağıdakilerden hangisi KDV matrahına dahil edilir?",
+    "question": "Aşağıdakilerden hangisi KDV matrahına dahil edilir?",
+    "options": [
+      "Sezon indirimi",
+      "Faiz",
+      "Hesaplanan KDV",
+      "Hesaplanan Özel İletişim Vergisi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Faiz. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-572",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "KDV Kanunun indirim hükümleri gereği aşağıdakilerden...",
+    "title": "KDV Kanunun indirim hükümleri gereği aşağıdakilerden...",
+    "question": "KDV Kanunun indirim hükümleri gereği aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Vergiyi doğuran olayın vuku bulduğu takvim yılının aşılmaması gerekir",
+      "İlgili vesikaların olayın vuku bulduğu dönemde kanuni defterlere kaydedilmesi gerekir",
+      "Fatura ve benzeri vesikalarda gösterilmesi gerekir",
+      "KDV’nin ödenmiş olması gerekir"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Fatura ve benzeri vesikalarda gösterilmesi gerekir. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-573",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "KDV Genel Uygulama Tebliği hükümlerine göre...",
+    "title": "KDV Genel Uygulama Tebliği hükümlerine göre...",
+    "question": "KDV Genel Uygulama Tebliği hükümlerine göre aşağıdaki mükelleflerden hangisi Özel Esaslara tabi olan mükelleflerden değildir?",
+    "options": [
+      "Döner sermayeli kuruluşlar",
+      "Sermayelerinin %50’si belediyelere ait mükellefler",
+      "Özel bütçeli kurumlar",
+      "Payları Borsa İstanbul (BİST)A.Ş.’nde işlem gören şirketler"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Payları Borsa İstanbul (BİST)A.Ş.’nde işlem gören şirketler. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-574",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "İthalde alınan Katma Değer Vergisinin tarh...",
+    "title": "İthalde alınan Katma Değer Vergisinin tarh...",
+    "question": "İthalde alınan Katma Değer Vergisinin tarh yeni aşağıdakilerden hangisidir?",
+    "options": [
+      "İş yerinin bulunduğu yer vergi dairesi",
+      "İlgili gümrük idaresince",
+      "Katma Değer Vergisi yönünden bağlı olduğu vergi dairesi",
+      "Gelir veya Kurumlar Vergisi yönünden bağlı olduğu vergi dairesi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) İlgili gümrük idaresince. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-575",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Özel Tüketim Vergisi Kanununa göre II...",
+    "title": "Özel Tüketim Vergisi Kanununa göre II...",
+    "question": "Özel Tüketim Vergisi Kanununa göre II Sayılı Listede yer alan ve Türkiye’de Kayıt ve Tescil Edilmemiş olan araçlar için aşağıdakilerin hangisi ilk iktisaptır?",
+    "options": [
+      "Acente tarafından satmak üzere fabrikadan araç alınması",
+      "Müzayede yoluyla satışı",
+      "Baş bayii tarafından satılmak üzere ithali",
+      "Fabrika tarafından ihracat yolu ile satışı"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Müzayede yoluyla satışı. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-576",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Özel Tüketim Vergisi Kanununa göre aşağıdakilerden...",
+    "title": "Özel Tüketim Vergisi Kanununa göre aşağıdakilerden...",
+    "question": "Özel Tüketim Vergisi Kanununa göre aşağıdakilerden hangisi ÖTV’ye tabi değildir?",
+    "options": [
+      "Ham petrol",
+      "Binek otomobili",
+      "Kozmetik ürünler",
+      "LPG"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Ham petrol. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-577",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Özel Tüketim Vergisi kanununa göre aşağıdakilerden...",
+    "title": "Özel Tüketim Vergisi kanununa göre aşağıdakilerden...",
+    "question": "Özel Tüketim Vergisi kanununa göre aşağıdakilerden hangisi IV Sayılı Listedeki ürünler için uygulanan istisnalardan değildir?",
+    "options": [
+      "Diplomatik İstisna",
+      "İhracat istisnası",
+      "Bazı malların Milli Savunma Bakanlığına teslimi",
+      "Belediye tarafından bedelsiz ithali"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Diplomatik İstisna. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-578",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Özel Tüketim Vergisi kanununa göre aşağıdakilerden...",
+    "title": "Özel Tüketim Vergisi kanununa göre aşağıdakilerden...",
+    "question": "Özel Tüketim Vergisi kanununa göre aşağıdakilerden hangisi III Sayılı listede yer alan Makaron ile ilgili doğru ifade edilmiştir ?",
+    "options": [
+      "Asgari maktu vergi tutarı 50 adet makarondan oluşan birim ambalaj itibarıyla uygulanır.",
+      "Vergilendirme dönemi faaliyette bulunulan takvim yılının üçer aylık dönemleridir.",
+      "Beyanname vergilendirme dönemini izleyen ayın onyedinci günü akşamına kadar mükellefin katma değer vergisi yönünden bağlı olduğu vergi dairesine verilir.",
+      "Matrahı nihai tüketicilere perakende satış fiyatıdır"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Matrahı nihai tüketicilere perakende satış fiyatıdır. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-579",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Özel Tüketim Vergisi kanunu hükümlerine göre...",
+    "title": "Özel Tüketim Vergisi kanunu hükümlerine göre...",
+    "question": "Özel Tüketim Vergisi kanunu hükümlerine göre III sayılı listede yer alan kola nın aşağıdakilerin hangisine tesliminde vergiyi doğuran olay gerçekleşmez?",
+    "options": [
+      "Başbayi tarafından alıcıya teslimi",
+      "İmalatçıları tarafından fatura düzenlenmesi",
+      "İmalatçıları tarafından Komisyonculara teslimi",
+      "Özel Tüketim Vergisi uygulamadan önce müzayede yoluyla satışı"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Başbayi tarafından alıcıya teslimi. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-580",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "6183 Sayılı kanunun 48. Maddesine göre...",
+    "title": "6183 Sayılı kanunun 48. Maddesine göre...",
+    "question": "6183 Sayılı kanunun 48. Maddesine göre aşağıdakilerin hangisi tecil edilemez?",
+    "options": [
+      "Kira kontratına ait Damga Vergisi",
+      "İş makinesi kira sözleşmesine ait Damga Vergisi",
+      "4734 sayılı Kamu İhale Kanunu kapsamındaki ihaleler sonucu imzalanan sözleşmelerden kaynaklı damga vergisi",
+      "Noter adına inceleme raporu sonucuna göre tarh edilip kesinleşen Damga Vergisi"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 4734 sayılı Kamu İhale Kanunu kapsamındaki ihaleler sonucu imzalanan sözleşmelerden kaynaklı damga vergisi. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-581",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Amme Alacakların Tahsil Usulü hakkında kanun...",
+    "title": "Amme Alacakların Tahsil Usulü hakkında kanun...",
+    "question": "Amme Alacakların Tahsil Usulü hakkında kanun hükümleri gereği haklarında kati haciz tatbik edilenler kaç gün içerisinde ve nereye itiraz edebilirler?",
+    "options": [
+      "3-Alacaklı tahsil dairesi",
+      "10-Vergi Mahkemesi",
+      "15-Alacaklı tahsil dairesi",
+      "30-Vergi Mahkemesi"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) 30-Vergi Mahkemesi. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-582",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "6183 Sayılı Kanun hükümleri gereği, Genel...",
+    "title": "6183 Sayılı Kanun hükümleri gereği, Genel...",
+    "question": "6183 Sayılı Kanun hükümleri gereği, Genel Bütçeye Gelir Kaydedilmeyen aynından doğan amme alacakları o eşya ve gayrimenkul bedelinden tahsilinde öncelik durumu hakkında aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Rehnin bulunmadığı hallerde aynından doğan amme alacakları haciz konulması halinde öncelikli alacak olacaktır",
+      "Rehnin varlığı halinde, haciz konulmamış olsa dahi rehinli alacaktan önce gelir",
+      "Rehnin bulunmadığı hallerde aynından doğan amme alacakları her halükarda öncelikli alacak olacaktır",
+      "Aynından doğan amme alacakları rehinli alacaklardan önce gelir."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Rehnin bulunmadığı hallerde aynından doğan amme alacakları her halükarda öncelikli alacak olacaktır. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-583",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Mükellef (B), 27.03.2023 tarihinde bağlı bulunduğu...",
+    "title": "Mükellef (B), 27.03.2023 tarihinde bağlı bulunduğu...",
+    "question": "Mükellef (B), 27.03.2023 tarihinde bağlı bulunduğu vergi dairesine dilekçe ile müracaat ederek, 28.03.2023 vadeli 1.000.000.- lira KDV borcunun taksitlendirilmesini talep etmiş, vergi dairesi mükellefin talebini değerlendirmiş ve borcun Nisan 2023 ayından itibaren 4 ayda 4 eşit taksitte ödenmesini uygun görmüş ve ilk taksit 15.04.2023 tarihinde ödenmiştir. Buna göre ilk taksit için tecil faizi hangi tarihten itibaren hesaplanması gerekmektedir?",
+    "options": [
+      "28.03.2023",
+      "27.03.2023",
+      "29.03.2023",
+      "Hesaplanmaz"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 29.03.2023. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-584",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Aşağıdakilerden hangisinde, 6183 Sayılı Kanun gereği...",
+    "title": "Aşağıdakilerden hangisinde, 6183 Sayılı Kanun gereği...",
+    "question": "Aşağıdakilerden hangisinde, 6183 Sayılı Kanun gereği ihtiyati tahakkuk işlemi tesis edilemez?",
+    "options": [
+      "Henüz tebliğ edilmemiş Katma Değer Vergisi",
+      "Kesinleşmemiş Özel Tüketim Vergisinden kaynaklı vergi ziyaı cezası",
+      "Kanuni süresinden sonra beyan edilen ödenmemiş Kurumlar Vergisi",
+      "Kesinleşmemiş Damga Vergisi ve Damga Vergisine bağlı vergi ziyaı cezası"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Kanuni süresinden sonra beyan edilen ödenmemiş Kurumlar Vergisi. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-585",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Hususi kanunlarında ödeme yeri gösterilmemiş amme...",
+    "title": "Hususi kanunlarında ödeme yeri gösterilmemiş amme...",
+    "question": "Hususi kanunlarında ödeme yeri gösterilmemiş amme alacaklarında alacaklı tahsil dairesi neresidir?",
+    "options": [
+      "Merkez işyerinin bağlı olduğu vergi dairesi",
+      "İkametgahının bulunduğu vergi dairesi",
+      "Katma Değer Vergisi yönünden bağlı olduğu vergi dairesi",
+      "Herhangi bir tahsil dairesi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) İkametgahının bulunduğu vergi dairesi. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-586",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "6183 Sayılı Kanun hükümlerine göre aşağıdakilerden...",
+    "title": "6183 Sayılı Kanun hükümlerine göre aşağıdakilerden...",
+    "question": "6183 Sayılı Kanun hükümlerine göre aşağıdakilerden hangisi teminat olarak kabul edilemez?",
+    "options": [
+      "Para",
+      "Hükümetçe belli edilecek Milli esham ve tahvilat",
+      "Bankalar tarafından verilen süresiz teminat mektupları",
+      "İlgililer tarafından gösterilen ve alacaklı amme idaresince haciz varakasına müsteniden haczedilen menkul mallar"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Bankalar tarafından verilen süresiz teminat mektupları. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-587",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "6183 Sayılı Kanun hükümleri gereği aşağıdaki...",
+    "title": "6183 Sayılı Kanun hükümleri gereği aşağıdaki...",
+    "question": "6183 Sayılı Kanun hükümleri gereği aşağıdaki hangi durumda ihtiyati haciz kaldırılamaz?",
+    "options": [
+      "Mahkemelerce ihtiyati haczin kaldırılmasına karar verilmesi",
+      "Borçlu tarafından muteber bir şahsın müteselsil kefil gösterilmesi",
+      "Tarhiyata ve bu tarhiyattan kaynaklı olan ihtiyati hacze karşı dava açıldığında, yargı organlarınca tarhiyatın terkinine karar verilmesi",
+      "Haczin dayanağı olan tarhiyata karşı açılmış davada mahkemece tarhiyatın tamamen terkinine yönelik karar verilmesi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Borçlu tarafından muteber bir şahsın müteselsil kefil gösterilmesi. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-588",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "6183 Sayılı Kanun gereği, alacaklı tahsil...",
+    "title": "6183 Sayılı Kanun gereği, alacaklı tahsil...",
+    "question": "6183 Sayılı Kanun gereği, alacaklı tahsil dairesi gayrimenkul satış ilanına hangi sürede başlamalıdır?",
+    "options": [
+      "Artırma tarihinden en çok 10 gün önce",
+      "Artırma tarihinden en az 15 gün önce",
+      "Artırma tarihinden en çok 7 gün önce",
+      "Artırma tarihinden en az 10 gün önce"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Artırma tarihinden en az 15 gün önce. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-589",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Amme Alacakların Tahsil Usulü Hakkında Kanun...",
+    "title": "Amme Alacakların Tahsil Usulü Hakkında Kanun...",
+    "question": "Amme Alacakların Tahsil Usulü Hakkında Kanun hükümleri gereği aşağıdaki mallardan hangisi haciz koymada en sona bırakılır?",
+    "options": [
+      "Tahsil dairesince tesbit edilen borçlu elindeki menkul mallar",
+      "Bozulma, çürüme ve benzeri sebeplerle muhafazasına imkan olmayan mallar",
+      "Borçlunun, mal bildiriminde gösterilen mallar",
+      "Borçlu tarafından başkasının olduğu beyan edilen mallar"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Borçlu tarafından başkasının olduğu beyan edilen mallar. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-590",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "“Sürekli yükümlülüğe tabi gerçek kişi, tüzel...",
+    "title": "“Sürekli yükümlülüğe tabi gerçek kişi, tüzel...",
+    "question": "“Sürekli yükümlülüğe tabi gerçek kişi, tüzel kişi ile tüzel kişiliği olmayan diğer kişiler ve her nevi ortaklıklar ile sürekli yükümlülüğe tabi olmamakla birlikte ekonomik faaliyetlerinde kullanmak zorunda olan gerçek ve tüzel kişiler ile tüzel kişiliği olmayan diğer kişilere merkezi mükellef sicil kütüğünden verilen &#8230;&#8230;&#8230; numarasıdır,” Vergi Daireleri İşlem Yönergesine göre yukarıda tanımı yapılan aşağıdakilerden hangisidir?",
+    "options": [
+      "Özel İşlem Numarası",
+      "Dava Dosyası",
+      "İşlem Dosyası",
+      "Vergi kimlik numarası"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Vergi kimlik numarası. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-591",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Gelir İdaresi Başkanlığı tarafından ticaret sicili...",
+    "title": "Gelir İdaresi Başkanlığı tarafından ticaret sicili...",
+    "question": "Gelir İdaresi Başkanlığı tarafından ticaret sicili müdürlüklerinden işe başlama ile ilgili bilgileri elektronik ortamda alınmayan tüzel kişiler ve tüzel kişiliği olmayan diğer kişilerin işe başlama bildiriminde bulunması hâlinde bildirimde yer alan vergi türleri itibari ile sistemden mükellefiyet tesisi ne zaman açılmalıdır?",
+    "options": [
+      "Yoklama sonucu beklenilmeksizin aynı gün içinde",
+      "Yoklama sonucu beklenilmeksizin en geç ertesi iş günü",
+      "Yoklamanın neticelendiği gün",
+      "Yoklamanın neticelendiği günü takip eden ilk iş günü"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Yoklama sonucu beklenilmeksizin aynı gün içinde. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-592",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi Daireleri İşlem yönergesine gereği aşağıdakilerin...",
+    "title": "Vergi Daireleri İşlem yönergesine gereği aşağıdakilerin...",
+    "question": "Vergi Daireleri İşlem yönergesine gereği aşağıdakilerin hangisi İcra Servisinin görevlerinden değildir?",
+    "options": [
+      "Haciz varakası düzenlemek",
+      "Borçlu mükelleflere ait menkul ve gayrımenkul malların haczini ve taşıma işlemlerini yapmak",
+      "Takibe ilişkin olup memur eliyle yapılacak tebliğ işlemleri",
+      "Mal varlığı araştırması"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Haciz varakası düzenlemek. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-593",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Vergi Daireleri İşlem yönergesine göre İcra...",
+    "title": "Vergi Daireleri İşlem yönergesine göre İcra...",
+    "question": "Vergi Daireleri İşlem yönergesine göre İcra Memuruna Haciz Tutanağı kim tarafından teslim edilir ?",
+    "options": [
+      "Şef",
+      "Müdür Yardımcısı",
+      "Müdür",
+      "Vergi Dairesi Başkanı"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Şef. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-594",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Tahsildar ve icra memurları tarafından iade...",
+    "title": "Tahsildar ve icra memurları tarafından iade...",
+    "question": "Tahsildar ve icra memurları tarafından iade edilen haciz varakası ve ekleri kim tarafından incelenerek yapılan işlemlerin kanunlara ve bu yönergeye uygun olarak yapılıp yapılmadığı, hazine yararını tehlikeye düşürecek bir durumun olup olmadığı araştırılır?",
+    "options": [
+      "İcra servis şefi",
+      "Tarama kontrol şefi",
+      "Tahsilata bakan bölüm Müdür Yardımcısı",
+      "Vergi Dairesi Müdürü"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) İcra servis şefi. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-595",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Aşağıdakilerden hangisi tahsildar alındılarının düzenlenmesi hakkında...",
+    "title": "Aşağıdakilerden hangisi tahsildar alındılarının düzenlenmesi hakkında...",
+    "question": "Aşağıdakilerden hangisi tahsildar alındılarının düzenlenmesi hakkında doğrudur?",
+    "options": [
+      "Tahsildar ve icra memurları tarafından yapılması gereken her türlü tahsilat için iki örnek tahsildar alındısı düzenlenir.",
+      "Alındılar, her bir takipli ve takipsiz tahsilat ile başka vergi dairesi başkanlığı/vergi dairesi müdürlüğü tahsilatı için ayrı ciltlerden ayrı ayrı düzenlenir.",
+      "Tahsildar alındılarının düzenlenmesi sırasında, motorlu taşıtlar vergisinden yapılan tahsilatta tahsilat tutarları toplamının plaka numaraları itibarıyla ayrı ayrı gösterilir",
+      "Biten tahsildar alındısı ciltleri muhasebe servisine teslim edilir"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Tahsildar alındılarının düzenlenmesi sırasında, motorlu taşıtlar vergisinden yapılan tahsilatta tahsilat tutarları toplamının plaka numaraları itibarıyla ayrı ayrı gösterilir. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-596",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdakilerden hangisi, Düzeltme beyannamesinin beyanname verme...",
+    "title": "Aşağıdakilerden hangisi, Düzeltme beyannamesinin beyanname verme...",
+    "question": "Aşağıdakilerden hangisi, Düzeltme beyannamesinin beyanname verme süresi geçtikten sonra ancak ödeme süresi içerisinde pişmanlık talebiyle verilmesi hâlinde yapılacak işlemler hakkında yanlıştır?",
+    "options": [
+      "Pişmanlık talebi kabul edilir",
+      "Tahakkuk eden verginin vade tarihi kanuni ödeme süresinin son günü olarak verilir, ancak pişmanlık zammı hesaplanmaz",
+      "Usulsüzlük cezası veya özel usulsüzlük cezası kesilir",
+      "Bu beyanname üzerine tahakkuk eden verginin kanuni ödeme süresinde ödenmemiş olması pişmanlık talebini geçersiz kılmaz, ödeme süresi geçen vergi gecikme zammı ile tahsil edilir."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Usulsüzlük cezası veya özel usulsüzlük cezası kesilir. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-597",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdakilerden hangisi, Vergi Daireleri İşlem Yönergesine...",
+    "title": "Aşağıdakilerden hangisi, Vergi Daireleri İşlem Yönergesine...",
+    "question": "Aşağıdakilerden hangisi, Vergi Daireleri İşlem Yönergesine g ereği, tarh dosyalarındaki beyannameler ve beyannamelerin arşive kaldırılması hakkında yanlıştır?",
+    "options": [
+      "Yıllık beyannameli yükümlülüklere ilişkin tarh dosyalarında, son iki yılın beyannameleri bulundurulur",
+      "Yıllık beyannameli yükümlülüklere ilişkin, süresini dolduran beyannameler, her yılın Ocak ayında dosyalarından çıkartılır.",
+      "Aylık beyannameli yükümlülüklere ilişkin tarh dosyalarında (aylık bildirime tabi yükümlülükler dâhil) cari yıl ile bir önceki yıla ait olan aylık beyannameler bulundurulur.",
+      "Aylık beyannameli yükümlülüklere ilişkin, süresini dolduran beyannameler, her yılın Ocak ayında dosyalarından çıkartılır."
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Yıllık beyannameli yükümlülüklere ilişkin tarh dosyalarında, son iki yılın beyannameleri bulundurulur. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-598",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Vergi Daireleri İşlem Yönergesine gereği, Tecil...",
+    "title": "Vergi Daireleri İşlem Yönergesine gereği, Tecil...",
+    "question": "Vergi Daireleri İşlem Yönergesine gereği, Tecil edilmiş bulunan vergi ve cezanın tahsilini geri bıraktıran kanuni neden ve şartların ortadan kalkması hâlinde tecilin kaldırılması için bilgi girişi yapılarak, sistemden alınan “Ref Yazısı” kim tarafından imzalanır?",
+    "options": [
+      "Şef",
+      "Müdür yardımcısı",
+      "Vergi dairesi müdürü",
+      "Tahsilattan sorumlu şef"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Müdür yardımcısı. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-599",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi Daireleri İşlem Yönergesi gereği, vezneye...",
+    "title": "Vergi Daireleri İşlem Yönergesi gereği, vezneye...",
+    "question": "Vergi Daireleri İşlem Yönergesi gereği, vezneye çekle yapılan ödemeler hakkında yanlıştır?",
+    "options": [
+      "Amme borçluları borçlarını, vergi dairesi adına yazılmış ve bizzat kendileri tarafından düzenlenmiş çizgili banka çekleri ile ödeyebilirler",
+      "Çekin çizgisiz olması hâlinde çek, sol alt köşesinden sağ üst köşesine çizilen iki kalın paralel çizgi arasına vergi dairesi hesabının bulunduğu bankanın adı yazılarak çizgili çek haline getirilir",
+      "Bakanlıkça belirlenen amme alacakları dışında çek bedelinin bankaya bloke ettirilmesi zorunlu değildir.",
+      "Çekin postaya verildiği tarihte ya da bundan en çok bir gün sonraki tarihte düzenlenmesi ve üzerine “Emre Yazılı Değildir” ibaresinin yazılması zorunludur."
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Çekin postaya verildiği tarihte ya da bundan en çok bir gün sonraki tarihte düzenlenmesi ve üzerine “Emre Yazılı Değildir” ibaresinin yazılması zorunludur.. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-600",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdakilerin hangisi muhasebenin işlevleri arasında yer...",
+    "title": "Aşağıdakilerin hangisi muhasebenin işlevleri arasında yer...",
+    "question": "Aşağıdakilerin hangisi muhasebenin işlevleri arasında yer almaz?",
+    "options": [
+      "Kaydetme",
+      "Sınıflandırma",
+      "Raporlama",
+      "Tarafsızlık"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Tarafsızlık. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-601",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdaki hesaplardan hangisi borç kalanı veren...",
+    "title": "Aşağıdaki hesaplardan hangisi borç kalanı veren...",
+    "question": "Aşağıdaki hesaplardan hangisi borç kalanı veren hesaplardan değildir?",
+    "options": [
+      "Alıcılar Hesabı",
+      "Borç Senetleri Hesabı",
+      "Alacak Senetleri Hesabı",
+      "Hisse Senetleri Hesabı"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Borç Senetleri Hesabı. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-602",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdakilerden hangisi pasif düzenleyici hesaptır?",
+    "title": "Aşağıdakilerden hangisi pasif düzenleyici hesaptır?",
+    "question": "Aşağıdakilerden hangisi pasif düzenleyici hesaptır?",
+    "options": [
+      "Dönem Net Zararı",
+      "Alacak Senetleri Reeskontu",
+      "Birikmiş Amortisman Hesabı",
+      "Verilen Çekler Ve Ödeme Emirleri"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Dönem Net Zararı. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-603",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Tek düzen hesap planındaki bütün hesapların...",
+    "title": "Tek düzen hesap planındaki bütün hesapların...",
+    "question": "Tek düzen hesap planındaki bütün hesapların bakiyelerinin hesap numarası sırası ile listelendiği belge aşağıdakilerin hangisidir?",
+    "options": [
+      "Gelir Tablosu",
+      "Yevmiye Kaydı",
+      "Yardımcı Hesap",
+      "Mizan"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Mizan. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-604",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Gelir Tablosunun tanımı ile ilgili olarak...",
+    "title": "Gelir Tablosunun tanımı ile ilgili olarak...",
+    "question": "Gelir Tablosunun tanımı ile ilgili olarak aşağıdakilerin hangisi doğrudur?",
+    "options": [
+      "İşletmenin belli bir tarihteki varlıklarını ve bu varlıkların sağlandığı kaynaklarını gösteren mali bir tablodur.",
+      "İşletmenin belli bir tarihteki kâr ya da zararı gösteren tablodur",
+      "İşletmenin belli bir dönemdeki kâr ya da zararı gösteren tablodur",
+      "İşletmenin belli bir dönemdeki varlıklarını ve kaynaklarını gösteren mali bir tablodur."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) İşletmenin belli bir dönemdeki kâr ya da zararı gösteren tablodur. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-605",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Dönem kar veya Zararı hesabı ile...",
+    "title": "Dönem kar veya Zararı hesabı ile...",
+    "question": "Dönem kar veya Zararı hesabı ile ilgili olarak aşağıdakilerin hangisi yanlıştır?",
+    "options": [
+      "Gelir hesapları bu hesabın alacağına, gider hesapları borcuna kaydedilir",
+      "Borç veya alacak kalanı verir",
+      "Bilançoda yer alır",
+      "Hesabın alacak kalanı vermesi dönem karını, borç kalanı vermesi dönem zararını gösterir."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Bilançoda yer alır. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-606",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Bilânço günündeki mevcutları, alacakları ve borçları...",
+    "title": "Bilânço günündeki mevcutları, alacakları ve borçları...",
+    "question": "Bilânço günündeki mevcutları, alacakları ve borçları saymak, ölçmek, tartmak ve değerlemek suretiyle kesin bir şekilde ve müfredatlı olarak tespit etmek neyi ifade etmektedir.",
+    "options": [
+      "Amortisman",
+      "Kar zarar",
+      "Değerleme",
+      "Envanter"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Envanter. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-607",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Vergi Akademisi İşletmesi 100.000-TL+%18 KDV tutarındaki...",
+    "title": "Vergi Akademisi İşletmesi 100.000-TL+%18 KDV tutarındaki...",
+    "question": "Vergi Akademisi İşletmesi 100.000-TL+%18 KDV tutarındaki malı KDV ve yarısı peşin kalanı 3 aylık senet imzalamak suretiyle satın almıştır. Yapılması gereken muhasebe kaydında aşağıdaki hesaplardan hangisi kullanılmaz?",
+    "options": [
+      "Ticari Mallar Hesabı",
+      "İndirilecek KDV Hesabı",
+      "Borç Senetleri Hesabı",
+      "Hesaplanan KDV"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Hesaplanan KDV. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-608",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Vergi Akademisi Eğitim İşletmesi 18.09.2022 tarihinde...",
+    "title": "Vergi Akademisi Eğitim İşletmesi 18.09.2022 tarihinde...",
+    "question": "Vergi Akademisi Eğitim İşletmesi 18.09.2022 tarihinde işletmesinde kullanmak üzere ekonomik ömrü 5 yıl olan binek otomobilini 30.000.-TL bedelle satın almıştır. Normal amortisman usulüne seçen işletme 2023 yılı sonunda binek otomobili için ayırdığı amortismanın toplam tutarı ne kadardır?",
+    "options": [
+      "8.000",
+      "6.000",
+      "12.000",
+      "9.000"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) 8.000. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-609",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi Akademisi Eğitim İşletmesinin Ticari Alacaklarına...",
+    "title": "Vergi Akademisi Eğitim İşletmesinin Ticari Alacaklarına...",
+    "question": "Vergi Akademisi Eğitim İşletmesinin Ticari Alacaklarına İlişkin bilgiler aşağıdaki gibidir Alıcılar 20.000 Ortaklardan Alacaklar 15.000 Alacak Senetleri Reeskontu 5.000 Şüpheli Ticari Alacaklar 5.000 İştiraklerden Alacaklar 20.000 Şüpheli Ticari Alacaklar Karşılığı 3.000 Bağlı Ortaklıklara Sermaye Taahhütleri 10.000 Alacak Senetleri 15.000 Bu bilgilere göre Akademi işletmesinin ticari alacaklar tutarı ne kadardır?",
+    "options": [
+      "57.000",
+      "32.000",
+      "40.000",
+      "93.000"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 32.000. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-610",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Vergi Yargısı Harçlarından &#8220;Başvurma harcı&#8221; nasıl...",
+    "title": "Vergi Yargısı Harçlarından &#8220;Başvurma harcı&#8221; nasıl...",
+    "question": "Vergi Yargısı Harçlarından &#8220;Başvurma harcı&#8221; nasıl ödenir?",
+    "options": [
+      "Dava dilekçesi verilmesi sırasında makbuz karşılığında peşin",
+      "İhbarname esasına göre, ihbarnamenin tebliği tarihinden itibaren 1 ay içinde",
+      "Davanın sonucuna göre, İhbarname esasına göre, ihbarnamenin tebliği tarihinden itibaren 1 ay içinde",
+      "Davanın türüne göre, İhbarname esasına göre, ihbarnamenin tebliği tarihinden itibaren 1 ay içinde"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Dava dilekçesi verilmesi sırasında makbuz karşılığında peşin. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-611",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Harçlar Kanunu hükümlerine ödenmeleri için belli...",
+    "title": "Harçlar Kanunu hükümlerine ödenmeleri için belli...",
+    "question": "Harçlar Kanunu hükümlerine ödenmeleri için belli bir süre tespit edilmiş olan harçlar süresi içinde ödenmemiş ise, ilgili makam ve daireler tarafından, sürenin sonundan itibaren hangi sürede bir müzekkere ile o yerin ilgili vergi dairesine bildirilir?",
+    "options": [
+      "7 gün",
+      "15 gün",
+      "30 gün",
+      "Bir ay"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 15 gün. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-612",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Damga Vergisi Kanunu hükümlerine göre aşağıdakilerin...",
+    "title": "Damga Vergisi Kanunu hükümlerine göre aşağıdakilerin...",
+    "question": "Damga Vergisi Kanunu hükümlerine göre aşağıdakilerin hangisi resmi daire sayılmaz?",
+    "options": [
+      "Gelir İdaresi Başkanlığı",
+      "Devlet Üniversitesi",
+      "Belediyeler",
+      "Köy İktisadi İşletmesi"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Köy İktisadi İşletmesi. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-613",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Motorlu Taşıtlar Vergisi Kanununun istisnalara ilişkin...",
+    "title": "Motorlu Taşıtlar Vergisi Kanununun istisnalara ilişkin...",
+    "question": "Motorlu Taşıtlar Vergisi Kanununun istisnalara ilişkin hükümlerine göre aşağıdakilerden hangisini adına tescilli araçlar Motorlu Taşıtlar Vergisinden istisna değildir?",
+    "options": [
+      "Gelir İdaresi Başkanlığı",
+      "Sosyal güvenlik kurum",
+      "Özel kanunlarında malları Devlet malı sayılmış olan kuruluşlar",
+      "Türkiye Kızılay Derneği"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Özel kanunlarında malları Devlet malı sayılmış olan kuruluşlar. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-614",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Türkiye de ikametgahı olmayan ve Almanya...",
+    "title": "Türkiye de ikametgahı olmayan ve Almanya...",
+    "question": "Türkiye de ikametgahı olmayan ve Almanya da vefat eden Bay B’nin kanuni mirasçıları Almanya da ikamet etmektedir. Veraset ve İntikal Vergisi beyannamesinin Bay B’nin kanuni mirasçıları tarafından hangi sürede verilmesi gerekmektedir?",
+    "options": [
+      "4 ay",
+      "8 ay",
+      "2 ay",
+      "6 ay"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) 4 ay. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-615",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "İkmalen, re&#8217;sen veya idarece yapılan tarhiyat...",
+    "title": "İkmalen, re&#8217;sen veya idarece yapılan tarhiyat...",
+    "question": "İkmalen, re&#8217;sen veya idarece yapılan tarhiyat nedeniyle Bayan C adına düzenlenen Vergi Ceza İhbarnamesi 07.06.2022 tarihinde tebliğ edilmiştir. Bayan C düzenlenen Vergi Ceza İhbarnamesine karşı cezada indirim hükümlerinden yararlanmak amacıyla hangi tarihe kadar talepte bulunabilir?(1-20 Temmuz Mali Tatile rastlamaktadır)",
+    "options": [
+      "26.07.2022",
+      "25.07.2022",
+      "27.07.2022",
+      "31.07.2022"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 27.07.2022. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-616",
+    "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "Aşağıdakilerin hangisine Harcırah Kanunu hükümlerine göre...",
+    "title": "Aşağıdakilerin hangisine Harcırah Kanunu hükümlerine göre...",
+    "question": "Aşağıdakilerin hangisine Harcırah Kanunu hükümlerine göre harcırah verilmez?",
+    "options": [
+      "Hükümlü, tutuklu veya gözetim altında bulundurulanların sevkinde ya da refakatle görevlendirilen erbaş ve erlere",
+      "Hizmetlilerden cezaen olmak üzere vazifelerine son verilenlere ve bunların aile fertlerine",
+      "Memur veya hizmetlinin vefatında aile fertlerine, çocuklara refakat ettirilecek memur ve hizmetlilere",
+      "Memur veya hizmetli olmamakla beraber kurumlarca geçici bir vazife ile görevlendirilenlere"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Hizmetlilerden cezaen olmak üzere vazifelerine son verilenlere ve bunların aile fertlerine. 657 DMK & 6245 Harcırah hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "657 DMK & 6245 Harcırah",
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-617",
+    "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "Harcırah Kanunu hükümlerine göre yurtdışı gündeliklerinin...",
+    "title": "Harcırah Kanunu hükümlerine göre yurtdışı gündeliklerinin...",
+    "question": "Harcırah Kanunu hükümlerine göre yurtdışı gündeliklerinin miktarı nasıl tespit edilir?",
+    "options": [
+      "Cumhurbaşkanınca",
+      "Her yıl Bütçe Kanunuyla",
+      "Hazine ve Maliye Bakanlığınca",
+      "Mali yıl itibariyle Cumhurbaşkanınca"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Mali yıl itibariyle Cumhurbaşkanınca. 657 DMK & 6245 Harcırah hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "657 DMK & 6245 Harcırah",
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-618",
+    "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "657 Sayılı Devlet Memurları Kanununa göre...",
+    "title": "657 Sayılı Devlet Memurları Kanununa göre...",
+    "question": "657 Sayılı Devlet Memurları Kanununa göre görevle ilgili konularda yükümlü olduğu kişilere yalan ve yanlış beyanda bulunmak fiilini işleyen memura aşağıdaki cezalardan hangisi verilir?",
+    "options": [
+      "Kınama",
+      "Aylıktan Kesme",
+      "Kademe İlerlemesinin durdurulması",
+      "Devlet Memurluğundan çıkarma"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Aylıktan Kesme. 657 DMK & 6245 Harcırah hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "657 DMK & 6245 Harcırah",
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-619",
+    "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "657 Sayılı Devlet Memurları Kanununa göre...",
+    "title": "657 Sayılı Devlet Memurları Kanununa göre...",
+    "question": "657 Sayılı Devlet Memurları Kanununa göre aşağıdaki fiil ve hallerden hangisi memurluktan çıkarma cezasını gerektirmez?",
+    "options": [
+      "Siyasi ve ideolojik eylemlerden arananları görev mahallinde gizlemek",
+      "Açıklanması yasaklanan bilgileri açıklamak",
+      "Yurt dışında Devletin itibarını düşürecek veya görev haysiyetini zedeleyecek tutum ve davranışlarda bulunmak",
+      "Siyasi partiye girmek"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Açıklanması yasaklanan bilgileri açıklamak. 657 DMK & 6245 Harcırah hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "657 DMK & 6245 Harcırah",
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-620",
+    "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "657 Sayılı Devlet Memurları Kanunun cezalara...",
+    "title": "657 Sayılı Devlet Memurları Kanunun cezalara...",
+    "question": "657 Sayılı Devlet Memurları Kanunun cezalara itiraza ilişkin hükümlerine göre kademe ilerlemesinin durdurulması cezasına karşı nereye itiraz edilebilir?",
+    "options": [
+      "Atamaya yetkili amire",
+      "Sadece idari yargı yoluna",
+      "Disiplin kurulu",
+      "Yüksek disiplin kurulu"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Yüksek disiplin kurulu. 657 DMK & 6245 Harcırah hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "657 DMK & 6245 Harcırah",
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-621",
+    "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "5018 KMYKK & Kamu İhale (4734/4735)",
+    "subtopic": "5018 Sayılı Kamu Mali Yönetimi ve...",
+    "title": "5018 Sayılı Kamu Mali Yönetimi ve...",
+    "question": "5018 Sayılı Kamu Mali Yönetimi ve Kontrol Kanunu hükümlerine göre mali istatistikler hazırlanma, yayımlanma, doğruluk, güvenilirlik ve önceden belirlenmiş standartlara uygunluk bakımından hangi idare tarafından değerlenmeye tabi tutulur?",
+    "options": [
+      "TBMM",
+      "Hazine ve Maliye Bakanlığı",
+      "Sayıştay",
+      "Türkiye İstatistik Kurumu"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Sayıştay. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-622",
+    "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "5018 KMYKK & Kamu İhale (4734/4735)",
+    "subtopic": "5018 Sayılı Kamu Mali Yönetimi ve...",
+    "title": "5018 Sayılı Kamu Mali Yönetimi ve...",
+    "question": "5018 Sayılı Kamu Mali Yönetimi ve Kontrol Kanununda belirtilen para cezaları aşağıdakilerden hangisi tarafından verilir?",
+    "options": [
+      "Harcama yetkilisi",
+      "Sayıştay",
+      "Muhasebe yetkilisi",
+      "Üst yönetici"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Üst yönetici. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-623",
+    "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "5018 KMYKK & Kamu İhale (4734/4735)",
+    "subtopic": "4734 Sayılı Kamu İhale Kanununa göre,...",
+    "title": "4734 Sayılı Kamu İhale Kanununa göre,...",
+    "question": "4734 Sayılı Kamu İhale Kanununa göre, aşağıdakilerden hangisi ihale dökümanı içerisinde yer almaz?",
+    "options": [
+      "İdari Şartname",
+      "Standart formlar",
+      "Sözleşme tasarısı",
+      "Yaklaşık maliyet hesap cetveli"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Yaklaşık maliyet hesap cetveli. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-624",
+    "category": "kamu-ihale-ihdas",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "5018 KMYKK & Kamu İhale (4734/4735)",
+    "subtopic": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa...",
+    "title": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa...",
+    "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanununa göre, yapım işlerinde; niteliği itibarıyla iş kalemlerinin bir kısmı için anahtar teslimi götürü bedel, bir kısmı için birim fiyat teklifi alma yöntemleri birlikte uygulanmak suretiyle gerçekleştirilen ihaleler sonucunda aşağıdaki sözleşmelerden hangisi yapılır?",
+    "options": [
+      "Karma sözleşme",
+      "Götürü bedel sözleşme",
+      "Anahtar teslimi götürü bedel sözleşme",
+      "Münferit sözleşme"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Karma sözleşme. 5018 KMYKK & Kamu İhale (4734/4735) hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "5018 KMYKK & Kamu İhale (4734/4735)",
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU-IHALE-IHDAS",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-625",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi Gelir İdaresi Başkanlığının Hizmet...",
+    "title": "Aşağıdakilerin hangisi Gelir İdaresi Başkanlığının Hizmet...",
+    "question": "Aşağıdakilerin hangisi Gelir İdaresi Başkanlığının Hizmet birimlerinden değildir?",
+    "options": [
+      "Gelir Yönetimi Daire Başkanlığı",
+      "Strateji Geliştirme Daire Başkanlığı",
+      "Özel Kalem Müdürlüğü",
+      "Uygulama ve Veri Yönetimi Daire Başkanlığı"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Özel Kalem Müdürlüğü. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-626",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Aşağıdakilerden hangisi Hazine ve Maliye Bakanlığının...",
+    "title": "Aşağıdakilerden hangisi Hazine ve Maliye Bakanlığının...",
+    "question": "Aşağıdakilerden hangisi Hazine ve Maliye Bakanlığının hizmet birimlerinden değildir?",
+    "options": [
+      "Malî Suçları Araştırma Kurulu Başkanlığı",
+      "Muhasebat Genel Müdürlüğü",
+      "Risk Analizi Genel Müdürlüğü",
+      "Gelir Bütçesi Daire Başkanlığı"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Gelir Bütçesi Daire Başkanlığı. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-627",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2023 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/vergi-dairesi-mudur-mudur-yard-deneme-sinavi/",
+    "year": 2023,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi dairesi başkanlığı yetki alanı içindeki...",
+    "title": "Vergi dairesi başkanlığı yetki alanı içindeki...",
+    "question": "Vergi dairesi başkanlığı yetki alanı içindeki iyi uygulama örneklerini tespit edip, bunların tüm vergi dairesi başkanlığı yetki alanında uygulanabilmesi için vergi dairesi başkanının onayına sunmak hangi grup müdürlüğünün görevidir?",
+    "options": [
+      "Hukuk ve İhtilaflı İşler Grup Müdürlüğü",
+      "Tahsilat Grup Müdürlüğü",
+      "Mükellef Hizmetleri Grup Müdürlüğü",
+      "Gelir Kanunları Grup Müdürlüğü"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Mükellef Hizmetleri Grup Müdürlüğü. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2023 Deneme"
+    ]
+  },
+  {
+    "id": "q-628",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "213 Sayılı Vergi Usul Kanunu hükümlerine...",
+    "title": "213 Sayılı Vergi Usul Kanunu hükümlerine...",
+    "question": "213 Sayılı Vergi Usul Kanunu hükümlerine göre aşağıdakilerin hangisi vergi mahremiyetini ihlal sayılmaz? I.Vergi güvenliğini sağlamak amacıyla Gelir Vergisi mükelleflerinin yıllık Gelir Vergisi, sermaye şirketlerinin Kurumlar Vergisi beyannamelerinde gösterdikleri matrahları (zarar dahil) ve beyanları üzerinden tarh olunan Gelir ve Kurumlar Vergileri ile mükelleflerin ad ve unvanları, bağlı oldukları vergi dairelerince açıklanması II.Mükelleflerin vergi tarhına esas olan beyanları, kesinleşen vergi ve cezaları ile vadesi geçtiği halde ödenmemiş bulunan vergi ve ceza miktarlarının Maliye Bakanlığınca açıklanması III. Kamu görevlilerince yapılan adlî ve idarî soruşturmalar ile ilgili olarak talep edilen bilgi ve belgeler IV. Kamu kurum ve kuruluşları tarafından istenilen her türlü bilginin verilmesi",
+    "options": [
+      "I,II,III",
+      "I,II,III,IV",
+      "II,III,IV",
+      "I,II,IV"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) I,II,III. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-629",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "213 Sayılı Vergi Usul Kanunu hükümlerine...",
+    "title": "213 Sayılı Vergi Usul Kanunu hükümlerine...",
+    "question": "213 Sayılı Vergi Usul Kanunu hükümlerine göre aşağıdakilerin hangisi doğrudur?",
+    "options": [
+      "Vergiyi doğuran olayın kanunlarla yasak edilmiş bulunması mükellefiyeti ve vergi sorumluluğunu kaldırmaz",
+      "Vergi mükellefi olmak için medeni hakları kullanma ehliyeti şarttır",
+      "Vergi kanunları ile kabul edilen haller müstesna olmak üzere, mükellefiyete veya vergi sorumluluğuna mütaallik özel mukaveleler vergi dairelerini bağlar",
+      "Mükellef verginin ödenmesi bakımından, alacaklı vergi dairesine karşı muhatap olan kişidir."
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Vergiyi doğuran olayın kanunlarla yasak edilmiş bulunması mükellefiyeti ve vergi sorumluluğunu kaldırmaz. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-630",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "01.04.2020 tarihinde tasfiye giren ve tasfiye...",
+    "title": "01.04.2020 tarihinde tasfiye giren ve tasfiye...",
+    "question": "01.04.2020 tarihinde tasfiye giren ve tasfiye edilerek tüzel kişiliği 23.03.2022 tarihinde ticaret sicilinden silinen ABC Limited Şirketinin tasfiye dönemlerine ilişkin olarak 17.06.2022 tarihli 2021 Mayıs dönemi KDV’ne ilişkin Vergi İnceleme Raporuna istinaden düzenlenen Vergi Ceza İhbarnamelerinin tarh ve tebliği ile ilgili olarak aşağıdakilerin hangisi doğrudur?",
+    "options": [
+      "Vergi Ceza İhbarnameleri Tasfiye memuru adına düzenlenir ve Tasfiye memuruna tebliğ edilir.",
+      "Vergi Ceza İhbarnameleri Tasfiye memuru birden fazla olması halinde her birine eşit oranda adlarına ayrı ayrı düzenlenir ve ayrı ayrı tebliğ edilir.",
+      "Vergi Ceza İhbarnameleri Kanuni Temsilci adına düzenlenir ve Kanuni Temsilciye tebliğ edilir.",
+      "Vergi Ceza İhbarnameleri Kanuni Temsilci adına düzenlenir ve Tasfiye memuruna tebliğ edilir."
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Vergi Ceza İhbarnameleri Tasfiye memuru adına düzenlenir ve Tasfiye memuruna tebliğ edilir.. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-631",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Aşağıdakilerin hangisi,213 Sayılı Vergi Usul Kanunu...",
+    "title": "Aşağıdakilerin hangisi,213 Sayılı Vergi Usul Kanunu...",
+    "question": "Aşağıdakilerin hangisi,213 Sayılı Vergi Usul Kanunu hükümleri gereği ikmalen vergi tarhı yapılabilmesi şartlarından değildir?",
+    "options": [
+      "Tarhiyata ilişkin matrah veya matrah farkının defter, kayıt ve belgelere veya kanuni ölçülere göre tespit edilmiş olması",
+      "Beyannamenin hiç verilmemiş olması",
+      "Daha önce aynı vergi için bir beyanname verilmiş olması",
+      "Daha önce aynı vergi için başka şekillerde bir tarhiyat yapılmış olması"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Beyannamenin hiç verilmemiş olması. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-632",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Aşağıdakilerden hangisi yabancı memleketlerde bulunan Türk...",
+    "title": "Aşağıdakilerden hangisi yabancı memleketlerde bulunan Türk...",
+    "question": "Aşağıdakilerden hangisi yabancı memleketlerde bulunan Türk vatandaşlarına yapılacak tebliğ hakkında yanlıştır?",
+    "options": [
+      "Tebliğin konusu ile hangi merci tarafından çıkarıldığı bilgilerinin yer aldığı ve otuz gün içinde başvurulmadığı takdirde tebliğin yapılmış sayılacağı ihtarını içeren bildirim, muhataba o ülkenin mevzuatının izin verdiği yöntemle gönderilir",
+      "Muhatap, Türkiye elçiliği veya konsolosluğuna başvurduğu takdirde tebliğ evrakını almaktan kaçınırsa bu hususta düzenlenecek tutanak tarihinden itibaren otuz içinde tebliğ yapılmış sayılır.",
+      "sayılır. C-Bildirimin o ülkenin mevzuatına göre muhataba tebliğ edildiği belgelendirildiğinde, tebliğ tarihinden itibaren otuz gün içinde Türkiye elçiliği veya konsolosluğuna başvurulmadığı takdirde tebligat otuzuncu günün bitiminde yapılmış sayılır.",
+      "Kendisine tebliğ yapılacak kişi Türk vatandaşı ise tebliğ Türk siyasi memuru veya konsolosu vasıtasıyla da yapılabilir"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Muhatap, Türkiye elçiliği veya konsolosluğuna başvurduğu takdirde tebliğ evrakını almaktan kaçınırsa bu hususta düzenlenecek tutanak tarihinden itibaren otuz içinde tebliğ yapılmış sayılır.. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-633",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "213 Sayılı VUK’na göre aşağıdakilerden hangisi...",
+    "title": "213 Sayılı VUK’na göre aşağıdakilerden hangisi...",
+    "question": "213 Sayılı VUK’na göre aşağıdakilerden hangisi hesap hatasıdır?",
+    "options": [
+      "Açık olarak vergiye tabi olmayan veya vergiden muaf bulunan kimselerden vergi istenmesi veya alınması",
+      "Açık olarak vergi mevzuuna girmeyen veya vergiden müstesna bulunan gelir, servet, madde, kıymet, evrak ve işlemler üzerinden vergi istenmesi veya alınması",
+      "Bir verginin asıl borçlusu yerine başka bir kişiden istenmesi veya alınması",
+      "Aynı vergi kanununun uygulanmasında belli bir vergilendirme dönemi için aynı matrah üzerinden bir defadan fazla vergi istenmesi veya alınması"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Aynı vergi kanununun uygulanmasında belli bir vergilendirme dönemi için aynı matrah üzerinden bir defadan fazla vergi istenmesi veya alınması. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-634",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Aşağıdakilerden hangisi, 213 Sayılı VUK&#8217; nun...",
+    "title": "Aşağıdakilerden hangisi, 213 Sayılı VUK&#8217; nun...",
+    "question": "Aşağıdakilerden hangisi, 213 Sayılı VUK&#8217; nun 160/ A maddesi gereğince mükellefiyeti terkin edilenler hakkında yanlıştır?",
+    "options": [
+      "İlişkili olan kişilerin işe başlama bildiriminde bulunmaları hâlinde, bu kişiler hakkında mükellefiyet tesis edilebilmesi için işe başlama bildiriminde bulunanların ve mükellefiyet kaydı bu madde kapsamında terkin edilenlerin tüm vergi borçlarının ödenmiş olması gerekir",
+      "Teminat alınarak mükellefiyeti yeniden tesis edilenlerin düzenlemek zorunda oldukları faturalar talep edilirse elektronik belge olarak düzenlenebilir",
+      "153/A maddesinin birinci fıkrasında yer alan asgari teminat tutarından az olmamak üzere, sahte belge düzenleme riskinin yüksek olduğu dönemlerde düzenlenen belgelerde yer alan toplam tutarın %10'u tutarında teminat alınır",
+      "Teminat olarak bankalar tarafından verilen süresiz teminat mektupları alınabilir"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Teminat alınarak mükellefiyeti yeniden tesis edilenlerin düzenlemek zorunda oldukları faturalar talep edilirse elektronik belge olarak düzenlenebilir. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-635",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "213 Sayılı V.U.K.na göre defter beyan...",
+    "title": "213 Sayılı V.U.K.na göre defter beyan...",
+    "question": "213 Sayılı V.U.K.na göre defter beyan sistemine kayıtlı mükelleflerin defterlerinin kapanış onayı hakkında aşağıdakilerde hangisi doğrudur?",
+    "options": [
+      "Ait oldukları takvim yılının son ayını takip eden dördüncü ayın sonuna kadar Başkanlık tarafından elektronik ortamda kapanış onayı yapılır.",
+      "Ait oldukları takvim yılına ilişkin gelir vergisi beyannamesinin verilmesi gereken ayı izleyen üçüncü ayın sonuna kadar, başkanlık tarafından elektronik ortamda kapanış onayı yapılır.",
+      "Ait oldukları takvim yılının son ayını takip eden üçüncü ayın sonuna kadar Başkanlık tarafından elektronik ortamda kapanış onayı yapılır.",
+      "Ait oldukları takvim yılına ilişkin gelir vergisi beyannamesinin verilmesi gereken ayı izleyen ikinci ayın sonuna kadar, başkanlık tarafından elektronik ortamda kapanış onayı yapılır."
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Ait oldukları takvim yılına ilişkin gelir vergisi beyannamesinin verilmesi gereken ayı izleyen ikinci ayın sonuna kadar, başkanlık tarafından elektronik ortamda kapanış onayı yapılır.. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-636",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Aşağıdakilerin hangisi / hangileri 213 Sayılı...",
+    "title": "Aşağıdakilerin hangisi / hangileri 213 Sayılı...",
+    "question": "Aşağıdakilerin hangisi / hangileri 213 Sayılı VUK hükümleri gereği, doğru ifade edilmiştir? I-Öteden beri işe devam etmekte olanlar defterin kullanılacağı yıldan önce gelen son ayda II-Hesap dönemleri Maliye Bakanlığı tarafından tesbit edilenler, defterin kullanılacağı ayda III-Yeniden işe başlayanlar, sınıf değiştirenler ve yeni bir mükellefiyete girenler, işe başlama, sınıf değiştirme ve yeni mükellefiyete girme tarihinden önce; vergi muafiyeti kalkanlar, muaflıktan çıkma tarihinden başlayarak on gün içinde IV-Tasdike tabi defterlerin dolması dolayısıyla veya sair sebeplerle yıl içinde yeni defter kullanmaya mecbur olanlar bunları kullanmaya başladıkları ay içerisinde tasdik ettirmeye mecburdurlar",
+    "options": [
+      "II-IV",
+      "I-III",
+      "Hepsi",
+      "I-II"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) I-III. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-637",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "5015 sayılı Kanun ve 5307 sayılı...",
+    "title": "5015 sayılı Kanun ve 5307 sayılı...",
+    "question": "5015 sayılı Kanun ve 5307 sayılı Kanun kapsamında lisansa tabi faaliyetlerde bulunan rafinerici (A) firması 10.05.2022 tarihinde, dağıtıcı (B) firmasına 10.000 litre akaryakıt teslim etmiştir. Söz konusu teslime ait faturanın zorunlu düzenlenme tarihi aşağıdakilerden hangisidir?",
+    "options": [
+      "17.05.2022",
+      "10.05.2022",
+      "20.05.2022",
+      "19.05.2022"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 10.05.2022. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-638",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "213 Sayılı Vergi Usul Kanunu gereğince,...",
+    "title": "213 Sayılı Vergi Usul Kanunu gereğince,...",
+    "question": "213 Sayılı Vergi Usul Kanunu gereğince, aşağıdakilerden hangisi gerçek faydalanıcı bildirimi vermekle yükümlü değildir?",
+    "options": [
+      "Kurumlar vergisi mükellefleri",
+      "Noterler",
+      "Adi komandit şirketlerde komanditer ortalardan biri",
+      "Bankalar"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Adi komandit şirketlerde komanditer ortalardan biri. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-639",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "ABC Ltd. Şti.&#8217;ne 2022 Şubat dönemi...",
+    "title": "ABC Ltd. Şti.&#8217;ne 2022 Şubat dönemi...",
+    "question": "ABC Ltd. Şti.&#8217;ne 2022 Şubat dönemi içerisinde, (D) Ltd Şti tarafından KDV hariç 4.500 TL tutarında e-Arşiv Fatura ve her biri 500 TL tutarında 2 adet kâğıt ortamında fatura düzenlenmiştir. ABC Ltd. Şti.&#8217;nin (D) Ltd Şti nden aldığı mal ve hizmet için 2022 Şubat dönemi Ba bildiriminde yer alması gereken tutar aşağıdakilerin hangisidir?",
+    "options": [
+      "0",
+      "4.500",
+      "1.000",
+      "5.500"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 1.000. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-640",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Aşağıdakilerden hangisi 213 sayılı VUK değerleme...",
+    "title": "Aşağıdakilerden hangisi 213 sayılı VUK değerleme...",
+    "question": "Aşağıdakilerden hangisi 213 sayılı VUK değerleme hükümleri gereği doğrudur?",
+    "options": [
+      "Hayvanlar- Maliyet Bedeli",
+      "Tahviller-Borsa Rayici",
+      "Yabancı Paralar- İtibari Değer",
+      "İlk Tesis Ve Taazzuv Giderler-Tasarruf Değeri"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Hayvanlar- Maliyet Bedeli. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-641",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "İşletme maliyeti 150.000 TL olan ve...",
+    "title": "İşletme maliyeti 150.000 TL olan ve...",
+    "question": "İşletme maliyeti 150.000 TL olan ve işletmenin aktifine 10.05.2021 de kaydettiği bir makine için Azalan Bakiyeler Usulü ile Amortisman ayıracaktır. Normal amortisman oranı %30 olup, 2022 yılı sonunda makinenin net aktif değeri ne kadardır?",
+    "options": [
+      "38.500",
+      "69.360",
+      "37.500",
+      "22.800"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 37.500. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-642",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "213 Sayılı Vergi Usul Kanununa göre...",
+    "title": "213 Sayılı Vergi Usul Kanununa göre...",
+    "question": "213 Sayılı Vergi Usul Kanununa göre aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "Vergi ziyaına sebebiyet vermekten dolayı ceza kesilen ve cezası kesinleşenlere, cezanın kesinleştiği tarihten itibaren beş yıl içinde tekrar ceza kesilmesi durumunda, vergi ziyaı cezası yüzde elli, usulsüzlük cezası yüzde yirmibeş oranında artırılmak suretiyle uygulanır.",
+      "Vergi ziyaı cezasında cezayı istilzam eden tek bir fiil ile başka neviden birkaç vergi ziyaa uğramış olursa bunlara ait cezalardan sadece miktar itibariyle en ağırı kesilir.",
+      "Ayrı ayrı yapılmış olan vergi ziyaı veya usulsüzlükten dolayı ayrı ayrı ceza kesilmez.",
+      "Tek bir fiil ile vergi ziyaı ve usulsüzlük birlikte işlenmiş olursa bunlara ait cezalardan sadece miktar itibariyle en ağırı kesilir."
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Tek bir fiil ile vergi ziyaı ve usulsüzlük birlikte işlenmiş olursa bunlara ait cezalardan sadece miktar itibariyle en ağırı kesilir.. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-643",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi, dar mükellefiyete tabi kimseler...",
+    "title": "Aşağıdakilerin hangisi, dar mükellefiyete tabi kimseler...",
+    "question": "Aşağıdakilerin hangisi, dar mükellefiyete tabi kimseler bakımından kazanç ve iradın Türkiye&#8217;de elde edilme şartlarından değildir?",
+    "options": [
+      "Serbest meslek kazançlarında; Serbest meslek faaliyetlerinin Türkiye'de icra edilmesi ve Türkiye'de değerlendirilmesi.",
+      "Ticari kazançlarda; kazanç sahibinin Türkiye'de işyerinin olması veya daimî temsilci bulundurması ve kazancın bu yerlerde veya bu temsilciler vasıtasıyla sağlanması.",
+      "Türkiye'de satmaktan maksat, alıcı veya satıcının veya her ikisinin Türkiye'de olması veya satış akdinin Türkiye'de yapılmış olmasıdır. İş merkezinden maksat ise, iş bakımından muamelelerin bilfiil toplandığı ve idare edildiği merkezdir.",
+      "Gayrimenkul sermaye iratlarında: Gayrimenkulün Türkiye'de bulunması ve bu mahiyetteki mal ve hakların Türkiye'de kullanılması veya Türkiye'de değerlendirilmesi."
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Serbest meslek kazançlarında; Serbest meslek faaliyetlerinin Türkiye'de icra edilmesi ve Türkiye'de değerlendirilmesi.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-644",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi, evlerde imal ettikleri malları...",
+    "title": "Aşağıdakilerin hangisi, evlerde imal ettikleri malları...",
+    "question": "Aşağıdakilerin hangisi, evlerde imal ettikleri malları internet ve benzeri elektronik ortamlar üzerinden satanların vergiden muaf esnaf olarak kabul edilmesi hakkında yanlıştır?",
+    "options": [
+      "Esnaf Vergi Muafiyeti Belgesi alınması zorunludur",
+      "İmal edilen malların, sanayi tipi veya seri üretim yapabilen makine ve alet kullanmaksızın üretimi gerekir",
+      "Elde edilen hasılatın kanunun ilgili yıl için belirlediği rakamı aşması hâlinde, mükellef izleyen takvim yılı başından itibaren gerçek usulde vergilendirilir, tekrar şartları sağlaması halinde şartları sağladığı takvim yılını izleyen yıldan itibaren esnaf muafiyetinden faydalanabilir",
+      "Türkiye'de kurulu bankalarda bir ticari hesap açılması ve tüm hasılatın münhasıran bu hesap aracılığıyla tahsil edilmesi şarttır."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Elde edilen hasılatın kanunun ilgili yıl için belirlediği rakamı aşması hâlinde, mükellef izleyen takvim yılı başından itibaren gerçek usulde vergilendirilir, tekrar şartları sağlaması halinde şartları sağladığı takvim yılını izleyen yıldan itibaren esnaf muafiyetinden faydalanabilir. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-645",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi Genç Girişimci Kazanç istisnasının...",
+    "title": "Aşağıdakilerin hangisi Genç Girişimci Kazanç istisnasının...",
+    "question": "Aşağıdakilerin hangisi Genç Girişimci Kazanç istisnasının şartlarından değildir?",
+    "options": [
+      "Faaliyetin adi ortaklık veya şahıs şirketi şeklinde kurulmaması",
+      "Ticari, zirai veya mesleki faaliyeti nedeniyle adlarına ilk defa gelir vergisi mükellefiyeti tesis olunması",
+      "Mükellefiyet başlangıç tarihi itibarıyla yirmi dokuz yaşını doldurmamış tam mükellef gerçek kişilerden olması",
+      "İşe başlamanın kanuni süresi içinde bildirilmiş olması"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Faaliyetin adi ortaklık veya şahıs şirketi şeklinde kurulmaması. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-646",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "193 Sayılı Gelir Vergisi Kanunu’nun Basit...",
+    "title": "193 Sayılı Gelir Vergisi Kanunu’nun Basit...",
+    "question": "193 Sayılı Gelir Vergisi Kanunu’nun Basit Usul Ticari Kazanca ilişkin hükümlerine göre aşağıdakilerin hangileri doğrudur? I. Defter beyan sistemine kaydolmak zorundadır II. GVK 94. Madde gereği tevkifat yapma zorunlulukları yoktur III. Geçici vergi beyan /ödeme yükümlülükleri vardır IV. Kazançları gelir vergisinden müstesnadır V. Fatura düzenleme zorunlulukları yoktur",
+    "options": [
+      "I-II-IV",
+      "I-IV-V",
+      "II-III",
+      "I-II-III-IV-V"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) I-II-IV. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-647",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi Sosyal içerik üreticiliği ile...",
+    "title": "Aşağıdakilerin hangisi Sosyal içerik üreticiliği ile...",
+    "question": "Aşağıdakilerin hangisi Sosyal içerik üreticiliği ile mobil cihazlar için uygulama geliştiriciliğinde kazanç istisnasından yararlanma şartları hakkında yanlıştır?",
+    "options": [
+      "Mükelleflerin istisna kazanç kapsamı dışında başka faaliyetlerinden kaynaklanan kazanç ya da iratlarının bulunması istisnadan faydalanamazlar",
+      "Bu istisnadan faydalanılabilmesi için Türkiye’de kurulu bankalarda bir hesap açılması ve bu faaliyetlere ilişkin tüm hasılatın münhasıran bu hesap aracılığıyla tahsil edilmesi şarttır",
+      "Bankalar, bu kapsamda açılan hesaplara aktarılan hasılat tutarı üzerinden, aktarım tarihi itibarıyla %15 oranında gelir vergisi tevkifatı yapmak ve Kanunun 98 ve 119 uncu maddelerindeki esaslar çerçevesinde beyan edip ödemekle yükümlüdür",
+      "İstisnaya ilişkin şartların taşınmadığının tespit edilmesi halinde eksik tahakkuk etmiş olan vergi, vergi ziyaı cezası kesilmek suretiyle gecikme faiziyle birlikte tahsil olunur."
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Mükelleflerin istisna kazanç kapsamı dışında başka faaliyetlerinden kaynaklanan kazanç ya da iratlarının bulunması istisnadan faydalanamazlar. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-648",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Tam mükellef gerçek kişi (A) nın...",
+    "title": "Tam mükellef gerçek kişi (A) nın...",
+    "question": "Tam mükellef gerçek kişi (A) nın 2021 takvim yılı kazanç bilgileri aşağıdaki gibidir; Basit usulde tespit edilen ticari taksi kazancı :90.000 Türkiye de kurulu bankadan TL mevduat faizi :50.000 Mesken kira geliri :30.000 Tevkita tabi İşyeri kira geliri :15.000 Bu bilgilere göre mükellefin 2021 takvim yılı kazançlarının vergilendirilmesi hakkında şıklardan hangisi yanlıştır?",
+    "options": [
+      "Mevduat faiz geliri Geçici 67 madde kapsamında vergilendirildiğinden beyan edilmez",
+      "Mesken kira geliri istisnasından faydalanamaz",
+      "İşyeri kira geliri beyana dahil değildir",
+      "Basit usulde tespit edilen kazancı için beyanname verilmez"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Mesken kira geliri istisnasından faydalanamaz. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-649",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi, Gelir Vergisi Kanunu hükümleri...",
+    "title": "Aşağıdakilerden hangisi, Gelir Vergisi Kanunu hükümleri...",
+    "question": "Aşağıdakilerden hangisi, Gelir Vergisi Kanunu hükümleri gereği uygulanan, binek araçlara ait gider kısıtlamasına tabi tutulmaz?",
+    "options": [
+      "Tüccarın, finansal kiralama şirketinden finansal kiralama sözleşmesi yoluyla kiraladığı binek araca ait kira ödemesi",
+      "Avukatın envanterine kayıtlı binek aracına ait ayrılacak amortisman",
+      "Tüccar tarafından işyerinde kullanılmak üzere kiralanan binek araca ödenen kira",
+      "Muhasebeci tarafından kiralanan veya envantere dahil olan ve işte kullanılan binek aracın giderleri"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Tüccarın, finansal kiralama şirketinden finansal kiralama sözleşmesi yoluyla kiraladığı binek araca ait kira ödemesi. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-650",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Gelir Vergisi Kanunu hükümlerine göre aşağıdakilerden...",
+    "title": "Gelir Vergisi Kanunu hükümlerine göre aşağıdakilerden...",
+    "question": "Gelir Vergisi Kanunu hükümlerine göre aşağıdakilerden hangisi hasılattan indirilebilecek giderlerdendir?",
+    "options": [
+      "Teşebbüs sahibinin işletmeye koyduğu sermaye için yürütülecek faizler",
+      "Teşebbüs sahibinin suçlarından doğan tazminatlar",
+      "Mahkeme kararına göre ödenen tazminatlar",
+      "Temsilci belirleme ve bildirme yükümlülüğünü yerine getirmeyen ve hakkında reklam yasağı uygulananlara verilen reklamların giderleri"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Mahkeme kararına göre ödenen tazminatlar. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-651",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Zirai kazancını yıllık beyanname ile bildirmek...",
+    "title": "Zirai kazancını yıllık beyanname ile bildirmek...",
+    "question": "Zirai kazancını yıllık beyanname ile bildirmek zorunda olan bir çiftçinin kendi adına kayıtlı işletmede kullandığı traktörünü ve zirai üretimde kullandığı tarlasını satması durumunda elde ettiği gelirin nitelikleri sırasıyla (Traktör satış geliri / Tarla satış geliri) aşağıdaki şıkların hangisinde doğru olarak verilmiştir?",
+    "options": [
+      "Zirai kazanç / Değer artış kazancı",
+      "Değer artış kazancı / Zirai kazanç",
+      "Zirai kazanç / Zirai kazanç",
+      "Değer artış kazancı / Değer artış kazancı"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Zirai kazanç / Değer artış kazancı. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-652",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Gelir Vergisi Kanunu’na göre, aşağıdakilerden hangisi...",
+    "title": "Gelir Vergisi Kanunu’na göre, aşağıdakilerden hangisi...",
+    "question": "Gelir Vergisi Kanunu’na göre, aşağıdakilerden hangisi gayrimenkul sermaye iratlarının tespitinde gelirin yeterli olmaması durumunda gelecek yıllarda zarar olarak dikkate alınmaz?",
+    "options": [
+      "Kiraya verilen mal ve haklar dolayısıyla yapılan ve bunlara sarf olunan borçların faiz giderleri.",
+      "Gayrimenkule ilişkin sigorta giderleri.",
+      "Konut olarak kiraya verilen bir adet gayrimenkulün iktisap yılından itibaren beş yıl süre ile iktisap bedelinin % 5’i.",
+      "Vergi Usul Kanunu hükümlerine göre ayrılan amortismanlar."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Konut olarak kiraya verilen bir adet gayrimenkulün iktisap yılından itibaren beş yıl süre ile iktisap bedelinin % 5’i.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-653",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "193 Sayılı GVK gereğince, aşağıdakilerin hangisi...",
+    "title": "193 Sayılı GVK gereğince, aşağıdakilerin hangisi...",
+    "question": "193 Sayılı GVK gereğince, aşağıdakilerin hangisi Değer Artış Kazancı değildir?",
+    "options": [
+      "İvazsız olarak iktisap edilenler hariç, gerçek usulde vergiye tâbi çiftçilerin ziraî istihsalde kullandıkları gayrimenkullerin, iktisap tarihinden başlayarak beş yıl içinde elden çıkarılmasından doğan kazançlar.",
+      "Ortaklık haklarının veya hisselerinin elden çıkarılmasından doğan kazançlar",
+      "Faaliyetine devam eden ticarî bir işletmenin kısmen veya tamamen satılması halinde elde edilen kazanç",
+      "Telif haklarının ve ihtira beratlarının müellifleri, mucitleri ve bunların kanunî mirasçıları dışında kalan kimseler tarafından elden çıkarılmasından doğan kazançlar"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Faaliyetine devam eden ticarî bir işletmenin kısmen veya tamamen satılması halinde elde edilen kazanç. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-654",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "Dar mükellef (B) gerçek kişinin 2021...",
+    "title": "Dar mükellef (B) gerçek kişinin 2021...",
+    "question": "Dar mükellef (B) gerçek kişinin 2021 takvim yılında elde ettiği kazançları aşağıdaki olup, 2021 takvim yılı gelir vergisi matrahı ne kadardır?(kira gelirleri için götürü gider usulü tercih edilmiştir) Gelir Türü Kazanç Tutarı Türkiye de Ticari Kazanç 130.000 Türkiye de Tevkifata tabi tutulmuş Avukatlık kazancı 100.000 Türkiye de Tam mükellef kurumdan elde edilen tevkifat yapılmış kar payı 300.000 Almanyadaki Bankadan Repo kazancı 100.000 Türkiye de tevkifata tabi Mevduat faizi 100.000 Türkiye de Tevkifata tabi tutulmuş işyeri kira geliri 50 .000 Türkiye de Mesken kira geliri 15.000",
+    "options": [
+      "Beyana tabi kazançları için gelir vergisi matrahı 142.750 TL dır",
+      "Beyana tabi geliri yoktur",
+      "Beyana tabi kazançları için gelir vergisi matrahı 245.000 TL dır",
+      "Beyana tabi kazançları için gelir vergisi matrahı 145.000 TL dır"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Beyana tabi kazançları için gelir vergisi matrahı 142.750 TL dır. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-655",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Tam mükellef Bayan (A) nın 2021...",
+    "title": "Tam mükellef Bayan (A) nın 2021...",
+    "question": "Tam mükellef Bayan (A) nın 2021 yılında 10.000 TL mesken kira geliri, 2.000 TL alacak faizi ile birlikte tamamı Türkiye de tevkif suretiyle vergilendirilmiş aşağıdaki kazançları elde etmiştir; Tek işverenden alınan ücret 45.000 TL Repo gelirleri 10.000 TL Kar payı 20.000 TL İşyeri kira geliri 10.000 TL Mükellefin beyana tabi geliri aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": [
+      "10.000",
+      "40.000",
+      "31.500",
+      "30.000"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) 10.000. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-656",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Gelir Vergisi Kanunu’nun matrahının tespitine ilişkin...",
+    "title": "Gelir Vergisi Kanunu’nun matrahının tespitine ilişkin...",
+    "question": "Gelir Vergisi Kanunu’nun matrahının tespitine ilişkin hükümleri gereğince, aşağıdakilerden hangisi beyanname üzerinden indirilecek giderler arasında sayılmamıştır?",
+    "options": [
+      "Cumhurbaşkanınca vergi muafiyeti tanınan Türk Eğitim Vakfı’na makbuz karşılığında yapılan ve yıllık toplamı beyan edilecek gelirin % 5 ini aşmayan bağış ve yardımlar",
+      "Kılıçkaya Belediyesine ait huzurevinin faaliyetine devam ettirilebilmesi için yapılan her türlü nakdi bağışların tamamı",
+      "Diyanet işleri başkanlığı denetiminde yaygın din eğitimi verilen tesislerin inşası için bu kuruluşlara yapılan her türlü bağış ve yardımlar",
+      "Kızılay’ın iktisadi işletmesine ait yetiştirme yurduna faaliyetlerini devam ettirebilmeleri için yapılan her türlü ayni yardımların tamamı"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Kızılay’ın iktisadi işletmesine ait yetiştirme yurduna faaliyetlerini devam ettirebilmeleri için yapılan her türlü ayni yardımların tamamı. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-657",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi 193 sayılı Gelir Vergisi...",
+    "title": "Aşağıdakilerden hangisi 193 sayılı Gelir Vergisi...",
+    "question": "Aşağıdakilerden hangisi 193 sayılı Gelir Vergisi Kanunu&#8217;nun mükerrer 121.maddesine göre vergi indirimi uygulamasından yararlanma şartları ile ilgili yanlış ifade edilmiştir?",
+    "options": [
+      "İndirimin hesaplanacağı beyannamenin ait olduğu yıl ile bu yıldan önceki son iki yıla ait vergi beyannamelerinin kanuni süresinde verilmiş olması.",
+      "Kanuni süresinde verilen bir beyannameye ilişkin olarak kanuni süresinden sonra düzeltme amacıyla veya pişmanlıkla verilen beyannameler şart ihlali sayılmaz",
+      "İndirimin hesaplanacağı beyannamenin ait olduğu yıl ile bu yıldan önceki son iki yıla ait vergi beyannameleri üzerine tahakkuk eden vergilerin kanuni süresinde ödenmiş olması.",
+      "İndirimin hesaplanacağı beyannamenin ait olduğu yıl ile bu yıldan önceki son iki yıl içinde kesinleşmiş olması koşuluyla vergi beyannamelerindeki vergi türleri itibarıyla ikmalen, re’sen veya idarece yapılmış bir tarhiyat bulunmaması"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) İndirimin hesaplanacağı beyannamenin ait olduğu yıl ile bu yıldan önceki son iki yıla ait vergi beyannameleri üzerine tahakkuk eden vergilerin kanuni süresinde ödenmiş olması.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-658",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi Kurumlar Vergisi Kanununa göre...",
+    "title": "Aşağıdakilerin hangisi Kurumlar Vergisi Kanununa göre...",
+    "question": "Aşağıdakilerin hangisi Kurumlar Vergisi Kanununa göre iş ortaklığı kurulmasının şartlarından değildir?",
+    "options": [
+      "Ortaklığın belli bir işi sonuçlandırmak üzere yazılı bir sözleşmeyle kurulması,",
+      "İşin bitiminde kazancın paylaşılması,",
+      "Ortakların tamamının kurumlar vergisi mükellefi olması,",
+      "Birlikte yapılacak olan işin belli bir süre içinde gerçekleştirilmesinin öngörülmesi,"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Ortakların tamamının kurumlar vergisi mükellefi olması,. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-659",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerin hangisi Kurumlar Vergisinde muaf değildir",
+    "title": "Aşağıdakilerin hangisi Kurumlar Vergisinde muaf değildir",
+    "question": "Aşağıdakilerin hangisi Kurumlar Vergisinde muaf değildir",
+    "options": [
+      "Merkez Bankası AŞ",
+      "Özelleştirme İdaresi Başkanlığı",
+      "TMSF",
+      "Türkiye Varlık Fonu AŞ"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Merkez Bankası AŞ. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-660",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Kurumlar vergisi mükellefi olan (ABC) Yapı...",
+    "title": "Kurumlar vergisi mükellefi olan (ABC) Yapı...",
+    "question": "Kurumlar vergisi mükellefi olan (ABC) Yapı Kooperatifi, 21/9/2021 tarihinde muafiyet şartlarını kazanarak aynı tarihte vergi dairesine başvurarak muafiyetten yararlanma talebinde bulunmuştur. Bu durumda (ABC) Yapı Kooperatifi hangi tarihten itibaren kurumlar vergisinden muaf tutulur?",
+    "options": [
+      "01.01.2022",
+      "01.01.2021",
+      "21.09.2021",
+      "01.10.2021"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) 01.01.2022. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-661",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunun 5/1-a...",
+    "title": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunun 5/1-a...",
+    "question": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanunun 5/1-a maddesi kapsamında istisna kazanç olarak değerlendirilir?",
+    "options": [
+      "Tam mükellef kurumun, dar mükellef başka bir kurumun sermayesine katılımlarından elde ettikleri kazançlar",
+      "Dar mükellef kurumun, tam mükellef başka bir kurumun sermayesine katılımlarından elde ettikleri kazançlar.",
+      "Dar mükellef kurumun, dar mükellef başka bir kurumun sermayesine katılımlarından elde ettikleri kazançlar",
+      "Dar mükellef kurumun, dar mükellef başka bir kurumun kârına katılma imkânı veren kurucu senetlerinden elde ettiği kar payı"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Dar mükellef kurumun, tam mükellef başka bir kurumun sermayesine katılımlarından elde ettikleri kazançlar.. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-662",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "5520 Kurumlar Vergisi Kanununu hükümlerine göre...",
+    "title": "5520 Kurumlar Vergisi Kanununu hükümlerine göre...",
+    "question": "5520 Kurumlar Vergisi Kanununu hükümlerine göre aşağıdakilerin hangisi yurtdışı kazanç istisnasının şartlarından değildir?",
+    "options": [
+      "Kazancın elde edildiği tarih itibarıyla iştirak payının kesintisiz olarak en az iki yıl süreyle elde tutulması",
+      "İştirak payını elinde tutan şirketin, yurt dışı iştirakin ödenmiş sermayesinin en az % 10’una sahip olması,",
+      "İştirak kazancının, elde edildiği hesap dönemine ilişkin kurumlar vergisi beyannamesinin verilmesi gereken tarihe kadar Türkiye’ye transfer edilmesi.",
+      "Yurt dışı iştirak kazancının kâr payı dağıtımına kaynak olan kazançlar üzerinden ödenen vergiler dahil iştirak edilen kurumun faaliyette bulunduğu ülke vergi kanunları uyarınca en az % 15 oranında gelir ve kurumlar vergisi benzeri toplam vergi yükü taşıması"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Kazancın elde edildiği tarih itibarıyla iştirak payının kesintisiz olarak en az iki yıl süreyle elde tutulması. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-663",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Kurumlar Vergisi Kanunu’na göre kooperatifler için...",
+    "title": "Kurumlar Vergisi Kanunu’na göre kooperatifler için...",
+    "question": "Kurumlar Vergisi Kanunu’na göre kooperatifler için ortakların yönetim gideri karşılığı olarak ödedikleri paralardan harcanmayarak ortaklara iade edilen kısımlar için risturn istisnasından aşağıdakilerden hangisi/hangileri faydalanır? 1-Üretim Kooperatifleri 2-Kredi Kooperatifleri 3-Tüketim Kooperatifleri 4-Tarımsal Üretici Birlikleri 5-Yapı Kooperatifleri",
+    "options": [
+      "1-2-3-4-5",
+      "1-2",
+      "3-4",
+      "1-2-3"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 3-4. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-664",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanununda yer...",
+    "title": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanununda yer...",
+    "question": "Aşağıdakilerden hangisi Kurumlar Vergisi Kanununda yer alan vergi güvenlik müesseselerinden değildir?",
+    "options": [
+      "Transfer fiyatlandırması yoluyla Örtülü Kazanç Dağıtımı",
+      "Kontrol Edilen Yabancı Kurum Kazancı",
+      "Yeniden Değerleme",
+      "Örtülü Sermaye"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Yeniden Değerleme. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-665",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden hangisi Kurumlar Vergisi kanununa göre...",
+    "title": "Aşağıdakilerden hangisi Kurumlar Vergisi kanununa göre...",
+    "question": "Aşağıdakilerden hangisi Kurumlar Vergisi kanununa göre beyanname üzerinden indirim konusu yapılan diğer indirimler içerisinde yer almaz?",
+    "options": [
+      "Ar-Ge harcaması",
+      "Kuruluş ve örgütlenme giderleri",
+      "Bağış ve Yardımlar",
+      "Sponsorluk Harcamaları"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Kuruluş ve örgütlenme giderleri. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-666",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Tam Mükellef (A) Ltd. Nin 01.01.2021...",
+    "title": "Tam Mükellef (A) Ltd. Nin 01.01.2021...",
+    "question": "Tam Mükellef (A) Ltd. Nin 01.01.2021 tarihi itibari ile Öz Sermayesi 200.000 TL dır. 01.10.2021 tarihinde firmanın %20 ortağı bulunan Baki beyin %15 hissedar olduğu (B) Bankasından 1.180.000.- TL kredi kullanılmıştır. Ayrıca 01.12.2021 tarihinde %50 ortak Fikri beyin sağladığı gayrinakdî teminatlar karşılığında (C) AŞ den 500.000.- TL kredi sağlanmıştır. Kurumun 2021 hesap döneminde kullandığı örtülü sermaye miktarı nedir?",
+    "options": [
+      "590.000",
+      "1.180.000",
+      "Örtülü sermaye bulunmamaktadır",
+      "600.000"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Örtülü sermaye bulunmamaktadır. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-667",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Kurumlar Vergisi kanunu hükümleri gereği aşağıdakilerden...",
+    "title": "Kurumlar Vergisi kanunu hükümleri gereği aşağıdakilerden...",
+    "question": "Kurumlar Vergisi kanunu hükümleri gereği aşağıdakilerden hangisi 2022 takvim yılında kurumlar vergisi oranının indirimli uygulanması hakkında yanlıştır?",
+    "options": [
+      "Payları Borsa İstanbul Pay Piyasasında ilk defa işlem görmek üzere en az %20 oranında halka arz edilen kurumların paylarının ilk defa halka arz edildiği hesap döneminden başlamak üzere beş hesap dönemine ait kurum kazançlarına kurumlar vergisi oranı 2 puan indirimli olarak uygulanır.",
+      "Sanayi sicil belgesini haiz ve fiilen üretim faaliyetiyle iştigal eden kurumların münhasıran üretim faaliyetinden elde ettikleri kazançlarına kurumlar vergisi oranı 1 puan indirimli uygulanır.",
+      "İhracat yapan kurumların münhasıran ihracattan elde ettikleri kazançlarına kurumlar vergisi oranı 1 puan indirimli uygulanır.",
+      "Sanayi sicil belgesini haiz ve fiilen üretim faaliyetiyle iştigal eden kurumların münhasıran üretip ihraç ettikleri kazançlarına ayrıca kurumlar vergisi oranı 1 puan indirimli uygulanır"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Sanayi sicil belgesini haiz ve fiilen üretim faaliyetiyle iştigal eden kurumların münhasıran üretip ihraç ettikleri kazançlarına ayrıca kurumlar vergisi oranı 1 puan indirimli uygulanır. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-668",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Kurumlar Vergisi Kanunu hükümlerine göre yıllar...",
+    "title": "Kurumlar Vergisi Kanunu hükümlerine göre yıllar...",
+    "question": "Kurumlar Vergisi Kanunu hükümlerine göre yıllar itibariyle uygulanacak vergi oranları ile ilgili olarak aşağıdakilerin hangisi/hangileri doğrudur? I-2018 dönemi kazançları için %20 II-2019 dönemi kazançları için %22 III-2020 dönemi kazançları için %20 IV-2021 dönemi kazançları için %25",
+    "options": [
+      "I-II",
+      "II-III",
+      "II-IV",
+      "I-III"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) II-IV. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-669",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Aşağıdakilerden hangisi Katma Değer Vergisine tabidir?",
+    "title": "Aşağıdakilerden hangisi Katma Değer Vergisine tabidir?",
+    "question": "Aşağıdakilerden hangisi Katma Değer Vergisine tabidir?",
+    "options": [
+      "Mal veya hizmet teslimi için verilen depozitolar",
+      "Karz işlemi kapsamında verilen mallar",
+      "Ariyet işlemleri kapsamında verilen mallar",
+      "Numune olarak verilen mallar"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Karz işlemi kapsamında verilen mallar. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-670",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Aşağıdaki işlemlerden hangisi katma değer vergisinin...",
+    "title": "Aşağıdaki işlemlerden hangisi katma değer vergisinin...",
+    "question": "Aşağıdaki işlemlerden hangisi katma değer vergisinin konusuna girmez?",
+    "options": [
+      "Milli Piyango İdaresinin sayısal loto çekilişi tertiplemesi",
+      "Türkiye’ de KDV mükellefi olan (B) nin yurtdışında mukim (C) firmasına Kazakistan’ da yapacağı inşaat için Kazakistan’ da proje çizimi hizmeti yapması",
+      "Boru hattı ile ham petrol, gaz ve bunların ürünlerinin Türkiye’ de taşınması",
+      "Profesyonel ses sanatçısının yer aldığı konser düzenlenmesi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Türkiye’ de KDV mükellefi olan (B) nin yurtdışında mukim (C) firmasına Kazakistan’ da yapacağı inşaat için Kazakistan’ da proje çizimi hizmeti yapması. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-671",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Aşağıdakilerden hangisi, 3065 Sayılı KDV Kanunu...",
+    "title": "Aşağıdakilerden hangisi, 3065 Sayılı KDV Kanunu...",
+    "question": "Aşağıdakilerden hangisi, 3065 Sayılı KDV Kanunu gereği, Müzayede Mahallinde Yapılan Satışlar hakkında yanlış ifade edilmiştir?",
+    "options": [
+      "Kanunun istisna ve vergi oranlarına ilişkin hükümleri bu satışlar için geçerli değildir",
+      "Bu satışlarda vergiyi doğuran olay, satışın yapıldığı tarihte vuku bulmaktadır.",
+      "Satılan malın kesin satış bedeli KDV’nin matrahıdır.",
+      "Malların kesin satış bedeli üzerinden hesaplanan vergiden, müzayedeyi düzenleyenin komisyonu üzerinden hesaplanan KDV indirilebilir."
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Kanunun istisna ve vergi oranlarına ilişkin hükümleri bu satışlar için geçerli değildir. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-672",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "KDV Kanunu teslime ilişkin hükümlerine göre,...",
+    "title": "KDV Kanunu teslime ilişkin hükümlerine göre,...",
+    "question": "KDV Kanunu teslime ilişkin hükümlerine göre, aşağıdakilerin hangisi yanlış ifade edilmiştir?",
+    "options": [
+      "Teslim, bir mal üzerindeki tasarruf hakkının malik veya onun adına hareket edenlerce, alıcıya veya adına hareket edenlere devredilmesidir",
+      "Bir malın alıcı veya onun adına hareket edenlerin gösterdiği yere veya kişilere tevdii teslim hükmünde değildir",
+      "Bir mal üzerindeki tasarruf hakkının iki veya daha fazla kimse tarafından zincirleme âkit yapılmak suretiyle, malın bu arada el değiştirmeden doğrudan sonuncu kişiye devredilmesi halinde, aradaki safhaların her biri ayrı bir teslimdir.",
+      "Bu kanunun uygulanmasında arsa karşılığı inşaat işlerinde; arsa sahibi tarafından konut veya işyerine karşılık müteahhide arsa payı teslimi, müteahhit tarafından arsa payına karşılık arsa sahibine konut veya işyeri teslimi yapılmış sayılır"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Bir malın alıcı veya onun adına hareket edenlerin gösterdiği yere veya kişilere tevdii teslim hükmünde değildir. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-673",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Fazla ve yersiz hesaplanarak hazineye intikal...",
+    "title": "Fazla ve yersiz hesaplanarak hazineye intikal...",
+    "question": "Fazla ve yersiz hesaplanarak hazineye intikal ettirilen KDV’nin iadesi ile ilgili olarak aşağıdakilerin hangisi yanlıştır?",
+    "options": [
+      "Fazla veya yersiz olarak hesaplanan vergi, öncelikle satıcı tarafından alıcıya iade edilecektir.",
+      "Alıcının indirim hakkı bulunan bir mükellef olması durumunda ise, satıcının fazla veya yersiz KDV tutarını alıcıya ödediğini gösterir belgeye ek olarak, alıcının fazla veya yersiz KDV tutarını indirim hesaplarından çıkarmak suretiyle düzeltme yaptığının alıcının vergi dairesinden alınacak bir yazıyla tevsiki de istenecektir.",
+      "Alıcının indirim hakkı bulunan mükellef olmaması durumunda, alıcının söz konusu fazla veya yersiz KDV tutarını satıcıya ödediğini gösterir bir belge ile vergi dairesine başvurması gerekmektedir.",
+      "Fazla veya yersiz hesaplanan vergi bulunması durumunda, gerek satıcı gerekse alıcı nezdinde işlemin KDV uygulanmadan önceki hale döndürülmesi esastır"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Alıcının indirim hakkı bulunan mükellef olmaması durumunda, alıcının söz konusu fazla veya yersiz KDV tutarını satıcıya ödediğini gösterir bir belge ile vergi dairesine başvurması gerekmektedir.. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-674",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Aşağıdakilerden hangisi, KDV Kanunu’nun kısmi tevkifat...",
+    "title": "Aşağıdakilerden hangisi, KDV Kanunu’nun kısmi tevkifat...",
+    "question": "Aşağıdakilerden hangisi, KDV Kanunu’nun kısmi tevkifat uygulamasında belirlenmiş alıcılar arasında sayılmamıştır?",
+    "options": [
+      "Sigorta ve reasürans şirketleri",
+      "Kamu yararına çalışan dernekler",
+      "Gelir İdaresi Başkanlığı",
+      "Mobil elektronik haberleşme işletmecileri"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Kamu yararına çalışan dernekler. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-675",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Türkiye de ikamet etmeyenlere KDV hesaplamadan...",
+    "title": "Türkiye de ikamet etmeyenlere KDV hesaplamadan...",
+    "question": "Türkiye de ikamet etmeyenlere KDV hesaplamadan Özel fatura ile yapılan satışlara ilişkin (Bavul Ticareti) hakkında aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "4760 sayılı ÖTV kanunun da yer alan 1 sayılı listede yer alan mallar bu kapsamda değildir.",
+      "Özel Fatura 5 nüsha olarak düzenlenmelidir.",
+      "Teslimden yurtdışında ikamet eden resmî makamlardan alınmış ikamet tezkeresi olan TC vatandaşları yararlanabilir.",
+      "Satılan malların bedel toplamı 5.000.- TL'nin üzerinde olması şarttır."
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Satılan malların bedel toplamı 5.000.- TL'nin üzerinde olması şarttır.. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-676",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Aşağıdakilerden hangisi, Katma Değer Vergisi Kanunu’nun,...",
+    "title": "Aşağıdakilerden hangisi, Katma Değer Vergisi Kanunu’nun,...",
+    "question": "Aşağıdakilerden hangisi, Katma Değer Vergisi Kanunu’nun, Konut veya İş Yeri Teslimlerinde İstisna uygulamasının şartları hakkında yanlış ifade edilmiştir?",
+    "options": [
+      "Sadece konut veya iş yeri olarak inşa edilen binaların ilk tesliminde uygulanır.",
+      "Konut veya iş yeri tesliminde KDV istisnasının uygulanabilmesi için, bedelin en az %50’sinin satışa ilişkin faturanın düzenlendiği tarihten önce, kalan kısmının da en geç bir yıl içerisinde alıcı tarafından döviz olarak Türkiye’ye getirilerek satıcıya ödenmesi gerekir.",
+      "İstisnaya ilişkin KDV iadesi, bedelin tamamının Türkiye’ye getirilerek satıcıya ödenmesinden sonra yapılır",
+      "Yurt dışından TL olarak getirilen bedelin satıcıya döviz olarak ödenmesi de mümkündür"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Yurt dışından TL olarak getirilen bedelin satıcıya döviz olarak ödenmesi de mümkündür. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-677",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Aşağıdakilerden hangisi Katma Değer Vergisi Kanununun...",
+    "title": "Aşağıdakilerden hangisi Katma Değer Vergisi Kanununun...",
+    "question": "Aşağıdakilerden hangisi Katma Değer Vergisi Kanununun ithalat istisnası hükümleri gereği yanlıştır?",
+    "options": [
+      "Engellilerin eğitimleri, meslekleri, günlük yaşamları için özel olarak üretilmiş her türlü araç-gereç ve özel bilgisayar programlarının ithali KDV den istisnadır",
+      "Büyükşehir Belediyesinin helikopter ithali KDV den istisnadır",
+      "Külçe altın ithali KDV den istisnadır",
+      "Hariçte işleme rejimi kapsamındaki malların ithali KDV den istisnadır"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Büyükşehir Belediyesinin helikopter ithali KDV den istisnadır. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-678",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Aşağıdakilerin hangisi Özel Tüketim Vergisine tabi...",
+    "title": "Aşağıdakilerin hangisi Özel Tüketim Vergisine tabi...",
+    "question": "Aşağıdakilerin hangisi Özel Tüketim Vergisine tabi değildir?",
+    "options": [
+      "Elektrik",
+      "Jet yakıtı",
+      "Motorin",
+      "Doğalgaz"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Elektrik. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-679",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "4760 sayılı Özel Tüketim Vergisi Kanunu...",
+    "title": "4760 sayılı Özel Tüketim Vergisi Kanunu...",
+    "question": "4760 sayılı Özel Tüketim Vergisi Kanunu gereğince, ÖTV mükellefiyeti aşağıdaki hangi durumda doğmaz?",
+    "options": [
+      "Parfümün ihracatçısı tarafından teslimi",
+      "Sigaranın ithali veya imal edenler tarafından teslimi",
+      "Benzinin ithalatçıları veya rafineriler dâhil olmak üzere imalatçıları tarafından teslimi",
+      "Kayıt ve tescile tâbi olan otomobilin ilk iktisabı"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Parfümün ihracatçısı tarafından teslimi. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-680",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Aşağıdakilerden hangisi, 4760 Sayılı Özel Tüketim...",
+    "title": "Aşağıdakilerden hangisi, 4760 Sayılı Özel Tüketim...",
+    "question": "Aşağıdakilerden hangisi, 4760 Sayılı Özel Tüketim Vergisi Kanunu’na tabi mallar için ilk iktisap değildir?",
+    "options": [
+      "(II) sayılı listedeki mallardan Türkiye'de kayıt ve tescile tabi olanların, motorlu araç ticareti yapanlar tarafından kendi aktife alınmasını ardından, onlardan satın alınmasını",
+      "(II) sayılı listedeki mallardan Türkiye'de kayıt ve tescil edilmemiş olanların kullanılmak üzere ithali,",
+      "(II) sayılı listedeki mallardan, Kayıt ve tescil edilmiş olsa dahi 4077 sayılı Tüketicinin Korunması Hakkında Kanun hükümlerine göre iade edilenler de dahil motorlu araç ticareti yapanlardan iktisabını,",
+      "(II) sayılı listedeki malların, motorlu araç ticareti yapanlar tarafından kullanılmaya başlanmasını"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) (II) sayılı listedeki mallardan Türkiye'de kayıt ve tescile tabi olanların, motorlu araç ticareti yapanlar tarafından kendi aktife alınmasını ardından, onlardan satın alınmasını. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-681",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Özel Tüketim Vergisi Kanunu uygulamalarına göre...",
+    "title": "Özel Tüketim Vergisi Kanunu uygulamalarına göre...",
+    "question": "Özel Tüketim Vergisi Kanunu uygulamalarına göre aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "(IV) sayılı listelerdeki malların Komisyoncular vasıtasıyla yapılan satışlarında, malların alıcıya teslimi",
+      "(I) sayılı listelerdeki malların Komisyoncular vasıtasıyla yapılan satışlarında, malların komisyoncuya, teslimi",
+      "(III) sayılı listelerdeki malların Komisyoncular vasıtasıyla yapılan satışlarında, malların alıcıya, teslimi",
+      "(II) sayılı listelerdeki malların Komisyoncular vasıtasıyla yapılan satışlarında, malların komisyoncuya, teslimi"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) (IV) sayılı listelerdeki malların Komisyoncular vasıtasıyla yapılan satışlarında, malların alıcıya teslimi. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-682",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Vergi Teşkilat & Mevzuat",
+    "subtopic": "Özel Tüketim Vergisi Kanunu gereği ÖTV...",
+    "title": "Özel Tüketim Vergisi Kanunu gereği ÖTV...",
+    "question": "Özel Tüketim Vergisi Kanunu gereği ÖTV mükellefiyetinin başlama zamanı hakkında aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "ÖTV mükellefiyeti bulunmayanların (I) sayılı listedeki malları ithal etmeleri halinde bu mallara ilişkin ÖTV mükellefiyeti en geç ithal tarihinde ÖTV yönünden bağlı olunacak vergi dairesine tesis ettirilir.",
+      "(I) sayılı listedeki malların bu mallara ilişkin üretim faaliyetlerine başlanmasından önce ÖTV yönünden bağlı olunacak vergi dairesine tesis ettirilir.",
+      "Türkiye’deki distribütörün yetkili satıcıya teslim etmek üzere (II) sayılı listedeki kayıt ve tescile tabi taşıtları ithal etmesi halinde bu mallara ilişkin ÖTV mükellefiyeti en geç ithal tarihinde ÖTV yönünden bağlı olunacak vergi dairesine tesis ettirilir.",
+      "(III) sayılı listedeki malların imalatçılarına ilişkin ÖTV mükellefiyeti, imalat faaliyetine başlanmasından önce tesis ettirilir"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Türkiye’deki distribütörün yetkili satıcıya teslim etmek üzere (II) sayılı listedeki kayıt ve tescile tabi taşıtları ithal etmesi halinde bu mallara ilişkin ÖTV mükellefiyeti en geç ithal tarihinde ÖTV yönünden bağlı olunacak vergi dairesine tesis ettirilir.. Vergi Teşkilat & Mevzuat hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Vergi Teşkilat & Mevzuat",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-683",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Aşağıdakilerden hangisi devlete, il özel idarelerine...",
+    "title": "Aşağıdakilerden hangisi devlete, il özel idarelerine...",
+    "question": "Aşağıdakilerden hangisi devlete, il özel idarelerine ve belediyelere ait alacaklardan olmakla birlikte 6183 sayılı kanun hükümlerine göre takip edilecek alacaklar arasında yer almaz?",
+    "options": [
+      "Gecikme zammı",
+      "Sözleşmeden doğan alacaklar",
+      "Gecikme faizi",
+      "Vergi cezası"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Sözleşmeden doğan alacaklar. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-684",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Mirasın tutulan defter mucibince kabulü halinde...",
+    "title": "Mirasın tutulan defter mucibince kabulü halinde...",
+    "question": "Mirasın tutulan defter mucibince kabulü halinde amme alacağının deftere kaydedilmemiş olması durumunda mirasçının sorumluluğu nasıl olur?",
+    "options": [
+      "Mirastan kendisine düşen miktar kadar sorumlu olur",
+      "Amme alacağının tamamından sorumlu olur",
+      "Mirastan kendisine düşen hisse nispetinde sorumlu olur",
+      "Sorumluluğu yoktur"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Mirastan kendisine düşen miktar kadar sorumlu olur. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-685",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "6183 Sayılı Kanuna göre aşağıdakilerden hangisi...",
+    "title": "6183 Sayılı Kanuna göre aşağıdakilerden hangisi...",
+    "question": "6183 Sayılı Kanuna göre aşağıdakilerden hangisi teminat olarak kabul edilmez?",
+    "options": [
+      "Bankalar tarafından verilen süresi ve şartsız Teminat mektubu",
+      "Sigorta şirketleri tarafından verilen tüm kefalet senetleri",
+      "Menkul mallar",
+      "Devlet iç borçlanma senetleri"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Sigorta şirketleri tarafından verilen tüm kefalet senetleri. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-686",
+    "category": "vuk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "213 Sayılı Vergi Usul Kanunu",
+    "subtopic": "6183 Sayılı Amme Alacakların Tahsil Usulü...",
+    "title": "6183 Sayılı Amme Alacakların Tahsil Usulü...",
+    "question": "6183 Sayılı Amme Alacakların Tahsil Usulü Hakkında Kanun hükümlerine göre aşağıdakilerden hangisi ihtiyati haciz sebebi değildir?",
+    "options": [
+      "Borçlunun belli ikametgahı yoksa",
+      "Borçlu kaçmışsa veya kaçması, mallarını kaçırması ve hileli yollara sapması ihtimalleri varsa",
+      "Yapılan yoklamada işyerinin kapalı olduğu tespit edilmişse",
+      "Borçludan teminat gösterilmesi istendiği halde belli müddette teminat veya kefil göstermemişse"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Yapılan yoklamada işyerinin kapalı olduğu tespit edilmişse. 213 Sayılı Vergi Usul Kanunu hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "213 Sayılı Vergi Usul Kanunu",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-687",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Aşağıdakilerden hangisi, 6183 sayılı kanun 17.maddesi...",
+    "title": "Aşağıdakilerden hangisi, 6183 sayılı kanun 17.maddesi...",
+    "question": "Aşağıdakilerden hangisi, 6183 sayılı kanun 17.maddesi gereği ihtiyati tahakkuk verilebilecek vergi türlerinden değildir?",
+    "options": [
+      "Yıllık Gelir Vergisi",
+      "Motorlu Taşıtlar Vergisi",
+      "Özel Tüketim Vergisi",
+      "Katma Değer Vergisi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Motorlu Taşıtlar Vergisi. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-688",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Aşağıdaki seçeneklerden hangisi, 6183 Sayılı Kanun’un...",
+    "title": "Aşağıdaki seçeneklerden hangisi, 6183 Sayılı Kanun’un...",
+    "question": "Aşağıdaki seçeneklerden hangisi, 6183 Sayılı Kanun’un 22/A maddesine göre vadesi geçmiş borç durumunu gösterir belge aranılması zorunluluğu bulunmayan ödemeler arasında sayılmamıştır?",
+    "options": [
+      "İhale usulü ile yapılan haberleşme alımı ödemelerinde",
+      "Abonelik ücretleri, posta ve telgraf giderleri",
+      "İhale usulü dışında yapılan enerji (yakacak ve elektrik) alımı ödemelerinde",
+      "Su alımı ödemelerinde"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) İhale usulü ile yapılan haberleşme alımı ödemelerinde. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-689",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "6183 sayılı kanunun 22/A maddesine göre...",
+    "title": "6183 sayılı kanunun 22/A maddesine göre...",
+    "question": "6183 sayılı kanunun 22/A maddesine göre vadesi geçmiş borç kapsamına giren alacak türleri için belirlenen tutar aşağıdakilerden hangisidir?",
+    "options": [
+      "1.000",
+      "3.000",
+      "5.000",
+      "2.000"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 5.000. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-690",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Aşağıdakilerden hangisi diğer korunma hükümlerinden değildir?",
+    "title": "Aşağıdakilerden hangisi diğer korunma hükümlerinden değildir?",
+    "question": "Aşağıdakilerden hangisi diğer korunma hükümlerinden değildir?",
+    "options": [
+      "Kanuni temsilcilerin sorumluluğu",
+      "Teminat isteme",
+      "Amme Alacaklarında Rüçhan Hakkı",
+      "İptal davaları"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Teminat isteme. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-691",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "6183 Sayılı AATUHK 48.maddesine göre yürürlükteki...",
+    "title": "6183 Sayılı AATUHK 48.maddesine göre yürürlükteki...",
+    "question": "6183 Sayılı AATUHK 48.maddesine göre yürürlükteki tecil faiz oranı yüzde kaçtır?",
+    "options": [
+      "Yıllık %15",
+      "Yıllık %24",
+      "Aylık % 22",
+      "Aylık %12"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Yıllık %24. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-692",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Aşağıdakilerden hangisi 6183 Sayılı Kanun’un 48/A...",
+    "title": "Aşağıdakilerden hangisi 6183 Sayılı Kanun’un 48/A...",
+    "question": "Aşağıdakilerden hangisi 6183 Sayılı Kanun’un 48/A maddesinden faydalanma şartlarından değildir?",
+    "options": [
+      "Başvuru tarihinden geriye doğru 3 yıla ait vergi beyannamelerini kanuni süresinde verilmiş ve verilen bu beyannamelere ilişkin kanuni süresinden sonra düzeltme amacıyla veya pişmanlıkla beyanname verilmemiş olması",
+      "Başvuru tarihinden geriye doğru 3 yıla ait vergi beyannamelerini kanuni sürelerinde vermiş olması",
+      "Madde kapsamına giren ve başvuru tarihi itibarıyla vadesi 1 yılı geçmemiş borcunun borç ödemede hüsnüniyet sahibi olmasına rağmen ödenememiş olması,",
+      "Başvuru tarihi itibarıyla en az 3 yıl süreyle; ticari, zirai veya mesleki faaliyetleri nedeniyle yıllık gelir veya kurumlar vergisi mükellefi olması"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Başvuru tarihinden geriye doğru 3 yıla ait vergi beyannamelerini kanuni süresinde verilmiş ve verilen bu beyannamelere ilişkin kanuni süresinden sonra düzeltme amacıyla veya pişmanlıkla beyanname verilmemiş olması. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-693",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "Aşağıdakilerden kaç tanesi 6183 Sayılı Kanunun...",
+    "title": "Aşağıdakilerden kaç tanesi 6183 Sayılı Kanunun...",
+    "question": "Aşağıdakilerden kaç tanesi 6183 Sayılı Kanunun 48 ve 48/A maddelerinin ikisindede tecil edilebilir durumda olan vergilerdendir? 1-Özel Tüketim Vergisi 2-Katma Değer Vergisi 3-7326 sayılı kanununun matrah artırımı hükümlerini ihlal eden mükelleflerin bu kapsamdaki borçları 4-İkmalen tarhiyata dayanan tapu harçları 5-Kira gelirine ait Yıllık Gelir Vergisi 6-Kurumlar Vergisi",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 3. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-694",
+    "category": "aatuhk",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "6183 Sayılı A.A.T.U.H.K hükümleri gereği, Vergi...",
+    "title": "6183 Sayılı A.A.T.U.H.K hükümleri gereği, Vergi...",
+    "question": "6183 Sayılı A.A.T.U.H.K hükümleri gereği, Vergi Dairesi Başkanlığı bulunan yerlerde vergi dairelerinde kurulan gayrimenkul satış komisyonlarında aşağıdakilerin hangisi bulunmaz?",
+    "options": [
+      "Vergi Dairesi İcra memuru",
+      "Tahsilata bakan grup müdürü",
+      "Kovuşturma Bölümünden Sorumlu Müdür Yardımcısı",
+      "Vergi dairesi müdürü"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Vergi Dairesi İcra memuru. 6183 Sayılı AATUHK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "6183 Sayılı AATUHK",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-695",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Damga Vergisi Kanununa göre aşağıdakilerin hangisi...",
+    "title": "Damga Vergisi Kanununa göre aşağıdakilerin hangisi...",
+    "question": "Damga Vergisi Kanununa göre aşağıdakilerin hangisi doğru ifade edilmemiştir?",
+    "options": [
+      "Kağıtların mahiyetlerinin tayininde, şekli kanunlarda belirtilmiş olanlarda kanunlardaki adlarına, belirtilmemiş olanlarda üzerlerindeki yazının tazammun ettiği hüküm ve manaya bakılır.",
+      "Resmi dairelerle kişiler arasındaki işlemlere ait kağıtların Damga Vergisini resmi daireler öder",
+      "Damga Vergisinin mükellefi kağıtları imza edenlerdir",
+      "Yabancı memleketlerle Türkiye`deki yabancı elçilik ve konsolosluklarda düzenlenen kağıtların vergisini, Türkiye`de bu kağıtları resmi dairelere ibraz eden öder"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Resmi dairelerle kişiler arasındaki işlemlere ait kağıtların Damga Vergisini resmi daireler öder. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-696",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "Akademi Yapı A.S. ile ABC Turizm...",
+    "title": "Akademi Yapı A.S. ile ABC Turizm...",
+    "question": "Akademi Yapı A.S. ile ABC Turizm A.S. arasında 23.08.2021 tarihin de kira sözleşmesi düzenlenmiş olup; sözleşme de kira süresi 10 yıl, kira bedeli yıllık 1.000.000 +%18 KDV ve cezai şart olarak 1.000.000 ödeneceği belirtilmiştir. Bu bilgileri göre ödenmesi gereken Damga Vergisi ne kadardır? (Damga Vergisi oranı binde 1,89)",
+    "options": [
+      "24.192",
+      "1.890",
+      "18.900",
+      "20.790"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) 18.900. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-697",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Gaziantep’te ikamet etmekte olan Bayan (D)’ye,...",
+    "title": "Gaziantep’te ikamet etmekte olan Bayan (D)’ye,...",
+    "question": "Gaziantep’te ikamet etmekte olan Bayan (D)’ye, merkezi İstanbul’da bulunan televizyon kanalınca düzenlenen çekiliş sonucu bir adet binek otomobili çıkmıştır. Bayan (D)’ye Ankara’da teslim edilen otomobile ait veraset ve intikal vergisi tarhiyatına hangi ilde yer alan vergi dairesi yetkilidir?",
+    "options": [
+      "Gaziantep",
+      "İstanbul",
+      "Hazine ve Maliye Bakanlığının tayin edeceği yer",
+      "Ankara"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) İstanbul. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-698",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi Daireleri İşlem Yönergesine göre sürekli...",
+    "title": "Vergi Daireleri İşlem Yönergesine göre sürekli...",
+    "question": "Vergi Daireleri İşlem Yönergesine göre sürekli yükümlülüklerle ilgili olarak aşağıdakilerin hangisi yanlıştır?",
+    "options": [
+      "Kanunda öngörülen dönemlerde sürekli olarak harç ödemekle yükümlü olan mükellefler de sürekli yükümlü sayılır.",
+      "Vergiden muaf olunması süreklilik niteliğini değiştirmez",
+      "Birden fazla dönemde devam eden yükümlülüklerdir",
+      "Süreklilik niteliği tarhiyat usulüne bağlıdır"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Süreklilik niteliği tarhiyat usulüne bağlıdır. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-699",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdakilerden hangisi, işe başlama bildirimi alınması...",
+    "title": "Aşağıdakilerden hangisi, işe başlama bildirimi alınması...",
+    "question": "Aşağıdakilerden hangisi, işe başlama bildirimi alınması üzerine yapılacak işlemler hakkın da yanlıştır?",
+    "options": [
+      "İşe başlama bildirimi alınmış olan mükelleflerin 213 sayılı VUK nun 153/A maddesi kapsamında olması hâlinde mükellefiyet kaydı derhal tesis edilir ve ilgili servis tarafından 153/A maddesine konu işlemle ilgili teminat isteme işlemlerine başlanılır.",
+      "İşe başlama/bırakma bildiriminin 3568 sayılı Kanuna göre yetki almış meslek mensupları tarafından imzalanarak yapılması hâlinde, ayrıca mükellefçe de imzalanmış olması aranmaz.",
+      "Bildirim ekinde noter onaylı olarak aranan belgelerin okunaklı birer fotokopisinin, aslına uygunluğu kontrol edildikten sonra şef veya görevlendirilecek memur tarafından adı, soyadı ve unvanı yazılarak tasdik edilen örneklerine göre işlem yapılması mümkündür.",
+      "İşe başlamanın, Posta ile dilekçeyle bildirilmesi hâlinde işe başlama/bırakma bildirimi mükellefe yoklamaya yetkili personel vasıtasıyla ya da bizzat vergi dairesine çağrılmak suretiyle doldurulması sağlanır"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) İşe başlama bildirimi alınmış olan mükelleflerin 213 sayılı VUK nun 153/A maddesi kapsamında olması hâlinde mükellefiyet kaydı derhal tesis edilir ve ilgili servis tarafından 153/A maddesine konu işlemle ilgili teminat isteme işlemlerine başlanılır.. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-700",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi Daireleri İşlem Yönergesine göre beyannamelerin...",
+    "title": "Vergi Daireleri İşlem Yönergesine göre beyannamelerin...",
+    "question": "Vergi Daireleri İşlem Yönergesine göre beyannamelerin verildiği günün tespiti ile ilgili aşağıdakilerin hangisi doğrudur?",
+    "options": [
+      "Beyanname, elden verilmiş ise beyannamenin üzerinde yazılı tarih geçerlidir",
+      "Beyanname, özel dağıtım şirketleri tarafından getirilmiş ise gelen evrak giriş kayıt tarihi geçerlidir",
+      "Beyanname, adi posta ile gönderilmiş ise, üzerindeki damga tarihi geçerlidir",
+      "Beyanname adi posta veya taahhütlü posta ile gönderilmiş ise vergi dairesi kayıtlarına girdiği tarih geçerlidir"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Beyanname, özel dağıtım şirketleri tarafından getirilmiş ise gelen evrak giriş kayıt tarihi geçerlidir. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-701",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi dairesi işlem yönergesine göre elektronik...",
+    "title": "Vergi dairesi işlem yönergesine göre elektronik...",
+    "question": "Vergi dairesi işlem yönergesine göre elektronik ortamda gönderilemeyen beyanname eklerinin beyanname verme süresinde kağıt ortamında vergi dairesine verilmesi halinde kesilecek ceza ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Mük.355 e göre özel usulsuzlük cezası kesilir",
+      "352/2-7 göre 2.derece usulsuzlük cezası kesilir",
+      "Ceza kesilmez",
+      "352/1-1.derece usulsuzlük cezası kesilir"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Ceza kesilmez. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-702",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Elektronik ortamda gönderilmesi mecburiyeti getirilen düzeltme...",
+    "title": "Elektronik ortamda gönderilmesi mecburiyeti getirilen düzeltme...",
+    "question": "Elektronik ortamda gönderilmesi mecburiyeti getirilen düzeltme beyannamelerinin elden verilmesi veya posta ile gönderilmesi durumunda V.U.K.’na göre hangi ceza uygulanır?",
+    "options": [
+      "Mükerrer 355. inci maddesine göre özel usulsüzlük",
+      "352/2-7 maddesine göre usulsüzlük",
+      "352/2. maddesine göre usulsüzlük",
+      "353. maddesine göre usulsüzlük"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Mükerrer 355. inci maddesine göre özel usulsüzlük. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-703",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "İade tutarını azaltan düzeltme beyannamesi verilmeden...",
+    "title": "İade tutarını azaltan düzeltme beyannamesi verilmeden...",
+    "question": "İade tutarını azaltan düzeltme beyannamesi verilmeden önce ayrıca iade alınmış ve mükellef tarafından haksız iade alınan tutar pişmanlık talepli olarak bildirilmiş olması halinde pişmanlık zammı hangi tarih aralığı için hesaplanır?",
+    "options": [
+      "Verginin kanuni vade tarihinden, bu verginin geri ödendiği tarihe kadar hesaplanır",
+      "Haksız vergi iadesinin alındığı tarihten bu verginin geri ödendiği tarihe kadar hesaplanır",
+      "Verginin kanuni vade tarihinden haksız vergi iadesinin alındığı tarihe kadar hesaplanır",
+      "Haksız vergi iadesinin alındığı tarihten beyannamenin alındığı tarihe kadar hesaplanır"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Haksız vergi iadesinin alındığı tarihten bu verginin geri ödendiği tarihe kadar hesaplanır. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-704",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Mükellefin, uzlaşmaya konu edilen tarhiyat hakkında...",
+    "title": "Mükellefin, uzlaşmaya konu edilen tarhiyat hakkında...",
+    "question": "Mükellefin, uzlaşmaya konu edilen tarhiyat hakkında uzlaşma tutanağı imzalanıncaya kadar, ceza indirimi talebinde bulunması hâlinde aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Uzlaşma sonucu beklenilir, uzlaşma sağlanmaz ise indirim uygulanır.",
+      "İndirim talebi kabul edilir, uzlaşma hükümlerinin uygulanmayacağı hususu komisyona derhal bildirilir.",
+      "İndirim talebi kabul edilmez.",
+      "Uzlaşma sonucu beklenilir, uzlaşma sağlanır ise indirim talebi red edilir."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) İndirim talebi kabul edilir, uzlaşma hükümlerinin uygulanmayacağı hususu komisyona derhal bildirilir.. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-705",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Diğer Tecil işlemi hangi servis tarafından...",
+    "title": "Diğer Tecil işlemi hangi servis tarafından...",
+    "question": "Diğer Tecil işlemi hangi servis tarafından yapılır?",
+    "options": [
+      "Sürekli Yükümlülükler Servisi",
+      "Satış Servisi",
+      "Diğer İşlem Servisi",
+      "İcra Servisi"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Sürekli Yükümlülükler Servisi. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-706",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Özel tüketim vergisi beyannamesinde yer alan...",
+    "title": "Özel tüketim vergisi beyannamesinde yer alan...",
+    "question": "Özel tüketim vergisi beyannamesinde yer alan taşıt bilgilerinde değişiklik yapılması için alınan yazılı talepler üzerine, teknik belge veya tadilat projesi esas alınarak gereken bilgi değişiklikleri kim tarafından yerine getirilir?",
+    "options": [
+      "Müdür Yardımcısı",
+      "Şef",
+      "Müdür",
+      "Sistem"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Müdür Yardımcısı. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-707",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdaki işlemlerin hangisinin sonucuna göre Vergi...",
+    "title": "Aşağıdaki işlemlerin hangisinin sonucuna göre Vergi...",
+    "question": "Aşağıdaki işlemlerin hangisinin sonucuna göre Vergi Ceza İhbarnamesi (İHB 2) düzenlenir?",
+    "options": [
+      "Vergi mahkemesinin ret veya kısmen kabul kısmen ret kararları (ret olan kısmı için) üzerine ilgili memur tarafından vergi/ceza ihbarnamesi (Bildirim) İHB2 düzenlenir.",
+      "Vergi Mahkemesinin Kabul (İptal) Kararları üzerine ilgili memur tarafından vergi/ceza ihbarnamesi (Bildirim) İHB2 düzenlenir.",
+      "Takdir komisyonunca takdir edilen matrahlara karşı vergi mahkemesinde açılan davalarla ilgili olarak vergi mahkemelerinin, takdir komisyonu kararını onaylayan, kısmen veya tamamen iptal eden kararları üzerine ilgili memur tarafından vergi/ceza ihbarnamesi (Bildirim) İHB2 düzenlenir.",
+      "Davanın esastan incelenmeksizin reddine ilişkin sistem üzerinden gelen kararlar üzerine ilgili memur tarafından vergi/ceza ihbarnamesi (Bildirim) İHB2 düzenlenir."
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Vergi mahkemesinin ret veya kısmen kabul kısmen ret kararları (ret olan kısmı için) üzerine ilgili memur tarafından vergi/ceza ihbarnamesi (Bildirim) İHB2 düzenlenir.. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-708",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi Daireleri İşlem Yönergesine göre tahakkuk...",
+    "title": "Vergi Daireleri İşlem Yönergesine göre tahakkuk...",
+    "question": "Vergi Daireleri İşlem Yönergesine göre tahakkuk etmemiş borçlara karşılık mükellefler tarafından yapılacak ödemeler için vergi dairesince aşağıdaki hangi işlem yapılır?",
+    "options": [
+      "Ödeme kabul edilmez",
+      "Tarh defterine işlenir",
+      "Teminat olarak kabul edilir",
+      "Emaneten tahsilat yapılır"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Emaneten tahsilat yapılır. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-709",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "4982 sayılı bilgi edinme hakkı kanununa...",
+    "title": "4982 sayılı bilgi edinme hakkı kanununa...",
+    "question": "4982 sayılı bilgi edinme hakkı kanununa göre kurum ve kuruluşlar başvuru üzerine istenen ve kendi uhdelerinde bulunan bilgi ve belgelere erişimi kaç gün içinde sağlamak zorundadırlar?",
+    "options": [
+      "30 gün",
+      "15 işgünü",
+      "15 gün",
+      "30 işgünü"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 15 işgünü. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-710",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "5018 Sayılı Kanuna göre aşağıdakilerin hangisi...",
+    "title": "5018 Sayılı Kanuna göre aşağıdakilerin hangisi...",
+    "question": "5018 Sayılı Kanuna göre aşağıdakilerin hangisi kamu geliri değildir?",
+    "options": [
+      "Borçlanma araçlarının iskontolu satışından doğan farklar",
+      "Faiz, zam ve ceza gelirleri",
+      "Alınan bağış ve yardımlar",
+      "Sosyal güvenlik prim kesintileri"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Borçlanma araçlarının iskontolu satışından doğan farklar. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-711",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Günlük deftere kaydedilen işlemlerin aralıklı olarak...",
+    "title": "Günlük deftere kaydedilen işlemlerin aralıklı olarak...",
+    "question": "Günlük deftere kaydedilen işlemlerin aralıklı olarak büyük defter&#8217;e yazılması işlemi muhasebenin hangi işlevi gereğidir?",
+    "options": [
+      "Sınıflandırma",
+      "Kaydetme",
+      "Özetleme",
+      "Analiz ve yorum"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Sınıflandırma. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-712",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;/&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- 121 Alacak Snt Hs 20.000...",
+    "title": "&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;/&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- 121 Alacak Snt Hs 20.000...",
+    "question": "&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;/&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- 121 Alacak Snt Hs 20.000 221 Alacak Snt. Hs 20.000 &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;/&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- Yukarıdaki kayıt muhasebenin hangi temel kavramı gereği yapılmıştır?",
+    "options": [
+      "Özün Önceliği",
+      "Sosyal Sorumluluk",
+      "Dönemsellik",
+      "Tam Açıklama"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Dönemsellik. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-713",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "I-Amortisman Ayrılması II-Her sene Reeskont Ayrılması...",
+    "title": "I-Amortisman Ayrılması II-Her sene Reeskont Ayrılması...",
+    "question": "I-Amortisman Ayrılması II-Her sene Reeskont Ayrılması III-Karşılık Ayrılması Yukarıdaki muhasebe işlemlerinden hangileri ihtiyatlılık kavramı gereği yapılır?",
+    "options": [
+      "II-III",
+      "Yalnız III",
+      "Yalnız I",
+      "Yalnız II"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Yalnız III. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-714",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdakilerden hangisi sermaye yedekleri arasında yer...",
+    "title": "Aşağıdakilerden hangisi sermaye yedekleri arasında yer...",
+    "question": "Aşağıdakilerden hangisi sermaye yedekleri arasında yer alır?",
+    "options": [
+      "Özel fonlar",
+      "Maliyet artış fonu",
+      "Statü yedekleri",
+      "Yasal yedekler"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) Maliyet artış fonu. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-715",
+    "category": "gelir-kurumlar",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "193 GVK & 5520 KVK",
+    "subtopic": "ABC işletmesinin gelir tablosuna ilişkin bilgiler...",
+    "title": "ABC işletmesinin gelir tablosuna ilişkin bilgiler...",
+    "question": "ABC işletmesinin gelir tablosuna ilişkin bilgiler aşağıdaki gibidir: -Yurtiçi Satışlar 200.000 -Satış İskontosu 20.000 -Faiz Gelirleri 30.000 -Genel Yönetim Gideri 50.000 -Satılan Malların Maliyeti 150.000 Bu bilgilere göre brüt satış karı/zararı aşağıdakilerden hangisidir?",
+    "options": [
+      "10.000",
+      "30.000",
+      "50.000",
+      "20.000"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) 30.000. 193 GVK & 5520 KVK hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "193 GVK & 5520 KVK",
+    "difficulty": "Orta",
+    "tags": [
+      "GELIR-KURUMLAR",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-716",
+    "category": "kdv-gider-vergileri",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "3065 KDV & 6802 BSMV",
+    "subtopic": "&#8212;&#8212;&#8212;&#8212;&#8212;-/&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; 320 Satıcılar Hs 153 Ticari...",
+    "title": "&#8212;&#8212;&#8212;&#8212;&#8212;-/&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; 320 Satıcılar Hs 153 Ticari...",
+    "question": "&#8212;&#8212;&#8212;&#8212;&#8212;-/&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; 320 Satıcılar Hs 153 Ticari Mallar Hs 391 Hesaplanan KDV Hs &#8212;&#8212;&#8212;&#8212;&#8212;-/&#8212;&#8212;&#8212;&#8212;&#8212;- Yukarıda yer alan yevmiye kaydı hangi işleme aittir?",
+    "options": [
+      "Alıcıya mal iadesi",
+      "Kredili mal alışı",
+      "Kredili mal satışı",
+      "Satıcıya mal iadesi"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Satıcıya mal iadesi. 3065 KDV & 6802 BSMV hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "3065 KDV & 6802 BSMV",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV-GIDER-VERGILERI",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-717",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdakilerden hangisi hazır değer değildir?",
+    "title": "Aşağıdakilerden hangisi hazır değer değildir?",
+    "question": "Aşağıdakilerden hangisi hazır değer değildir?",
+    "options": [
+      "Kasa",
+      "Alınan çekler",
+      "Bankalar",
+      "Hisse senetleri"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Hisse senetleri. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-718",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aralıklı envanter yöntemi kullanılan bir işletmenin...",
+    "title": "Aralıklı envanter yöntemi kullanılan bir işletmenin...",
+    "question": "Aralıklı envanter yöntemi kullanılan bir işletmenin kredili olarak satmış olduğu malların bir kısmının iade edilmesi durumunda aşağıdaki hesaplardan hangisi işlem görmez?",
+    "options": [
+      "Satıştan İadeler Hesabı",
+      "Alıcılar Hesabı",
+      "İndirilecek KDV Hesabı",
+      "Ticari Mallar Hesabı"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Ticari Mallar Hesabı. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-719",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "İşletmenin yatırım ve iştirak amaçlı olarak...",
+    "title": "İşletmenin yatırım ve iştirak amaçlı olarak...",
+    "question": "İşletmenin yatırım ve iştirak amaçlı olarak şirket yönetimini elde edecek şekilde %50&#8217;den fazla hissesini aldığı menkul kıymetleri kayıt edeceği hesap aşağıdakilerin hangisidir?",
+    "options": [
+      "İştirakler hesabı",
+      "Bağlı menkul kıymetler hesabı",
+      "Hisse senetleri hesabı",
+      "Bağlı ortaklıklar hesabı"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Bağlı ortaklıklar hesabı. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-720",
+    "category": "personel-mevzuat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "ABC işletmesi yeni bir şube açılışı...",
+    "title": "ABC işletmesi yeni bir şube açılışı...",
+    "question": "ABC işletmesi yeni bir şube açılışı için ticaret odasına kayıt masrafları için nakit ödeme yapmıştır. Yapılacak yevmiye kaydıyla ilgili olarak hangisi doğrudur ?",
+    "options": [
+      "Kuruluş ve örgütlenme giderleri hesabı borçlu",
+      "Bankalar hesabı alacaklı",
+      "Kasa hesabı borçlu",
+      "Genel yönetim giderleri hesabı alacaklı"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Kuruluş ve örgütlenme giderleri hesabı borçlu. 657 DMK & 6245 Harcırah hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "657 DMK & 6245 Harcırah",
+    "difficulty": "Orta",
+    "tags": [
+      "PERSONEL-MEVZUAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-721",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "ABC işletmesi 01 Kasım 2021 tarihinde...",
+    "title": "ABC işletmesi 01 Kasım 2021 tarihinde...",
+    "question": "ABC işletmesi 01 Kasım 2021 tarihinde 3 aylık işyeri kira bedeli olan 4.500 TL&#8217;yi peşin olarak ödüyor. Mali tablolarını aylık olarak düzenleyen işletmenin 01 Kasım 2021 tarihinde yapması gereken muhasebe kaydı ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": [
+      "Genel Yönetim Giderleri Hesabı 1.500 borçlu",
+      "Kasa Hesabı 4.500 alacaklı",
+      "Gelecek Yıllara Ait Giderler Hesabı 3.000 borçlu",
+      "Gelecek Aylara Ait Giderler Hesabı 1.500 borçlu"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Gelecek Yıllara Ait Giderler Hesabı 3.000 borçlu. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-722",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Harçlar kanununa göre alınan ticaret sicil...",
+    "title": "Harçlar kanununa göre alınan ticaret sicil...",
+    "question": "Harçlar kanununa göre alınan ticaret sicil harçları ile ilgili ifadelerden hangisi yanlıştır?",
+    "options": [
+      "İşlemden doğan harçları tamamen almadan işlem yapan ticaret sicili müdürlüğü görevlileri ve ilgili odalar harcın ödenmesinden mükelleflerle birlikte müteselsilen sorumludur.",
+      "Ticaret ve sanayi odaları veya ticaret odaları veyahut ilgili odalar tarafından makbuz karşılığı peşin olarak tahsil edilir.",
+      "Ticaret ve sanayi odaları veya ticaret odaları veyahut ilgili odalar tarafından tahsil olunan bir aya ait harçlar şekil, içerik ve muhteviyatı Maliye Bakanlığınca belirlenen bir bildirim ile ticaret sicili müdürlüğünü bünyesinde bulunduran odanın muhtasar yönünden bağlı olduğu vergi dairesine, izleyen ayın yirmi üçüncü günü akşamına kadar bildirilip ödenir.",
+      "Tahsil edilen harçların ilgili vergi dairesine süresinde ödenmemesi durumunda, harç ilgili odadan 21/7/1953 tarihli ve 6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun hükümlerine göre takip ve tahsil edilir."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Ticaret ve sanayi odaları veya ticaret odaları veyahut ilgili odalar tarafından tahsil olunan bir aya ait harçlar şekil, içerik ve muhteviyatı Maliye Bakanlığınca belirlenen bir bildirim ile ticaret sicili müdürlüğünü bünyesinde bulunduran odanın muhtasar yönünden bağlı olduğu vergi dairesine, izleyen ayın yirmi üçüncü günü akşamına kadar bildirilip ödenir.. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-723",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Veraset ve intikal vergisi,verginin tahakkukundan itibaren...",
+    "title": "Veraset ve intikal vergisi,verginin tahakkukundan itibaren...",
+    "question": "Veraset ve intikal vergisi,verginin tahakkukundan itibaren kaç yılda ve ne zaman ödenir?",
+    "options": [
+      "(3) yılda ve her yıl nisan ve ekim aylarında olmak üzere 2 eşit taksitte",
+      "(3) yılda ve her yıl mayıs ve kasım aylarında olmak üzere 2 eşit taksitte",
+      "(2) yılda ve her yıl mayıs ve kasımaylarında olmak üzere 2 eşit taksitte",
+      "(2) yılda ve her yıl nisan ve ekim aylarında olmak üzere 2 eşit taksitte"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Doğru seçenek: (B) (3) yılda ve her yıl mayıs ve kasım aylarında olmak üzere 2 eşit taksitte. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-724",
+    "category": "diger-vergiler",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Aşağıdakilerin hangisi Motorlu Taşıtlar Vergisi Kanunu...",
+    "title": "Aşağıdakilerin hangisi Motorlu Taşıtlar Vergisi Kanunu...",
+    "question": "Aşağıdakilerin hangisi Motorlu Taşıtlar Vergisi Kanunu kapsamında değildir?",
+    "options": [
+      "Traktör",
+      "Motorsiklet",
+      "Kaptıkaçtı",
+      "Arazi Taşıtı"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Doğru seçenek: (A) Traktör. Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "difficulty": "Orta",
+    "tags": [
+      "DIGER-VERGILER",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-725",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliğine...",
+    "title": "Vergi Daireleri Kuruluş ve Görev Yönetmeliğine...",
+    "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliğine göre aşağıdaki servislerden hangisi vergilendirme bölümünde yer almaz?",
+    "options": [
+      "Sürekli Yükümlülükler Servisi",
+      "Sicil Yoklama Servisi",
+      "Vezne Servisi",
+      "İhtilaflı İşler Servisi"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Doğru seçenek: (C) Vezne Servisi. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-726",
+    "category": "islem-yonergesi-teskilat",
+    "source": "kamuya_acik",
+    "source_name": "Vergi Akademisi 2022 Müdür Yrd. Denemesi",
+    "source_url": "https://vergiakademisi.org/20-08-22-vergi-dairesi-mud-yar-genel-deneme-sinavi/",
+    "year": 2022,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Aşağıdakilerden hangisi 1 nolu Cumhurbaşkanlığı Hazine...",
+    "title": "Aşağıdakilerden hangisi 1 nolu Cumhurbaşkanlığı Hazine...",
+    "question": "Aşağıdakilerden hangisi 1 nolu Cumhurbaşkanlığı Hazine ve Maliye Bakanlığı Kararnamesine göre Hazine ve Maliye Bakanlığının bağlı kuruluşudur?",
+    "options": [
+      "Vergi Konseyi",
+      "İç Denetim Koordinasyon Kurulu",
+      "Devlet Muhasebe Standartları Kurulu",
+      "Kefalet Sandığı"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Doğru seçenek: (D) Kefalet Sandığı. İşlem Yönergesi, CBK & Muhasebe hükümleri uyarınca belirlenmiştir.",
+    "articleRef": "İşlem Yönergesi, CBK & Muhasebe",
+    "difficulty": "Orta",
+    "tags": [
+      "ISLEM-YONERGESI-TESKILAT",
+      "2022 Deneme"
+    ]
+  },
+  {
+    "id": "q-727",
+    "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "3065 KDV & 6802 Gider Vergileri",
+    "subtopic": "KDV Matraha Dahil Edilmeyen Unsurlar",
+    "title": "KDV Matrahına Dahil Edilmeyen Unsurlar",
+    "question": "3065 sayılı Katma Değer Vergisi Kanunu'nun 25. maddesine göre aşağıdakilerden hangisi KDV matrahına DAHİL EDİLMEZ?",
+    "options": [
+      "Teslim ve hizmet bedeli üzerinden hesaplanan ticari teamüllere uygun iskontolar",
+      "Ambalaj giderleri",
+      "Sigorta, komisyon ve benzeri gider karşılıkları",
+      "Vade farkı, fiyat farkı ve faiz tutarları"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "KDVK Madde 25/a uyarınca teslim ve hizmet işlemlerinde fatura ve benzeri vesikalarda gösterilen ticarî teamüllere uygun miktardaki iskontolar KDV matrahına dahil edilmez.",
+    "articleRef": "KDVK Madde 25",
+    "difficulty": "Temel",
+    "tags": [
+      "KDV",
+      "Matrah",
+      "İskonto"
+    ]
+  },
+  {
+    "id": "q-728",
+    "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "3065 KDV & 6802 Gider Vergileri",
+    "subtopic": "KDV Emsal Bedel ve Ücreti",
+    "title": "KDV Emsal Bedel ve Emsal Ücreti Uygulaması",
+    "question": "3065 sayılı KDVK'nın 27. maddesine göre bedeli bulunmayan veya bilinmeyen işlemler ile bedelin emsal bedeline göre açık bir şekilde düşük olduğu hallerde KDV matrahı nasıl belirlenir?",
+    "options": [
+      "Vergi dairesi müdürünün takdiriyle",
+      "213 sayılı VUK hükümlerine göre tespit olunan emsal bedeli veya emsal ücreti üzerinden",
+      "İşletmenin maliyet bedelinin iki katı üzerinden",
+      "Önceki yılın ortalama satış fiyatı üzerinden"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "KDVK Madde 27 gereğince bedeli bulunmayan veya emsaline göre bariz düşük olan işlemlerde matrah, Vergi Usul Kanunu hükümlerine göre belirlenecek emsal bedel veya emsal ücretidir.",
+    "articleRef": "KDVK Madde 27",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV",
+      "Emsal Bedel"
+    ]
+  },
+  {
+    "id": "q-729",
+    "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6802&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "3065 KDV & 6802 Gider Vergileri",
+    "subtopic": "BSMV Muafiyet ve İstisnaları",
+    "title": "BSMV'den Müstesna Muameleler",
+    "question": "6802 sayılı Gider Vergileri Kanunu'nun 29. maddesine göre bankalararası mevduat muameleleri neticesinde lehe alınan paralar için BSMV uygulaması nasıldır?",
+    "options": [
+      "Tam oran üzerinden vergilendirilir.",
+      "BSMV'den müstesnadır.",
+      "%1 indirimli orana tabidir.",
+      "Yalnızca kamu bankalarında istisnadır."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6802 sayılı Kanun Madde 29/a uyarınca bankalar ile finansman şirketleri arasındaki mevduat muameleleri sonucu lehe alınan paralar BSMV'den istisnadır.",
+    "articleRef": "6802 Sayılı Kanun Madde 29",
+    "difficulty": "İleri",
+    "tags": [
+      "BSMV",
+      "İstisna"
+    ]
+  },
+  {
+    "id": "q-730",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Damga Vergisi Ödenmemiş Kağıtların Hükmü",
+    "title": "Damga Vergisi Ödenmemiş Kağıtların Hukuki Geçerliliği",
+    "question": "488 sayılı Damga Vergisi Kanunu'nun 24. ve 26. maddelerine göre damga vergisi ödenmemiş veya eksik ödenmiş bir sözleşmenin hukuki geçerliliği nasıldır?",
+    "options": [
+      "Sözleşme hukuken tamamen hükümsüz ve batıldır.",
+      "Sözleşme geçerlidir; ancak vergi ve cezası ödenmedikçe resmi dairelerce işleme konulamaz veya tasdik edilemez.",
+      "Sözleşme yalnızca noter huzurunda geçerlidir.",
+      "Sözleşme 1 yıl süreyle askıda kalır."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "488 sayılı DVK Madde 26 gereğince damga vergisi ödenmemiş kağıtlar geçerliliklerini kaybetmezler; ancak vergi ve cezası ödenmedikçe resmi dairelerde işleme alınamaz ve tasdik edilemez.",
+    "articleRef": "488 Sayılı Kanun Madde 26",
+    "difficulty": "Orta",
+    "tags": [
+      "Damga Vergisi",
+      "İşleme Koyma"
+    ]
+  },
+  {
+    "id": "q-731",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Damga Vergisinde Sorumluluk",
+    "title": "Damga Vergisinde Müteselsil Sorumluluk",
+    "question": "488 sayılı Damga Vergisi Kanunu'nun 24. maddesine göre kağıtları imza edenler damga vergisinin ödenmesinden nasıl sorumludurlar?",
+    "options": [
+      "Yalnızca birinci imza sahibi sorumludur.",
+      "Müteselsilen (zincirleme olarak birlikte) sorumludurlar.",
+      "Sözleşmedeki payları oranında kısmen sorumludurlar.",
+      "Sadece kamu kurumu olan taraf sorumludur."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "488 sayılı Kanun Madde 24 uyarınca kağıtları imza edenler damga vergisinin ödenmesinden müteselsilen sorumludurlar.",
+    "articleRef": "488 Sayılı Kanun Madde 24",
+    "difficulty": "Temel",
+    "tags": [
+      "Damga Vergisi",
+      "Müteselsil"
+    ]
+  },
+  {
+    "id": "q-732",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=492&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "492 Sayılı Harçlar Kanunu Tapu Harcı Mükellefiyeti",
+    "title": "Tapu ve Kadastro Harçlarında Mükellef",
+    "question": "492 sayılı Harçlar Kanunu'na göre gayrimenkul devir ve iktisaplarında tapu harcını kim öder?",
+    "options": [
+      "Yalnızca alıcı öder.",
+      "Yalnızca satıcı öder.",
+      "Aksi kararlaştırılmadıkça hem alıcı hem de satıcı ayrı ayrı öder.",
+      "Belediyece re'sen karşılanır."
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "492 sayılı Kanun 4 sayılı Tarife gereğince gayrimenkul devir ve iktisaplarında tapu harcı, devreden ve devralan tarafından ayrı ayrı ödenir.",
+    "articleRef": "492 Sayılı Kanun 4 Sayılı Tarife",
+    "difficulty": "Temel",
+    "tags": [
+      "Harçlar",
+      "Tapu Harcı"
+    ]
+  },
+  {
+    "id": "q-733",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=197&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "MTV İndirimli Tarife Uygulaması",
+    "title": "MTV Kasko Sigortası Değeri Uygulaması",
+    "question": "197 sayılı Motorlu Taşıtlar Vergisi Kanunu'na göre otomobil, kaptıkaçtı ve arazi taşıtlarında hesaplanan yıllık MTV tutarının, Türkiye Sigorta Birliği tarafından yayımlanan kasko değerinin yüzde kaçını aşması halinde bir alt kademedeki tarifeden vergilendirilir?",
+    "options": [
+      "%3",
+      "%5",
+      "%7",
+      "%10"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "197 sayılı MTVK Madde 5 uyarınca hesaplanan MTV tutarı kasko sigortası değerinin %5'ini aştığı takdirde bir alt kademedeki taşıtlara ait vergi tutarı uygulanır.",
+    "articleRef": "MTVK Madde 5",
+    "difficulty": "İleri",
+    "tags": [
+      "MTV",
+      "Kasko İndirimi"
+    ]
+  },
+  {
+    "id": "q-734",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7338&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "VİV Yabancı Ülkede Ölüm Beyan Süresi",
+    "title": "VİV Ölümün ve Mükellefin Yurt Dışında Olması Hali",
+    "question": "7338 sayılı VİV Kanunu'na göre ölüm yabancı bir ülkede meydana gelmiş ve mirasçılar da ölümün vuku bulduğu yabancı ülkede bulunuyorlarsa beyanname süresi kaç aydır?",
+    "options": [
+      "4 ay",
+      "6 ay",
+      "8 ay",
+      "1 yıl"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "7338 sayılı VİVK Madde 9/1-b bendi uyarınca ölüm yabancı bir ülkede vuku bulmuş ve mirasçılar da o yabancı ülkede bulunuyorsa süre 6 aydır. Farklı bir yabancı ülkede iseler 8 aydır.",
+    "articleRef": "VİVK Madde 9",
+    "difficulty": "İleri",
+    "tags": [
+      "VİV",
+      "Yurt Dışı Süreleri"
+    ]
+  },
+  {
+    "id": "q-735",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1319&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "Emlak Vergisinde Kısıtlı Vergilendirme",
+    "title": "Emlak Vergisinde Kısıtlı Vergi Uygulaması",
+    "question": "1319 sayılı Emlak Vergisi Kanunu'nun 30. maddesine göre kanunlar veya diğer mevzuat hükümleriyle tasarrufu kısıtlanan bina, arsa ve arazilerin vergisi kısıtlama süresince yüzde kaç oranında tahsil edilir?",
+    "options": [
+      "Tamamen silinir (alınmaz)",
+      "Yüzde 10'u tahsil edilir, yüzde 90'ı tecil olunur.",
+      "Yarısı tahsil edilir.",
+      "Yalnızca arsa vergisi alınır."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "1319 sayılı Kanun Madde 30 uyarınca tasarrufu kısıtlanan bina ve arazilerin vergisi kısıtlılık süresince 1/10 (%10) oranında tahsil edilir; 9/10'luk kısmı tecil olunur.",
+    "articleRef": "1319 Sayılı Kanun Madde 30",
+    "difficulty": "İleri",
+    "tags": [
+      "Emlak Vergisi",
+      "Kısıtlılık"
+    ]
+  },
+  {
+    "id": "q-736",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5604&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga, Harçlar, MTV, VİV, Emlak & Mali Tatil",
+    "subtopic": "5604 Sayılı Mali Tatilde Yapılamayacak İşlemler",
+    "title": "Mali Tatil Boyunca Yapılamayacak İdari İşlemler",
+    "question": "5604 sayılı Mali Tatil Kanunu'na göre mali tatil süresi boyunca idare tarafından aşağıdakilerden hangisi UYGULANAMAZ?",
+    "options": [
+      "Gümrük idarelerince ithalat işlemleri",
+      "Mükellefin işyerinde vergi incelemesi yapılması ve tebligat gönderilmesi",
+      "Veznede mükelleflerce kendi rızasıyla yapılan ödemelerin kabulü",
+      "Elektronik ortamda beyanname verilmesi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "5604 sayılı Kanun Madde 1 uyarınca mali tatil süresi boyunca mükellefin işyerinde incelemeye başlanılamaz ve vergi/ceza ihbarnameleri tebliğ edilemez.",
+    "articleRef": "5604 Sayılı Kanun Madde 1",
+    "difficulty": "Orta",
+    "tags": [
+      "Mali Tatil",
+      "İnceleme Yasağı"
+    ]
+  },
+  {
+    "id": "q-737",
+    "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Haczedilen Menkul Malların Muhafazası",
+    "title": "Menkul Mallarda Yediemin Tayini",
+    "question": "6183 sayılı AATUHK'nın 82. maddesine göre haczedilen menkul mallar kural olarak nereye teslim edilir veya kime tevdi olunabilir?",
+    "options": [
+      "Yalnızca banka kasalarına konulur.",
+      "Güvenilir bir şahsa (yediemine) veya tahsil dairesinin ambarlarına tevdi olunur; borçlunun kendisine de bırakılabilir.",
+      "Derhal belediye zabıtasına teslim edilir.",
+      "Doğrudan icra mahkemesine gönderilir."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6183 sayılı Kanun Madde 82 uyarınca haczedilen mallar tahsil dairesince muhafaza altına alınır veya güvenilir bir şahsa (yediemine) yahut uygun görüldüğünde borçluya tevdi edilir.",
+    "articleRef": "6183 Sayılı Kanun Madde 82",
+    "difficulty": "Temel",
+    "tags": [
+      "AATUHK",
+      "Yediemin"
+    ]
+  },
+  {
+    "id": "q-738",
+    "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "6183 Sayılı AATUHK",
+    "subtopic": "Gecikme Zammı Asgari Tutarı",
+    "title": "Gecikme Zammının Uygulama Alt Sınırı",
+    "question": "6183 sayılı AATUHK'nın 51. maddesine göre gecikme zammı hesaplamasında belirlenen asgari gecikme zammı tutarı ile ilgili kural nedir?",
+    "options": [
+      "Hiçbir asgari tutar yoktur.",
+      "Cumhurbaşkanınca belirlenen asgari bir tutarın altında gecikme zammı uygulanamaz.",
+      "Borcun yarısından az olamaz.",
+      "Yalnızca şirketler için asgari tutar uygulanır."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6183 sayılı Kanun Madde 51 gereğince gecikme zammı tutarı Cumhurbaşkanı kararıyla belirlenen maktu asgari tutardan az olamaz.",
+    "articleRef": "6183 Sayılı Kanun Madde 51",
+    "difficulty": "Orta",
+    "tags": [
+      "AATUHK",
+      "Gecikme Zammı"
+    ]
+  },
+  {
+    "id": "q-739",
+    "category": "personel-mevzuat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "657 DMK Yıllık İzin Süreleri",
+    "title": "Devlet Memurlarının Yıllık İzin Süreleri",
+    "question": "657 sayılı Devlet Memurları Kanunu'nun 102. maddesine göre hizmeti 1 yıldan 10 yıla kadar (10 yıl dahil) olan memurların yıllık izin süresi kaç gündür?",
+    "options": [
+      "14 gün",
+      "20 gün",
+      "30 gün",
+      "15 iş günü"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "657 sayılı Kanun Madde 102 uyarınca hizmeti 1 yıldan 10 yıla kadar (10 yıl dahil) olan memurlar için 20 gün, hizmeti 10 yıldan fazla olanlar için 30 gündür.",
+    "articleRef": "657 Sayılı Kanun Madde 102",
+    "difficulty": "Temel",
+    "tags": [
+      "657 DMK",
+      "Yıllık İzin"
+    ]
+  },
+  {
+    "id": "q-740",
+    "category": "personel-mevzuat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "657 DMK Aday Memurluk Süresi",
+    "title": "Aday Memurluk Süresinin Asgari ve Azami Sınırları",
+    "question": "657 sayılı Devlet Memurları Kanunu'nun 54. maddesine göre adaylık süresi en az ve en çok ne kadar olabilir?",
+    "options": [
+      "En az 6 ay, en çok 1 yıl",
+      "En az 1 yıl, en çok 2 yıl",
+      "En az 3 ay, en çok 6 ay",
+      "En az 1 yıl, en çok 3 yıl"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "657 sayılı Kanun Madde 54 gereğince adaylık süresi 1 yıldan az, 2 yıldan çok olamaz.",
+    "articleRef": "657 Sayılı Kanun Madde 54",
+    "difficulty": "Temel",
+    "tags": [
+      "657 DMK",
+      "Adaylık"
+    ]
+  },
+  {
+    "id": "q-741",
+    "category": "personel-mevzuat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6245&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "657 DMK & 6245 Harcırah",
+    "subtopic": "6245 Harcırah Kanunu Ehliyet Tazminatı",
+    "title": "Harcırah Kanunu Mesafe Kriteri",
+    "question": "6245 sayılı Harcırah Kanunu'na göre memuriyet mahalli sayılan yerin dışına geçici olarak gönderilenlere gündelik verilmesi için asgari mesafe ve şart nedir?",
+    "options": [
+      "En az 50 kilometre uzakta olması",
+      "Memuriyet mahalli dışında bir yere gönderilerek bu yerde görev yapılması veya geceyi geçirmesi",
+      "İl sınırının dışına çıkılması",
+      "En az 24 saat sürmesi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6245 sayılı Kanun uyarınca memuriyet mahallinin dışında bir yere geçici görevle gönderilen memur ve hizmetlilere asli vazife yerinden ayrıldıkları andan itibaren harcırah ödenir.",
+    "articleRef": "6245 Sayılı Kanun Madde 39",
+    "difficulty": "Orta",
+    "tags": [
+      "Harcırah",
+      "Geçici Görev"
+    ]
+  },
+  {
+    "id": "q-742",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "5018 Ödenek Üstü Harcama Yasağı",
+    "title": "5018 Ödenek Aktarmaları ve Harcama Sınırı",
+    "question": "5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanunu'nun 20. maddesine göre bütçeyle tahsis edilen ödeneklerin kullanımı ile ilgili temel kural nedir?",
+    "options": [
+      "Harcama yetkilileri istedikleri kadar ödenek üstü harcama yapabilirler.",
+      "Kamu idareleri bütçelerinde yer alan ödeneklerin üzerinde harcama yapamazlar; hiçbir kamu görevi karşılığı bütçede ödeneği bulunmaksızın taahhüde girilemez.",
+      "Ödenek aşımı yalnızca Sayıştay izniyle mümkündür.",
+      "Yıl sonunda tüm harcamalar bütçeleştirilir."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "5018 sayılı Kanun Madde 20 uyarınca bütçeyle verilen ödeneklerin üzerinde harcama yapılamaz ve ödeneği bulunmayan hiçbir iş için taahhüde girilemez.",
+    "articleRef": "5018 Sayılı Kanun Madde 20",
+    "difficulty": "Temel",
+    "tags": [
+      "5018",
+      "Ödenek"
+    ]
+  },
+  {
+    "id": "q-743",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4734&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4734 Sayılı KİK İhaleye Katılamayacak Olanlar",
+    "title": "Kamu İhalelerine Katılmaktan Yasaklananlar",
+    "question": "4734 sayılı Kamu İhale Kanunu'nun 11. maddesine göre aşağıdakilerden hangisi doğrudan veya dolaylı olarak ihalelere KATILAMAZ?",
+    "options": [
+      "İdarenin ihale yetkilisi ve ihale komisyonunda görevli olanlar ile bunların eşleri ve üçüncü dereceye kadar kan hısımları",
+      "Anonim şirketler",
+      "Serbest meslek erbapları",
+      "Vergi dairesi mükellefi olanlar"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "4734 sayılı Kanun Madde 11 uyarınca ihaleyi yapan idarenin ihale yetkilisi kişileri ile bu yetkiye sahip kurullarda görevli kişiler ve ihale komisyonu üyeleri ile bunların eşleri ve üçüncü dereceye kadar kan hısımları ihalelere katılamazlar.",
+    "articleRef": "4734 Sayılı Kanun Madde 11",
+    "difficulty": "Temel",
+    "tags": [
+      "4734 KİK",
+      "Yasaklılık"
+    ]
+  },
+  {
+    "id": "q-744",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4735&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "5018 KMYKK & Kamu İhale (4734 / 4735)",
+    "subtopic": "4735 Sayılı Kamu İhale Sözleşmeleri Kanunu Devir Yasağı",
+    "title": "Sözleşmenin Devri ve Şartları",
+    "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu'nun 16. maddesine göre ihale sözleşmesi hangi şartla başkasına devredilebilir?",
+    "options": [
+      "Hiçbir suretle devredilemez.",
+      "Zorunlu hallerde ihale yetkilisinin yazılı izni ile devredilebilir; ancak devir alacaklarda ilk ihaledeki şartlar aranır.",
+      "Yalnızca alt yüklenicinin onay vermesiyle devredilebilir.",
+      "Noter tasdiki yeterlidir."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "4735 sayılı Kanun Madde 16 gereğince sözleşme, zorunlu hallerde ihale yetkilisinin yazılı izni ile başkasına devredilebilir; devir alacaklarda ilk şartlar aranır.",
+    "articleRef": "4735 Sayılı Kanun Madde 16",
+    "difficulty": "Orta",
+    "tags": [
+      "4735 Sözleşmeler",
+      "Sözleşme Devri"
+    ]
+  },
+  {
+    "id": "q-745",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "Muhasebede Gelir Tablosu İlkeleri",
+    "title": "Gelir Tablosu İlkeleri ve Eşleme İlkesi",
+    "question": "Muhasebe ilkelerine göre belirli bir dönemin hasılatı ile o hasılatı elde etmek için katlanılan maliyet ve giderlerin aynı dönemde karşılaştırılması hangi ilkenin gereğidir?",
+    "options": [
+      "Dönemsellik ve Hasılat-Gider Eşleme İlkesi",
+      "Kişilik İlkesi",
+      "Parayla Ölçülme İlkesi",
+      "Sosyal Sorumluluk İlkesi"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Gelir tablosu ilkelerinde yer alan eşleme ilkesi gereğince, belirli bir dönemde elde edilen hasılat ile bu hasılatın elde edilmesi için yapılan harcama ve giderler aynı dönemde karşılaştırılmalıdır.",
+    "articleRef": "Genel Muhasebe Standartları",
+    "difficulty": "Temel",
+    "tags": [
+      "Muhasebe",
+      "Eşleme İlkesi"
+    ]
+  },
+  {
+    "id": "q-746",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "KDV Mahsup Kaydı Hesapları",
+    "title": "Ay Sonu KDV Mahsup Kaydı",
+    "question": "Ay sonunda yapılan KDV mahsup kaydında '191 İndirilecek KDV' tutarının '391 Hesaplanan KDV' tutarından fazla olması halinde aradaki fark hangi hesaba borç kaydedilir?",
+    "options": [
+      "360 Ödenecek Vergi ve Fonlar Hesabı",
+      "190 Devreden KDV Hesabı",
+      "600 Yurtiçi Satışlar Hesabı",
+      "100 Kasa Hesabı"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "İndirilecek KDV, Hesaplanan KDV'den büyükse fark gelecek dönemde indirilmek üzere '190 Devreden KDV' hesabının borcuna kaydedilir.",
+    "articleRef": "Tekdüzen Hesap Planı",
+    "difficulty": "Temel",
+    "tags": [
+      "Muhasebe",
+      "KDV Mahsubu"
+    ]
+  },
+  {
+    "id": "q-747",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "VD İşlem Yönergesi - Tarhiyat Öncesi İnceleme Raporları",
+    "title": "Vergi İnceleme Raporlarının Vergi Dairesinde İşleme Alınması",
+    "question": "Vergi Daireleri İşlem Yönergesi'ne göre vergi müfettişlerince düzenlenen vergi inceleme raporları vergi dairesine intikal ettiğinde ihbarname düzenleme işlemlerini hangi servis yürütür?",
+    "options": [
+      "Sicil Servisi",
+      "Vergilendirme (Tarh) Servisi",
+      "Kovuşturma (İcra) Servisi",
+      "Vezne Servisi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Vergi Daireleri İşlem Yönergesi uyarınca inceleme raporlarına istinaden vergi ve ceza ihbarnamelerinin düzenlenmesi, tarh ve tebliği işlemleri Vergilendirme (Tarh) servisi tarafından yürütülür.",
+    "articleRef": "Vergi Daireleri İşlem Yönergesi",
+    "difficulty": "Temel",
+    "tags": [
+      "İşlem Yönergesi",
+      "Tarh Servisi"
+    ]
+  },
+  {
+    "id": "q-748",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://gib.gov.tr/mevzuat",
+    "year": 2026,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "4 Nolu CBK Gelir İdaresi Başkanlığı Görevleri",
+    "title": "Gelir İdaresi Başkanlığının Temel Misyon ve Görevleri",
+    "question": "4 sayılı Cumhurbaşkanlığı Kararnamesi'nin 134. maddesine göre Gelir İdaresi Başkanlığı'nın temel kuruluş amacı ve görevi aşağıdakilerden hangisidir?",
+    "options": [
+      "Para basmak ve para politikasını yönetmek",
+      "Gelir politikasını adalet ve tarafsızlık içinde uygulamak, vergiye gönüllü uyumu artırmak ve devlet gelirlerini toplamak",
+      "Gümrük kapılarında asayişi sağlamak",
+      "Kamu ihalelerini denetlemek"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "4 sayılı CBK Madde 134 uyarınca Gelir İdaresi Başkanlığı'nın görevi; gelir politikasını adalet ve tarafsızlık içinde uygulamak, vergiye gönüllü uyumu sağlamak, mükellef haklarını gözeterek vergi ve diğer gelirleri tahsil etmektir.",
+    "articleRef": "4 Sayılı CBK Madde 134",
+    "difficulty": "Temel",
+    "tags": [
+      "4 Sayılı CBK",
+      "GİB Görevleri"
+    ]
+  },
+  {
+    "id": "q-749",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/",
+    "year": 2026,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "1 Nolu CBK HMB Teşkilatı",
+    "title": "Hazine ve Maliye Bakanlığı Ana Hizmet Birimleri",
+    "question": "1 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre aşağıdakilerden hangisi Hazine ve Maliye Bakanlığı'nın doğrudan ana hizmet birimlerinden biridir?",
+    "options": [
+      "Başhukuk Müşavirliği ve Muhakemat Genel Müdürlüğü",
+      "Sosyal Güvenlik Kurumu",
+      "Kamu İhale Kurumu",
+      "Bankacılık Düzenleme ve Denetleme Kurumu"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "1 sayılı CBK uyarınca Başhukuk Müşavirliği ve Muhakemat Genel Müdürlüğü, Kamu Finansmanı Genel Müdürlüğü, Muhasebat Genel Müdürlüğü HMB'nin ana hizmet birimleridir.",
+    "articleRef": "1 Sayılı CBK (HMB)",
+    "difficulty": "Orta",
+    "tags": [
+      "1 Sayılı CBK",
+      "HMB Teşkilat"
+    ]
+  },
+  {
+    "id": "q-750",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Mevzuat Temelli Özgün Soru (2026)",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4982&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "İşlem Yönergesi, CBK & Muhasebe",
+    "subtopic": "4982 Bilgi Edinme Hakkının Sınırları",
+    "title": "Bilgi Edinme Kanununda Ticari Sır İstisnası",
+    "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu'nun 23. maddesine göre kanunlarda ticari sır olarak nitelenen bilgi veya belgeler ile kurum ve kuruluşlar tarafından güven tesis edilerek elde edilen ticari bilgiler hakkında kural nedir?",
+    "options": [
+      "Her vatandaş koşulsuz olarak erişebilir.",
+      "Bu Kanun kapsamı dışındadır, bilgi edinme hakkına konu edilemez.",
+      "Yalnızca ücreti ödenerek erişilebilir.",
+      "Sadece 5 yıl sonra kamuya açılır."
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "4982 sayılı Kanun Madde 23 uyarınca kanunlarda ticarî sır olarak nitelenen bilgi veya belgeler bilgi edinme hakkı kapsamı dışındadır.",
+    "articleRef": "4982 Sayılı Kanun Madde 23",
+    "difficulty": "Temel",
+    "tags": [
+      "4982",
+      "Ticari Sır"
+    ]
+  },
+  {
+    "id": "q-751",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "5604 Sayılı Mali Tatil İhdas Edilmesi Hakkında Kanun",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5604&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Mali Tatil Kanunu (5604)",
+    "subtopic": "Mali Tatil Süresi",
+    "title": "Mali Tatil Tarih Aralığı",
+    "question": "5604 sayılı Mali Tatil İhdas Edilmesi Hakkında Kanun uyarınca mali tatil hangi tarihler arasında uygulanır?",
+    "options": [
+      "Her yıl 1 Temmuz - 20 Temmuz (20 Temmuz dahil)",
+      "Her yıl 1 Temmuz - 31 Temmuz (31 Temmuz dahil)",
+      "Her yıl 15 Temmuz - 15 Ağustos arası",
+      "Her yıl 1 Haziran - 30 Haziran arası"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "5604 sayılı Kanun Md. 1 gereğince her yıl Temmuz ayının birinden yirmisine kadar (yirmisi dahil) mali tatil uygulanır.",
+    "articleRef": "5604 Sayılı Kanun Madde 1",
+    "difficulty": "Kolay",
+    "tags": [
+      "MALİ TATİL",
+      "5604",
+      "SÜRELER"
+    ]
+  },
+  {
+    "id": "q-752",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "5604 Sayılı Mali Tatil İhdas Edilmesi Hakkında Kanun",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5604&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Mali Tatil Kanunu (5604)",
+    "subtopic": "Sürelerin Uzaması",
+    "title": "Mali Tatile Rastlayan Sürelerin Uzaması",
+    "question": "Son günü mali tatile rastlayan vergi beyannamelerinin verilme süresi, mali tatilin son gününü izleyen tarihten itibaren kaç gün uzar?",
+    "options": [
+      "3 gün",
+      "5 gün",
+      "7 gün",
+      "15 gün"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Son günü mali tatile rastlayan kanuni ve idari süreler, mali tatilin son gününü (20 Temmuz) izleyen tarihten itibaren 7 gün (27 Temmuz) uzamış sayılır.",
+    "articleRef": "5604 Sayılı Kanun Madde 1/2",
+    "difficulty": "Orta",
+    "tags": [
+      "MALİ TATİL",
+      "5604",
+      "UZAMA SÜRESİ"
+    ]
+  },
+  {
+    "id": "q-753",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "5604 Sayılı Mali Tatil İhdas Edilmesi Hakkında Kanun",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5604&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Mali Tatil Kanunu (5604)",
+    "subtopic": "Kapsam Dışı Vergiler",
+    "title": "Mali Tatil Kapsamına Girmeyen Vergiler",
+    "question": "Aşağıdaki vergilerden hangisinin beyan ve ödeme süresi mali tatil uygulamasından ETKİLENMEZ (mali tatil kapsamında değildir)?",
+    "options": [
+      "Gelir Vergisi Tevkifatı (Muhtasar)",
+      "Katma Değer Vergisi",
+      "Özel Tüketim Vergisi (ÖTV)",
+      "Kurumlar Vergisi İkinci Geçici Vergi"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Özel tüketim vergisi, banka ve sigorta muameleleri vergisi, özel iletişim vergisi, şans oyunları vergisi ve gümrük vergileri mali tatil kapsamı dışındadır.",
+    "articleRef": "5604 Sayılı Kanun Madde 1/4",
+    "difficulty": "Zor",
+    "tags": [
+      "MALİ TATİL",
+      "ÖTV",
+      "İSTİSNALAR"
+    ]
+  },
+  {
+    "id": "q-754",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "1319 Sayılı Emlak Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1319&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Emlak Vergisi Kanunu (1319)",
+    "subtopic": "Vergi Oranları",
+    "title": "Büyükşehirlerde Emlak Vergisi Oranları",
+    "question": "1319 sayılı Emlak Vergisi Kanunu'na göre Büyükşehir belediyesi sınırları ve mücavir alanlar içinde mesken binaları için emlak vergisi oranı binde kaçtır?",
+    "options": [
+      "Binde 1",
+      "Binde 2",
+      "Binde 3",
+      "Binde 4"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Normal yörelerde mesken binaları için binde 1 olan oran, Büyükşehir belediye sınırları ve mücavir alanlarda %100 artırımlı olarak binde 2 şeklinde uygulanır.",
+    "articleRef": "1319 Sayılı Kanun Madde 8 ve 18",
+    "difficulty": "Orta",
+    "tags": [
+      "EMLAK VERGİSİ",
+      "BÜYÜKŞEHİR",
+      "ORANLAR"
+    ]
+  },
+  {
+    "id": "q-755",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "1319 Sayılı Emlak Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1319&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Emlak Vergisi Kanunu (1319)",
+    "subtopic": "Ödeme Dönemleri",
+    "title": "Emlak Vergisinin Taksit Dönemleri",
+    "question": "Emlak vergisi mükellefleri tahakkuk eden vergilerini yılda kaç taksitte ve hangi aylarda öderler?",
+    "options": [
+      "Yılda iki eşit taksitte; Mart-Nisan-Mayıs ayları ve Kasım ayı",
+      "Yılda iki eşit taksitte; Ocak ve Temmuz ayları",
+      "Yılda üç taksitte; Nisan, Ağustos ve Aralık ayları",
+      "Yılda tek taksitte; Mayıs ayı sonuna kadar"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "1319 sayılı Kanun Md. 30 uyarınca emlak vergisi birinci taksiti Mart, Nisan ve Mayıs aylarında, ikinci taksiti ise Kasım ayı içinde olmak üzere iki eşit taksitte ödenir.",
+    "articleRef": "1319 Sayılı Kanun Madde 30",
+    "difficulty": "Kolay",
+    "tags": [
+      "EMLAK VERGİSİ",
+      "TAKSİT",
+      "ÖDEME"
+    ]
+  },
+  {
+    "id": "q-756",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "1319 Sayılı Emlak Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1319&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Emlak Vergisi Kanunu (1319)",
+    "subtopic": "Bildirim Süresi",
+    "title": "Emlak Vergisi Bildirim Verme Süresi",
+    "question": "Yeni inşa edilen bina veya yeni edinilen gayrimenkuller için emlak vergisi bildirimi ne zaman verilir?",
+    "options": [
+      "İktisap tarihinden itibaren 15 gün içinde",
+      "Değişikliğin vuku bulduğu bütçe yılı içerisinde (yılın son 3 ayında vuku bulmuşsa olay tarihinden itibaren 3 ay içinde)",
+      "Takip eden takvim yılının Mayıs ayı sonuna kadar",
+      "Mülkiyet iktisabından itibaren 1 ay içinde"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "1319 sayılı Kanun Md. 23 gereği bildirim, değişikliğin vuku bulduğu bütçe yılı içinde; bütçe yılının son üç ayı içinde vuku bulması halinde ise olayın vuku bulduğu tarihten itibaren 3 ay içinde verilir.",
+    "articleRef": "1319 Sayılı Kanun Madde 23",
+    "difficulty": "Zor",
+    "tags": [
+      "EMLAK VERGİSİ",
+      "BİLDİRİM",
+      "SÜRE"
+    ]
+  },
+  {
+    "id": "q-757",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "210 Sayılı Değerli Kağıtlar Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=210&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Değerli Kağıtlar Kanunu (210)",
+    "subtopic": "Değerli Kağıt Kapsamı",
+    "title": "Değerli Kağıt Sayılan Belgeler",
+    "question": "210 sayılı Değerli Kağıtlar Kanunu'na ekli tabloda aşağıdakilerden hangisi 'Değerli Kağıt' olarak YER ALMAZ?",
+    "options": [
+      "Türkiye Cumhuriyeti Pasaportu",
+      "Sürücü Belgesi",
+      "Noter Kağıtları",
+      "Ticari Poliçe ve Emre Muharrer Senet (Bono)"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "Poliçe ve bonolar Damga Vergisi Kanunu'na tabidir; 210 sayılı Değerli Kağıtlar Kanunu tablosunda değerli kağıt olarak yer almazlar.",
+    "articleRef": "210 Sayılı Kanun Ekli Tablo",
+    "difficulty": "Orta",
+    "tags": [
+      "DEĞERLİ KAĞITLAR",
+      "210",
+      "BELGELER"
+    ]
+  },
+  {
+    "id": "q-758",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "7338 Sayılı Veraset ve İntikal Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7338&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Veraset ve İntikal Vergisi (7338)",
+    "subtopic": "Beyanname Verme Süreleri",
+    "title": "Veraset Beyannamesi Süresi (Yurt İçi)",
+    "question": "Ölüm Türkiye'de gerçekleşmiş ve mükellefler de Türkiye'de bulunuyorsa, Veraset ve İntikal Vergisi beyannamesi ölüm tarihinden itibaren kaç ay içinde verilir?",
+    "options": [
+      "1 ay",
+      "3 ay",
+      "4 ay",
+      "6 ay"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "7338 sayılı Kanun Md. 9/1-a uyarınca ölüm Türkiye'de vuku bulmuş ve mükellefler de Türkiye'de bulunuyorsa ölüm tarihinden itibaren 4 ay içinde beyanname verilir.",
+    "articleRef": "7338 Sayılı Kanun Madde 9",
+    "difficulty": "Kolay",
+    "tags": [
+      "VİV",
+      "BEYANNAME SÜRESİ",
+      "7338"
+    ]
+  },
+  {
+    "id": "q-759",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "7338 Sayılı Veraset ve İntikal Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7338&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Veraset ve İntikal Vergisi (7338)",
+    "subtopic": "İvazsız İntikaller",
+    "title": "İvazsız İntikallerde Beyanname Süresi",
+    "question": "Veraset yolu dışında ivazsız (karşılıksız) intikallerde (bağış, hibe vb.) beyanname verme süresi ne kadardır?",
+    "options": [
+      "Malların hukuken iktisap edildiği tarihi izleyen 1 ay içinde",
+      "İntikal tarihinden itibaren 15 gün içinde",
+      "Takvim yılı bitiminden itibaren 4 ay içinde",
+      "Olayın gerçekleştiği ayı takip eden ayın 26'sına kadar"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "7338 sayılı Kanun Md. 9/b uyarınca sair suretle ivazsız intikallerde malların hukuken iktisap edildiği tarihi izleyen 1 ay içinde verilir.",
+    "articleRef": "7338 Sayılı Kanun Madde 9/b",
+    "difficulty": "Orta",
+    "tags": [
+      "VİV",
+      "İVAZSIZ İNTİKAL",
+      "BEYANNAME"
+    ]
+  },
+  {
+    "id": "q-760",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "7338 Sayılı Veraset ve İntikal Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7338&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Veraset ve İntikal Vergisi (7338)",
+    "subtopic": "Ödeme Süresi ve Taksitler",
+    "title": "Veraset ve İntikal Vergisinin Taksitleri",
+    "question": "Tahakkuk eden Veraset ve İntikal Vergisi kaç yılda, kaç eşit taksitte ve hangi aylarda ödenir?",
+    "options": [
+      "2 yılda, 4 taksitte (Ocak ve Temmuz)",
+      "3 yılda, her yıl Mayıs ve Kasım aylarında olmak üzere 6 eşit taksitte",
+      "5 yılda, her yıl Mart ayında 5 eşit taksitte",
+      "1 yılda, 2 eşit taksitte (Nisan ve Ekim)"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "7338 sayılı Kanun Md. 19 uyarınca veraset ve intikal vergisi tahakkukundan itibaren 3 yılda ve her yıl Mayıs ve Kasım aylarında olmak üzere 6 eşit taksitte ödenir.",
+    "articleRef": "7338 Sayılı Kanun Madde 19",
+    "difficulty": "Orta",
+    "tags": [
+      "VİV",
+      "TAKSİT",
+      "7338"
+    ]
+  },
+  {
+    "id": "q-761",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "197 Sayılı Motorlu Taşıtlar Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=197&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Motorlu Taşıtlar Vergisi (197)",
+    "subtopic": "Mükellefiyetin Başlangıcı",
+    "title": "MTV Mükellefiyetinin Başlangıcı",
+    "question": "Motorlu Taşıtlar Vergisi mükellefiyeti ne zaman başlar?",
+    "options": [
+      "Aracın fiilen trafiğe çıktığı tarihte",
+      "Trafik sicili ile Ulaştırma Bakanlığı'nca tutulan sivil hava vasıtaları siciline kayıt ve tescil edilmesiyle",
+      "Aracın satın alma faturasının düzenlendiği tarihte",
+      "Satış vaadi sözleşmesinin noterden yapıldığı tarihte"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "197 sayılı Kanun Md. 7 uyarınca MTV mükellefiyeti motorlu taşıtların ilgili sicile kayıt ve tescil edilmesiyle başlar.",
+    "articleRef": "197 Sayılı Kanun Madde 7",
+    "difficulty": "Kolay",
+    "tags": [
+      "MTV",
+      "MÜKELLEFİYET",
+      "197"
+    ]
+  },
+  {
+    "id": "q-762",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "197 Sayılı Motorlu Taşıtlar Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=197&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Motorlu Taşıtlar Vergisi (197)",
+    "subtopic": "Ödeme Dönemleri",
+    "title": "MTV Taksit Dönemleri",
+    "question": "197 sayılı Motorlu Taşıtlar Vergisi Kanunu'na göre MTV yıllık tutarı hangi aylarda iki eşit taksitte ödenir?",
+    "options": [
+      "Ocak ve Temmuz",
+      "Mart ve Kasım",
+      "Şubat ve Ağustos",
+      "Nisan ve Ekim"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "197 sayılı Kanun Md. 9 uyarınca MTV her yıl Ocak ve Temmuz aylarında iki eşit taksitte ödenir.",
+    "articleRef": "197 Sayılı Kanun Madde 9",
+    "difficulty": "Kolay",
+    "tags": [
+      "MTV",
+      "ÖDEME DÖNEMİ",
+      "197"
+    ]
+  },
+  {
+    "id": "q-763",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "488 Sayılı Damga Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga Vergisi Kanunu (488)",
+    "subtopic": "Vergiyi Doğuran Olay ve Mükellef",
+    "title": "Resmi Dairelerle Kişiler Arasındaki İşlemlerde Mükellef",
+    "question": "488 sayılı Damga Vergisi Kanunu uyarınca, resmi daireler ile kişiler arasındaki işlemlere ait kağıtların damga vergisini kim ödemekle yükümlüdür?",
+    "options": [
+      "Resmi daire öder",
+      "Kişiler öder",
+      "Yarı yarıya paylaşılır",
+      "Hazine tarafından karşılanır"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "488 sayılı Kanun Md. 24 gereği resmi dairelerle kişiler arasındaki kağıtların damga vergisini kişiler öder.",
+    "articleRef": "488 Sayılı Kanun Madde 24",
+    "difficulty": "Orta",
+    "tags": [
+      "DAMGA VERGİSİ",
+      "MÜKELLEF",
+      "488"
+    ]
+  },
+  {
+    "id": "q-764",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "488 Sayılı Damga Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=488&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Damga Vergisi Kanunu (488)",
+    "subtopic": "Nüsha ve Suretler",
+    "title": "Birden Fazla Nüsha Düzenlenen Kağıtlarda Damga Vergisi",
+    "question": "488 sayılı Damga Vergisi Kanunu'na göre, birden fazla nüsha olarak düzenlenen nispi vergiye tabi sözleşmelerde damga vergisi nasıl hesaplanır?",
+    "options": [
+      "Her bir nüsha için ayrı ayrı aynı nispet üzerinden tam vergi alınır",
+      "Sadece tek bir nüsha için damga vergisi ödenir, diğer nüshalardan vergi alınmaz",
+      "Birinci nüshadan tam, sonraki nüshalardan %50 indirimli alınır",
+      "Toplam nüsha sayısına bölünerek hesaplanır"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6728 sayılı Kanun ile yapılan değişiklik uyarınca nispi damga vergisine tabi kağıtlar birden fazla nüsha düzenlense dahi yalnızca tek bir nüshası üzerinden damga vergisine tabi tutulur.",
+    "articleRef": "488 Sayılı Kanun Madde 5",
+    "difficulty": "Zor",
+    "tags": [
+      "DAMGA VERGİSİ",
+      "NÜSHA",
+      "6728"
+    ]
+  },
+  {
+    "id": "q-765",
+    "category": "diger-vergiler",
+    "source": "mevzuat_ozgun",
+    "source_name": "492 Sayılı Harçlar Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=492&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Harçlar Kanunu (492)",
+    "subtopic": "Harçların Alınma Şekli",
+    "title": "Harçların Tahsil Zamanı Kuralı",
+    "question": "492 sayılı Harçlar Kanunu'na göre kural olarak harç ne zaman ödenir?",
+    "options": [
+      "İşlem tamamlandıktan sonra 15 gün içinde",
+      "Harca mevzu olan işlem yapılmadan önce peşin olarak",
+      "Yıl sonu mahsup beyannamesi ile",
+      "Tebligat tarihinden itibaren 30 gün içinde"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "492 sayılı Harçlar Kanunu Md. 127 uyarınca bu kanunda aksine hüküm bulunmadıkça harçlar işlem yapılmadan önce peşin olarak ödenir.",
+    "articleRef": "492 Sayılı Kanun Madde 127",
+    "difficulty": "Kolay",
+    "tags": [
+      "HARÇLAR",
+      "PEŞİN ÖDEME",
+      "492"
+    ]
+  },
+  {
+    "id": "q-766",
+    "category": "personel-mevzuat",
+    "source": "mevzuat_ozgun",
+    "source_name": "6245 Sayılı Harcırah Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6245&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Harcırah Kanunu (6245)",
+    "subtopic": "Harcırah Unsurları",
+    "title": "Harcırahın Yasal Unsurları",
+    "question": "6245 sayılı Harcırah Kanunu'na göre aşağıdakilerden hangisi harcırahın dört temel unsurundan biri DEĞİLDİR?",
+    "options": [
+      "Yol Masrafı",
+      "Yevmiye (Gündelik)",
+      "Aile Masrafı",
+      "Temsil ve Ağırlama Masrafı"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "6245 sayılı Kanun Md. 5 uyarınca harcırah; Yol masrafı, Yevmiye, Aile masrafı ve Yer değiştirme masrafından oluşur. Temsil masrafı harcırah unsuru değildir.",
+    "articleRef": "6245 Sayılı Kanun Madde 5",
+    "difficulty": "Kolay",
+    "tags": [
+      "HARCIRAH",
+      "6245",
+      "UNSURLAR"
+    ]
+  },
+  {
+    "id": "q-767",
+    "category": "personel-mevzuat",
+    "source": "mevzuat_ozgun",
+    "source_name": "6245 Sayılı Harcırah Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6245&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Harcırah Kanunu (6245)",
+    "subtopic": "Geçici Görev Gündeliği Süresi",
+    "title": "Geçici Görev Yevmiyesi Azami Süresi",
+    "question": "6245 sayılı Harcırah Kanunu Md. 33 gereğince, yurt içinde aynı yerde ve aynı iş için geçici görevlendirilen memurlara verilecek gündelik ödemelerinde azami süre sınırı nedir?",
+    "options": [
+      "İlk 30 gün tam, sonraki 30 gün yarım; toplam en fazla 60 gün",
+      "İlk 90 gün tam, müteakip 90 gün 2/3; 180 günden fazla süre için gündelik ödenmez",
+      "İlk 180 gün tam; 360 günden fazla süre için gündelik ödenmez",
+      "Süre sınırı olmaksızın fiilen görevde kalınan her gün için tam ödenir"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6245 sayılı Kanun Md. 33 uyarınca yurt içinde bir göreve gönderilenlere verilecek gündelik aynı yerde ve aynı iş için ilk 90 gün için tam, müteakip 90 gün için 2/3 oranında ödenir. 180 günden fazla süre için gündelik verilmez.",
+    "articleRef": "6245 Sayılı Kanun Madde 33",
+    "difficulty": "Zor",
+    "tags": [
+      "HARCIRAH",
+      "GEÇİCİ GÖREV",
+      "180 GÜN"
+    ]
+  },
+  {
+    "id": "q-768",
+    "category": "personel-mevzuat",
+    "source": "mevzuat_ozgun",
+    "source_name": "6245 Sayılı Harcırah Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6245&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Harcırah Kanunu (6245)",
+    "subtopic": "Harcırah Avansı Mahsubu",
+    "title": "Geçici Görev Harcırah Beyannamesi Verme Süresi",
+    "question": "6245 sayılı Harcırah Kanunu uyarınca geçici görevle memuriyet mahalli dışına gönderilen ve kendisine harcırah avansı verilen memur, görev bitiminde harcırah beyannamesini kaç gün içinde idareye vermek zorundadır?",
+    "options": [
+      "15 gün içinde",
+      "1 ay içinde",
+      "3 ay içinde",
+      "Yıl sonuna kadar"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6245 sayılı Kanun Md. 59 uyarınca geçici görevle memuriyet mahalli dışına gönderilenler vazifenin bitiminden itibaren 1 ay içinde harcırah beyannamesini vermek ve avans artığını iade etmek zorundadır.",
+    "articleRef": "6245 Sayılı Kanun Madde 59",
+    "difficulty": "Orta",
+    "tags": [
+      "HARCIRAH",
+      "BEYANNAME SÜRESİ",
+      "1 AY"
+    ]
+  },
+  {
+    "id": "q-769",
+    "category": "personel-mevzuat",
+    "source": "mevzuat_ozgun",
+    "source_name": "657 Sayılı Devlet Memurları Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Devlet Memurları Kanunu (657)",
+    "subtopic": "Disiplin Cezaları",
+    "title": "Aylıktan Kesme Cezasının Oranı",
+    "question": "657 sayılı Devlet Memurları Kanunu'na göre aylıktan kesme cezası memurun brüt aylığından hangi oranda kesinti yapılmasını ifade eder?",
+    "options": [
+      "1/30 - 1/8 arasında",
+      "1/10 - 1/4 arasında",
+      "1/2 oranında",
+      "1/15 - 1/5 arasında"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "657 sayılı DMK Md. 125/C bendi uyarınca aylıktan kesme cezası, memurun brüt aylığından 1/30 ila 1/8 arasında kesinti yapılmasıdır.",
+    "articleRef": "657 Sayılı DMK Madde 125/C",
+    "difficulty": "Kolay",
+    "tags": [
+      "657 DMK",
+      "DİSİPLİN CEZASI",
+      "AYLIKTAN KESME"
+    ]
+  },
+  {
+    "id": "q-770",
+    "category": "personel-mevzuat",
+    "source": "mevzuat_ozgun",
+    "source_name": "657 Sayılı Devlet Memurları Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=657&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Devlet Memurları Kanunu (657)",
+    "subtopic": "Disiplin Cezalarında Zamanaşımı",
+    "title": "Disiplin Soruşturması Açma Zamanaşımı",
+    "question": "657 sayılı DMK Md. 127 uyarınca, disiplin cezasını gerektiren fiil ve halleri işleyenler hakkında bu fiillerin öğrenildiği tarihten itibaren kaç ay içinde soruşturmaya başlanmazsa ceza verme yetkisi zamanaşımına uğrar?",
+    "options": [
+      "1 ay",
+      "3 ay",
+      "6 ay",
+      "1 yıl"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "657 sayılı Kanun Md. 127 gereğince uyarma, kınama, aylıktan kesme ve kademe ilerlemesinin durdurulması cezalarında fiilin öğrenildiği tarihten itibaren 1 AY içinde disiplin soruşturmasına başlanması şarttır.",
+    "articleRef": "657 Sayılı DMK Madde 127",
+    "difficulty": "Orta",
+    "tags": [
+      "657 DMK",
+      "DİSİPLİN ZAMANAŞIMI",
+      "1 AY"
+    ]
+  },
+  {
+    "id": "q-771",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "4734 Sayılı Kamu İhale Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4734&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kamu İhale Kanunu (4734)",
+    "subtopic": "Teminat Oranları",
+    "title": "Geçici ve Kesin Teminat Oranları",
+    "question": "4734 sayılı Kamu İhale Kanunu'na göre ihalelerde teklif edilen bedel üzerinden alınacak asgari GEÇİCİ teminat ile ihale bedeli üzerinden alınacak KESİN teminat oranları sırasıyla hangi seçenekte doğru verilmiştir?",
+    "options": [
+      "%2 ve %5",
+      "%3 ve %6",
+      "%5 ve %10",
+      "%1 ve %3"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "4734 sayılı Kanun Md. 33 gereğince teklif edilen bedelin %3'ünden az olmamak üzere geçici teminat; Md. 43 gereğince ihale bedelinin %6'sı oranında kesin teminat alınır.",
+    "articleRef": "4734 Sayılı Kanun Madde 33 ve 43",
+    "difficulty": "Kolay",
+    "tags": [
+      "KAMU İHALE",
+      "GEÇİCİ TEMİNAT",
+      "KESİN TEMİNAT"
+    ]
+  },
+  {
+    "id": "q-772",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "4734 Sayılı Kamu İhale Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4734&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kamu İhale Kanunu (4734)",
+    "subtopic": "İhale Usulleri",
+    "title": "İhale Usulü Sayılmayan Alım Şekli",
+    "question": "4734 sayılı Kamu İhale Kanunu'na göre aşağıdakilerden hangisi bir 'İhale Usulü' DEĞİLDİR?",
+    "options": [
+      "Açık İhale Usulü",
+      "Belli İstekliler Arasında İhale Usulü",
+      "Pazarlık Usulü",
+      "Doğrudan Temin"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "4734 sayılı Kanun Md. 18'e göre ihale usulleri; Açık ihale, Belli istekliler ve Pazarlık usulüdür. Doğrudan temin (Md. 22) bir ihale usulü değil, bir alım yöntemidir.",
+    "articleRef": "4734 Sayılı Kanun Madde 18 ve 22",
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU İHALE",
+      "İHALE USULLERİ",
+      "DOĞRUDAN TEMİN"
+    ]
+  },
+  {
+    "id": "q-773",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "4734 Sayılı Kamu İhale Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4734&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kamu İhale Kanunu (4734)",
+    "subtopic": "İhalelere Yönelik Başvurular",
+    "title": "İdareye Şikayet Başvuru Süresi",
+    "question": "4734 sayılı Kanun uyarınca ihalelere karşı istekli veya adaylar tarafından idareye yapılacak şikayet başvuru süresi kural olarak işlemin farkına varıldığı tarihten itibaren kaç gündür?",
+    "options": [
+      "5 gün",
+      "10 gün",
+      "15 gün",
+      "30 gün"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "4734 sayılı Kanun Md. 55 uyarınca şikayet başvurusu, ihale sürecindeki hukuka aykırı işlem veya eylemlerin farkına varıldığı tarihten itibaren 10 gün içinde idareye yapılır.",
+    "articleRef": "4734 Sayılı Kanun Madde 55",
+    "difficulty": "Orta",
+    "tags": [
+      "KAMU İHALE",
+      "ŞİKAYET SÜRESİ",
+      "10 GÜN"
+    ]
+  },
+  {
+    "id": "q-774",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "4735 Sayılı Kamu İhale Sözleşmeleri Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4735&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kamu İhale Sözleşmeleri (4735)",
+    "subtopic": "Sözleşmenin Devri Yasağı",
+    "title": "Sözleşmeyi Devreden Yüklenicinin İhaleye Katılma Yasağı",
+    "question": "4735 sayılı Kamu İhale Sözleşmeleri Kanunu'na göre ihale yetkilisinin yazılı izni ile sözleşmeyi devreden yüklenici, devir tarihinden itibaren kaç yıl süreyle aynı idarenin ihalelerine katılamaz?",
+    "options": [
+      "1 yıl",
+      "2 yıl",
+      "3 yıl",
+      "5 yıl"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "4735 sayılı Kanun Md. 16 gereğince sözleşmeyi devreden yüklenici, devir tarihinden itibaren 3 yıl süreyle aynı idarenin hiçbir ihalesine katılamaz.",
+    "articleRef": "4735 Sayılı Kanun Madde 16",
+    "difficulty": "Zor",
+    "tags": [
+      "4735",
+      "SÖZLEŞME DEVRİ",
+      "3 YIL YASAK"
+    ]
+  },
+  {
+    "id": "q-775",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "5018 Sayılı Kamu Mali Yönetimi ve Kontrol Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kamu Mali Yönetimi (5018)",
+    "subtopic": "Harcama Yetkilisi ve Görevliler",
+    "title": "Harcama Yetkilisi ile Muhasebe Yetkilisi Birleşmesi",
+    "question": "5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu'na göre aşağıdaki görevlerden hangileri AYNI KİŞİDE BİRLEŞEMEZ?",
+    "options": [
+      "Harcama yetkilisi ile muhasebe yetkilisi görevi",
+      "Gerçekleştirme görevlisi ile piyasa araştırma görevlisi",
+      "Birim amiri ile harcama yetkilisi",
+      "Taşınır kayıt yetkilisi ile ambar memuru"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "5018 sayılı Kanun Md. 60 uyarınca harcama yetkilisi ile muhasebe yetkilisi görevi aynı kişide birleşemez.",
+    "articleRef": "5018 Sayılı Kanun Madde 60",
+    "difficulty": "Kolay",
+    "tags": [
+      "5018",
+      "HARCAMA YETKİLİSİ",
+      "MUHASEBE YETKİLİSİ"
+    ]
+  },
+  {
+    "id": "q-776",
+    "category": "kamu-ihale-ihdas",
+    "source": "mevzuat_ozgun",
+    "source_name": "5018 Sayılı Kamu Mali Yönetimi ve Kontrol Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5018&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kamu Mali Yönetimi (5018)",
+    "subtopic": "Dış Denetim",
+    "title": "Merkezi Yönetimin Dış Denetim Organı",
+    "question": "5018 sayılı Kanun uyarınca kamu idarelerinin hesap ve işlemlerinin dış denetimini TBMM adına hangi kurum yürütür?",
+    "options": [
+      "Devlet Denetleme Kurulu",
+      "Sayıştay",
+      "Hazine ve Maliye Bakanlığı Teftiş Kurulu",
+      "Kamu İhale Kurumu"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "5018 sayılı Kanun Md. 68 gereği kamu idarelerinin dış denetimi, genel yönetim kapsamındaki kamu idarelerinin hesap ve işlemlerini kapsayacak şekilde TBMM adına Sayıştay tarafından yapılır.",
+    "articleRef": "5018 Sayılı Kanun Madde 68",
+    "difficulty": "Kolay",
+    "tags": [
+      "5018",
+      "SAYIŞTAY",
+      "DIŞ DENETİM"
+    ]
+  },
+  {
+    "id": "q-777",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "4982 Sayılı Bilgi Edinme Hakkı Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4982&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Bilgi Edinme Kanunu (4982)",
+    "subtopic": "Cevap Verme Süresi",
+    "title": "Bilgi Edinme Başvurusuna Standart Cevap Süresi",
+    "question": "4982 sayılı Bilgi Edinme Hakkı Kanunu'na göre kurum ve kuruluşlar, yapılan bilgi edinme başvurusuna kural olarak kaç İŞ GÜNÜ içinde cevap vermekle yükümlüdür?",
+    "options": [
+      "7 iş günü",
+      "10 iş günü",
+      "15 iş günü",
+      "30 iş günü"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "4982 sayılı Kanun Md. 11 uyarınca kurum ve kuruluşlar başvuruya 15 iş günü içinde cevap vermekle yükümlüdür.",
+    "articleRef": "4982 Sayılı Kanun Madde 11",
+    "difficulty": "Kolay",
+    "tags": [
+      "BİLGİ EDİNME",
+      "4982",
+      "15 İŞ GÜNÜ"
+    ]
+  },
+  {
+    "id": "q-778",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "4982 Sayılı Bilgi Edinme Hakkı Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4982&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Bilgi Edinme Kanunu (4982)",
+    "subtopic": "Kurul İtirazı (BEDK)",
+    "title": "BEDK'ye İtiraz Başvuru Süresi",
+    "question": "Bilgi edinme istemi reddedilen başvuru sahibi, ret kararının tebliğinden itibaren kaç gün içinde Bilgi Edinme Değerlendirme Kurulu'na (BEDK) itiraz edebilir?",
+    "options": [
+      "7 gün",
+      "15 gün",
+      "30 gün",
+      "60 gün"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "4982 sayılı Kanun Md. 13 gereğince bilgi edinme istemi reddedilen başvuru sahibi, kararın tebliğinden itibaren 15 gün içinde BEDK'ye itiraz edebilir.",
+    "articleRef": "4982 Sayılı Kanun Madde 13",
+    "difficulty": "Orta",
+    "tags": [
+      "BİLGİ EDİNME",
+      "BEDK İTİRAZ",
+      "15 GÜN"
+    ]
+  },
+  {
+    "id": "q-779",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "4 Nolu Cumhurbaşkanlığı Kararnamesi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4&MevzuatTur=19&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "GİB Teşkilat Yapısı (4 Nolu CBK)",
+    "subtopic": "Hukuki Statü",
+    "title": "Gelir İdaresi Başkanlığı'nın Hukuki Niteliği",
+    "question": "4 sayılı Cumhurbaşkanlığı Kararnamesi'ne göre Gelir İdaresi Başkanlığı'nın (GİB) teşkilat yapısı ve hukuki statüsü ile ilgili aşağıdakilerden hangisi DOĞRUDUR?",
+    "options": [
+      "Hazine ve Maliye Bakanlığı'na bağlı, kamu tüzel kişiliğini haiz ve özel bütçelidir",
+      "Doğrudan Cumhurbaşkanlığı'na bağlı genel bütçeli bir kamu kurumudur",
+      "İçişleri Bakanlığı bünyesinde bir genel müdürlüktür",
+      "Bağımsız bir düzenleyici ve denetleyici üst kuruldur"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "4 sayılı CBK uyarınca GİB; Hazine ve Maliye Bakanlığı'na bağlı, kamu tüzel kişiliğini haiz ve özel bütçeli bir idaredir.",
+    "articleRef": "4 Nolu CBK İlgili Maddeler",
+    "difficulty": "Kolay",
+    "tags": [
+      "GİB",
+      "4 NOLU CBK",
+      "TEŞKİLAT"
+    ]
+  },
+  {
+    "id": "q-780",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "1 Nolu Cumhurbaşkanlığı Kararnamesi",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=1&MevzuatTur=19&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "HMB Teşkilat Yapısı (1 Nolu CBK)",
+    "subtopic": "Bakanlık Hizmet Birimleri",
+    "title": "Hazine ve Maliye Bakanlığı Merkez Birimleri",
+    "question": "Aşağıdaki birimlerden hangisi 1 sayılı Cumhurbaşkanlığı Kararnamesi kapsamında doğrudan Hazine ve Maliye Bakanlığı merkez hizmet birimlerinden biridir?",
+    "options": [
+      "Kamu Finansmanı Genel Müdürlüğü",
+      "Maden Tetkik ve Arama Genel Müdürlüğü",
+      "Nüfus ve Vatandaşlık İşleri Genel Müdürlüğü",
+      "Karayolları Genel Müdürlüğü"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "1 sayılı CBK kapsamında Kamu Finansmanı Genel Müdürlüğü, Borçlanma Genel Müdürlüğü, Kamu Mali Yönetim ve Dönüşüm Genel Müdürlüğü HMB merkez teşkilat birimleridir.",
+    "articleRef": "1 Nolu CBK Madde 217 ve devamı",
+    "difficulty": "Kolay",
+    "tags": [
+      "HMB",
+      "1 NOLU CBK",
+      "KAMU FİNANSMANI"
+    ]
+  },
+  {
+    "id": "q-781",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Merkezi Yönetim Muhasebe Yönetmeliği",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=10287&MevzuatTur=7&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Merkezi Yönetim Muhasebe Yönetmeliği",
+    "subtopic": "Bütçe Emaneti Zamanaşımı",
+    "title": "Bütçe Emanetlerinde Zamanaşımı Süresi",
+    "question": "Merkezi Yönetim Muhasebe Yönetmeliği'ne göre, hak sahiplerine ödenemediği için 'Bütçe Emanetleri Hesabı'na alınan tutarlar kaç yıl içinde aranmazsa bütçeye gelir kaydedilir?",
+    "options": [
+      "2 yıl",
+      "3 yıl",
+      "5 yıl",
+      "10 yıl"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "5018 sayılı Kanun Md. 34 ve Muhasebe Yönetmeliği uyarınca malın teslimi veya hizmetin ifasından sonra bütçe emanetine alınan tutarlar 5 yıl süreyle emanette kalır; 5. yılın sonunda zamanaşımına uğrayarak bütçeye gelir kaydedilir.",
+    "articleRef": "5018 Md. 34 ve Muhasebe Yön.",
+    "difficulty": "Orta",
+    "tags": [
+      "MUHASEBE",
+      "BÜTÇE EMANETİ",
+      "5 YIL"
+    ]
+  },
+  {
+    "id": "q-782",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Merkezi Yönetim Muhasebe Yönetmeliği",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=10287&MevzuatTur=7&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Merkezi Yönetim Muhasebe Yönetmeliği",
+    "subtopic": "Kasa Sayım Noksanları",
+    "title": "Kasa Açığı Çıkması Durumunda Muhasebe Kaydı",
+    "question": "Gün sonu kasa mevcudunun fiziki sayımında defter kaydına göre noksanlık (kasa açığı) tespit edildiğinde bu tutar hangi hesaba borç kaydedilir?",
+    "options": [
+      "Kasa Sayım Noksanları Hesabı",
+      "Kasa Hesabı",
+      "Bütçe Giderleri Hesabı",
+      "Olağandışı Gider ve Zararlar Hesabı"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Gün sonu sayımında kasa mevcudunun noksan çıkması halinde noksan tutar 'Kasa Sayım Noksanları Hesabı'na borç, 'Kasa Hesabı'na alacak kaydedilerek veznedar sorumluluğunda takibe alınır.",
+    "articleRef": "Muhasebe Yönetmeliği Kasa İşlemleri",
+    "difficulty": "Orta",
+    "tags": [
+      "MUHASEBE",
+      "KASA SAYIM NOKSANI",
+      "VEZNE"
+    ]
+  },
+  {
+    "id": "q-783",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Vergi Dairesi Başkanlıkları / Müdürlükleri İşlem Yönergesi",
+    "source_url": "https://www.gib.gov.tr/",
+    "year": 2026,
+    "topic": "Vergi Dairesi İşlem Yönergesi",
+    "subtopic": "Vezne ve Alındılar",
+    "title": "Vergi Dairesi Alındılarının İptali Usulü",
+    "question": "Vergi Dairesi İşlem Yönergesi'ne göre düzenlenen bir alındının (makbuzun) sehven hatalı düzenlenmesi nedeniyle iptal edilmesi gerektiğinde ne yapılır?",
+    "options": [
+      "Alındı yırtılarak derhal çöpe atılır",
+      "Asıl ve nüshaları üzerine 'İPTAL' şerhi verilerek çizilir, nedeni yazılır ve ciltte muhafaza edilir",
+      "Yeni bir tahsilat yapılana kadar silinerek üzerine yeni rakam yazılır",
+      "Mükellefe verilerek dairesine bildirmesi istenir"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Hatalı düzenlenen alındıların tüm nüshaları cilt üzerinde bir araya getirilir, üzerine çapraz 'İPTAL' şerhi yazılır, iptal sebebi belirtilerek imza altına alınır ve ciltte saklanır.",
+    "articleRef": "İşlem Yönergesi Vezne Bölümü",
+    "difficulty": "Kolay",
+    "tags": [
+      "İŞLEM YÖNERGESİ",
+      "VEZNE",
+      "ALINDI İPTALİ"
+    ]
+  },
+  {
+    "id": "q-784",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4842&MevzuatTur=7&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği",
+    "subtopic": "Vergi Dairesi Servisleri",
+    "title": "Yoklama ve Tespit Görevini Yürüten Servis",
+    "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre mükellefiyet tesis ve terk işlemlerini, saha denetim ve yoklama fişlerinin tanzimini yürüten servis hangisidir?",
+    "options": [
+      "İcra Servisi",
+      "Sicil - Yoklama Servisi",
+      "Tarh ve Tahakkuk Servisi",
+      "Muhasebe Kayıt Servisi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Mükellefiyet tesisi, terk, unvan ve adres değişiklikleri ile yerinde yoklama işlemlerinin yürütülmesi Sicil-Yoklama Servisinin görevidir.",
+    "articleRef": "Kuruluş ve Görev Yön. Md. 8",
+    "difficulty": "Kolay",
+    "tags": [
+      "KURULUŞ YÖNETMELİĞİ",
+      "SİCİL YOKLAMA",
+      "SERVİSLER"
+    ]
+  },
+  {
+    "id": "q-785",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4842&MevzuatTur=7&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği",
+    "subtopic": "Vergi Dairesi Müdürü Yetkileri",
+    "title": "Vergi Dairesi Müdürünün Hukuki Sıfatı",
+    "question": "Vergi Daireleri Kuruluş ve Görev Yönetmeliği'ne göre Vergi Dairesi Müdürü, 5018 ve ilgili mali mevzuat kapsamında hangi sıfatı haizdir?",
+    "options": [
+      "Muhasebe Yetkilisi",
+      "Harcama Yetkilisi Mutemedi",
+      "İç Denetçi",
+      "Disiplin Kurulu Başkanı"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "Vergi Dairesi Müdürü, vergi dairesinin en üst amiri olup aynı zamanda muhasebe biriminin 'Muhasebe Yetkilisi' sıfatını taşır.",
+    "articleRef": "Kuruluş ve Görev Yön. Md. 4",
+    "difficulty": "Orta",
+    "tags": [
+      "KURULUŞ YÖNETMELİĞİ",
+      "VERGİ DAİRESİ MÜDÜRÜ",
+      "MUHASEBE YETKİLİSİ"
+    ]
+  },
+  {
+    "id": "q-786",
+    "category": "islem-yonergesi-teskilat",
+    "source": "mevzuat_ozgun",
+    "source_name": "Vergi Dairesi Başkanlıkları / Müdürlükleri İşlem Yönergesi",
+    "source_url": "https://www.gib.gov.tr/",
+    "year": 2026,
+    "topic": "Vergi Dairesi İşlem Yönergesi",
+    "subtopic": "Hacizli Malların Muhafazası",
+    "title": "Hacizli Menkul Malların Yediemine Teslimi",
+    "question": "Vergi Dairesi İşlem Yönergesi ve 6183 uyarınca haczedilen menkul mallar muhafaza altına alınamadığı takdirde kime yediemin olarak bırakılabilir?",
+    "options": [
+      "Yalnızca vergi dairesi müdürüne",
+      "Borçlunun kendisine veya güvenilir bir üçüncü şahsa",
+      "Muhtara zorunlu olarak",
+      "Vergi mahkemesi yazı işleri müdürüne"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "Haczedilen menkul mallar idarece muhafaza altına alınabileceği gibi borçlunun kendisine veya güvenilir bir üçüncü şahsa yediemin sıfatıyla teslim edilebilir.",
+    "articleRef": "İşlem Yönergesi İcra Bölümü ve 6183 Md. 82",
+    "difficulty": "Orta",
+    "tags": [
+      "İŞLEM YÖNERGESİ",
+      "HACİZ",
+      "YEDİEMİN"
+    ]
+  },
+  {
+    "id": "q-787",
+    "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "6802 Sayılı Gider Vergileri Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6802&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Gider Vergileri Kanunu (6802)",
+    "subtopic": "BSMV Mükellefi",
+    "title": "Banka ve Sigorta Muameleleri Vergisi Mükellefi",
+    "question": "6802 sayılı Gider Vergileri Kanunu'na göre Banka ve Sigorta Muameleleri Vergisinin (BSMV) mükellefi kimdir?",
+    "options": [
+      "Hizmeti alan veya kredi kullanan gerçek ve tüzel kişiler",
+      "Bankalar, bankerler ve sigorta şirketleri",
+      "Yalnızca Türkiye Cumhuriyet Merkez Bankası",
+      "Vergi daireleri"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6802 sayılı Kanun Md. 30 gereğince BSMV mükellefi; bankalar, bankerler ve sigorta şirketleridir. Vergiyi doğuran muameleleri yapan kuruluşlar mükelleftir.",
+    "articleRef": "6802 Sayılı Kanun Madde 30",
+    "difficulty": "Kolay",
+    "tags": [
+      "BSMV",
+      "6802",
+      "MÜKELLEF"
+    ]
+  },
+  {
+    "id": "q-788",
+    "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "6802 Sayılı Gider Vergileri Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6802&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Gider Vergileri Kanunu (6802)",
+    "subtopic": "BSMV Matrahı",
+    "title": "Banka Muamelelerinde Vergi Matrahı",
+    "question": "6802 sayılı Kanun Md. 31'e göre bankaların yaptıkları muamelelerde BSMV matrahı aşağıdakilerden hangisidir?",
+    "options": [
+      "Kredinin anapara tutarı",
+      "Lehe alınan paraların (faiz, komisyon, ücret vb.) tutarı",
+      "Bankanın dönem sonu net kârı",
+      "Müşterinin toplam mevduat bakiyesi"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "BSMV matrahı, banka ve bankerlerin yapmış oldukları muameleler dolayısıyla lehlerine aldıkları paraların (faiz, komisyon ve masraf tutarları) toplamıdır.",
+    "articleRef": "6802 Sayılı Kanun Madde 31",
+    "difficulty": "Orta",
+    "tags": [
+      "BSMV",
+      "MATRAH",
+      "LEHE ALINAN PARA"
+    ]
+  },
+  {
+    "id": "q-789",
+    "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "3065 Sayılı Katma Değer Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065)",
+    "subtopic": "İhracat İstisnası",
+    "title": "İhracat Tesliminin Şartları",
+    "question": "3065 sayılı KDV Kanunu Md. 12 uyarınca bir teslimin ihracat teslimi sayılabilmesi için malların teslim anından itibaren kaç ay içinde gümrük bölgesinden çıkması gerekir?",
+    "options": [
+      "1 ay",
+      "3 ay",
+      "6 ay",
+      "1 yıl"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "3065 sayılı KDV Kanunu Md. 12 gereğince teslim konusu malın gümrük bölgesinden çıkışının teslim tarihinden itibaren 3 ay içinde gerçekleşmesi gerekir.",
+    "articleRef": "3065 Sayılı KDV Kanunu Madde 12",
+    "difficulty": "Orta",
+    "tags": [
+      "KDV",
+      "İHRACAT İSTİSNASI",
+      "3 AY"
+    ]
+  },
+  {
+    "id": "q-790",
+    "category": "kdv-gider-vergileri",
+    "source": "mevzuat_ozgun",
+    "source_name": "3065 Sayılı Katma Değer Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=3065&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Katma Değer Vergisi (3065)",
+    "subtopic": "Vergilendirme Dönemi",
+    "title": "KDV Beyannamesi Verme ve Ödeme Süresi",
+    "question": "Aylık vergilendirme dönemine tabi KDV mükellefleri, vergilendirme dönemini takip eden ayın hangi gününün sonuna kadar beyanname verir ve vergiyi öderler?",
+    "options": [
+      "Takip eden ayın 20. günü",
+      "Takip eden ayın 24. günü beyan, 26. günü ödeme",
+      "Takip eden ayın 28. günü akşamına kadar (GİB VUK sirküleri uyarınca beyan ve ödeme aynı gün)",
+      "Takip eden ayın son günü"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "GİB düzenlemeleri ve VUK sirküleri uyarınca aylık KDV beyannameleri, vergilendirme dönemini takip eden ayın 28. günü sonuna kadar verilir ve aynı sürede ödenir.",
+    "articleRef": "3065 Sayılı Kanun Madde 41 ve 46",
+    "difficulty": "Kolay",
+    "tags": [
+      "KDV",
+      "BEYAN SÜRESİ",
+      "28. GÜN"
+    ]
+  },
+  {
+    "id": "q-791",
+    "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "6183 Sayılı A.A.T.U.H.K.",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Ödeme Emri İtiraz Süresi",
+    "title": "Ödeme Emrine Karşı Dava Açma Süresi",
+    "question": "6183 sayılı Kanun'a göre kendisine ödeme emri tebliğ olunan borçlu, böyle bir borcu olmadığı veya kısmen ödediği veya zamanaşımına uğradığı iddiasıyla tebliğ tarihinden itibaren kaç gün içinde vergi mahkemesinde dava açabilir?",
+    "options": [
+      "7 gün",
+      "15 gün",
+      "30 gün",
+      "60 gün"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "7061 sayılı Kanun ile 6183 Md. 58'de yapılan değişiklik sonucunda ödeme emrine dava açma süresi 7 günden 15 GÜNE çıkarılmıştır.",
+    "articleRef": "6183 Sayılı Kanun Madde 58",
+    "difficulty": "Orta",
+    "tags": [
+      "6183",
+      "ÖDEME EMRİ",
+      "15 GÜN"
+    ]
+  },
+  {
+    "id": "q-792",
+    "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "6183 Sayılı A.A.T.U.H.K.",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Haciz Bildirisi (89. Madde Kuralı)",
+    "title": "Üçüncü Şahıslardaki Hak ve Alacakların Haczi (Md. 79)",
+    "question": "6183 sayılı Kanun Md. 79 uyarınca üçüncü şahıslara (örneğin bankalara) tebliğ edilen haciz bildirisine karşı, üçüncü şahıs borçluya ait alacak olmadığını kaç gün içinde yazıyla bildirmek zorundadır?",
+    "options": [
+      "3 gün",
+      "7 gün",
+      "15 gün",
+      "30 gün"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "6183 sayılı Kanun Md. 79 gereğince kendisine haciz bildirisi tebliğ edilen üçüncü şahıs, 7 GÜN içinde amme idaresine itiraz bildiriminde bulunmak zorundadır; aksi takdirde alacak zimmetinde sayılır.",
+    "articleRef": "6183 Sayılı Kanun Madde 79",
+    "difficulty": "Zor",
+    "tags": [
+      "6183",
+      "HACİZ BİLDİRİSİ",
+      "7 GÜN"
+    ]
+  },
+  {
+    "id": "q-793",
+    "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "6183 Sayılı A.A.T.U.H.K.",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Tahsil Zamanaşımı",
+    "title": "Amme Alacağında Tahsil Zamanaşımı Süresi",
+    "question": "6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun'a göre tahsil zamanaşımı süresi ne kadardır?",
+    "options": [
+      "Vadesinin rastladığı takvim yılını takip eden takvim yılı başından itibaren 5 yıl",
+      "Borcun doğduğu tarihten itibaren 3 yıl",
+      "Ödeme emrinin tebliğinden itibaren 10 yıl",
+      "Tahakkuk tarihinden itibaren 5 yıl"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "6183 sayılı Kanun Md. 102 uyarınca amme alacağı, vadesinin rastladığı takvim yılını takip eden takvim yılı başından itibaren 5 yıl içinde tahsil edilmezse zamanaşımına uğrar.",
+    "articleRef": "6183 Sayılı Kanun Madde 102",
+    "difficulty": "Kolay",
+    "tags": [
+      "6183",
+      "TAHSİL ZAMANAŞIMI",
+      "5 YIL"
+    ]
+  },
+  {
+    "id": "q-794",
+    "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "6183 Sayılı A.A.T.U.H.K.",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "Tecil Yetkisi ve Süresi",
+    "title": "Amme Alacağının Tecil Edilebileceği Azami Süre",
+    "question": "6183 sayılı Kanun Md. 48 uyarınca çok zor duruma düşen borçluların amme borçları en fazla kaç yıla kadar tecil edilebilir?",
+    "options": [
+      "1 yıl",
+      "2 yıl",
+      "3 yıl",
+      "5 yıl"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "6183 sayılı Kanun Md. 48 gereğince amme borcu müracaat tarihinden itibaren en fazla 36 ayı (3 yılı) geçmemek üzere tecil edilebilir.",
+    "articleRef": "6183 Sayılı Kanun Madde 48",
+    "difficulty": "Orta",
+    "tags": [
+      "6183",
+      "TECİL",
+      "36 AY"
+    ]
+  },
+  {
+    "id": "q-795",
+    "category": "aatuhk",
+    "source": "mevzuat_ozgun",
+    "source_name": "6183 Sayılı A.A.T.U.H.K.",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6183&MevzuatTur=1&MevzuatTertip=3",
+    "year": 2026,
+    "topic": "Amme Alacaklarının Tahsili (6183)",
+    "subtopic": "İhtiyati Haciz Kararı",
+    "title": "İhtiyati Haciz Kararını Vermeye Yetkili Makam",
+    "question": "6183 sayılı Kanun Md. 13'te belirtilen hallerin varlığı halinde amme alacağını güvenceye almak üzere ihtiyati haciz kararını vermeye yetkili makam kimdir?",
+    "options": [
+      "Vergi Mahkemesi Başkanı",
+      "Sulh Hukuk Hakimi",
+      "Alacaklı amme idaresinin mahalli en büyük memuru",
+      "Cumhuriyet Başsavcısı"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "6183 sayılı Kanun Md. 13 gereğince ihtiyati haciz, alacaklı amme idaresinin mahalli en büyük memurunun kararıyla derhal tatbik olunur.",
+    "articleRef": "6183 Sayılı Kanun Madde 13",
+    "difficulty": "Orta",
+    "tags": [
+      "6183",
+      "İHTİYATİ HACİZ",
+      "EN BÜYÜK MEMUR"
+    ]
+  },
+  {
+    "id": "q-796",
+    "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "213 Sayılı Vergi Usul Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=4",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Mücbir Sebepler",
+    "title": "Mücbir Sebebin Sürelere Etkisi",
+    "question": "213 sayılı VUK Md. 15'e göre mücbir sebeplerin vergi ödevlerine ve kanuni sürelere etkisi nedir?",
+    "options": [
+      "Vergi borcunu tamamen ortadan kaldırır",
+      "Bu sebep ortadan kalkıncaya kadar işlemeyen süreler durur ve süreler mücbir sebebin kalktığı tarihten itibaren işlemeye başlar",
+      "Sadece gecikme zammını durdurur, beyanname süresini etkilemez",
+      "Zamanaşımı süresini 10 yıla uzatır"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "VUK Md. 15 uyarınca mücbir sebeplerden herhangi birinin bulunması halinde bu sebep ortadan kalkıncaya kadar süreler işlemez.",
+    "articleRef": "213 Sayılı VUK Madde 15",
+    "difficulty": "Kolay",
+    "tags": [
+      "VUK",
+      "MÜCBİR SEBEP",
+      "SÜRELER"
+    ]
+  },
+  {
+    "id": "q-797",
+    "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "213 Sayılı Vergi Usul Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=4",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Vergi Hataları ve Düzeltme",
+    "title": "Düzeltme Zamanaşımı Süresi",
+    "question": "213 sayılı Vergi Usul Kanunu'na göre vergi hatalarında düzeltme zamanaşımı süresi ne kadardır?",
+    "options": [
+      "Zamanaşımı süresi dolduktan sonra meydana çıkan vergi hataları düzeltilemez; kural olarak tarh zamanaşımı süresi (5 yıl) ile bağlıdır",
+      "Hata ne zaman tespit edilirse edilsin süre sınırı yoktur",
+      "10 yıldır",
+      "1 yıldır"
+    ],
+    "correctAnswer": 0,
+    "correct_answer": "A",
+    "explanation": "VUK Md. 126 gereğince zamanaşımı süresi dolduktan sonra meydana çıkan vergi hataları düzeltilemez. Düzeltme zamanaşımı tarh zamanaşımı süresine (5 yıl) tabidir.",
+    "articleRef": "213 Sayılı VUK Madde 126",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "DÜZELTME ZAMANAŞIMI",
+      "126"
+    ]
+  },
+  {
+    "id": "q-798",
+    "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "213 Sayılı Vergi Usul Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=4",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Kaçakçılık Suçları (Md. 359)",
+    "title": "Sahte Belge Düzenleme Cezası",
+    "question": "213 sayılı VUK Md. 359 uyarınca sahte belge düzenleyen veya bu belgeleri kullananlar hakkında öngörülen hapis cezası alt ve üst sınırı nedir?",
+    "options": [
+      "6 aydan 1 yıla kadar",
+      "1 yıldan 3 yıla kadar",
+      "3 yıldan 8 yıla kadar hapis cezası",
+      "5 yıldan 12 yıla kadar"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "7394 sayılı Kanun ile VUK Md. 359'da yapılan düzenlemeye göre sahte belge düzenleyenler veya kullananlar hakkında 3 yıldan 8 yıla kadar hapis cezası hükmolunur.",
+    "articleRef": "213 Sayılı VUK Madde 359/b",
+    "difficulty": "Zor",
+    "tags": [
+      "VUK",
+      "KAÇAKÇILIK",
+      "SAHTE BELGE"
+    ]
+  },
+  {
+    "id": "q-799",
+    "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "213 Sayılı Vergi Usul Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=4",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Vergi İncelemesi",
+    "title": "Vergi İncelemesine Yetkili Olanlar",
+    "question": "213 sayılı VUK Md. 135 uyarınca aşağıdakilerden hangisi doğrudan vergi incelemesi yapmaya YETKİLİ DEĞİLDİR?",
+    "options": [
+      "Vergi Müfettişleri ve Vergi Müfettiş Yardımcıları",
+      "İlin en büyük malmemuru",
+      "Vergi Dairesi Müdürleri",
+      "Vergi Dairesi Gelir Uzmanları"
+    ],
+    "correctAnswer": 3,
+    "correct_answer": "D",
+    "explanation": "VUK Md. 135 uyarınca vergi incelemesine yetkili olanlar: Vergi Müfettişleri, Vergi Müfettiş Yardımcıları, ilin en büyük malmemuru veya vergi dairesi müdürleridir. Gelir uzmanları doğrudan VUK 135 inceleme yetkilisi sayılmaz.",
+    "articleRef": "213 Sayılı VUK Madde 135",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "VERGİ İNCELEMESİ",
+      "YETKİLİLER"
+    ]
+  },
+  {
+    "id": "q-800",
+    "category": "vuk",
+    "source": "mevzuat_ozgun",
+    "source_name": "213 Sayılı Vergi Usul Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=213&MevzuatTur=1&MevzuatTertip=4",
+    "year": 2026,
+    "topic": "Vergi Usul Kanunu (213)",
+    "subtopic": "Tebligat Usulleri",
+    "title": "İlan Yoluyla Tebliğde Askı Süresi",
+    "question": "213 sayılı VUK Md. 104 uyarınca ilan yoluyla tebliğde, ilan yazısının vergi dairesinin ilan koymaya mahsus yerine asılmasını takip eden günden itibaren kaç gün sonra tebliğ yapılmış sayılır?",
+    "options": [
+      "7 gün",
+      "15 gün",
+      "1 ay",
+      "60 gün"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "VUK Md. 104 ve 106 uyarınca ilan yazısının asılmasını takip eden 15. günün sonunda tebligat yapılmış sayılır.",
+    "articleRef": "213 Sayılı VUK Madde 106",
+    "difficulty": "Orta",
+    "tags": [
+      "VUK",
+      "İLANEN TEBLİĞ",
+      "15 GÜN"
+    ]
+  },
+  {
+    "id": "q-801",
+    "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "193 Sayılı Gelir Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=4",
+    "year": 2026,
+    "topic": "Gelir Vergisi Kanunu (193)",
+    "subtopic": "Gelirin Unsurları",
+    "title": "Gelir Unsurları Sayısı",
+    "question": "193 sayılı Gelir Vergisi Kanunu Md. 2 uyarınca gelire giren kazanç ve irat unsurları toplam kaç tanedir?",
+    "options": [
+      "5 unsur",
+      "6 unsur",
+      "7 unsur",
+      "8 unsur"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "Gelir Vergisi Kanunu Md. 2'ye göre gelirin unsurları 7 tanedir: Ticari kazanç, Zirai kazanç, Ücretler, Serbest meslek kazancı, Gayrimenkul sermaye iradı, Menkul sermaye iradı, Diğer kazanç ve iratlar.",
+    "articleRef": "193 Sayılı GVK Madde 2",
+    "difficulty": "Kolay",
+    "tags": [
+      "GVK",
+      "7 UNSUR",
+      "GELİR UNSURLARI"
+    ]
+  },
+  {
+    "id": "q-802",
+    "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "193 Sayılı Gelir Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=193&MevzuatTur=1&MevzuatTertip=4",
+    "year": 2026,
+    "topic": "Gelir Vergisi Kanunu (193)",
+    "subtopic": "Tam ve Dar Mükellefiyet",
+    "title": "Gelir Vergisinde Türkiye'de Yerleşmiş Sayılma",
+    "question": "193 sayılı Gelir Vergisi Kanunu'na göre bir takvim yılı içinde Türkiye'de devamlı olarak ne kadar süre ikamet edenler Türkiye'de yerleşmiş sayılarak tam mükellef olurlar?",
+    "options": [
+      "Üç aydan fazla",
+      "Altı aydan fazla (geçici ayrılmalar hariç)",
+      "Bir yıldan fazla",
+      "İki yıldan fazla"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "GVK Md. 4 uyarınca bir takvim yılı içinde Türkiye'de devamlı olarak 6 aydan fazla oturanlar Türkiye'de yerleşmiş sayılır ve tam mükellefiyete tabi tutulur.",
+    "articleRef": "193 Sayılı GVK Madde 4",
+    "difficulty": "Kolay",
+    "tags": [
+      "GVK",
+      "TAM MÜKELLEFİYET",
+      "6 AY"
+    ]
+  },
+  {
+    "id": "q-803",
+    "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "5520 Sayılı Kurumlar Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5520&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kurumlar Vergisi Kanunu (5520)",
+    "subtopic": "Örtülü Sermaye",
+    "title": "Örtülü Sermaye Sayılma Oranı",
+    "question": "5520 sayılı Kurumlar Vergisi Kanunu Md. 12 uyarınca, kurumların ilişkili kişilerden doğrudan veya dolaylı temin edip işletmede kullandıkları borçların hangi oranı aşan kısmı örtülü sermaye sayılır?",
+    "options": [
+      "Öz sermayenin 1 katını aşan kısmı",
+      "Öz sermayenin 2 katını aşan kısmı",
+      "Hesap dönemi başındaki öz sermayenin 3 katını aşan kısmı",
+      "Dönem net kârının 5 katını aşan kısmı"
+    ],
+    "correctAnswer": 2,
+    "correct_answer": "C",
+    "explanation": "KVK Md. 12 gereği kurumların ilişkili kişilerden temin ettikleri borçların hesap dönemi başındaki kurum öz sermayesinin 3 katını aşan kısmı örtülü sermaye sayılır.",
+    "articleRef": "5520 Sayılı KVK Madde 12",
+    "difficulty": "Orta",
+    "tags": [
+      "KVK",
+      "ÖRTÜLÜ SERMAYE",
+      "3 KATI"
+    ]
+  },
+  {
+    "id": "q-804",
+    "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "5520 Sayılı Kurumlar Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5520&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kurumlar Vergisi Kanunu (5520)",
+    "subtopic": "Zarar Mahsubu",
+    "title": "Geçmiş Yıl Zararlarının Mahsup Süresi",
+    "question": "5520 sayılı KVK Md. 9 uyarınca kurumlar vergisi beyannamesinde geçmiş yılların beyannamelerinde yer alan zararlar en fazla kaç yıl geriye gidilerek mahsup edilebilir?",
+    "options": [
+      "3 yıl",
+      "5 yıl",
+      "7 yıl",
+      "10 yıl"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "KVK Md. 9/1-a uyarınca beş yıldan fazla nakledilmemek şartıyla geçmiş yılların beyannamelerinde yer alan zararlar kurum kazancından indirilebilir.",
+    "articleRef": "5520 Sayılı KVK Madde 9",
+    "difficulty": "Kolay",
+    "tags": [
+      "KVK",
+      "ZARAR MAHSUBU",
+      "5 YIL"
+    ]
+  },
+  {
+    "id": "q-805",
+    "category": "gelir-kurumlar",
+    "source": "mevzuat_ozgun",
+    "source_name": "5520 Sayılı Kurumlar Vergisi Kanunu",
+    "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5520&MevzuatTur=1&MevzuatTertip=5",
+    "year": 2026,
+    "topic": "Kurumlar Vergisi Kanunu (5520)",
+    "subtopic": "Beyanname Verme Süresi",
+    "title": "Yıllık Kurumlar Vergisi Beyannamesi Verme Ayı",
+    "question": "Normal hesap dönemine tabi kurumlarda Kurumlar Vergisi Beyannamesi hesap döneminin kapandığı ayı izleyen hangi ayda verilir?",
+    "options": [
+      "Mart ayında",
+      "Nisan ayında (Nisan ayının son gününe kadar)",
+      "Mayıs ayında",
+      "Haziran ayında"
+    ],
+    "correctAnswer": 1,
+    "correct_answer": "B",
+    "explanation": "KVK Md. 14 uyarınca kurumlar vergisi beyannamesi, hesap döneminin kapandığı ayı izleyen dördüncü ayın (Nisan) son gününe kadar verilir ve aynı sürede ödenir.",
+    "articleRef": "5520 Sayılı KVK Madde 14",
+    "difficulty": "Kolay",
+    "tags": [
+      "KVK",
+      "BEYANNAME SÜRESİ",
+      "NİSAN"
     ]
   }
 ];
